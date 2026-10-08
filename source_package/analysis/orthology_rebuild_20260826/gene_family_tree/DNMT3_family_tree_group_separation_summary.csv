@@ -1,0 +1,5 @@
+Group,N_Tips,Exact_Root_Independent_Split,SH_aLRT_Support
+DNMT3L,321,True,100.0
+DNMT3A,11,True,100.0
+DNMT3B,10,True,98.8
+DNMT3A_plus_DNMT3B,21,True,100.0

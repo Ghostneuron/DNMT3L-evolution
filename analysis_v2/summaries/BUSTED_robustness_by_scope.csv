@@ -1,0 +1,5 @@
+Scope,Aligners_Tested,Significant_Aligners,Minimum_p,Maximum_p,Minimum_q,Maximum_q,Robust_Gene_Wide_Selection
+Euarchontoglires,3,3,1.110223024625157e-16,0.0323120492948063,1.6653345369377356e-16,0.0323120492948063,True
+Laurasiatheria,3,3,0.0,2.165407708698552e-08,0.0,2.5984892504382622e-08,True
+Placentalia,3,3,0.0,0.0,0.0,0.0,True
+Sauropsida,3,3,0.0,0.0001043777144004165,0.0,0.0001138665975277271,True

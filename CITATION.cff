@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use these data or scripts, please cite this release and the associated manuscript."
+title: "Clade-aware analysis of vertebrate DNMT3L reveals modular constraint and lineage-structured switching-helix residue states"
+type: dataset
+version: 1.0.0
+date-released: 2026-10-07
+authors:
+  - family-names: Lu
+    given-names: Jie
+    orcid: "https://orcid.org/0000-0001-6843-9720"
+    affiliation: "Independent researcher"
+abstract: >-
+  Reproducibility package for a clade-aware analysis of vertebrate DNMT3L
+  sequence evolution using orthology checks, independently filtered codon
+  alignments, phylogenetic sensitivities, codon-selection models, saturation
+  diagnostics, and structure-informed residue mapping.
+keywords:
+  - DNMT3L
+  - molecular evolution
+  - DNA methylation
+  - comparative genomics
+  - codon models
+  - switching helix

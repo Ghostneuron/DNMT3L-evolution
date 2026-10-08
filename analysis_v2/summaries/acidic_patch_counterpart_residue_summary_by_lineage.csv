@@ -1,0 +1,7 @@
+Lineage_Group,Human_Position,Human_Residue,Structural_Annotation,Records,Resolved_Records,Occupancy,Major_Residue,Major_Residue_Frequency,Human_State_Count,Human_State_Frequency,Amino_Acid_State_Count,Amino_Acid_Counts
+Amphibia,349,Q,UniProt/PDB Q348,2,2,1.0,K,0.5,0,0.0,2,E:1;K:1
+Amphibia,352,Q,UniProt/PDB Q351,2,2,1.0,D,0.5,0,0.0,2,D:1;R:1
+Mammalia,349,Q,UniProt/PDB Q348,225,223,0.9911111111111112,Q,0.8071748878923767,180,0.8071748878923767,10,E:5;G:2;H:11;L:1;P:7;Q:180;R:9;S:2;T:1;W:5
+Mammalia,352,Q,UniProt/PDB Q351,225,223,0.9911111111111112,Q,0.6816143497757847,152,0.6816143497757847,8,A:3;K:3;L:4;P:9;Q:152;R:23;S:4;T:25
+Sauropsida,349,Q,UniProt/PDB Q348,42,41,0.9761904761904762,K,0.7560975609756098,0,0.0,3,D:4;E:6;K:31
+Sauropsida,352,Q,UniProt/PDB Q351,42,42,1.0,L,0.47619047619047616,3,0.07142857142857142,8,C:13;H:1;I:1;L:20;Q:3;R:1;V:1;Y:2

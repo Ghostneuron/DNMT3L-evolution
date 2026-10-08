@@ -1,0 +1,77 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Jis-MacBook-Air.local (SSE4.2, 24 GB RAM)
+Command: /opt/homebrew/bin/iqtree2 -s /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/orthology_sensitivity/DNMT3_family_plus_DNMT3C_human_columns.fasta -m LG+F+R4 -fast --alrt 1000 -T 4 --seed 20261006 --prefix /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/orthology_sensitivity/DNMT3_family_plus_DNMT3C_LG_F_R4
+Seed:    20261006 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Oct  6 13:22:47 2026
+Kernel:  SSE2 - 4 threads (10 CPU cores detected)
+
+Reading alignment file /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/orthology_sensitivity/DNMT3_family_plus_DNMT3C_human_columns.fasta ... Fasta format detected
+Reading fasta file: done in 0.00110698 secs using 89.61% CPU
+Alignment most likely contains protein sequences
+Alignment has 343 sequences with 387 columns, 385 distinct patterns
+351 parsimony-informative, 21 singleton sites, 15 constant sites
+Analyzing sequences: done in 8.70228e-05 secs using 196.5% CPU
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.07 seconds
+
+NOTE: 86 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.50)
+1. Initial log-likelihood: -47036.78
+2. Current log-likelihood: -46708.90
+3. Current log-likelihood: -46707.04
+Optimal log-likelihood: -46706.74
+Site proportion and rates:  (0.16,0.09) (0.28,0.46) (0.37,1.14) (0.19,2.30)
+Parameters optimization took 3 rounds (10.93 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 3.64201 secs using 397.4% CPU
+Computing ML distances took 3.642418 sec (of wall-clock time) 14.472920 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000583172 secs using 375.9% CPU
+Computing RapidNJ tree took 0.028826 sec (of wall-clock time) 0.034321 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -47447.335
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -46622.789
+Finish initializing candidate tree set (4)
+Current best tree score: -46622.789 / CPU time: 13.147
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:31s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -46622.789
+2. Current log-likelihood: -46622.702
+Optimal log-likelihood: -46622.668
+Site proportion and rates:  (0.152,0.088) (0.280,0.453) (0.376,1.125) (0.192,2.276)
+Parameters optimization took 2 rounds (5.732 sec)
+BEST SCORE FOUND : -46622.668
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -46622.660 > -46622.668
+1.419 sec.
+Total tree length: 25.967
+
+Total number of iterations: 2
+CPU time used for tree search: 38.699 sec (0h:0m:38s)
+Wall-clock time used for tree search: 13.147 sec (0h:0m:13s)
+Total CPU time used: 120.787 sec (0h:2m:0s)
+Total wall-clock time used: 38.473 sec (0h:0m:38s)
+
+Analysis results written to: 
+  IQ-TREE report:                /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/orthology_sensitivity/DNMT3_family_plus_DNMT3C_LG_F_R4.iqtree
+  Maximum-likelihood tree:       /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/orthology_sensitivity/DNMT3_family_plus_DNMT3C_LG_F_R4.treefile
+  Likelihood distances:          /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/orthology_sensitivity/DNMT3_family_plus_DNMT3C_LG_F_R4.mldist
+  Screen log file:               /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/orthology_sensitivity/DNMT3_family_plus_DNMT3C_LG_F_R4.log
+
+Date and Time: Tue Oct  6 13:23:26 2026

@@ -1,0 +1,84 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Jis-MacBook-Air.local (SSE4.2, 24 GB RAM)
+Command: /opt/homebrew/bin/iqtree2 -s /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/selection_inputs/Placentalia_MACSE_selection_input.fasta -st CODON -m MGK+F3X4+R4 -fast --alrt 1000 -T 2 --seed 20261006 --prefix /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/phylogenies/Placentalia_MACSE/Placentalia_MACSE
+Seed:    20261006 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Oct  6 13:53:05 2026
+Kernel:  SSE2 - 2 threads (10 CPU cores detected)
+
+Reading alignment file /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/selection_inputs/Placentalia_MACSE_selection_input.fasta ... Fasta format detected
+Reading fasta file: done in 0.00390792 secs using 91.99% CPU
+Alignment most likely contains DNA/RNA sequences
+Converting to codon sequences with genetic code  ...
+Alignment has 210 sequences with 382 columns, 380 distinct patterns
+373 parsimony-informative, 5 singleton sites, 4 constant sites
+Analyzing sequences: done in 0.000185013 secs using 138.4% CPU
+Creating fast initial parsimony tree by random order stepwise addition...
+2.43 seconds, parsimony score: 8615 (based on 378 sites)
+
+NOTE: 173 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.50)
+1. Initial log-likelihood: -52607.51
+2. Current log-likelihood: -48932.68
+3. Current log-likelihood: -48818.21
+Optimal log-likelihood: -48818.08
+Nonsynonymous/synonymous ratio (omega): 0.25
+Transition/transversion ratio (kappa): 2.99
+Site proportion and rates:  (0.48,0.43) (0.35,1.09) (0.15,2.20) (0.02,3.66)
+Parameters optimization took 3 rounds (708.49 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 376.128 secs using 127% CPU
+Computing ML distances took 376.153555 sec (of wall-clock time) 477.586225 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.001055 secs using 161.1% CPU
+Computing RapidNJ tree took 0.038034 sec (of wall-clock time) 0.016504 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -48176.988
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -47976.711
+Finish initializing candidate tree set (4)
+Current best tree score: -47976.711 / CPU time: 462.720
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:26m:3s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -47976.711
+Optimal log-likelihood: -47976.711
+Nonsynonymous/synonymous ratio (omega): 0.246
+Transition/transversion ratio (kappa): 3.127
+Site proportion and rates:  (0.335,0.384) (0.378,0.901) (0.266,1.760) (0.020,3.106)
+Parameters optimization took 1 rounds (59.863 sec)
+BEST SCORE FOUND : -47976.711
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -47976.615 > -47976.711
+Alternative NNI shows better log-likelihood -47976.591 > -47976.711
+Alternative NNI shows better log-likelihood -47973.751 > -47976.711
+Alternative NNI shows better log-likelihood -47976.649 > -47976.711
+Alternative NNI shows better log-likelihood -47976.519 > -47976.711
+29.603 sec.
+Total tree length: 28.177
+
+Total number of iterations: 2
+CPU time used for tree search: 462.808 sec (0h:7m:42s)
+Wall-clock time used for tree search: 462.720 sec (0h:7m:42s)
+Total CPU time used: 1793.629 sec (0h:29m:53s)
+Total wall-clock time used: 1653.266 sec (0h:27m:33s)
+
+Analysis results written to: 
+  IQ-TREE report:                /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/phylogenies/Placentalia_MACSE/Placentalia_MACSE.iqtree
+  Maximum-likelihood tree:       /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/phylogenies/Placentalia_MACSE/Placentalia_MACSE.treefile
+  Likelihood distances:          /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/phylogenies/Placentalia_MACSE/Placentalia_MACSE.mldist
+  Screen log file:               /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/phylogenies/Placentalia_MACSE/Placentalia_MACSE.log
+
+Date and Time: Tue Oct  6 14:20:39 2026

@@ -1,0 +1,547 @@
+IQ-TREE 2.3.6 built Jul 30 2024
+
+Input file name: /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/selection_inputs/Placentalia_PRANK_selection_input.fasta
+Type of analysis: tree reconstruction
+Random seed number: 20261006
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 210 sequences with 373 codon sites
+Number of constant sites: 6 (= 1.60858% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 6 (= 1.60858% of all sites)
+Number of parsimony informative sites: 365
+Number of distinct site patterns: 371
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: MGK+F3X4+R4
+
+State frequencies: 
+  pi(AAA) = 0.0066  pi(AAC) = 0.0248  pi(AAG) = 0.0233  pi(AAT) = 0.0084
+  pi(ACA) = 0.0047  pi(ACC) = 0.0176  pi(ACG) = 0.0165  pi(ACT) = 0.0060
+  pi(AGA) = 0.0055  pi(AGC) = 0.0207  pi(AGG) = 0.0194  pi(AGT) = 0.0070
+  pi(ATA) = 0.0065  pi(ATC) = 0.0244  pi(ATG) = 0.0228  pi(ATT) = 0.0083
+  pi(CAA) = 0.0083  pi(CAC) = 0.0312  pi(CAG) = 0.0292  pi(CAT) = 0.0106
+  pi(CCA) = 0.0059  pi(CCC) = 0.0221  pi(CCG) = 0.0207  pi(CCT) = 0.0075
+  pi(CGA) = 0.0069  pi(CGC) = 0.0260  pi(CGG) = 0.0244  pi(CGT) = 0.0088
+  pi(CTA) = 0.0081  pi(CTC) = 0.0306  pi(CTG) = 0.0287  pi(CTT) = 0.0104
+  pi(GAA) = 0.0094  pi(GAC) = 0.0354  pi(GAG) = 0.0331  pi(GAT) = 0.0120
+  pi(GCA) = 0.0067  pi(GCC) = 0.0251  pi(GCG) = 0.0235  pi(GCT) = 0.0085
+  pi(GGA) = 0.0078  pi(GGC) = 0.0295  pi(GGG) = 0.0277  pi(GGT) = 0.0100
+  pi(GTA) = 0.0092  pi(GTC) = 0.0347  pi(GTG) = 0.0325  pi(GTT) = 0.0118
+  pi(TAC) = 0.0240  pi(TAT) = 0.0082  pi(TCA) = 0.0045  pi(TCC) = 0.0171
+  pi(TCG) = 0.0160  pi(TCT) = 0.0058  pi(TGC) = 0.0201  pi(TGG) = 0.0188
+  pi(TGT) = 0.0068  pi(TTA) = 0.0063  pi(TTC) = 0.0236  pi(TTG) = 0.0221
+  pi(TTT) = 0.0080
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.1580,0.2645) (0.3310,0.5741) (0.3171,1.1447) (0.1940,2.0892)
+
+ Category  Relative_rate  Proportion
+  1         0.2645         0.1580
+  2         0.5741         0.3310
+  3         1.1447         0.3171
+  4         2.0892         0.1940
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -42947.7292 (s.e. 1110.5586)
+Unconstrained log-likelihood (without tree): -2205.9762
+Number of free parameters (#branches + #model parameters): 434
+Akaike information criterion (AIC) score: 86763.4583
+Corrected Akaike information criterion (AICc) score: 464343.4583
+Bayesian information criterion (BIC) score: 88465.4234
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 434
+Sample size (n, alignment length): 373
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 25.8635
+Sum of internal branch lengths: 11.9921 (46.3668% of tree length)
+
+WARNING: 24 near-zero internal branches (<0.0027) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Acomys_russatus' is drawn at root
+
+NOTE: Branch lengths are interpreted as number of nucleotide substitutions per codon site!
+      Rescale them by 1/3 if you want to have #nt substitutions per nt site
+Numbers in parentheses are SH-aLRT support (%)
+
++-----Acomys_russatus
+|
+|   +--Meriones_unguiculatus
++---| (100)
+|   +--Psammomys_obesus
+|
+|                 +--Apodemus_sylvaticus
+|              +--| (50.2)
+|              |  +--Mastomys_coucha
+|           +--| (96)
+|           |  |     +--Mus_caroli
+|           |  |  +--| (98.2)
+|           |  |  |  +--Mus_musculus
+|           |  +--| (99.9)
+|           |     +--Mus_pahari
+|        +**| (93.9)
+|        |  |     +--Rattus_norvegicus
+|        |  |  +--| (100)
+|        |  |  |  +--Rattus_rattus
+|        |  +--| (89.4)
+|        |     +----Micromys_minutus
+|     +--| (100)
+|     |  +--Arvicanthis_niloticus
+|  +--| (80.8)
+|  |  |       +-------Nannospalax_galili
+|  |  +-------| (100)
+|  |          |  +-----------------Jaculus_jaculus
+|  |          +--| (90.3)
+|  |             |   +-----Castor_canadensis
+|  |             +---| (99.8)
+|  |                 |                +--Dipodomys_merriami
+|  |                 |             +--| (0)
+|  |                 |             |  +--Dipodomys_ordii
+|  |                 |  +----------| (100)
+|  |                 |  |          +--Dipodomys_spectabilis
+|  |                 +--| (46.9)
+|  |                    |            +-------Cavia_porcellus
+|  |                    |         +--| (82.2)
+|  |                    |         |  |  +-----Chinchilla_lanigera
+|  |                    |         |  +--| (87.5)
+|  |                    |         |     +------Octodon_degus
+|  |                    |  +------| (100)
+|  |                    |  |      |   +------Fukomys_damarensis
+|  |                    |  |      +---| (100)
+|  |                    |  |          +-----Heterocephalus_glaber
+|  |                    +--| (74.6)
+|  |                       |                 +--Lepus_europaeus
+|  |                       |          +------| (100)
+|  |                       |          |      +--Oryctolagus_cuniculus
+|  |                       |     +----| (100)
+|  |                       |     |    |                +--Ochotona_curzoniae
+|  |                       |     |    +----------------| (100)
+|  |                       |     |                     +--Ochotona_princeps
+|  |                       |  +--| (93.5)
+|  |                       |  |  |                                          +--Acinonyx_jubatus
+|  |                       |  |  |                                       +--| (87.2)
+|  |                       |  |  |                                       |  +--Felis_catus
+|  |                       |  |  |                                    +--| (89.9)
+|  |                       |  |  |                                    |  +--Leopardus_geoffroyi
+|  |                       |  |  |                                 +--| (86.9)
+|  |                       |  |  |                                 |  |  +--Lynx_canadensis
+|  |                       |  |  |                                 |  +--| (99.5)
+|  |                       |  |  |                                 |     +--Lynx_rufus
+|  |                       |  |  |                              +**| (83.3)
+|  |                       |  |  |                              |  +--Herpailurus_yagouaroundi
+|  |                       |  |  |                           +**| (81.5)
+|  |                       |  |  |                           |  |           +--Panthera_leo
+|  |                       |  |  |                           |  |        +**| (0)
+|  |                       |  |  |                           |  |        |  +--Panthera_tigris
+|  |                       |  |  |                           |  |     +**| (73.8)
+|  |                       |  |  |                           |  |     |  +**Panthera_onca
+|  |                       |  |  |                           |  |  +**| (48.2)
+|  |                       |  |  |                           |  |  |  +--Panthera_uncia
+|  |                       |  |  |                           |  +--| (80.6)
+|  |                       |  |  |                           |     +--Neofelis_nebulosa
+|  |                       |  |  |                       +---| (100)
+|  |                       |  |  |                       |   |  +--Prionailurus_bengalensis
+|  |                       |  |  |                       |   +--| (90.8)
+|  |                       |  |  |                       |      +--Prionailurus_viverrinus
+|  |                       |  |  |                    +--| (100)
+|  |                       |  |  |                    |  |  +---Hyaena_hyaena
+|  |                       |  |  |                    |  +--| (92.7)
+|  |                       |  |  |                    |     +----Suricata_suricatta
+|  |                       |  |  |                 +--| (100)
+|  |                       |  |  |                 |  |           +--Canis_lupus_baileyi
+|  |                       |  |  |                 |  |        +--| (66.2)
+|  |                       |  |  |                 |  |        |  |  +--Vulpes_lagopus
+|  |                       |  |  |                 |  |        |  +--| (95.4)
+|  |                       |  |  |                 |  |        |     +--Vulpes_vulpes
+|  |                       |  |  |                 |  |  +-----| (100)
+|  |                       |  |  |                 |  |  |     +--Nyctereutes_procyonoides
+|  |                       |  |  |                 |  +--| (95.9)
+|  |                       |  |  |                 |     |        +--Ailuropoda_melanoleuca
+|  |                       |  |  |                 |     |     +--| (100)
+|  |                       |  |  |                 |     |     |  |  +--Ursus_arctos
+|  |                       |  |  |                 |     |     |  +--| (97.2)
+|  |                       |  |  |                 |     |     |     +--Ursus_maritimus
+|  |                       |  |  |                 |     |  +--| (94.9)
+|  |                       |  |  |                 |     |  |  |         +--Enhydra_lutris_kenyoni
+|  |                       |  |  |                 |     |  |  |      +--| (81.9)
+|  |                       |  |  |                 |     |  |  |      |  +--Meles_meles
+|  |                       |  |  |                 |     |  |  |   +--| (86.4)
+|  |                       |  |  |                 |     |  |  |   |  |  +--Mustela_lutreola
+|  |                       |  |  |                 |     |  |  |   |  +--| (98.8)
+|  |                       |  |  |                 |     |  |  |   |     +--Mustela_nivalis
+|  |                       |  |  |                 |     |  |  +---| (100)
+|  |                       |  |  |                 |     |  |      +--Martes_martes
+|  |                       |  |  |                 |     +--| (97.3)
+|  |                       |  |  |                 |        |        +--Halichoerus_grypus
+|  |                       |  |  |                 |        |     +--| (88.4)
+|  |                       |  |  |                 |        |     |  +**Phoca_vitulina
+|  |                       |  |  |                 |        |  +--| (92.6)
+|  |                       |  |  |                 |        |  |  |     +--Mirounga_angustirostris
+|  |                       |  |  |                 |        |  |  |  +--| (88)
+|  |                       |  |  |                 |        |  |  |  |  +--Mirounga_leonina
+|  |                       |  |  |                 |        |  |  +--| (87.4)
+|  |                       |  |  |                 |        |  |     +--Neomonachus_schauinslandi
+|  |                       |  |  |                 |        +--| (99.7)
+|  |                       |  |  |                 |           |     +--Callorhinus_ursinus
+|  |                       |  |  |                 |           |  +--| (91)
+|  |                       |  |  |                 |           |  |  |  +--Eumetopias_jubatus
+|  |                       |  |  |                 |           |  |  +--| (78.2)
+|  |                       |  |  |                 |           |  |     +**Zalophus_californianus
+|  |                       |  |  |                 |           +--| (99.5)
+|  |                       |  |  |                 |              +--Odobenus_rosmarus_divergens
+|  |                       |  |  |              +--| (56.2)
+|  |                       |  |  |              |  |                         +--Artibeus_jamaicensis
+|  |                       |  |  |              |  |                      +--| (95.9)
+|  |                       |  |  |              |  |                      |  +--Sturnira_hondurensis
+|  |                       |  |  |              |  |                   +--| (94.9)
+|  |                       |  |  |              |  |                   |  |  +--Phyllostomus_discolor
+|  |                       |  |  |              |  |                   |  +--| (100)
+|  |                       |  |  |              |  |                   |     +--Phyllostomus_hastatus
+|  |                       |  |  |              |  |                +--| (99.6)
+|  |                       |  |  |              |  |                |  +--Desmodus_rotundus
+|  |                       |  |  |              |  |           +----| (100)
+|  |                       |  |  |              |  |           |    +--Pteronotus_mesoamericanus
+|  |                       |  |  |              |  |        +--| (86.9)
+|  |                       |  |  |              |  |        |  |            +--Cnephaeus_nilssonii
+|  |                       |  |  |              |  |        |  |         +--| (100)
+|  |                       |  |  |              |  |        |  |         |  +--Eptesicus_fuscus
+|  |                       |  |  |              |  |        |  |      +--| (96)
+|  |                       |  |  |              |  |        |  |      |  +--Plecotus_auritus
+|  |                       |  |  |              |  |        |  |  +---| (100)
+|  |                       |  |  |              |  |        |  |  |   +--Myotis_nattereri
+|  |                       |  |  |              |  |        |  +--| (97.5)
+|  |                       |  |  |              |  |        |     |     +--Miniopterus_natalensis
+|  |                       |  |  |              |  |        |     +-----| (100)
+|  |                       |  |  |              |  |        |           +--Miniopterus_schreibersii
+|  |                       |  |  |              |  |     +--| (96.8)
+|  |                       |  |  |              |  |     |  |   +--Saccopteryx_bilineata
+|  |                       |  |  |              |  |     |  +---| (100)
+|  |                       |  |  |              |  |     |      +--Saccopteryx_leptura
+|  |                       |  |  |              |  |  +--| (98.5)
+|  |                       |  |  |              |  |  |  |  +----Hipposideros_armiger
+|  |                       |  |  |              |  |  |  +--| (99.9)
+|  |                       |  |  |              |  |  |     |     +--Rhinolophus_ferrumequinum
+|  |                       |  |  |              |  |  |     |  +--| (68.7)
+|  |                       |  |  |              |  |  |     |  |  +--Rhinolophus_hipposideros
+|  |                       |  |  |              |  |  |     +--| (99.8)
+|  |                       |  |  |              |  |  |        +--Rhinolophus_sinicus
+|  |                       |  |  |              |  +--| (98.5)
+|  |                       |  |  |              |     |      +-----Pteropus_medius
+|  |                       |  |  |              |     |  +---| (99.4)
+|  |                       |  |  |              |     |  |   +---Rousettus_aegyptiacus
+|  |                       |  |  |              |     +--| (96.6)
+|  |                       |  |  |              |        |       +--------------------Erinaceus_europaeus
+|  |                       |  |  |              |        |    +--| (97.1)
+|  |                       |  |  |              |        |    |  |             +--Sorex_araneus
+|  |                       |  |  |              |        |    |  +-------------| (100)
+|  |                       |  |  |              |        |    |                +---Sorex_fumeus
+|  |                       |  |  |              |        +----| (99.9)
+|  |                       |  |  |              |             +---------------Talpa_occidentalis
+|  |                       |  |  |           +--| (99.7)
+|  |                       |  |  |           |  |                             +--Balaenoptera_acutorostrata
+|  |                       |  |  |           |  |                          +--| (79.7)
+|  |                       |  |  |           |  |                          |  +--Balaenoptera_physalus
+|  |                       |  |  |           |  |                       +**| (88.6)
+|  |                       |  |  |           |  |                       |  |  +--Balaenoptera_musculus
+|  |                       |  |  |           |  |                       |  +**| (87.1)
+|  |                       |  |  |           |  |                       |     |  +--Balaenoptera_borealis
+|  |                       |  |  |           |  |                       |     +--| (75.4)
+|  |                       |  |  |           |  |                       |        +--Balaenoptera_ricei
+|  |                       |  |  |           |  |                    +--| (90.4)
+|  |                       |  |  |           |  |                    |  +--Eschrichtius_robustus
+|  |                       |  |  |           |  |                 +--| (98.6)
+|  |                       |  |  |           |  |                 |  +--Eubalaena_glacialis
+|  |                       |  |  |           |  |              +--| (91.3)
+|  |                       |  |  |           |  |              |  +--Physeter_macrocephalus
+|  |                       |  |  |           |  |           +--| (100)
+|  |                       |  |  |           |  |           |  |           +--Hyperoodon_ampullatus
+|  |                       |  |  |           |  |           |  |        +**| (85.2)
+|  |                       |  |  |           |  |           |  |        |  +**Mesoplodon_mirus
+|  |                       |  |  |           |  |           |  |     +--| (85.7)
+|  |                       |  |  |           |  |           |  |     |  +--Mesoplodon_bidens
+|  |                       |  |  |           |  |           |  |  +--| (99.8)
+|  |                       |  |  |           |  |           |  |  |  +--Mesoplodon_densirostris
+|  |                       |  |  |           |  |           |  +--| (95.1)
+|  |                       |  |  |           |  |           |     |                          +--Delphinus_delphis
+|  |                       |  |  |           |  |           |     |                       +**| (55.6)
+|  |                       |  |  |           |  |           |     |                       |  +--Tursiops_truncatus
+|  |                       |  |  |           |  |           |     |                    +--| (80.7)
+|  |                       |  |  |           |  |           |     |                    |  +--Stenella_coeruleoalba
+|  |                       |  |  |           |  |           |     |                 +**| (74.8)
+|  |                       |  |  |           |  |           |     |                 |  +--Sagmatias_obliquidens
+|  |                       |  |  |           |  |           |     |              +--| (91.4)
+|  |                       |  |  |           |  |           |     |              |  |  +--Globicephala_melas
+|  |                       |  |  |           |  |           |     |              |  +--| (92.5)
+|  |                       |  |  |           |  |           |     |              |     +--Grampus_griseus
+|  |                       |  |  |           |  |           |     |           +--| (89.6)
+|  |                       |  |  |           |  |           |     |           |  +--Orcinus_orca
+|  |                       |  |  |           |  |           |     |        +**| (88.3)
+|  |                       |  |  |           |  |           |     |        |  +--Leucopleurus_acutus
+|  |                       |  |  |           |  |           |     |     +--| (97.1)
+|  |                       |  |  |           |  |           |     |     |  +--Lagenorhynchus_albirostris
+|  |                       |  |  |           |  |           |     |  +--| (97.1)
+|  |                       |  |  |           |  |           |     |  |  |  +--Monodon_monoceros
+|  |                       |  |  |           |  |           |     |  |  +--| (91.3)
+|  |                       |  |  |           |  |           |     |  |     |  +--Neophocaena_asiaeorientalis_asiaeorientalis
+|  |                       |  |  |           |  |           |     |  |     +--| (99.3)
+|  |                       |  |  |           |  |           |     |  |        |  +--Phocoena_phocoena
+|  |                       |  |  |           |  |           |     |  |        +**| (95)
+|  |                       |  |  |           |  |           |     |  |           +--Phocoena_sinus
+|  |                       |  |  |           |  |           |     +--| (96.3)
+|  |                       |  |  |           |  |           |        +--Lipotes_vexillifer
+|  |                       |  |  |           |  |        +--| (95.3)
+|  |                       |  |  |           |  |        |  +--Hippopotamus_amphibius_kiboko
+|  |                       |  |  |           |  |     +--| (98.2)
+|  |                       |  |  |           |  |     |  |                         +--Bison_bison_bison
+|  |                       |  |  |           |  |     |  |                      +**| (94.3)
+|  |                       |  |  |           |  |     |  |                      |  +--Bos_mutus
+|  |                       |  |  |           |  |     |  |                   +**| (36.1)
+|  |                       |  |  |           |  |     |  |                   |  |  +**Bos_javanicus
+|  |                       |  |  |           |  |     |  |                   |  +**| (70)
+|  |                       |  |  |           |  |     |  |                   |     +--Bos_indicus
+|  |                       |  |  |           |  |     |  |                +--| (97.4)
+|  |                       |  |  |           |  |     |  |                |  +**Bos_taurus
+|  |                       |  |  |           |  |     |  |             +--| (96)
+|  |                       |  |  |           |  |     |  |             |  |  +--Bubalus_bubalis
+|  |                       |  |  |           |  |     |  |             |  +--| (99.6)
+|  |                       |  |  |           |  |     |  |             |     +--Bubalus_kerabau
+|  |                       |  |  |           |  |     |  |          +--| (93)
+|  |                       |  |  |           |  |     |  |          |  |     +--Budorcas_taxicolor
+|  |                       |  |  |           |  |     |  |          |  |  +--| (93.3)
+|  |                       |  |  |           |  |     |  |          |  |  |  |     +--Capra_hircus
+|  |                       |  |  |           |  |     |  |          |  |  |  |  +--| (73)
+|  |                       |  |  |           |  |     |  |          |  |  |  |  |  |  +**Ovis_aries
+|  |                       |  |  |           |  |     |  |          |  |  |  |  |  +--| (91.6)
+|  |                       |  |  |           |  |     |  |          |  |  |  |  |     +**Ovis_canadensis
+|  |                       |  |  |           |  |     |  |          |  |  |  +--| (79.1)
+|  |                       |  |  |           |  |     |  |          |  |  |     +--Capricornis_sumatraensis
+|  |                       |  |  |           |  |     |  |          |  +--| (92.2)
+|  |                       |  |  |           |  |     |  |          |     +--Oryx_dammah
+|  |                       |  |  |           |  |     |  |       +--| (42.8)
+|  |                       |  |  |           |  |     |  |       |  |        +--Cervus_canadensis
+|  |                       |  |  |           |  |     |  |       |  |     +--| (90.4)
+|  |                       |  |  |           |  |     |  |       |  |     |  |  +--Cervus_elaphus
+|  |                       |  |  |           |  |     |  |       |  |     |  +**| (90.7)
+|  |                       |  |  |           |  |     |  |       |  |     |     +--Dama_dama
+|  |                       |  |  |           |  |     |  |       |  |  +--| (93.3)
+|  |                       |  |  |           |  |     |  |       |  |  |  +--Muntiacus_reevesi
+|  |                       |  |  |           |  |     |  |       |  +--| (99.8)
+|  |                       |  |  |           |  |     |  |       |     +--Odocoileus_virginianus
+|  |                       |  |  |           |  |     |  |    +--| (87)
+|  |                       |  |  |           |  |     |  |    |  +--Moschus_berezovskii
+|  |                       |  |  |           |  |     |  +----| (100)
+|  |                       |  |  |           |  |     |       +--Giraffa_tippelskirchi
+|  |                       |  |  |           |  |  +--| (99.7)
+|  |                       |  |  |           |  |  |  |           +--Camelus_bactrianus
+|  |                       |  |  |           |  |  |  |        +--| (94.3)
+|  |                       |  |  |           |  |  |  |        |  +**Camelus_ferus
+|  |                       |  |  |           |  |  |  |     +--| (99.1)
+|  |                       |  |  |           |  |  |  |     |  +--Camelus_dromedarius
+|  |                       |  |  |           |  |  |  |  +--| (100)
+|  |                       |  |  |           |  |  |  |  |  +--Vicugna_pacos
+|  |                       |  |  |           |  |  |  +--| (71.4)
+|  |                       |  |  |           |  |  |     |        +--Phacochoerus_africanus
+|  |                       |  |  |           |  |  |     +--------| (100)
+|  |                       |  |  |           |  |  |              +--Sus_scrofa
+|  |                       |  |  |           |  +**| (28.8)
+|  |                       |  |  |           |     |     +--Ceratotherium_simum_simum
+|  |                       |  |  |           |     |  +--| (99.7)
+|  |                       |  |  |           |     |  |  +--Diceros_bicornis_minor
+|  |                       |  |  |           |     +--| (99.8)
+|  |                       |  |  |           |        |  +--Equus_asinus
+|  |                       |  |  |           |        +--| (100)
+|  |                       |  |  |           |           +--Equus_caballus
+|  |                       |  |  |        +--| (94.5)
+|  |                       |  |  |        |  |           +-----Choloepus_didactylus
+|  |                       |  |  |        |  |        +--| (98.7)
+|  |                       |  |  |        |  |        |  +-------Tamandua_tetradactyla
+|  |                       |  |  |        |  |  +-----| (100)
+|  |                       |  |  |        |  |  |     +-----Dasypus_novemcinctus
+|  |                       |  |  |        |  +--| (99.7)
+|  |                       |  |  |        |     |            +--Echinops_telfairi
+|  |                       |  |  |        |     |   +--------| (100)
+|  |                       |  |  |        |     |   |        +---Tenrec_ecaudatus
+|  |                       |  |  |        |     +---| (99.4)
+|  |                       |  |  |        |         |  +------Elephantulus_edwardii
+|  |                       |  |  |        |         +--| (99.3)
+|  |                       |  |  |        |            |        +--Elephas_maximus_indicus
+|  |                       |  |  |        |            |     +--| (100)
+|  |                       |  |  |        |            |     |  +**Loxodonta_africana
+|  |                       |  |  |        |            |  +--| (98.4)
+|  |                       |  |  |        |            |  |  +--Trichechus_manatus_latirostris
+|  |                       |  |  |        |            +--| (84)
+|  |                       |  |  |        |               +------Orycteropus_afer_afer
+|  |                       |  |  |     +--| (88.6)
+|  |                       |  |  |     |  +------Cynocephalus_volans
+|  |                       |  |  |  +--| (29.7)
+|  |                       |  |  |  |  +------Tupaia_chinensis
+|  |                       |  |  +--| (98.7)
+|  |                       |  |     |                  +--Aotus_nancymaae
+|  |                       |  |     |               +--| (84.8)
+|  |                       |  |     |               |  |     +--Cebus_imitator
+|  |                       |  |     |               |  |  +--| (98.7)
+|  |                       |  |     |               |  |  |  +--Sapajus_apella
+|  |                       |  |     |               |  +--| (77.5)
+|  |                       |  |     |               |     +--Saimiri_boliviensis
+|  |                       |  |     |          +----| (100)
+|  |                       |  |     |          |    +--Callithrix_jacchus
+|  |                       |  |     |     +----| (100)
+|  |                       |  |     |     |    |           +--Cercocebus_atys
+|  |                       |  |     |     |    |        +**| (82.5)
+|  |                       |  |     |     |    |        |  |  +--Chlorocebus_sabaeus
+|  |                       |  |     |     |    |        |  +**| (84.6)
+|  |                       |  |     |     |    |        |     +--Mandrillus_leucophaeus
+|  |                       |  |     |     |    |     +--| (96)
+|  |                       |  |     |     |    |     |  |           +--Macaca_mulatta
+|  |                       |  |     |     |    |     |  |        +**| (71.1)
+|  |                       |  |     |     |    |     |  |        |  +**Macaca_nemestrina
+|  |                       |  |     |     |    |     |  |     +**| (0)
+|  |                       |  |     |     |    |     |  |     |  +--Macaca_fascicularis
+|  |                       |  |     |     |    |     |  |  +--| (98)
+|  |                       |  |     |     |    |     |  |  |  +--Macaca_thibetana_thibetana
+|  |                       |  |     |     |    |     |  +**| (75.2)
+|  |                       |  |     |     |    |     |     |  +--Papio_anubis
+|  |                       |  |     |     |    |     |     +--| (79.8)
+|  |                       |  |     |     |    |     |        +--Theropithecus_gelada
+|  |                       |  |     |     |    |  +--| (97.4)
+|  |                       |  |     |     |    |  |  |  +--Colobus_angolensis_palliatus
+|  |                       |  |     |     |    |  |  +--| (86.8)
+|  |                       |  |     |     |    |  |     |  +--Piliocolobus_tephrosceles
+|  |                       |  |     |     |    |  |     +--| (79.3)
+|  |                       |  |     |     |    |  |        |     +--Rhinopithecus_bieti
+|  |                       |  |     |     |    |  |        |  +--| (95.3)
+|  |                       |  |     |     |    |  |        |  |  +--Rhinopithecus_roxellana
+|  |                       |  |     |     |    |  |        +--| (95.6)
+|  |                       |  |     |     |    |  |           +--Trachypithecus_francoisi
+|  |                       |  |     |     |    +--| (99.3)
+|  |                       |  |     |     |       |        +--Gorilla_gorilla_gorilla
+|  |                       |  |     |     |       |     +--| (97.4)
+|  |                       |  |     |     |       |     |  |  +--Homo_sapiens
+|  |                       |  |     |     |       |     |  +**| (90.3)
+|  |                       |  |     |     |       |     |     |  +--Pan_paniscus
+|  |                       |  |     |     |       |     |     +--| (97.3)
+|  |                       |  |     |     |       |     |        +--Pan_troglodytes
+|  |                       |  |     |     |       |  +--| (89.3)
+|  |                       |  |     |     |       |  |  +--Pongo_abelii
+|  |                       |  |     |     |       +--| (98.3)
+|  |                       |  |     |     |          |     +--Hylobates_moloch
+|  |                       |  |     |     |          |  +--| (62.9)
+|  |                       |  |     |     |          |  |  +--Nomascus_leucogenys
+|  |                       |  |     |     |          +--| (99.5)
+|  |                       |  |     |     |             +--Symphalangus_syndactylus
+|  |                       |  |     |  +--| (92.1)
+|  |                       |  |     |  |  +-------Carlito_syrichta
+|  |                       |  |     +--| (95.3)
+|  |                       |  |        |         +--Eulemur_rufifrons
+|  |                       |  |        |      +--| (99.2)
+|  |                       |  |        |      |  +--Lemur_catta
+|  |                       |  |        |  +---| (99.8)
+|  |                       |  |        |  |   |  +--Microcebus_murinus
+|  |                       |  |        |  |   +--| (92.6)
+|  |                       |  |        |  |      +--Propithecus_coquereli
+|  |                       |  |        +--| (99.4)
+|  |                       |  |           |     +--Nycticebus_coucang
+|  |                       |  |           +-----| (100)
+|  |                       |  |                 +--Otolemur_garnettii
+|  |                       +--| (89.9)
+|  |                          |            +--Callospermophilus_lateralis
+|  |                          |         +--| (59.5)
+|  |                          |         |  |  +--Ictidomys_tridecemlineatus
+|  |                          |         |  +--| (95)
+|  |                          |         |     +--Spermophilus_citellus
+|  |                          |  +------| (100)
+|  |                          |  |      |  +--Marmota_flaviventris
+|  |                          |  |      +--| (97.7)
+|  |                          |  |         +--Marmota_monax
+|  |                          +--| (95.7)
+|  |                             +---------Muscardinus_avellanarius
++--| (95.4)
+   |            +--Arvicola_amphibius
+   |         +--| (90)
+   |         |  |  +--Chionomys_nivalis
+   |         |  +--| (97.5)
+   |         |     |     +--Microtus_ochrogaster
+   |         |     |  +--| (66.9)
+   |         |     |  |  +--Microtus_oregoni
+   |         |     +--| (96)
+   |         |        +--Microtus_pennsylvanicus
+   |     +---| (100)
+   |     |   +--Myodes_glareolus
+   |  +--| (84.6)
+   |  |  |  +--Onychomys_torridus
+   |  |  +--| (100)
+   |  |     |     +--Peromyscus_californicus_insignis
+   |  |     |  +--| (90.2)
+   |  |     |  |  +--Peromyscus_eremicus
+   |  |     +--| (96.3)
+   |  |        |  +--Peromyscus_leucopus
+   |  |        +--| (97.7)
+   |  |           +--Peromyscus_maniculatus_bairdii
+   +--| (99.7)
+      |     +--Cricetulus_griseus
+      |  +--| (54.4)
+      |  |  +--Mesocricetus_auratus
+      +--| (99.6)
+         +--Phodopus_roborovskii
+
+Tree in newick format:
+
+(Acomys_russatus:0.2124160400,(Meriones_unguiculatus:0.0569739980,Psammomys_obesus:0.0408443920)100:0.1558816600,((((((Apodemus_sylvaticus:0.1042165115,Mastomys_coucha:0.1341384727)50.2:0.0127006468,((Mus_caroli:0.0646301660,Mus_musculus:0.0278962140)98.2:0.0506160450,Mus_pahari:0.0874487310)99.9:0.0584247442)96:0.0118839005,((Rattus_norvegicus:0.0234691500,Rattus_rattus:0.0029508034)100:0.1029131900,Micromys_minutus:0.1808931800)89.4:0.0299695601)93.9:0.0006497314,Arvicanthis_niloticus:0.0796248084)100:0.0967327780,(Nannospalax_galili:0.2848116500,(Jaculus_jaculus:0.6521815100,(Castor_canadensis:0.2351741500,(((Dipodomys_merriami:0.0309021004,Dipodomys_ordii:0.0249491240)0:0.0141419822,Dipodomys_spectabilis:0.0108750310)100:0.4056259180,(((Cavia_porcellus:0.3089810600,(Chinchilla_lanigera:0.2180315600,Octodon_degus:0.2580460000)87.5:0.0344786200)82.2:0.0097777843,(Fukomys_damarensis:0.2582284500,Heterocephalus_glaber:0.2263515000)100:0.1657143500)100:0.2560575379,((((Lepus_europaeus:0.0195078420,Oryctolagus_cuniculus:0.0789074820)100:0.2687387500,(Ochotona_curzoniae:0.1096202400,Ochotona_princeps:0.0861620600)100:0.6118260000)100:0.2038166123,((((((((((((((Acinonyx_jubatus:0.0141343110,Felis_catus:0.0271653870)87.2:0.0117524320,Leopardus_geoffroyi:0.0238042860)89.9:0.0041920133,(Lynx_canadensis:0.0041332375,Lynx_rufus:0.0151642710)99.5:0.0282192380)86.9:0.0086027337,Herpailurus_yagouaroundi:0.0148936840)83.3:0.0000117739,((((Panthera_leo:0.0029045026,Panthera_tigris:0.0029035170)0:0.0000020346,Panthera_onca:0.0007380520)73.8:0.0021550603,Panthera_uncia:0.0085598983)48.2:0.0000022905,Neofelis_nebulosa:0.0153727066)80.6:0.0030062977)81.5:0.0025287303,(Prionailurus_bengalensis:0.0047628800,Prionailurus_viverrinus:0.0145394130)90.8:0.0166519950)100:0.1458018700,(Hyaena_hyaena:0.1663818500,Suricata_suricatta:0.1822176400)92.7:0.0188644010)100:0.1058244900,(((Canis_lupus_baileyi:0.0177762475,(Vulpes_lagopus:0.0165922030,Vulpes_vulpes:0.0032390454)95.4:0.0083035908)66.2:0.0083957069,Nyctereutes_procyonoides:0.0311866861)100:0.2389848533,(((Ailuropoda_melanoleuca:0.1119725600,(Ursus_arctos:0.0034120306,Ursus_maritimus:0.0138520690)97.2:0.0456459110)100:0.0770782080,(((Enhydra_lutris_kenyoni:0.1069477600,Meles_meles:0.1058578800)81.9:0.0235744770,(Mustela_lutreola:0.0503668790,Mustela_nivalis:0.0081095684)98.8:0.0290197150)86.4:0.0115229190,Martes_martes:0.0782304560)100:0.1580856900)94.9:0.0208061950,(((Halichoerus_grypus:0.0740273450,Phoca_vitulina:0.0009832978)88.4:0.0038682494,((Mirounga_angustirostris:0.0026883325,Mirounga_leonina:0.0174457520)88:0.0103468466,Neomonachus_schauinslandi:0.0050073137)87.4:0.0059423388)92.6:0.0167615320,((Callorhinus_ursinus:0.0046721087,(Eumetopias_jubatus:0.0057484787,Zalophus_californianus:0.0023587300)78.2:0.0034662257)91:0.0247943980,Odobenus_rosmarus_divergens:0.0279781540)99.5:0.0302436630)99.7:0.0674094410)97.3:0.0274166460)95.9:0.0531223270)100:0.0747128546,((((((((Artibeus_jamaicensis:0.0905387700,Sturnira_hondurensis:0.0703023820)95.9:0.0348684710,(Phyllostomus_discolor:0.0510650980,Phyllostomus_hastatus:0.0510215130)100:0.1365279300)94.9:0.0174141410,Desmodus_rotundus:0.1222671300)99.6:0.0414337960,Pteronotus_mesoamericanus:0.1225597100)100:0.1741146100,((((Cnephaeus_nilssonii:0.0397096160,Eptesicus_fuscus:0.0614052900)100:0.1150078500,Plecotus_auritus:0.0309878100)96:0.0406100150,Myotis_nattereri:0.1154339600)100:0.1399310200,(Miniopterus_natalensis:0.0111676500,Miniopterus_schreibersii:0.0110797350)100:0.2135011600)97.5:0.0361952110)86.9:0.0106724130,(Saccopteryx_bilineata:0.0238574590,Saccopteryx_leptura:0.0217418190)100:0.1644963000)96.8:0.0401229260,(Hipposideros_armiger:0.1795859600,((Rhinolophus_ferrumequinum:0.0204062650,Rhinolophus_hipposideros:0.0421341170)68.7:0.0039107054,Rhinolophus_sinicus:0.0332514050)99.8:0.1261050100)99.9:0.1348136800)98.5:0.0136094181,((Pteropus_medius:0.2199834300,Rousettus_aegyptiacus:0.1416628400)99.4:0.1615683300,((Erinaceus_europaeus:0.7616844800,(Sorex_araneus:0.1335664800,Sorex_fumeus:0.1676055300)100:0.5122565600)97.1:0.1198582500,Talpa_occidentalis:0.5603623400)99.9:0.1787964300)96.6:0.0491004102)98.5:0.0367893235)56.2:0.0100270761,((((((((((Balaenoptera_acutorostrata:0.0099919895,Balaenoptera_physalus:0.0343937580)79.7:0.0028728936,(Balaenoptera_musculus:0.0319683700,(Balaenoptera_borealis:0.0055508502,Balaenoptera_ricei:0.0026883325)75.4:0.0042541772)87.1:0.0014568754)88.6:0.0023793355,Eschrichtius_robustus:0.0193371620)90.4:0.0062525710,Eubalaena_glacialis:0.0307563770)98.6:0.0283843430,Physeter_macrocephalus:0.0738545510)91.3:0.0049177818,((((Hyperoodon_ampullatus:0.0029533892,Mesoplodon_mirus:0.0025186567)85.2:0.0004313563,Mesoplodon_bidens:0.0077793179)85.7:0.0043750941,Mesoplodon_densirostris:0.0066216090)99.8:0.0577549080,(((((((((Delphinus_delphis:0.0050257277,Tursiops_truncatus:0.0051201265)55.6:0.0012493739,Stenella_coeruleoalba:0.0153824060)80.7:0.0038187027,Sagmatias_obliquidens:0.0227706858)74.8:0.0000026447,(Globicephala_melas:0.0061227265,Grampus_griseus:0.0049234401)92.5:0.0046267847)91.4:0.0038525421,Orcinus_orca:0.0129966090)89.6:0.0089842831,Leucopleurus_acutus:0.0314966890)88.3:0.0000093579,Lagenorhynchus_albirostris:0.0195157600)97.1:0.0221903360,(Monodon_monoceros:0.0211722010,(Neophocaena_asiaeorientalis_asiaeorientalis:0.0070429486,(Phocoena_phocoena:0.0075668041,Phocoena_sinus:0.0062084049)95:0.0012198626)99.3:0.0268121830)91.3:0.0077655828)97.1:0.0244765730,Lipotes_vexillifer:0.0482134220)96.3:0.0095187705)95.1:0.0174116830)100:0.0821048470,Hippopotamus_amphibius_kiboko:0.1242565400)95.3:0.0249610100,((((((((Bison_bison_bison:0.0060787918,Bos_mutus:0.0047791936)94.3:0.0021860392,(Bos_javanicus:0.0022699954,Bos_indicus:0.0031387503)70:0.0000020698)36.1:0.0024440066,Bos_taurus:0.0024806642)97.4:0.0186251522,(Bubalus_bubalis:0.0059764250,Bubalus_kerabau:0.0047845612)99.6:0.0413676200)96:0.0186328330,((Budorcas_taxicolor:0.0297167490,((Capra_hircus:0.0068029724,(Ovis_aries:0.0018292994,Ovis_canadensis:0.0014812285)91.6:0.0033842570)73:0.0095146140,Capricornis_sumatraensis:0.0041520335)79.1:0.0042112060)93.3:0.0201453080,Oryx_dammah:0.0302145260)92.2:0.0150029170)93:0.0105149278,(((Cervus_canadensis:0.0026883325,(Cervus_elaphus:0.0026883325,Dama_dama:0.0074047605)90.7:0.0009059137)90.4:0.0190025980,Muntiacus_reevesi:0.0316002850)93.3:0.0027608871,Odocoileus_virginianus:0.0484567880)99.8:0.0439735975)42.8:0.0068010412,Moschus_berezovskii:0.0572067555)87:0.0141538689,Giraffa_tippelskirchi:0.0632582460)100:0.1740756300)98.2:0.0254491640,((((Camelus_bactrianus:0.0026974876,Camelus_ferus:0.0000600331)94.3:0.0076113222,Camelus_dromedarius:0.0034867367)99.1:0.0333311930,Vicugna_pacos:0.0239556950)100:0.1327964100,(Phacochoerus_africanus:0.0163547121,Sus_scrofa:0.1334343400)100:0.3326231200)71.4:0.0165145770)99.7:0.0467316140,((Ceratotherium_simum_simum:0.0104299190,Diceros_bicornis_minor:0.0235548090)99.7:0.0849748550,(Equus_asinus:0.0099607995,Equus_caballus:0.0146295120)100:0.1291702700)99.8:0.0842309370)28.8:0.0000083222)99.7:0.0757785236,(((Choloepus_didactylus:0.2114328869,Tamandua_tetradactyla:0.2954349805)98.7:0.0418162777,Dasypus_novemcinctus:0.2372400420)100:0.2169207494,((Echinops_telfairi:0.0826962140,Tenrec_ecaudatus:0.1544290800)100:0.3169521100,(Elephantulus_edwardii:0.2654454100,(((Elephas_maximus_indicus:0.0031786140,Loxodonta_africana:0.0019891548)100:0.1205515000,Trichechus_manatus_latirostris:0.1377859400)98.4:0.0151777570,Orycteropus_afer_afer:0.2431169200)84:0.0470942330)99.3:0.0282716450)99.4:0.1526155207)99.7:0.0342521646)94.5:0.0355053935,Cynocephalus_volans:0.2490055592)88.6:0.0063236133,Tupaia_chinensis:0.2593966568)29.7:0.0106531911,(((((Aotus_nancymaae:0.0805974900,((Cebus_imitator:0.0102768080,Sapajus_apella:0.0172739740)98.7:0.0352842960,Saimiri_boliviensis:0.0540426820)77.5:0.0038388073)84.8:0.0067363866,Callithrix_jacchus:0.0773150180)100:0.1985358900,((((Cercocebus_atys:0.0582701423,(Chlorocebus_sabaeus:0.0323263042,Mandrillus_leucophaeus:0.0066366498)84.6:0.0000056824)82.5:0.0025114204,((((Macaca_mulatta:0.0209655407,Macaca_nemestrina:0.0000029830)71.1:0.0010523185,Macaca_fascicularis:0.0030660001)0:0.0000024591,Macaca_thibetana_thibetana:0.0086962862)98:0.0149532953,(Papio_anubis:0.0162418020,Theropithecus_gelada:0.0052760579)79.8:0.0114375490)75.2:0.0020997572)96:0.0097600594,(Colobus_angolensis_palliatus:0.0315589900,(Piliocolobus_tephrosceles:0.0467153120,((Rhinopithecus_bieti:0.0095372358,Rhinopithecus_roxellana:0.0090376930)95.3:0.0043760119,Trachypithecus_francoisi:0.0252644050)95.6:0.0151702910)79.3:0.0037966613)86.8:0.0251178540)97.4:0.0451410080,(((Gorilla_gorilla_gorilla:0.0081261164,(Homo_sapiens:0.0037704213,(Pan_paniscus:0.0093175760,Pan_troglodytes:0.0039737718)97.3:0.0109589280)90.3:0.0005921402)97.4:0.0150639170,Pongo_abelii:0.0621723010)89.3:0.0306144510,((Hylobates_moloch:0.0123694340,Nomascus_leucogenys:0.0142580300)62.9:0.0067183655,Symphalangus_syndactylus:0.0094402526)99.5:0.0450151560)98.3:0.0469626080)99.3:0.0667204040)100:0.1777031700,Carlito_syrichta:0.2976142500)92.1:0.0323328080,(((Eulemur_rufifrons:0.0931989480,Lemur_catta:0.0609957800)99.2:0.0464493419,(Microcebus_murinus:0.1299710670,Propithecus_coquereli:0.0689198237)92.6:0.0061621696)99.8:0.1443644385,(Nycticebus_coucang:0.1144255500,Otolemur_garnettii:0.0816488640)100:0.2111619100)99.4:0.0631000400)95.3:0.0206202132)98.7:0.0708557296)93.5:0.0361392551,(((Callospermophilus_lateralis:0.0317781189,(Ictidomys_tridecemlineatus:0.0446796790,Spermophilus_citellus:0.0528583010)95:0.0120721375)59.5:0.0038980278,(Marmota_flaviventris:0.0149827290,Marmota_monax:0.0071235811)97.7:0.0169805100)100:0.2547061623,Muscardinus_avellanarius:0.3620100300)95.7:0.0404616952)89.9:0.0356747127)74.6:0.0242333035)46.9:0.0208732969)99.8:0.1583897800)90.3:0.0755352680)100:0.2866512200)80.8:0.0219106820,((((Arvicola_amphibius:0.0540002660,(Chionomys_nivalis:0.0272022820,((Microtus_ochrogaster:0.0152812520,Microtus_oregoni:0.0111383810)66.9:0.0096262246,Microtus_pennsylvanicus:0.0074476246)96:0.0190805870)97.5:0.0095303189)90:0.0071403887,Myodes_glareolus:0.0421288680)100:0.1651015600,(Onychomys_torridus:0.0394478110,((Peromyscus_californicus_insignis:0.0323855390,Peromyscus_eremicus:0.0096560763)90.2:0.0074491417,(Peromyscus_leucopus:0.0053914811,Peromyscus_maniculatus_bairdii:0.0240526680)97.7:0.0249673090)96.3:0.0204596480)100:0.0981738870)84.6:0.0406039510,((Cricetulus_griseus:0.0598381909,Mesocricetus_auratus:0.0906301376)54.4:0.0125560985,Phodopus_roborovskii:0.1053915468)99.6:0.0570762752)99.7:0.0501242210)95.4:0.0635135990);
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Tue Oct  6 14:15:34 2026
+Total CPU time used: 1249.55 seconds (0h:20m:49s)
+Total wall-clock time used: 1141.27 seconds (0h:19m:1s)
+

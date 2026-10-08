@@ -1,0 +1,180 @@
+IQ-TREE 2.3.6 built Jul 30 2024
+
+Input file name: /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/selection_inputs/Sauropsida_MACSE_selection_input.fasta
+Type of analysis: tree reconstruction
+Random seed number: 20261006
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 42 sequences with 372 codon sites
+Number of constant sites: 5 (= 1.34409% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 5 (= 1.34409% of all sites)
+Number of parsimony informative sites: 340
+Number of distinct site patterns: 370
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: MGK+F3X4+R4
+
+State frequencies: 
+  pi(AAA) = 0.0245  pi(AAC) = 0.0190  pi(AAG) = 0.0210  pi(AAT) = 0.0315
+  pi(ACA) = 0.0147  pi(ACC) = 0.0114  pi(ACG) = 0.0126  pi(ACT) = 0.0189
+  pi(AGA) = 0.0150  pi(AGC) = 0.0116  pi(AGG) = 0.0129  pi(AGT) = 0.0193
+  pi(ATA) = 0.0220  pi(ATC) = 0.0170  pi(ATG) = 0.0189  pi(ATT) = 0.0283
+  pi(CAA) = 0.0164  pi(CAC) = 0.0127  pi(CAG) = 0.0141  pi(CAT) = 0.0211
+  pi(CCA) = 0.0098  pi(CCC) = 0.0076  pi(CCG) = 0.0084  pi(CCT) = 0.0127
+  pi(CGA) = 0.0100  pi(CGC) = 0.0078  pi(CGG) = 0.0086  pi(CGT) = 0.0129
+  pi(CTA) = 0.0147  pi(CTC) = 0.0114  pi(CTG) = 0.0126  pi(CTT) = 0.0189
+  pi(GAA) = 0.0232  pi(GAC) = 0.0180  pi(GAG) = 0.0199  pi(GAT) = 0.0298
+  pi(GCA) = 0.0139  pi(GCC) = 0.0108  pi(GCG) = 0.0119  pi(GCT) = 0.0179
+  pi(GGA) = 0.0142  pi(GGC) = 0.0110  pi(GGG) = 0.0122  pi(GGT) = 0.0183
+  pi(GTA) = 0.0208  pi(GTC) = 0.0162  pi(GTG) = 0.0179  pi(GTT) = 0.0268
+  pi(TAC) = 0.0175  pi(TAT) = 0.0290  pi(TCA) = 0.0135  pi(TCC) = 0.0105
+  pi(TCG) = 0.0116  pi(TCT) = 0.0174  pi(TGC) = 0.0107  pi(TGG) = 0.0118
+  pi(TGT) = 0.0177  pi(TTA) = 0.0202  pi(TTC) = 0.0157  pi(TTG) = 0.0174
+  pi(TTT) = 0.0260
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.3691,0.4624) (0.3977,0.8983) (0.2083,1.8125) (0.0249,3.7932)
+
+ Category  Relative_rate  Proportion
+  1         0.4624         0.3691
+  2         0.8983         0.3977
+  3         1.8125         0.2083
+  4         3.7932         0.0249
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -14345.8607 (s.e. 350.8681)
+Unconstrained log-likelihood (without tree): -2198.5327
+Number of free parameters (#branches + #model parameters): 98
+Akaike information criterion (AIC) score: 28887.7215
+Corrected Akaike information criterion (AICc) score: 28958.7984
+Bayesian information criterion (BIC) score: 29271.7731
+
+Total tree length (sum of branch lengths): 9.0204
+Sum of internal branch lengths: 3.3083 (36.6764% of tree length)
+
+WARNING: 2 near-zero internal branches (<0.0027) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ahaetulla_prasina' is drawn at root
+
+NOTE: Branch lengths are interpreted as number of nucleotide substitutions per codon site!
+      Rescale them by 1/3 if you want to have #nt substitutions per nt site
+Numbers in parentheses are SH-aLRT support (%)
+
++--Ahaetulla_prasina
+|
++--Pituophis_catenifer_annectens
+|
+|     +--Natrix_helvetica
+|  +--| (83)
+|  |  +-----Erythrolamprus_reginae
++--| (88.6)
+   |     +--Notechis_scutatus
+   |  +--| (100)
+   |  |  +--Pseudonaja_textilis
+   +--| (75.1)
+      |        +--Protobothrops_mucrosquamatus
+      |     +--| (88.2)
+      |     |  +--Crotalus_tigris
+      |  +--| (93.3)
+      |  |  +--Vipera_berus
+      +--| (94.6)
+         |  +------------------Candoia_aspera
+         +--| (94.2)
+            |             +----------Pogona_vitticeps
+            |          +--| (94)
+            |          |  +----------Sceloporus_undulatus
+            |       +--| (67.1)
+            |       |  |     +---------Rhineura_floridana
+            |       |  |  +--| (99.5)
+            |       |  |  |  |         +--Lacerta_agilis
+            |       |  |  |  |      +--| (73.6)
+            |       |  |  |  |      |  |              +**Podarcis_bocagei
+            |       |  |  |  |      |  |           +--| (96.5)
+            |       |  |  |  |      |  |           |  +--Podarcis_vaucheri
+            |       |  |  |  |      |  |        +--| (86.7)
+            |       |  |  |  |      |  |        |  +--Podarcis_muralis
+            |       |  |  |  |      |  |     +**| (72.6)
+            |       |  |  |  |      |  |     |  +--Podarcis_melisellensis
+            |       |  |  |  |      |  |  +--| (56.9)
+            |       |  |  |  |      |  |  |  |     +--Podarcis_cretensis
+            |       |  |  |  |      |  |  |  |  +**| (72.7)
+            |       |  |  |  |      |  |  |  |  |  +--Podarcis_erhardii
+            |       |  |  |  |      |  |  |  +--| (86)
+            |       |  |  |  |      |  |  |     +--Podarcis_pityusensis
+            |       |  |  |  |      |  +--| (94.4)
+            |       |  |  |  |      |     +--Podarcis_raffonei
+            |       |  |  |  +------| (100)
+            |       |  |  |         +--Zootoca_vivipara
+            |       |  +--| (93.3)
+            |       |     |                +-----------Eublepharis_macularius
+            |       |     |     +----------| (100)
+            |       |     |     |          |        +------Paroedura_picta
+            |       |     |     |          |     +--| (86)
+            |       |     |     |          |     |  |  +------Heteronotia_binoei
+            |       |     |     |          |     |  +--| (82.5)
+            |       |     |     |          |     |     +------Gekko_japonicus
+            |       |     |     |          |  +--| (58.5)
+            |       |     |     |          |  |  +-----Euleptes_europaea
+            |       |     |     |          +--| (78.5)
+            |       |     |     |             +--------Sphaerodactylus_townsendi
+            |       |     |  +--| (81.1)
+            |       |     |  |  |                              +-------Alligator_sinensis
+            |       |     |  |  |                     +--------| (100)
+            |       |     |  |  |                     |        +--Crocodylus_porosus
+            |       |     |  |  +---------------------| (100)
+            |       |     |  |                        |              +--Caretta_caretta
+            |       |     |  |                        |           +--| (71.5)
+            |       |     |  |                        |           |  +--Eretmochelys_imbricata
+            |       |     |  |                        |        +--| (92.7)
+            |       |     |  |                        |        |  +**Lepidochelys_kempii
+            |       |     |  |                        |     +--| (99.7)
+            |       |     |  |                        |     |  |  +--Chelonia_mydas
+            |       |     |  |                        |     |  +--| (87.4)
+            |       |     |  |                        |     |     +--Natator_depressus
+            |       |     |  |                        |  +--| (99.3)
+            |       |     |  |                        |  |  |  +--Mauremys_mutica
+            |       |     |  |                        |  |  +--| (64.4)
+            |       |     |  |                        |  |     |  +--Malaclemys_terrapin_pileata
+            |       |     |  |                        |  |     +--| (99.9)
+            |       |     |  |                        |  |        +--Trachemys_scripta_elegans
+            |       |     |  |                        +--| (98.9)
+            |       |     |  |                           +--Emydura_macquarii_macquarii
+            |       |     +--| (85.6)
+            |       |        +------------Hemicordylus_capensis
+            +-------| (100)
+                    +-----------Elgaria_multicarinata_webbii
+
+Tree in newick format:
+
+(Ahaetulla_prasina:0.0304885091,Pituophis_catenifer_annectens:0.0217051050,((Natrix_helvetica:0.0339949470,Erythrolamprus_reginae:0.2199469183)83:0.0049316754,((Notechis_scutatus:0.0099222694,Pseudonaja_textilis:0.0218974574)100:0.0649875547,(((Protobothrops_mucrosquamatus:0.0146743106,Crotalus_tigris:0.0381591175)88.2:0.0182591035,Vipera_berus:0.0368723835)93.3:0.0595969892,(Candoia_aspera:0.6831547219,(((Pogona_vitticeps:0.3985281059,Sceloporus_undulatus:0.4174061331)94:0.0384414206,((Rhineura_floridana:0.3535188942,((Lacerta_agilis:0.0448462894,(((((Podarcis_bocagei:0.0000025903,Podarcis_vaucheri:0.0150827034)96.5:0.0108454144,Podarcis_muralis:0.0149088153)86.7:0.0050095966,Podarcis_melisellensis:0.0360882033)72.6:0.0024433389,((Podarcis_cretensis:0.0074202938,Podarcis_erhardii:0.0094630705)72.7:0.0025114248,Podarcis_pityusensis:0.0126354126)86:0.0062725914)56.9:0.0027996640,Podarcis_raffonei:0.0488548909)94.4:0.0112522418)73.6:0.0097636263,Zootoca_vivipara:0.0424752051)100:0.2491871910)99.5:0.1356018992,(((Eublepharis_macularius:0.4433212179,(((Paroedura_picta:0.2598636678,(Heteronotia_binoei:0.2518874360,Gekko_japonicus:0.2504955988)82.5:0.0449157624)86:0.0393933145,Euleptes_europaea:0.2159157189)58.5:0.0269436507,Sphaerodactylus_townsendi:0.3331978225)78.5:0.0613958904)100:0.3985004153,((Alligator_sinensis:0.2896589000,Crocodylus_porosus:0.0122439798)100:0.3181148375,(((((Caretta_caretta:0.0124039443,Eretmochelys_imbricata:0.0046718600)71.5:0.0027641089,Lepidochelys_kempii:0.0022908958)92.7:0.0093370140,(Chelonia_mydas:0.0051100714,Natator_depressus:0.0072738234)87.4:0.0078550166)99.7:0.0456439625,(Mauremys_mutica:0.0551235549,(Malaclemys_terrapin_pileata:0.0314940198,Trachemys_scripta_elegans:0.0055840239)99.9:0.0428806990)64.4:0.0238333659)99.3:0.0764130148,Emydura_macquarii_macquarii:0.1015116889)98.9:0.1059644701)100:0.7703675741)81.1:0.0878100959,Hemicordylus_capensis:0.4857197756)85.6:0.0848311560)93.3:0.0789252163)67.1:0.0291749019,Elgaria_multicarinata_webbii:0.4322005202)100:0.2856939463)94.2:0.1126911524)94.6:0.0232197278)75.1:0.0027752436)88.6:0.0070007200);
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Tue Oct  6 14:19:16 2026
+Total CPU time used: 234.904 seconds (0h:3m:54s)
+Total wall-clock time used: 222.155 seconds (0h:3m:42s)
+

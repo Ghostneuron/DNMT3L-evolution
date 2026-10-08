@@ -1,0 +1,9 @@
+Scope,Structural_Region,Region_Length,Focal_Window_Complete,Focal_Median_Changes_Per_100,Eligible_Comparable_Windows,Windows_At_Least_As_Variable,Empirical_Upper_Tail_p,BH_q_across_evaluable_tests
+Euarchontoglires,switching_helix,15,True,13.25301204819277,173,19.0,0.11494252873563218,0.14750957854406133
+Euarchontoglires,switching_helix_adjacent_loop,5,True,19.27710843373494,193,4.0,0.02577319587628866,0.07253886010362694
+Laurasiatheria,switching_helix,15,True,7.758620689655173,173,21.0,0.12643678160919541,0.14750957854406133
+Laurasiatheria,switching_helix_adjacent_loop,5,True,11.206896551724139,193,2.0,0.015463917525773196,0.07253886010362694
+Placentalia,switching_helix,15,True,11.057692307692308,172,13.0,0.08092485549132948,0.1416184971098266
+Placentalia,switching_helix_adjacent_loop,5,True,14.285714285714286,192,5.0,0.031088082901554404,0.07253886010362694
+Sauropsida,switching_helix,15,False,,134,,,
+Sauropsida,switching_helix_adjacent_loop,5,True,11.904761904761905,169,25.0,0.15294117647058825,0.15294117647058827

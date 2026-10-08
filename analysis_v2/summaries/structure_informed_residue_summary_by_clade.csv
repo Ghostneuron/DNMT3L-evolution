@@ -1,0 +1,141 @@
+Clade,Human_Position,Human_Residue,Structural_Annotation,Records,Resolved_Records,Occupancy,Major_Residue,Major_Residue_Frequency,Human_State_Count,Human_State_Frequency,Amino_Acid_State_Count,Amino_Acid_Counts
+Afrotheria,341,E,switching_helix,7,7,1.0,E,1.0,7,1.0,1,E:7
+Afrotheria,342,E,switching_helix,7,7,1.0,E,0.7142857142857143,5,0.7142857142857143,3,E:5;K:1;V:1
+Afrotheria,343,E,switching_helix,7,7,1.0,E,0.7142857142857143,5,0.7142857142857143,2,A:2;E:5
+Afrotheria,344,L,switching_helix,7,7,1.0,L,1.0,7,1.0,1,L:7
+Afrotheria,345,S,switching_helix,7,7,1.0,S,1.0,7,1.0,1,S:7
+Afrotheria,346,L,switching_helix,7,7,1.0,L,1.0,7,1.0,1,L:7
+Afrotheria,347,L,switching_helix,7,7,1.0,L,1.0,7,1.0,1,L:7
+Afrotheria,348,A,switching_helix,7,7,1.0,V,0.7142857142857143,2,0.2857142857142857,2,A:2;V:5
+Afrotheria,349,Q,UniProt/PDB Q348,7,7,1.0,Q,1.0,7,1.0,1,Q:7
+Afrotheria,350,N,switching_helix,7,7,1.0,D,1.0,0,0.0,1,D:7
+Afrotheria,351,K,switching_helix,7,7,1.0,R,0.5714285714285714,3,0.42857142857142855,2,K:3;R:4
+Afrotheria,352,Q,UniProt/PDB Q351,7,7,1.0,P,0.42857142857142855,0,0.0,3,L:2;P:3;S:2
+Afrotheria,353,S,switching_helix,7,7,1.0,R,1.0,0,0.0,1,R:7
+Afrotheria,354,S,switching_helix,7,7,1.0,A,0.8571428571428571,1,0.14285714285714285,2,A:6;S:1
+Afrotheria,355,K,switching_helix,7,7,1.0,R,0.8571428571428571,1,0.14285714285714285,2,K:1;R:6
+Afrotheria,356,L,adjacent_loop,7,7,1.0,L,0.5714285714285714,4,0.5714285714285714,4,A:1;L:4;P:1;T:1
+Afrotheria,357,A,adjacent_loop,7,7,1.0,P,0.7142857142857143,0,0.0,3,K:1;P:5;S:1
+Afrotheria,358,A,adjacent_loop,7,7,1.0,A,1.0,7,1.0,1,A:7
+Afrotheria,359,K,adjacent_loop,7,7,1.0,P,0.5714285714285714,0,0.0,4,A:1;L:1;P:4;R:1
+Afrotheria,360,W,adjacent_loop,7,7,1.0,A,0.7142857142857143,0,0.0,3,A:5;G:1;S:1
+Amphibia,341,E,switching_helix,2,1,0.5,T,1.0,0,0.0,1,T:1
+Amphibia,342,E,switching_helix,2,1,0.5,V,1.0,0,0.0,1,V:1
+Amphibia,343,E,switching_helix,2,2,1.0,D,1.0,0,0.0,1,D:2
+Amphibia,344,L,switching_helix,2,2,1.0,L,1.0,2,1.0,1,L:2
+Amphibia,345,S,switching_helix,2,2,1.0,S,0.5,1,0.5,2,S:1;V:1
+Amphibia,346,L,switching_helix,2,2,1.0,M,0.5,0,0.0,2,M:1;Q:1
+Amphibia,347,L,switching_helix,2,2,1.0,F,0.5,1,0.5,2,F:1;L:1
+Amphibia,348,A,switching_helix,2,2,1.0,F,0.5,0,0.0,2,F:1;R:1
+Amphibia,349,Q,UniProt/PDB Q348,2,2,1.0,K,0.5,0,0.0,2,E:1;K:1
+Amphibia,350,N,switching_helix,2,2,1.0,K,0.5,1,0.5,2,K:1;N:1
+Amphibia,351,K,switching_helix,2,2,1.0,R,0.5,0,0.0,2,L:1;R:1
+Amphibia,352,Q,UniProt/PDB Q351,2,2,1.0,D,0.5,0,0.0,2,D:1;R:1
+Amphibia,353,S,switching_helix,2,1,0.5,N,1.0,0,0.0,1,N:1
+Amphibia,354,S,switching_helix,2,1,0.5,S,1.0,1,1.0,1,S:1
+Amphibia,355,K,switching_helix,2,1,0.5,N,1.0,0,0.0,1,N:1
+Amphibia,356,L,adjacent_loop,2,2,1.0,F,1.0,0,0.0,1,F:2
+Amphibia,357,A,adjacent_loop,2,2,1.0,Q,0.5,0,0.0,2,Q:1;V:1
+Amphibia,358,A,adjacent_loop,2,2,1.0,I,0.5,0,0.0,2,G:1;I:1
+Amphibia,359,K,adjacent_loop,2,2,1.0,Q,0.5,0,0.0,2,Q:1;T:1
+Amphibia,360,W,adjacent_loop,2,2,1.0,P,0.5,0,0.0,2,P:1;R:1
+Euarchontoglires,341,E,switching_helix,84,84,1.0,E,0.6309523809523809,53,0.6309523809523809,6,A:1;D:2;E:53;K:24;Q:3;R:1
+Euarchontoglires,342,E,switching_helix,84,84,1.0,E,0.9404761904761905,79,0.9404761904761905,4,A:1;E:79;H:1;V:3
+Euarchontoglires,343,E,switching_helix,84,84,1.0,E,0.8452380952380952,71,0.8452380952380952,4,E:71;L:3;Q:8;T:2
+Euarchontoglires,344,L,switching_helix,84,84,1.0,L,0.5595238095238095,47,0.5595238095238095,7,A:2;E:6;L:47;Q:22;S:1;T:3;V:3
+Euarchontoglires,345,S,switching_helix,84,84,1.0,S,0.7738095238095238,65,0.7738095238095238,8,A:7;F:2;K:1;L:5;P:1;S:65;T:1;Y:2
+Euarchontoglires,346,L,switching_helix,84,84,1.0,L,0.9285714285714286,78,0.9285714285714286,4,A:1;G:2;L:78;V:3
+Euarchontoglires,347,L,switching_helix,84,84,1.0,L,0.6666666666666666,56,0.6666666666666666,5,E:17;K:1;L:56;Q:9;R:1
+Euarchontoglires,348,A,switching_helix,84,84,1.0,A,0.5238095238095238,44,0.5238095238095238,9,A:44;C:2;D:1;E:1;G:8;I:1;S:1;T:25;V:1
+Euarchontoglires,349,Q,UniProt/PDB Q348,84,84,1.0,Q,0.8452380952380952,71,0.8452380952380952,6,E:1;G:1;H:9;Q:71;R:1;T:1
+Euarchontoglires,350,N,switching_helix,84,84,1.0,N,0.32142857142857145,27,0.32142857142857145,9,A:3;D:13;G:7;H:2;I:3;N:27;S:1;T:10;V:18
+Euarchontoglires,351,K,switching_helix,84,84,1.0,R,0.6428571428571429,6,0.07142857142857142,10,A:1;C:2;D:1;G:11;K:6;M:1;R:54;S:1;T:5;W:2
+Euarchontoglires,352,Q,UniProt/PDB Q351,84,83,0.9880952380952381,Q,0.5421686746987951,45,0.5421686746987951,7,A:2;L:1;P:3;Q:45;R:7;S:1;T:24
+Euarchontoglires,353,S,switching_helix,84,83,0.9880952380952381,R,0.5180722891566265,27,0.3253012048192771,8,A:3;G:4;H:1;K:3;N:1;R:43;S:27;T:1
+Euarchontoglires,354,S,switching_helix,84,84,1.0,S,0.40476190476190477,34,0.40476190476190477,6,A:23;G:15;N:1;P:2;S:34;T:9
+Euarchontoglires,355,K,switching_helix,84,84,1.0,K,0.7023809523809523,59,0.7023809523809523,9,A:2;E:4;K:59;N:1;Q:1;R:9;S:1;T:5;Y:2
+Euarchontoglires,356,L,adjacent_loop,84,84,1.0,L,0.7261904761904762,61,0.7261904761904762,7,A:2;H:1;L:61;M:14;P:3;S:2;V:1
+Euarchontoglires,357,A,adjacent_loop,84,84,1.0,A,0.5119047619047619,43,0.5119047619047619,10,A:43;D:3;G:2;H:1;M:1;P:23;Q:2;S:6;T:2;V:1
+Euarchontoglires,358,A,adjacent_loop,84,84,1.0,A,0.6785714285714286,57,0.6785714285714286,9,A:57;G:2;K:1;L:1;P:5;R:1;S:8;T:8;V:1
+Euarchontoglires,359,K,adjacent_loop,84,81,0.9642857142857143,Q,0.4444444444444444,23,0.2839506172839506,10,A:1;D:1;E:5;G:1;H:1;K:23;P:3;Q:36;R:8;S:2
+Euarchontoglires,360,W,adjacent_loop,84,83,0.9880952380952381,K,0.30120481927710846,18,0.21686746987951808,11,A:2;E:1;G:19;K:25;P:2;Q:3;R:7;S:1;T:4;V:1;W:18
+Laurasiatheria,341,E,switching_helix,119,118,0.9915966386554622,Q,0.6779661016949152,3,0.025423728813559324,10,C:3;D:1;E:3;G:2;H:4;N:2;P:1;Q:80;R:21;W:1
+Laurasiatheria,342,E,switching_helix,119,118,0.9915966386554622,E,0.8135593220338984,96,0.8135593220338984,8,D:11;E:96;K:4;N:1;P:1;Q:2;T:2;V:1
+Laurasiatheria,343,E,switching_helix,119,118,0.9915966386554622,E,0.8305084745762712,98,0.8305084745762712,4,A:17;E:98;K:2;R:1
+Laurasiatheria,344,L,switching_helix,119,118,0.9915966386554622,L,0.7627118644067796,90,0.7627118644067796,9,A:5;F:2;G:3;L:90;P:1;Q:1;R:2;S:7;V:7
+Laurasiatheria,345,S,switching_helix,119,118,0.9915966386554622,S,0.7288135593220338,86,0.7288135593220338,8,A:9;C:2;F:9;L:1;P:1;R:1;S:86;T:9
+Laurasiatheria,346,L,switching_helix,119,116,0.9747899159663865,L,0.8706896551724138,101,0.8706896551724138,5,C:1;G:1;L:101;Q:1;S:12
+Laurasiatheria,347,L,switching_helix,119,117,0.9831932773109243,L,0.8376068376068376,98,0.8376068376068376,9,A:2;F:2;L:98;M:1;P:1;Q:4;R:7;S:1;T:1
+Laurasiatheria,348,A,switching_helix,119,117,0.9831932773109243,A,0.9401709401709402,110,0.9401709401709402,7,A:110;F:1;G:2;H:1;L:1;T:1;V:1
+Laurasiatheria,349,Q,UniProt/PDB Q348,119,117,0.9831932773109243,Q,0.7606837606837606,89,0.7606837606837606,9,E:3;G:1;H:2;L:1;P:7;Q:89;R:8;S:2;W:4
+Laurasiatheria,350,N,switching_helix,119,116,0.9747899159663865,D,0.853448275862069,7,0.0603448275862069,8,A:1;D:99;E:2;G:4;N:7;Q:1;S:1;Y:1
+Laurasiatheria,351,K,switching_helix,119,118,0.9915966386554622,R,0.923728813559322,2,0.01694915254237288,8,G:2;K:2;L:1;M:1;Q:1;R:109;S:1;W:1
+Laurasiatheria,352,Q,UniProt/PDB Q351,119,118,0.9915966386554622,Q,0.8050847457627118,95,0.8050847457627118,7,A:1;L:1;P:3;Q:95;R:16;S:1;T:1
+Laurasiatheria,353,S,switching_helix,119,118,0.9915966386554622,R,0.8898305084745762,3,0.025423728813559324,9,A:1;D:1;E:1;K:2;L:2;P:2;R:105;S:3;W:1
+Laurasiatheria,354,S,switching_helix,119,119,1.0,A,0.4789915966386555,6,0.05042016806722689,9,A:57;G:2;H:2;L:1;M:19;P:1;S:6;T:17;V:14
+Laurasiatheria,355,K,switching_helix,119,119,1.0,K,0.8319327731092437,99,0.8319327731092437,7,A:2;E:1;H:1;K:99;L:2;P:2;R:12
+Laurasiatheria,356,L,adjacent_loop,119,118,0.9915966386554622,P,0.6694915254237288,6,0.05084745762711865,7,A:9;E:1;G:2;L:6;P:79;R:3;S:18
+Laurasiatheria,357,A,adjacent_loop,119,118,0.9915966386554622,P,0.8050847457627118,8,0.06779661016949153,8,A:8;F:1;G:1;L:6;P:95;R:1;S:5;W:1
+Laurasiatheria,358,A,adjacent_loop,119,119,1.0,A,0.4789915966386555,57,0.4789915966386555,12,A:57;F:2;G:5;H:2;I:1;L:5;N:1;P:1;R:1;S:4;T:37;V:3
+Laurasiatheria,359,K,adjacent_loop,119,119,1.0,Q,0.7142857142857143,0,0.0,9,A:4;G:1;I:1;L:3;P:16;Q:85;R:4;S:4;T:1
+Laurasiatheria,360,W,adjacent_loop,119,119,1.0,G,0.8403361344537815,1,0.008403361344537815,10,C:1;D:3;E:2;F:2;G:100;P:1;R:4;S:3;V:2;W:1
+Marsupialia,341,E,switching_helix,12,12,1.0,D,1.0,0,0.0,1,D:12
+Marsupialia,342,E,switching_helix,12,12,1.0,W,1.0,0,0.0,1,W:12
+Marsupialia,343,E,switching_helix,12,12,1.0,D,1.0,0,0.0,1,D:12
+Marsupialia,344,L,switching_helix,12,12,1.0,L,0.9166666666666666,11,0.9166666666666666,2,L:11;V:1
+Marsupialia,345,S,switching_helix,12,12,1.0,S,0.9166666666666666,11,0.9166666666666666,2,P:1;S:11
+Marsupialia,346,L,switching_helix,12,12,1.0,L,1.0,12,1.0,1,L:12
+Marsupialia,347,L,switching_helix,12,12,1.0,L,0.9166666666666666,11,0.9166666666666666,2,L:11;V:1
+Marsupialia,348,A,switching_helix,12,12,1.0,A,0.8333333333333334,10,0.8333333333333334,2,A:10;T:2
+Marsupialia,349,Q,UniProt/PDB Q348,12,12,1.0,Q,0.9166666666666666,11,0.9166666666666666,2,E:1;Q:11
+Marsupialia,350,N,switching_helix,12,12,1.0,D,0.6666666666666666,4,0.3333333333333333,2,D:8;N:4
+Marsupialia,351,K,switching_helix,12,12,1.0,I,1.0,0,0.0,1,I:12
+Marsupialia,352,Q,UniProt/PDB Q351,12,12,1.0,Q,0.75,9,0.75,2,K:3;Q:9
+Marsupialia,353,S,switching_helix,12,12,1.0,R,0.4166666666666667,5,0.4166666666666667,3,K:2;R:5;S:5
+Marsupialia,354,S,switching_helix,12,12,1.0,L,0.9166666666666666,0,0.0,2,F:1;L:11
+Marsupialia,355,K,switching_helix,12,12,1.0,N,0.75,0,0.0,3,E:2;N:9;S:1
+Marsupialia,356,L,adjacent_loop,12,12,1.0,V,0.4166666666666667,0,0.0,3,A:2;D:5;V:5
+Marsupialia,357,A,adjacent_loop,12,12,1.0,F,0.9166666666666666,0,0.0,2,F:11;S:1
+Marsupialia,358,A,adjacent_loop,12,12,1.0,S,1.0,0,0.0,1,S:12
+Marsupialia,359,K,adjacent_loop,12,12,1.0,L,0.8333333333333334,0,0.0,3,L:10;P:1;Q:1
+Marsupialia,360,W,adjacent_loop,12,12,1.0,W,0.6666666666666666,8,0.6666666666666666,2,R:4;W:8
+Sauropsida,341,E,switching_helix,42,42,1.0,Y,0.47619047619047616,1,0.023809523809523808,6,A:1;C:1;D:9;E:1;N:10;Y:20
+Sauropsida,342,E,switching_helix,42,42,1.0,V,0.42857142857142855,0,0.0,6,D:1;L:9;M:12;S:1;T:1;V:18
+Sauropsida,343,E,switching_helix,42,42,1.0,D,0.9523809523809523,1,0.023809523809523808,3,D:40;E:1;S:1
+Sauropsida,344,L,switching_helix,42,42,1.0,L,0.9523809523809523,40,0.9523809523809523,3,I:1;L:40;S:1
+Sauropsida,345,S,switching_helix,42,42,1.0,S,0.5714285714285714,24,0.5714285714285714,6,C:2;D:8;F:6;H:1;S:24;Y:1
+Sauropsida,346,L,switching_helix,42,42,1.0,L,0.8095238095238095,34,0.8095238095238095,6,A:1;K:3;L:34;Q:2;R:1;S:1
+Sauropsida,347,L,switching_helix,42,42,1.0,L,0.9047619047619048,38,0.9047619047619048,4,I:2;L:38;M:1;T:1
+Sauropsida,348,A,switching_helix,42,41,0.9761904761904762,A,0.975609756097561,40,0.975609756097561,2,A:40;G:1
+Sauropsida,349,Q,UniProt/PDB Q348,42,41,0.9761904761904762,K,0.7560975609756098,0,0.0,3,D:4;E:6;K:31
+Sauropsida,350,N,switching_helix,42,41,0.9761904761904762,N,0.6097560975609756,25,0.6097560975609756,5,D:13;E:1;K:1;N:25;R:1
+Sauropsida,351,K,switching_helix,42,41,0.9761904761904762,I,0.9512195121951219,1,0.024390243902439025,3,A:1;I:39;K:1
+Sauropsida,352,Q,UniProt/PDB Q351,42,42,1.0,L,0.47619047619047616,3,0.07142857142857142,8,C:13;H:1;I:1;L:20;Q:3;R:1;V:1;Y:2
+Sauropsida,353,S,switching_helix,42,42,1.0,R,0.47619047619047616,2,0.047619047619047616,6,A:1;E:10;K:8;L:1;R:20;S:2
+Sauropsida,354,S,switching_helix,42,42,1.0,T,0.5714285714285714,12,0.2857142857142857,5,A:1;K:4;R:1;S:12;T:24
+Sauropsida,355,K,switching_helix,42,42,1.0,R,0.9285714285714286,1,0.023809523809523808,4,E:1;G:1;K:1;R:39
+Sauropsida,356,L,adjacent_loop,42,42,1.0,I,0.7380952380952381,9,0.21428571428571427,4,I:31;L:9;P:1;V:1
+Sauropsida,357,A,adjacent_loop,42,42,1.0,F,0.7857142857142857,0,0.0,5,E:1;F:33;G:1;I:1;L:6
+Sauropsida,358,A,adjacent_loop,42,42,1.0,S,0.9285714285714286,0,0.0,4,E:1;K:1;P:1;S:39
+Sauropsida,359,K,adjacent_loop,42,42,1.0,Q,0.7857142857142857,1,0.023809523809523808,5,D:1;E:6;K:1;Q:33;R:1
+Sauropsida,360,W,adjacent_loop,42,42,1.0,R,0.8333333333333334,0,0.0,6,A:1;L:1;P:1;Q:3;R:35;Y:1
+Xenarthra,341,E,switching_helix,3,3,1.0,E,1.0,3,1.0,1,E:3
+Xenarthra,342,E,switching_helix,3,3,1.0,D,1.0,0,0.0,1,D:3
+Xenarthra,343,E,switching_helix,3,3,1.0,E,1.0,3,1.0,1,E:3
+Xenarthra,344,L,switching_helix,3,3,1.0,L,1.0,3,1.0,1,L:3
+Xenarthra,345,S,switching_helix,3,3,1.0,S,0.6666666666666666,2,0.6666666666666666,2,L:1;S:2
+Xenarthra,346,L,switching_helix,3,3,1.0,L,1.0,3,1.0,1,L:3
+Xenarthra,347,L,switching_helix,3,3,1.0,R,0.3333333333333333,1,0.3333333333333333,3,L:1;Q:1;R:1
+Xenarthra,348,A,switching_helix,3,3,1.0,A,1.0,3,1.0,1,A:3
+Xenarthra,349,Q,UniProt/PDB Q348,3,3,1.0,Q,0.6666666666666666,2,0.6666666666666666,2,Q:2;W:1
+Xenarthra,350,N,switching_helix,3,3,1.0,D,0.6666666666666666,0,0.0,2,D:2;G:1
+Xenarthra,351,K,switching_helix,3,3,1.0,R,1.0,0,0.0,1,R:3
+Xenarthra,352,Q,UniProt/PDB Q351,3,3,1.0,Q,1.0,3,1.0,1,Q:3
+Xenarthra,353,S,switching_helix,3,3,1.0,R,1.0,0,0.0,1,R:3
+Xenarthra,354,S,switching_helix,3,3,1.0,A,1.0,0,0.0,1,A:3
+Xenarthra,355,K,switching_helix,3,3,1.0,K,0.3333333333333333,1,0.3333333333333333,3,A:1;K:1;Q:1
+Xenarthra,356,L,adjacent_loop,3,3,1.0,L,0.6666666666666666,2,0.6666666666666666,2,L:2;Q:1
+Xenarthra,357,A,adjacent_loop,3,3,1.0,P,1.0,0,0.0,1,P:3
+Xenarthra,358,A,adjacent_loop,3,3,1.0,T,0.6666666666666666,1,0.3333333333333333,2,A:1;T:2
+Xenarthra,359,K,adjacent_loop,3,3,1.0,Q,0.3333333333333333,0,0.0,3,L:1;Q:1;R:1
+Xenarthra,360,W,adjacent_loop,3,3,1.0,G,1.0,0,0.0,1,G:3

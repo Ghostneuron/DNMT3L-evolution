@@ -1,0 +1,5 @@
+Scope,Domains_Tested,Kruskal_Statistic,Kruskal_p
+Euarchontoglires,ADD;C_terminal_MTase_like;N_terminal;linker,31.574144676107238,6.434596603443986e-07
+Laurasiatheria,ADD;C_terminal_MTase_like;C_terminal_tail;N_terminal;linker,30.29386733734187,4.264423727716717e-06
+Placentalia,ADD;C_terminal_MTase_like;N_terminal;linker,31.090597601105838,8.135173314020132e-07
+Sauropsida,ADD;C_terminal_MTase_like,0.0014805820989165722,0.969306306569208

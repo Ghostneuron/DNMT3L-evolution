@@ -1,0 +1,23 @@
+{
+  "title": "Clade-aware analysis of vertebrate DNMT3L reveals modular constraint and lineage-structured switching-helix residue states",
+  "upload_type": "dataset",
+  "description": "Reproducibility archive for a clade-aware analysis of vertebrate DNMT3L sequence evolution. The archive contains source and filtered alignments, selection-model inputs and outputs, inferred and taxonomy-constrained trees, saturation and structural-context analyses, machine-readable summaries, figures, supplementary tables, software records, scripts, provenance notes, manifests, and checksums. The manuscript itself is not distributed in this archive.",
+  "creators": [
+    {
+      "name": "Lu, Jie",
+      "affiliation": "Independent researcher",
+      "orcid": "0000-0001-6843-9720"
+    }
+  ],
+  "keywords": [
+    "DNMT3L",
+    "molecular evolution",
+    "DNA methylation",
+    "comparative genomics",
+    "codon models",
+    "switching helix"
+  ],
+  "access_right": "open",
+  "publication_date": "2026-10-07",
+  "version": "1.0.0"
+}

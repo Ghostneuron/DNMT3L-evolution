@@ -1,0 +1,399 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Mac.attlocal.net (SSE4.2, 24 GB RAM)
+Command: /opt/homebrew/bin/iqtree2 -s DNMT3_family_MAFFT_human_DNMT3L_columns.fasta -m MFP -B 1000 --alrt 1000 -T AUTO --prefix DNMT3_family_human_columns
+Seed:    345810 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Aug 26 16:24:40 2026
+Kernel:  SSE2 - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file DNMT3_family_MAFFT_human_DNMT3L_columns.fasta ... Fasta format detected
+Reading fasta file: done in 0.00211191 secs using 89.78% CPU
+Alignment most likely contains protein sequences
+Alignment has 342 sequences with 387 columns, 385 distinct patterns
+351 parsimony-informative, 21 singleton sites, 15 constant sites
+                                                     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000745058 secs using 39.59% CPU
+   1  DNMT3L__Acinonyx_jubatus                               3.36%    passed     86.52%
+   2  DNMT3L__Acomys_russatus                                2.84%    passed     97.03%
+   3  DNMT3L__Ahaetulla_prasina                              3.62%    failed      2.56%
+   4  DNMT3L__Ailuropoda_melanoleuca                         7.75%    passed     98.65%
+   5  DNMT3L__Alexandromys_fortis                           20.16%    passed     85.88%
+   6  DNMT3L__Alligator_mississippiensis                    16.28%    passed     21.34%
+   7  DNMT3L__Alligator_sinensis                             4.65%    failed      0.99%
+   8  DNMT3L__Ambystoma_mexicanum                           14.73%    passed     80.67%
+   9  DNMT3L__Anolis_carolinensis                           18.09%    passed     26.57%
+  10  DNMT3L__Anolis_sagrei                                 18.09%    failed      2.99%
+  11  DNMT3L__Antechinus_flavipes                            2.84%    failed      1.18%
+  12  DNMT3L__Aotus_nancymaae                                0.52%    passed     99.88%
+  13  DNMT3L__Apodemus_sylvaticus                            1.81%    passed     96.65%
+  14  DNMT3L__Artibeus_jamaicensis                           0.26%    passed     99.98%
+  15  DNMT3L__Arvicanthis_niloticus                          1.03%    passed     95.15%
+  16  DNMT3L__Arvicola_amphibius                             1.55%    passed     98.88%
+  17  DNMT3L__Ascaphus_truei                                57.36%    passed     35.24%
+  18  DNMT3L__Balaenoptera_acutorostrata                     1.03%    passed    100.00%
+  19  DNMT3L__Balaenoptera_borealis                          0.26%    passed    100.00%
+  20  DNMT3L__Balaenoptera_musculus                          1.03%    passed     99.99%
+  21  DNMT3L__Balaenoptera_physalus                          0.26%    passed    100.00%
+  22  DNMT3L__Balaenoptera_ricei                             1.03%    passed    100.00%
+  23  DNMT3L__Bison_bison_bison                              0.26%    passed     99.85%
+  24  DNMT3L__Bos_indicus                                    0.26%    passed     99.82%
+  25  DNMT3L__Bos_indicus_x_Bos_taurus                       0.26%    passed     99.56%
+  26  DNMT3L__Bos_javanicus                                  0.26%    passed     99.93%
+  27  DNMT3L__Bos_mutus                                      0.26%    passed     99.77%
+  28  DNMT3L__Bos_taurus                                     0.26%    passed     99.93%
+  29  DNMT3L__Bubalus_bubalis                                0.26%    passed     99.99%
+  30  DNMT3L__Bubalus_kerabau                                0.78%    passed     99.97%
+  31  DNMT3L__Budorcas_taxicolor                            18.60%    passed     99.43%
+  32  DNMT3L__Callithrix_jacchus                             0.26%    passed     97.15%
+  33  DNMT3L__Callorhinus_ursinus                            0.26%    passed     97.52%
+  34  DNMT3L__Callospermophilus_lateralis                    1.81%    passed     78.09%
+  35  DNMT3L__Camelus_bactrianus                             0.78%    passed     97.95%
+  36  DNMT3L__Camelus_dromedarius                            0.78%    passed     96.18%
+  37  DNMT3L__Camelus_ferus                                  0.78%    passed     97.95%
+  38  DNMT3L__Candoia_aspera                                14.73%    passed     49.26%
+  39  DNMT3L__Canis_aureus                                  16.80%    passed     47.91%
+  40  DNMT3L__Canis_lupus_baileyi                           13.44%    passed     90.79%
+  41  DNMT3L__Canis_lupus_dingo                             16.80%    passed     42.97%
+  42  DNMT3L__Canis_lupus_familiaris                         5.43%    passed     52.25%
+  43  DNMT3L__Capra_hircus                                   2.84%    passed     99.89%
+  44  DNMT3L__Capricornis_sumatraensis                       0.26%    passed     99.88%
+  45  DNMT3L__Caretta_caretta                                3.10%    passed     40.37%
+  46  DNMT3L__Carlito_syrichta                               0.26%    passed     99.97%
+  47  DNMT3L__Castor_canadensis                              2.58%    passed     99.49%
+  48  DNMT3L__Cavia_porcellus                                6.72%    passed     81.57%
+  49  DNMT3L__Cebus_imitator                                 0.26%    passed     99.40%
+  50  DNMT3L__Ceratotherium_simum_simum                     13.44%    passed     99.90%
+  51  DNMT3L__Cercocebus_atys                                3.10%    passed     65.23%
+  52  DNMT3L__Cervus_canadensis                             18.60%    passed     99.89%
+  53  DNMT3L__Cervus_elaphus                                18.86%    passed     99.83%
+  54  DNMT3L__Chelonia_mydas                                 3.36%    passed     30.36%
+  55  DNMT3L__Chelonoidis_abingdonii                        23.26%    passed     28.81%
+  56  DNMT3L__Chinchilla_lanigera                            2.33%    passed     50.38%
+  57  DNMT3L__Chionomys_nivalis                              1.55%    passed     93.58%
+  58  DNMT3L__Chlorocebus_sabaeus                            0.00%    passed     99.92%
+  59  DNMT3L__Choloepus_didactylus                           0.78%    passed     93.06%
+  60  DNMT3L__Chrysochloris_asiatica                        17.05%    passed     98.07%
+  61  DNMT3L__Cnephaeus_nilssonii                            0.78%    passed     97.27%
+  62  DNMT3L__Colobus_angolensis_palliatus                   0.00%    passed     99.90%
+  63  DNMT3L__Cricetulus_griseus                             1.55%    passed     99.95%
+  64  DNMT3L__Crocodylus_porosus                             4.39%    failed      2.26%
+  65  DNMT3L__Crocuta_crocuta                                0.52%    passed     86.54%
+  66  DNMT3L__Crotalus_tigris                                4.39%    failed      0.57%
+  67  DNMT3L__Cynocephalus_volans                            1.03%    passed     99.44%
+  68  DNMT3L__Dama_dama                                      4.13%    passed     99.97%
+  69  DNMT3L__Dasypus_novemcinctus                           1.03%    passed     76.04%
+  70  DNMT3L__Delphinus_delphis                              1.29%    passed    100.00%
+  71  DNMT3L__Dermochelys_coriacea                          21.71%    passed     37.22%
+  72  DNMT3L__Desmodus_rotundus                              0.26%    passed     99.96%
+  73  DNMT3L__Diceros_bicornis_minor                         0.26%    passed     99.99%
+  74  DNMT3L__Dipodomys_merriami                             3.62%    passed     89.25%
+  75  DNMT3L__Dipodomys_ordii                                2.58%    passed     97.30%
+  76  DNMT3L__Dipodomys_spectabilis                         14.21%    passed     94.88%
+  77  DNMT3L__Dromiciops_gliroides                           2.84%    passed     18.63%
+  78  DNMT3L__Echinops_telfairi                              1.55%    passed     99.92%
+  79  DNMT3L__Elephantulus_edwardii                          1.03%    passed    100.00%
+  80  DNMT3L__Elephas_maximus_indicus                        1.81%    passed     99.90%
+  81  DNMT3L__Elgaria_multicarinata_webbii                   9.04%    passed     32.35%
+  82  DNMT3L__Emydura_macquarii_macquarii                    4.91%    passed     33.31%
+  83  DNMT3L__Enhydra_lutris_kenyoni                         2.84%    passed     53.08%
+  84  DNMT3L__Eptesicus_fuscus                               0.26%    passed     93.13%
+  85  DNMT3L__Equus_asinus                                   0.78%    passed    100.00%
+  86  DNMT3L__Equus_caballus                                 0.78%    passed    100.00%
+  87  DNMT3L__Equus_przewalskii                              0.78%    passed    100.00%
+  88  DNMT3L__Eretmochelys_imbricata                         3.36%    passed     30.53%
+  89  DNMT3L__Erinaceus_europaeus                            7.24%    passed     25.70%
+  90  DNMT3L__Erythrolamprus_reginae                         6.72%    passed     50.38%
+  91  DNMT3L__Eschrichtius_robustus                          1.03%    passed    100.00%
+  92  DNMT3L__Eubalaena_glacialis                            1.03%    passed    100.00%
+  93  DNMT3L__Eublepharis_macularius                         5.17%    passed     15.24%
+  94  DNMT3L__Eulemur_rufifrons                              0.26%    passed     93.84%
+  95  DNMT3L__Euleptes_europaea                             11.89%    passed     15.57%
+  96  DNMT3L__Eumetopias_jubatus                             0.26%    passed     97.52%
+  97  DNMT3L__Felis_catus                                    3.36%    passed     92.95%
+  98  DNMT3L__Fukomys_damarensis                             4.91%    passed     32.09%
+  99  DNMT3L__Gavialis_gangeticus                           13.18%    failed      3.21%
+ 100  DNMT3L__Gekko_japonicus                                6.20%    passed     15.33%
+ 101  DNMT3L__Geotrypetes_seraphini                          5.17%    passed     24.07%
+ 102  DNMT3L__Giraffa_tippelskirchi                          0.26%    passed     99.88%
+ 103  DNMT3L__Globicephala_melas                             1.29%    passed     99.99%
+ 104  DNMT3L__Gopherus_evgoodei                             23.26%    passed     24.14%
+ 105  DNMT3L__Gopherus_flavomarginatus                      23.26%    passed     26.74%
+ 106  DNMT3L__Gorilla_gorilla_gorilla                        0.00%    passed     99.84%
+ 107  DNMT3L__Gracilinanus_agilis                            3.36%    failed      1.36%
+ 108  DNMT3L__Grammomys_surdaster                            1.81%    passed     80.69%
+ 109  DNMT3L__Grampus_griseus                                1.29%    passed    100.00%
+ 110  DNMT3L__Halichoerus_grypus                            14.99%    passed     87.18%
+ 111  DNMT3L__Hemicordylus_capensis                          4.39%    passed     15.59%
+ 112  DNMT3L__Herpailurus_yagouaroundi                       0.26%    passed     99.90%
+ 113  DNMT3L__Heterocephalus_glaber                          1.55%    passed     61.48%
+ 114  DNMT3L__Heteronotia_binoei                            10.08%    passed      7.33%
+ 115  DNMT3L__Hippopotamus_amphibius_kiboko                  0.78%    passed     99.49%
+ 116  DNMT3L__Hipposideros_armiger                           0.52%    passed     98.60%
+ 117  DNMT3L__Homo_sapiens                                   0.00%    passed     99.89%
+ 118  DNMT3L__Hyaena_hyaena                                  0.26%    passed     96.57%
+ 119  DNMT3L__Hylobates_moloch                               0.00%    passed     99.98%
+ 120  DNMT3L__Hyperoodon_ampullatus                          1.03%    passed     99.99%
+ 121  DNMT3L__Ictidomys_tridecemlineatus                     1.03%    passed     49.81%
+ 122  DNMT3L__Jaculus_jaculus                                1.81%    passed     99.79%
+ 123  DNMT3L__Lacerta_agilis                                 8.79%    passed     12.16%
+ 124  DNMT3L__Lagenorhynchus_albirostris                     1.03%    passed     99.99%
+ 125  DNMT3L__Lemur_catta                                    0.26%    passed     99.40%
+ 126  DNMT3L__Leopardus_geoffroyi                            0.78%    passed     99.94%
+ 127  DNMT3L__Lepidochelys_kempii                            3.36%    passed     29.29%
+ 128  DNMT3L__Leptonychotes_weddellii                       32.30%    passed     98.23%
+ 129  DNMT3L__Lepus_europaeus                                1.03%    failed      2.66%
+ 130  DNMT3L__Leucopleurus_acutus                            1.29%    passed     99.99%
+ 131  DNMT3L__Lipotes_vexillifer                             1.03%    passed     99.99%
+ 132  DNMT3L__Lissotriton_helveticus                         8.01%    passed     91.06%
+ 133  DNMT3L__Lontra_canadensis                              3.36%    passed     85.59%
+ 134  DNMT3L__Loxodonta_africana                             1.81%    passed     99.90%
+ 135  DNMT3L__Lutra_lutra                                    4.39%    passed     69.37%
+ 136  DNMT3L__Lynx_canadensis                                0.78%    passed     98.57%
+ 137  DNMT3L__Lynx_rufus                                     0.78%    passed     99.34%
+ 138  DNMT3L__Macaca_fascicularis                            0.00%    passed     98.92%
+ 139  DNMT3L__Macaca_mulatta                                 1.03%    passed     91.60%
+ 140  DNMT3L__Macaca_nemestrina                              0.00%    passed     99.80%
+ 141  DNMT3L__Macaca_thibetana_thibetana                     0.00%    passed     99.87%
+ 142  DNMT3L__Macrotis_lagotis                               3.36%    failed      1.73%
+ 143  DNMT3L__Malaclemys_terrapin_pileata                    6.46%    passed     71.55%
+ 144  DNMT3L__Mandrillus_leucophaeus                         0.00%    passed     99.87%
+ 145  DNMT3L__Manis_javanica                                 1.29%    passed     99.98%
+ 146  DNMT3L__Manis_pentadactyla                             0.78%    passed     99.98%
+ 147  DNMT3L__Marmota_flaviventris                           2.07%    passed     37.33%
+ 148  DNMT3L__Marmota_marmota_marmota                       40.83%    failed      0.66%
+ 149  DNMT3L__Marmota_monax                                  1.55%    passed     35.80%
+ 150  DNMT3L__Martes_martes                                  1.55%    passed     86.37%
+ 151  DNMT3L__Mastomys_coucha                                1.55%    passed     81.29%
+ 152  DNMT3L__Mauremys_mutica                                6.72%    passed     31.70%
+ 153  DNMT3L__Mauremys_reevesii                             15.25%    passed     31.47%
+ 154  DNMT3L__Meles_meles                                   21.45%    failed      2.37%
+ 155  DNMT3L__Meriones_unguiculatus                          1.55%    passed     98.30%
+ 156  DNMT3L__Mesocricetus_auratus                           1.55%    passed     99.78%
+ 157  DNMT3L__Mesoplodon_bidens                              1.03%    passed     99.98%
+ 158  DNMT3L__Mesoplodon_densirostris                        1.03%    passed    100.00%
+ 159  DNMT3L__Mesoplodon_mirus                               1.03%    passed     99.96%
+ 160  DNMT3L__Microcaecilia_unicolor                         6.20%    passed     36.57%
+ 161  DNMT3L__Microcebus_murinus                             2.07%    passed     86.44%
+ 162  DNMT3L__Micromys_minutus                               2.84%    passed     88.23%
+ 163  DNMT3L__Microtus_ochrogaster                           1.55%    passed     93.59%
+ 164  DNMT3L__Microtus_oregoni                               1.55%    passed     93.72%
+ 165  DNMT3L__Microtus_pennsylvanicus                        1.55%    passed     95.64%
+ 166  DNMT3L__Miniopterus_natalensis                         1.55%    passed     96.80%
+ 167  DNMT3L__Miniopterus_schreibersii                       0.52%    passed     97.60%
+ 168  DNMT3L__Mirounga_angustirostris                        0.26%    passed     98.00%
+ 169  DNMT3L__Mirounga_leonina                               6.20%    passed     88.60%
+ 170  DNMT3L__Molossus_molossus                              0.52%    passed     87.91%
+ 171  DNMT3L__Monodelphis_domestica                          3.36%    passed     43.67%
+ 172  DNMT3L__Monodon_monoceros                              1.03%    passed     99.99%
+ 173  DNMT3L__Moschus_berezovskii                           18.60%    passed     97.64%
+ 174  DNMT3L__Muntiacus_reevesi                              0.78%    passed     99.96%
+ 175  DNMT3L__Mus_caroli                                     2.84%    passed     95.71%
+ 176  DNMT3L__Mus_musculus                                   1.81%    passed     99.53%
+ 177  DNMT3L__Mus_pahari                                     1.55%    passed     91.41%
+ 178  DNMT3L__Muscardinus_avellanarius                       1.03%    passed     54.80%
+ 179  DNMT3L__Mustela_erminea                                1.81%    passed     87.88%
+ 180  DNMT3L__Mustela_lutreola                               1.29%    passed     75.89%
+ 181  DNMT3L__Mustela_nigripes                               0.78%    passed     81.43%
+ 182  DNMT3L__Mustela_nivalis                               10.08%    passed     79.81%
+ 183  DNMT3L__Mustela_putorius_furo                          0.78%    passed     79.90%
+ 184  DNMT3L__Myodes_glareolus                               1.55%    passed     98.54%
+ 185  DNMT3L__Myotis_brandtii                                0.52%    passed     98.19%
+ 186  DNMT3L__Myotis_daubentonii                             0.52%    passed     98.12%
+ 187  DNMT3L__Myotis_davidii                                 1.81%    passed     96.81%
+ 188  DNMT3L__Myotis_lucifugus                               0.52%    passed     98.56%
+ 189  DNMT3L__Myotis_myotis                                  0.52%    passed     98.37%
+ 190  DNMT3L__Myotis_nattereri                               0.52%    passed     98.29%
+ 191  DNMT3L__Myotis_yumanensis                              0.52%    passed     93.62%
+ 192  DNMT3L__Nannospalax_galili                             1.55%    passed     99.46%
+ 193  DNMT3L__Natator_depressus                              3.10%    passed     36.06%
+ 194  DNMT3L__Natrix_helvetica                               3.62%    passed      5.03%
+ 195  DNMT3L__Neofelis_nebulosa                              1.03%    passed     99.94%
+ 196  DNMT3L__Neogale_vison                                  0.78%    passed     84.52%
+ 197  DNMT3L__Neomonachus_schauinslandi                      0.26%    passed     98.17%
+ 198  DNMT3L__Neophocaena_asiaeorientalis_asiaeorientalis    1.03%    passed     99.98%
+ 199  DNMT3L__Nomascus_leucogenys                            0.00%    passed     99.97%
+ 200  DNMT3L__Notamacropus_eugenii                           2.84%    passed      9.21%
+ 201  DNMT3L__Notechis_scutatus                             10.85%    failed      3.05%
+ 202  DNMT3L__Nyctereutes_procyonoides                       2.33%    passed     91.55%
+ 203  DNMT3L__Nycticebus_coucang                             1.29%    passed     99.21%
+ 204  DNMT3L__Ochotona_curzoniae                             3.62%    passed     35.36%
+ 205  DNMT3L__Ochotona_princeps                              3.88%    passed     73.05%
+ 206  DNMT3L__Octodon_degus                                  0.78%    passed     27.55%
+ 207  DNMT3L__Odobenus_rosmarus_divergens                    1.03%    passed     97.77%
+ 208  DNMT3L__Odocoileus_virginianus                         0.26%    passed     99.99%
+ 209  DNMT3L__Onychomys_torridus                             2.07%    passed     97.92%
+ 210  DNMT3L__Orcinus_orca                                   5.17%    passed     99.62%
+ 211  DNMT3L__Orycteropus_afer_afer                          1.81%    passed    100.00%
+ 212  DNMT3L__Oryctolagus_cuniculus                          1.03%    failed      0.74%
+ 213  DNMT3L__Oryx_dammah                                    0.78%    passed     99.70%
+ 214  DNMT3L__Otolemur_garnettii                             1.29%    passed     98.00%
+ 215  DNMT3L__Ovis_aries                                    18.60%    passed     98.54%
+ 216  DNMT3L__Ovis_canadensis                               18.60%    passed     96.88%
+ 217  DNMT3L__Pan_paniscus                                   0.26%    passed     99.74%
+ 218  DNMT3L__Pan_troglodytes                                0.00%    passed     99.77%
+ 219  DNMT3L__Panthera_leo                                   1.03%    passed     99.98%
+ 220  DNMT3L__Panthera_onca                                  1.03%    passed     99.99%
+ 221  DNMT3L__Panthera_pardus                                1.03%    passed     99.98%
+ 222  DNMT3L__Panthera_tigris                                1.03%    passed     99.99%
+ 223  DNMT3L__Panthera_uncia                                 1.03%    passed     99.98%
+ 224  DNMT3L__Papio_anubis                                   0.00%    passed     99.97%
+ 225  DNMT3L__Paroedura_picta                                5.68%    passed     33.70%
+ 226  DNMT3L__Pelodiscus_sinensis                           23.00%    passed     70.20%
+ 227  DNMT3L__Peromyscus_californicus_insignis               1.55%    passed     99.50%
+ 228  DNMT3L__Peromyscus_eremicus                            1.55%    passed     99.09%
+ 229  DNMT3L__Peromyscus_leucopus                            1.55%    passed     98.83%
+ 230  DNMT3L__Peromyscus_maniculatus_bairdii                 1.55%    passed     98.96%
+ 231  DNMT3L__Petaurus_breviceps_papuanus                    2.84%    passed      6.61%
+ 232  DNMT3L__Phacochoerus_africanus                        11.11%    passed     86.77%
+ 233  DNMT3L__Phascolarctos_cinereus                         2.84%    passed      7.41%
+ 234  DNMT3L__Phoca_vitulina                                 0.26%    passed     98.56%
+ 235  DNMT3L__Phocoena_phocoena                              1.03%    passed     99.80%
+ 236  DNMT3L__Phocoena_sinus                                 1.03%    passed     99.88%
+ 237  DNMT3L__Phodopus_roborovskii                           1.81%    passed     99.55%
+ 238  DNMT3L__Phyllostomus_discolor                          0.26%    passed     99.65%
+ 239  DNMT3L__Phyllostomus_hastatus                          0.26%    passed     99.92%
+ 240  DNMT3L__Physeter_macrocephalus                         1.03%    passed     99.86%
+ 241  DNMT3L__Piliocolobus_tephrosceles                      0.00%    passed     99.78%
+ 242  DNMT3L__Pipistrellus_kuhlii                            0.52%    passed     97.71%
+ 243  DNMT3L__Pituophis_catenifer_annectens                  3.62%    failed      0.51%
+ 244  DNMT3L__Plecotus_auritus                               2.58%    passed     99.29%
+ 245  DNMT3L__Podarcis_bocagei                               6.72%    passed     11.85%
+ 246  DNMT3L__Podarcis_cretensis                             6.72%    passed     11.00%
+ 247  DNMT3L__Podarcis_erhardii                              6.72%    passed     13.05%
+ 248  DNMT3L__Podarcis_melisellensis                         6.72%    passed     14.30%
+ 249  DNMT3L__Podarcis_muralis                              11.63%    passed     14.32%
+ 250  DNMT3L__Podarcis_pityusensis                           6.72%    passed     14.93%
+ 251  DNMT3L__Podarcis_raffonei                              6.46%    passed     12.87%
+ 252  DNMT3L__Podarcis_vaucheri                              6.72%    passed     15.38%
+ 253  DNMT3L__Pogona_vitticeps                               3.88%    passed     24.14%
+ 254  DNMT3L__Pongo_abelii                                   0.00%    passed     99.73%
+ 255  DNMT3L__Pongo_pygmaeus                                 0.00%    passed     99.73%
+ 256  DNMT3L__Prionailurus_bengalensis                       0.26%    passed     99.98%
+ 257  DNMT3L__Prionailurus_viverrinus                        1.03%    passed     99.99%
+ 258  DNMT3L__Propithecus_coquereli                          1.03%    passed     93.35%
+ 259  DNMT3L__Protobothrops_mucrosquamatus                   4.39%    failed      0.53%
+ 260  DNMT3L__Psammomys_obesus                               1.55%    passed     99.52%
+ 261  DNMT3L__Pseudonaja_textilis                            3.62%    failed      0.73%
+ 262  DNMT3L__Pseudorca_crassidens                           1.55%    passed    100.00%
+ 263  DNMT3L__Pteronotus_mesoamericanus                      0.26%    passed     99.98%
+ 264  DNMT3L__Pteropus_alecto                                6.46%    passed     29.13%
+ 265  DNMT3L__Pteropus_medius                                2.33%    passed     83.65%
+ 266  DNMT3L__Pteropus_vampyrus                              5.94%    passed     43.15%
+ 267  DNMT3L__Puma_concolor                                 27.39%    passed     48.99%
+ 268  DNMT3L__Python_bivittatus                             13.44%    passed     32.33%
+ 269  DNMT3L__Rattus_norvegicus                              1.55%    passed     94.68%
+ 270  DNMT3L__Rattus_rattus                                  1.55%    passed     96.30%
+ 271  DNMT3L__Rhinatrema_bivittatum                          6.20%    failed      1.03%
+ 272  DNMT3L__Rhineura_floridana                             4.13%    passed     55.29%
+ 273  DNMT3L__Rhinolophus_ferrumequinum                      3.88%    passed     98.81%
+ 274  DNMT3L__Rhinolophus_hipposideros                       2.58%    passed     95.07%
+ 275  DNMT3L__Rhinolophus_sinicus                            3.88%    passed     99.58%
+ 276  DNMT3L__Rhinopithecus_bieti                            0.00%    passed     99.89%
+ 277  DNMT3L__Rhinopithecus_roxellana                        0.00%    passed     99.93%
+ 278  DNMT3L__Rousettus_aegyptiacus                          1.55%    passed     95.20%
+ 279  DNMT3L__Saccopteryx_bilineata                          0.26%    passed     98.80%
+ 280  DNMT3L__Saccopteryx_leptura                            0.26%    passed     99.26%
+ 281  DNMT3L__Sagmatias_obliquidens                         13.44%    passed     99.57%
+ 282  DNMT3L__Saimiri_boliviensis                            0.26%    passed     99.97%
+ 283  DNMT3L__Sapajus_apella                                 0.26%    passed     99.54%
+ 284  DNMT3L__Sarcophilus_harrisii                           2.84%    failed      3.25%
+ 285  DNMT3L__Sceloporus_undulatus                           3.88%    failed      4.01%
+ 286  DNMT3L__Sciurus_carolinensis                          36.43%    passed     39.29%
+ 287  DNMT3L__Sciurus_vulgaris                              36.18%    passed     46.11%
+ 288  DNMT3L__Sminthopsis_crassicaudata                      2.84%    failed      0.78%
+ 289  DNMT3L__Sorex_araneus                                  2.58%    passed     91.27%
+ 290  DNMT3L__Sorex_fumeus                                   2.58%    passed     59.55%
+ 291  DNMT3L__Spermophilus_citellus                          1.03%    passed     64.51%
+ 292  DNMT3L__Sphaerodactylus_townsendi                      3.88%    passed     31.81%
+ 293  DNMT3L__Stenella_coeruleoalba                          1.55%    passed     99.99%
+ 294  DNMT3L__Sturnira_hondurensis                           0.26%    passed     99.90%
+ 295  DNMT3L__Suncus_etruscus                                3.10%    passed     60.02%
+ 296  DNMT3L__Suricata_suricatta                            18.60%    passed     79.77%
+ 297  DNMT3L__Sus_scrofa                                     8.79%    passed     33.40%
+ 298  DNMT3L__Symphalangus_syndactylus                       0.00%    passed     99.98%
+ 299  DNMT3L__Talpa_occidentalis                             2.58%    failed      0.35%
+ 300  DNMT3L__Tamandua_tetradactyla                          0.26%    passed     47.99%
+ 301  DNMT3L__Tenrec_ecaudatus                               2.07%    passed     98.81%
+ 302  DNMT3L__Thamnophis_elegans                             4.39%    failed      0.35%
+ 303  DNMT3L__Thamnophis_sirtalis                           30.23%    failed      0.66%
+ 304  DNMT3L__Theropithecus_gelada                           0.00%    passed     99.84%
+ 305  DNMT3L__Tiliqua_scincoides                            28.17%    passed     19.12%
+ 306  DNMT3L__Trachemys_scripta_elegans                      9.30%    passed     52.56%
+ 307  DNMT3L__Trachypithecus_francoisi                       0.00%    passed     99.86%
+ 308  DNMT3L__Trichechus_manatus_latirostris                 1.03%    passed     99.87%
+ 309  DNMT3L__Trichosurus_vulpecula                          2.84%    passed      6.52%
+ 310  DNMT3L__Tupaia_chinensis                               0.26%    passed     92.29%
+ 311  DNMT3L__Tursiops_truncatus                            18.60%    passed     99.87%
+ 312  DNMT3L__Ursus_arctos                                   0.78%    passed     89.64%
+ 313  DNMT3L__Ursus_maritimus                                1.81%    passed     71.28%
+ 314  DNMT3L__Varanus_komodoensis                            4.13%    passed     51.19%
+ 315  DNMT3L__Vicugna_pacos                                  0.78%    passed     96.40%
+ 316  DNMT3L__Vipera_berus                                   3.88%    failed      4.08%
+ 317  DNMT3L__Vombatus_ursinus                               2.84%    failed      2.61%
+ 318  DNMT3L__Vulpes_lagopus                                 1.29%    passed     89.76%
+ 319  DNMT3L__Vulpes_vulpes                                  1.55%    passed     94.37%
+ 320  DNMT3L__Zalophus_californianus                         0.26%    passed     97.52%
+ 321  DNMT3L__Zootoca_vivipara                               6.72%    passed      5.53%
+ 322  DNMT3B__Homo_sapiens__XP_047295902_1                   4.91%    passed     34.89%
+ 323  DNMT3A__Homo_sapiens__NP_072046_2                      5.68%    passed      8.46%
+ 324  DNMT3B__Loxodonta_africana__XP_023405914_1             4.91%    passed     61.24%
+ 325  DNMT3B__Mus_musculus__XP_006498745_1                   5.17%    passed     22.91%
+ 326  DNMT3A__Canis_lupus_familiaris__XP_038308941_1         5.68%    passed      9.22%
+ 327  DNMT3B__Canis_lupus_familiaris__XP_038289403_1         4.91%    passed     43.63%
+ 328  DNMT3A__Loxodonta_africana__XP_023406265_1             5.68%    passed      9.33%
+ 329  DNMT3A__Xenopus_tropicalis__XP_004919668_1             5.68%    failed      4.35%
+ 330  DNMT3A__Bos_taurus__XP_059747014_1                     4.39%    passed     23.82%
+ 331  DNMT3A__Alligator_mississippiensis__XP_059583600_1     6.20%    failed      3.22%
+ 332  DNMT3B__Bos_taurus__NP_861529_2                        4.65%    passed     48.07%
+ 333  DNMT3A__Rattus_norvegicus__NP_001003958_1              5.68%    passed      8.96%
+ 334  DNMT3B__Rattus_norvegicus__NP_001383278_1              4.91%    passed     31.83%
+ 335  DNMT3A__Gallus_gallus__XP_040553157_1                  5.68%    failed      3.27%
+ 336  DNMT3B__Anolis_carolinensis__NP_001280056_1            5.94%    passed     48.68%
+ 337  DNMT3A__Mus_musculus__NP_001258682_1                   5.68%    passed      8.96%
+ 338  DNMT3A__Monodelphis_domestica__XP_016279286_1          5.43%    passed      6.39%
+ 339  DNMT3B__Alligator_mississippiensis__XP_059569104_1     4.65%    passed     79.37%
+ 340  DNMT3B__Monodelphis_domestica__XP_056667925_1          5.17%    passed     39.39%
+ 341  DNMT3A__Anolis_carolinensis__XP_062825001_1            5.43%    failed      3.23%
+ 342  DNMT3B__Gallus_gallus__NP_001019999_2                 10.34%    passed     91.74%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                  4.65%  30 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: DNMT3L__Bos_taurus is identical to DNMT3L__Bos_javanicus but kept for subsequent analysis
+NOTE: DNMT3L__Camelus_ferus is identical to DNMT3L__Camelus_bactrianus but kept for subsequent analysis
+NOTE: DNMT3L__Loxodonta_africana is identical to DNMT3L__Elephas_maximus_indicus but kept for subsequent analysis
+NOTE: DNMT3L__Equus_przewalskii is identical to DNMT3L__Equus_caballus but kept for subsequent analysis
+NOTE: DNMT3L__Zalophus_californianus is identical to DNMT3L__Eumetopias_jubatus but kept for subsequent analysis
+NOTE: DNMT3L__Symphalangus_syndactylus is identical to DNMT3L__Hylobates_moloch but kept for subsequent analysis
+NOTE: DNMT3L__Panthera_pardus is identical to DNMT3L__Panthera_leo but kept for subsequent analysis
+NOTE: DNMT3L__Pongo_pygmaeus is identical to DNMT3L__Pongo_abelii but kept for subsequent analysis
+NOTE: DNMT3A__Mus_musculus__NP_001258682_1 is identical to DNMT3A__Rattus_norvegicus__NP_001003958_1 but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.146 seconds
+Measuring multi-threading efficiency up to 10 CPU cores
+9 trees examined
+Threads: 1 / Time: 11.130 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -128957
+Threads: 2 / Time: 8.586 sec / Speedup: 1.296 / Efficiency: 65% / LogL: -128957
+Threads: 3 / Time: 7.443 sec / Speedup: 1.495 / Efficiency: 50% / LogL: -128957
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -46394.550
+Optimal log-likelihood: -46394.540
+Proportion of invariable sites: 0.034
+Gamma shape alpha: 1.434
+Parameters optimization took 1 rounds (3.453 sec)
+Time for fast ML tree search: 44.546 seconds
+
+NOTE: ModelFinder requires 216 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 387 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            48008.620    681 97379.240    1026263.240  100074.927
+  2  LG+I          47797.433    682 96958.866    1028570.866  99658.512
+  3  LG+G4         46415.867    682 94195.735    1025807.735  96895.380
+  4  LG+I+G4       46394.535    683 94155.070    1028499.070  96858.674
+  5  LG+R2         46731.129    683 94828.259    1029172.259  97531.863

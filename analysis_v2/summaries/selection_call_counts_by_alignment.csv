@@ -1,0 +1,13 @@
+Scope,Aligner,Dataset,FUBAR_Positive,FUBAR_Purifying,FEL_Positive_q10,FEL_Positive_q05,FEL_Purifying_q05,MEME_q10,MEME_q05,Joint_Pervasive_q10,Joint_Pervasive_q05,Joint_Purifying_q05
+Euarchontoglires,MACSE,Euarchontoglires_MACSE,2,264,1,0,163,2,2,1,0,163
+Euarchontoglires,MAFFT,Euarchontoglires_MAFFT,3,255,1,0,162,0,0,1,0,162
+Euarchontoglires,PRANK,Euarchontoglires_PRANK,2,245,1,0,166,0,0,1,0,166
+Laurasiatheria,MACSE,Laurasiatheria_MACSE,2,232,2,1,146,18,10,2,1,145
+Laurasiatheria,MAFFT,Laurasiatheria_MAFFT,4,230,4,1,142,28,19,3,1,141
+Laurasiatheria,PRANK,Laurasiatheria_PRANK,5,241,4,1,151,1,1,4,1,151
+Placentalia,MACSE,Placentalia_MACSE,4,287,5,2,231,19,8,4,1,230
+Placentalia,MAFFT,Placentalia_MAFFT,3,280,5,3,235,26,17,3,2,233
+Placentalia,PRANK,Placentalia_PRANK,3,288,4,2,231,0,0,2,2,229
+Sauropsida,MACSE,Sauropsida_MACSE,1,188,0,0,115,6,5,0,0,115
+Sauropsida,MAFFT,Sauropsida_MAFFT,0,190,1,1,115,4,3,0,0,115
+Sauropsida,PRANK,Sauropsida_PRANK,0,196,1,0,113,2,1,0,0,113

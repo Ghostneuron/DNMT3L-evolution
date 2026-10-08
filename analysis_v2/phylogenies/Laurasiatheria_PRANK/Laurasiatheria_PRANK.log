@@ -1,0 +1,79 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Jis-MacBook-Air.local (SSE4.2, 24 GB RAM)
+Command: /opt/homebrew/bin/iqtree2 -s /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/selection_inputs/Laurasiatheria_PRANK_selection_input.fasta -st CODON -m MGK+F3X4+R4 -fast --alrt 1000 -T 2 --seed 20261006 --prefix /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/phylogenies/Laurasiatheria_PRANK/Laurasiatheria_PRANK
+Seed:    20261006 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Oct  6 13:41:43 2026
+Kernel:  SSE2 - 2 threads (10 CPU cores detected)
+
+Reading alignment file /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/selection_inputs/Laurasiatheria_PRANK_selection_input.fasta ... Fasta format detected
+Reading fasta file: done in 0.00219202 secs using 91.47% CPU
+Alignment most likely contains DNA/RNA sequences
+Converting to codon sequences with genetic code  ...
+Alignment has 117 sequences with 379 columns, 377 distinct patterns
+348 parsimony-informative, 19 singleton sites, 12 constant sites
+Analyzing sequences: done in 8.67844e-05 secs using 177.5% CPU
+Creating fast initial parsimony tree by random order stepwise addition...
+0.59 seconds, parsimony score: 3162 (based on 367 sites)
+
+NOTE: 96 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.50)
+1. Initial log-likelihood: -20534.06
+2. Current log-likelihood: -18932.18
+3. Current log-likelihood: -18930.19
+Optimal log-likelihood: -18930.19
+Nonsynonymous/synonymous ratio (omega): 0.23
+Transition/transversion ratio (kappa): 3.61
+Site proportion and rates:  (0.02,0.03) (0.45,0.44) (0.37,1.17) (0.15,2.39)
+Parameters optimization took 3 rounds (302.53 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 104.156 secs using 132.1% CPU
+Computing ML distances took 104.186197 sec (of wall-clock time) 137.566815 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000314951 secs using 83.19% CPU
+Computing RapidNJ tree took 0.028481 sec (of wall-clock time) 0.002434 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -18791.383
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -18725.608
+Finish initializing candidate tree set (4)
+Current best tree score: -18725.608 / CPU time: 222.639
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:10m:35s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -18725.608
+Optimal log-likelihood: -18725.608
+Nonsynonymous/synonymous ratio (omega): 0.219
+Transition/transversion ratio (kappa): 3.772
+Site proportion and rates:  (0.021,0.030) (0.435,0.415) (0.382,1.167) (0.162,2.310)
+Parameters optimization took 1 rounds (30.774 sec)
+BEST SCORE FOUND : -18725.608
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+16.283 sec.
+Total tree length: 10.439
+
+Total number of iterations: 2
+CPU time used for tree search: 221.183 sec (0h:3m:41s)
+Wall-clock time used for tree search: 222.639 sec (0h:3m:42s)
+Total CPU time used: 737.339 sec (0h:12m:17s)
+Total wall-clock time used: 682.206 sec (0h:11m:22s)
+
+Analysis results written to: 
+  IQ-TREE report:                /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/phylogenies/Laurasiatheria_PRANK/Laurasiatheria_PRANK.iqtree
+  Maximum-likelihood tree:       /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/phylogenies/Laurasiatheria_PRANK/Laurasiatheria_PRANK.treefile
+  Likelihood distances:          /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/phylogenies/Laurasiatheria_PRANK/Laurasiatheria_PRANK.mldist
+  Screen log file:               /Volumes/Expansion/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/analysis_v2/phylogenies/Laurasiatheria_PRANK/Laurasiatheria_PRANK.log
+
+Date and Time: Tue Oct  6 13:53:05 2026

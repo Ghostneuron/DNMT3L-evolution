@@ -1,0 +1,592 @@
+DNMT3L broadened reanalysis release validation
+Generated: 2026-10-08T03:47:32.593935+00:00
+
+PASS: 577
+FAIL: 0
+WARN: 2
+
+PASSED CHECKS
+[PASS] Filtered-alignment summary contains 12 datasets
+[PASS] All four taxonomic scopes are present
+[PASS] All three aligners are present
+[PASS] Retained-site coordinate map exists
+[PASS] NP380 is assigned to the corrected C-terminal methyltransferase-like interval
+[PASS] Cross-aligner concordance summary exists
+[PASS] Cross-aligner summary contains the coverage-aware stability fields
+[PASS] Every alignment-stable site meets the 80% joint-resolution floor
+[PASS] Every alignment-stable site meets the 90% exact-concordance floor
+[PASS] Raw-alignment provenance manifest exists
+[PASS] Raw-alignment provenance manifest contains 12 datasets
+[PASS] Raw-alignment manifest distinguishes archived and newly generated products
+[PASS] Raw-alignment manifest hash matches: Placentalia_MACSE
+[PASS] Raw-alignment manifest hash matches: Placentalia_MAFFT
+[PASS] Raw-alignment manifest hash matches: Placentalia_PRANK
+[PASS] Raw-alignment manifest hash matches: Euarchontoglires_MACSE
+[PASS] Raw-alignment manifest hash matches: Euarchontoglires_MAFFT
+[PASS] Raw-alignment manifest hash matches: Euarchontoglires_PRANK
+[PASS] Raw-alignment manifest hash matches: Laurasiatheria_MACSE
+[PASS] Raw-alignment manifest hash matches: Laurasiatheria_MAFFT
+[PASS] Raw-alignment manifest hash matches: Laurasiatheria_PRANK
+[PASS] Raw-alignment manifest hash matches: Sauropsida_MACSE
+[PASS] Raw-alignment manifest hash matches: Sauropsida_MAFFT
+[PASS] Raw-alignment manifest hash matches: Sauropsida_PRANK
+[PASS] Archived source alignment commands are retained
+[PASS] Archived source-package checksum manifest exists
+[PASS] Archived source-package checksum manifest is parseable
+[PASS] All 258 archived source-package hashes match
+[PASS] Selection input exists: Placentalia_MACSE
+[PASS] Gene tree exists: Placentalia_MACSE
+[PASS] Final gene-tree FUBAR: Placentalia_MACSE
+[PASS] Final gene-tree FEL: Placentalia_MACSE
+[PASS] Final gene-tree MEME: Placentalia_MACSE
+[PASS] Final gene-tree BUSTED: Placentalia_MACSE
+[PASS] Selection input exists: Placentalia_MAFFT
+[PASS] Gene tree exists: Placentalia_MAFFT
+[PASS] Final gene-tree FUBAR: Placentalia_MAFFT
+[PASS] Final gene-tree FEL: Placentalia_MAFFT
+[PASS] Final gene-tree MEME: Placentalia_MAFFT
+[PASS] Final gene-tree BUSTED: Placentalia_MAFFT
+[PASS] Selection input exists: Placentalia_PRANK
+[PASS] Gene tree exists: Placentalia_PRANK
+[PASS] Final gene-tree FUBAR: Placentalia_PRANK
+[PASS] Final gene-tree FEL: Placentalia_PRANK
+[PASS] Final gene-tree MEME: Placentalia_PRANK
+[PASS] Final gene-tree BUSTED: Placentalia_PRANK
+[PASS] Selection input exists: Euarchontoglires_MACSE
+[PASS] Gene tree exists: Euarchontoglires_MACSE
+[PASS] Final gene-tree FUBAR: Euarchontoglires_MACSE
+[PASS] Final gene-tree FEL: Euarchontoglires_MACSE
+[PASS] Final gene-tree MEME: Euarchontoglires_MACSE
+[PASS] Final gene-tree BUSTED: Euarchontoglires_MACSE
+[PASS] Selection input exists: Euarchontoglires_MAFFT
+[PASS] Gene tree exists: Euarchontoglires_MAFFT
+[PASS] Final gene-tree FUBAR: Euarchontoglires_MAFFT
+[PASS] Final gene-tree FEL: Euarchontoglires_MAFFT
+[PASS] Final gene-tree MEME: Euarchontoglires_MAFFT
+[PASS] Final gene-tree BUSTED: Euarchontoglires_MAFFT
+[PASS] Selection input exists: Euarchontoglires_PRANK
+[PASS] Gene tree exists: Euarchontoglires_PRANK
+[PASS] Final gene-tree FUBAR: Euarchontoglires_PRANK
+[PASS] Final gene-tree FEL: Euarchontoglires_PRANK
+[PASS] Final gene-tree MEME: Euarchontoglires_PRANK
+[PASS] Final gene-tree BUSTED: Euarchontoglires_PRANK
+[PASS] Selection input exists: Laurasiatheria_MACSE
+[PASS] Gene tree exists: Laurasiatheria_MACSE
+[PASS] Final gene-tree FUBAR: Laurasiatheria_MACSE
+[PASS] Final gene-tree FEL: Laurasiatheria_MACSE
+[PASS] Final gene-tree MEME: Laurasiatheria_MACSE
+[PASS] Final gene-tree BUSTED: Laurasiatheria_MACSE
+[PASS] Selection input exists: Laurasiatheria_MAFFT
+[PASS] Gene tree exists: Laurasiatheria_MAFFT
+[PASS] Final gene-tree FUBAR: Laurasiatheria_MAFFT
+[PASS] Final gene-tree FEL: Laurasiatheria_MAFFT
+[PASS] Final gene-tree MEME: Laurasiatheria_MAFFT
+[PASS] Final gene-tree BUSTED: Laurasiatheria_MAFFT
+[PASS] Selection input exists: Laurasiatheria_PRANK
+[PASS] Gene tree exists: Laurasiatheria_PRANK
+[PASS] Final gene-tree FUBAR: Laurasiatheria_PRANK
+[PASS] Final gene-tree FEL: Laurasiatheria_PRANK
+[PASS] Final gene-tree MEME: Laurasiatheria_PRANK
+[PASS] Final gene-tree BUSTED: Laurasiatheria_PRANK
+[PASS] Selection input exists: Sauropsida_MACSE
+[PASS] Gene tree exists: Sauropsida_MACSE
+[PASS] Final gene-tree FUBAR: Sauropsida_MACSE
+[PASS] Final gene-tree FEL: Sauropsida_MACSE
+[PASS] Final gene-tree MEME: Sauropsida_MACSE
+[PASS] Final gene-tree BUSTED: Sauropsida_MACSE
+[PASS] Selection input exists: Sauropsida_MAFFT
+[PASS] Gene tree exists: Sauropsida_MAFFT
+[PASS] Final gene-tree FUBAR: Sauropsida_MAFFT
+[PASS] Final gene-tree FEL: Sauropsida_MAFFT
+[PASS] Final gene-tree MEME: Sauropsida_MAFFT
+[PASS] Final gene-tree BUSTED: Sauropsida_MAFFT
+[PASS] Selection input exists: Sauropsida_PRANK
+[PASS] Gene tree exists: Sauropsida_PRANK
+[PASS] Final gene-tree FUBAR: Sauropsida_PRANK
+[PASS] Final gene-tree FEL: Sauropsida_PRANK
+[PASS] Final gene-tree MEME: Sauropsida_PRANK
+[PASS] Final gene-tree BUSTED: Sauropsida_PRANK
+[PASS] Species tree exists: Placentalia
+[PASS] Final species-tree FUBAR: Placentalia
+[PASS] Final species-tree FEL: Placentalia
+[PASS] Final species-tree MEME: Placentalia
+[PASS] Final species-tree BUSTED: Placentalia
+[PASS] Species tree exists: Euarchontoglires
+[PASS] Final species-tree FUBAR: Euarchontoglires
+[PASS] Final species-tree FEL: Euarchontoglires
+[PASS] Final species-tree MEME: Euarchontoglires
+[PASS] Final species-tree BUSTED: Euarchontoglires
+[PASS] Species tree exists: Laurasiatheria
+[PASS] Final species-tree FUBAR: Laurasiatheria
+[PASS] Final species-tree FEL: Laurasiatheria
+[PASS] Final species-tree MEME: Laurasiatheria
+[PASS] Final species-tree BUSTED: Laurasiatheria
+[PASS] Species tree exists: Sauropsida
+[PASS] Final species-tree FUBAR: Sauropsida
+[PASS] Final species-tree FEL: Sauropsida
+[PASS] Final species-tree MEME: Sauropsida
+[PASS] Final species-tree BUSTED: Sauropsida
+[PASS] Manifest exists: analysis_v2/hyphy/hyphy_manifest.csv
+[PASS] hyphy_manifest.csv contains 48 rows
+[PASS] Valid model JSON: Euarchontoglires_MACSE BUSTED
+[PASS] Manifest hash matches: Euarchontoglires_MACSE BUSTED
+[PASS] Valid model JSON: Euarchontoglires_MACSE FEL
+[PASS] Manifest hash matches: Euarchontoglires_MACSE FEL
+[PASS] Valid model JSON: Euarchontoglires_MACSE FUBAR
+[PASS] Manifest hash matches: Euarchontoglires_MACSE FUBAR
+[PASS] Valid model JSON: Euarchontoglires_MACSE MEME
+[PASS] Manifest hash matches: Euarchontoglires_MACSE MEME
+[PASS] Valid model JSON: Euarchontoglires_MAFFT BUSTED
+[PASS] Manifest hash matches: Euarchontoglires_MAFFT BUSTED
+[PASS] Valid model JSON: Euarchontoglires_MAFFT FEL
+[PASS] Manifest hash matches: Euarchontoglires_MAFFT FEL
+[PASS] Valid model JSON: Euarchontoglires_MAFFT FUBAR
+[PASS] Manifest hash matches: Euarchontoglires_MAFFT FUBAR
+[PASS] Valid model JSON: Euarchontoglires_MAFFT MEME
+[PASS] Manifest hash matches: Euarchontoglires_MAFFT MEME
+[PASS] Valid model JSON: Euarchontoglires_PRANK BUSTED
+[PASS] Manifest hash matches: Euarchontoglires_PRANK BUSTED
+[PASS] Valid model JSON: Euarchontoglires_PRANK FEL
+[PASS] Manifest hash matches: Euarchontoglires_PRANK FEL
+[PASS] Valid model JSON: Euarchontoglires_PRANK FUBAR
+[PASS] Manifest hash matches: Euarchontoglires_PRANK FUBAR
+[PASS] Valid model JSON: Euarchontoglires_PRANK MEME
+[PASS] Manifest hash matches: Euarchontoglires_PRANK MEME
+[PASS] Valid model JSON: Laurasiatheria_MACSE BUSTED
+[PASS] Manifest hash matches: Laurasiatheria_MACSE BUSTED
+[PASS] Valid model JSON: Laurasiatheria_MACSE FEL
+[PASS] Manifest hash matches: Laurasiatheria_MACSE FEL
+[PASS] Valid model JSON: Laurasiatheria_MACSE FUBAR
+[PASS] Manifest hash matches: Laurasiatheria_MACSE FUBAR
+[PASS] Valid model JSON: Laurasiatheria_MACSE MEME
+[PASS] Manifest hash matches: Laurasiatheria_MACSE MEME
+[PASS] Valid model JSON: Laurasiatheria_MAFFT BUSTED
+[PASS] Manifest hash matches: Laurasiatheria_MAFFT BUSTED
+[PASS] Valid model JSON: Laurasiatheria_MAFFT FEL
+[PASS] Manifest hash matches: Laurasiatheria_MAFFT FEL
+[PASS] Valid model JSON: Laurasiatheria_MAFFT FUBAR
+[PASS] Manifest hash matches: Laurasiatheria_MAFFT FUBAR
+[PASS] Valid model JSON: Laurasiatheria_MAFFT MEME
+[PASS] Manifest hash matches: Laurasiatheria_MAFFT MEME
+[PASS] Valid model JSON: Laurasiatheria_PRANK BUSTED
+[PASS] Manifest hash matches: Laurasiatheria_PRANK BUSTED
+[PASS] Valid model JSON: Laurasiatheria_PRANK FEL
+[PASS] Manifest hash matches: Laurasiatheria_PRANK FEL
+[PASS] Valid model JSON: Laurasiatheria_PRANK FUBAR
+[PASS] Manifest hash matches: Laurasiatheria_PRANK FUBAR
+[PASS] Valid model JSON: Laurasiatheria_PRANK MEME
+[PASS] Manifest hash matches: Laurasiatheria_PRANK MEME
+[PASS] Valid model JSON: Placentalia_MACSE BUSTED
+[PASS] Manifest hash matches: Placentalia_MACSE BUSTED
+[PASS] Valid model JSON: Placentalia_MACSE FEL
+[PASS] Manifest hash matches: Placentalia_MACSE FEL
+[PASS] Valid model JSON: Placentalia_MACSE FUBAR
+[PASS] Manifest hash matches: Placentalia_MACSE FUBAR
+[PASS] Valid model JSON: Placentalia_MACSE MEME
+[PASS] Manifest hash matches: Placentalia_MACSE MEME
+[PASS] Valid model JSON: Placentalia_MAFFT BUSTED
+[PASS] Manifest hash matches: Placentalia_MAFFT BUSTED
+[PASS] Valid model JSON: Placentalia_MAFFT FEL
+[PASS] Manifest hash matches: Placentalia_MAFFT FEL
+[PASS] Valid model JSON: Placentalia_MAFFT FUBAR
+[PASS] Manifest hash matches: Placentalia_MAFFT FUBAR
+[PASS] Valid model JSON: Placentalia_MAFFT MEME
+[PASS] Manifest hash matches: Placentalia_MAFFT MEME
+[PASS] Valid model JSON: Placentalia_PRANK BUSTED
+[PASS] Manifest hash matches: Placentalia_PRANK BUSTED
+[PASS] Valid model JSON: Placentalia_PRANK FEL
+[PASS] Manifest hash matches: Placentalia_PRANK FEL
+[PASS] Valid model JSON: Placentalia_PRANK FUBAR
+[PASS] Manifest hash matches: Placentalia_PRANK FUBAR
+[PASS] Valid model JSON: Placentalia_PRANK MEME
+[PASS] Manifest hash matches: Placentalia_PRANK MEME
+[PASS] Valid model JSON: Sauropsida_MACSE BUSTED
+[PASS] Manifest hash matches: Sauropsida_MACSE BUSTED
+[PASS] Valid model JSON: Sauropsida_MACSE FEL
+[PASS] Manifest hash matches: Sauropsida_MACSE FEL
+[PASS] Valid model JSON: Sauropsida_MACSE FUBAR
+[PASS] Manifest hash matches: Sauropsida_MACSE FUBAR
+[PASS] Valid model JSON: Sauropsida_MACSE MEME
+[PASS] Manifest hash matches: Sauropsida_MACSE MEME
+[PASS] Valid model JSON: Sauropsida_MAFFT BUSTED
+[PASS] Manifest hash matches: Sauropsida_MAFFT BUSTED
+[PASS] Valid model JSON: Sauropsida_MAFFT FEL
+[PASS] Manifest hash matches: Sauropsida_MAFFT FEL
+[PASS] Valid model JSON: Sauropsida_MAFFT FUBAR
+[PASS] Manifest hash matches: Sauropsida_MAFFT FUBAR
+[PASS] Valid model JSON: Sauropsida_MAFFT MEME
+[PASS] Manifest hash matches: Sauropsida_MAFFT MEME
+[PASS] Valid model JSON: Sauropsida_PRANK BUSTED
+[PASS] Manifest hash matches: Sauropsida_PRANK BUSTED
+[PASS] Valid model JSON: Sauropsida_PRANK FEL
+[PASS] Manifest hash matches: Sauropsida_PRANK FEL
+[PASS] Valid model JSON: Sauropsida_PRANK FUBAR
+[PASS] Manifest hash matches: Sauropsida_PRANK FUBAR
+[PASS] Valid model JSON: Sauropsida_PRANK MEME
+[PASS] Manifest hash matches: Sauropsida_PRANK MEME
+[PASS] Manifest exists: analysis_v2/species_tree_hyphy/species_tree_hyphy_manifest.csv
+[PASS] species_tree_hyphy_manifest.csv contains 16 rows
+[PASS] Valid model JSON: Euarchontoglires_MACSE BUSTED
+[PASS] Manifest hash matches: Euarchontoglires_MACSE BUSTED
+[PASS] Valid model JSON: Euarchontoglires_MACSE FEL
+[PASS] Manifest hash matches: Euarchontoglires_MACSE FEL
+[PASS] Valid model JSON: Euarchontoglires_MACSE FUBAR
+[PASS] Manifest hash matches: Euarchontoglires_MACSE FUBAR
+[PASS] Valid model JSON: Euarchontoglires_MACSE MEME
+[PASS] Manifest hash matches: Euarchontoglires_MACSE MEME
+[PASS] Valid model JSON: Laurasiatheria_MACSE BUSTED
+[PASS] Manifest hash matches: Laurasiatheria_MACSE BUSTED
+[PASS] Valid model JSON: Laurasiatheria_MACSE FEL
+[PASS] Manifest hash matches: Laurasiatheria_MACSE FEL
+[PASS] Valid model JSON: Laurasiatheria_MACSE FUBAR
+[PASS] Manifest hash matches: Laurasiatheria_MACSE FUBAR
+[PASS] Valid model JSON: Laurasiatheria_MACSE MEME
+[PASS] Manifest hash matches: Laurasiatheria_MACSE MEME
+[PASS] Valid model JSON: Placentalia_MACSE BUSTED
+[PASS] Manifest hash matches: Placentalia_MACSE BUSTED
+[PASS] Valid model JSON: Placentalia_MACSE FEL
+[PASS] Manifest hash matches: Placentalia_MACSE FEL
+[PASS] Valid model JSON: Placentalia_MACSE FUBAR
+[PASS] Manifest hash matches: Placentalia_MACSE FUBAR
+[PASS] Valid model JSON: Placentalia_MACSE MEME
+[PASS] Manifest hash matches: Placentalia_MACSE MEME
+[PASS] Valid model JSON: Sauropsida_MACSE BUSTED
+[PASS] Manifest hash matches: Sauropsida_MACSE BUSTED
+[PASS] Valid model JSON: Sauropsida_MACSE FEL
+[PASS] Manifest hash matches: Sauropsida_MACSE FEL
+[PASS] Valid model JSON: Sauropsida_MACSE FUBAR
+[PASS] Manifest hash matches: Sauropsida_MACSE FUBAR
+[PASS] Valid model JSON: Sauropsida_MACSE MEME
+[PASS] Manifest hash matches: Sauropsida_MACSE MEME
+[PASS] Manifest exists: analysis_v2/fubar_isolated_inputs/fubar_topology_isolation_manifest.csv
+[PASS] fubar_topology_isolation_manifest.csv contains 16 rows
+[PASS] Valid model JSON: Euarchontoglires_MACSE gene_tree
+[PASS] Manifest hash matches: Euarchontoglires_MACSE gene_tree
+[PASS] Valid model JSON: Euarchontoglires_MAFFT gene_tree
+[PASS] Manifest hash matches: Euarchontoglires_MAFFT gene_tree
+[PASS] Valid model JSON: Euarchontoglires_PRANK gene_tree
+[PASS] Manifest hash matches: Euarchontoglires_PRANK gene_tree
+[PASS] Valid model JSON: Laurasiatheria_MACSE gene_tree
+[PASS] Manifest hash matches: Laurasiatheria_MACSE gene_tree
+[PASS] Valid model JSON: Laurasiatheria_MAFFT gene_tree
+[PASS] Manifest hash matches: Laurasiatheria_MAFFT gene_tree
+[PASS] Valid model JSON: Laurasiatheria_PRANK gene_tree
+[PASS] Manifest hash matches: Laurasiatheria_PRANK gene_tree
+[PASS] Valid model JSON: Placentalia_MACSE gene_tree
+[PASS] Manifest hash matches: Placentalia_MACSE gene_tree
+[PASS] Valid model JSON: Placentalia_MAFFT gene_tree
+[PASS] Manifest hash matches: Placentalia_MAFFT gene_tree
+[PASS] Valid model JSON: Placentalia_PRANK gene_tree
+[PASS] Manifest hash matches: Placentalia_PRANK gene_tree
+[PASS] Valid model JSON: Sauropsida_MACSE gene_tree
+[PASS] Manifest hash matches: Sauropsida_MACSE gene_tree
+[PASS] Valid model JSON: Sauropsida_MAFFT gene_tree
+[PASS] Manifest hash matches: Sauropsida_MAFFT gene_tree
+[PASS] Valid model JSON: Sauropsida_PRANK gene_tree
+[PASS] Manifest hash matches: Sauropsida_PRANK gene_tree
+[PASS] Valid model JSON: Euarchontoglires_MACSE species_tree
+[PASS] Manifest hash matches: Euarchontoglires_MACSE species_tree
+[PASS] Valid model JSON: Laurasiatheria_MACSE species_tree
+[PASS] Manifest hash matches: Laurasiatheria_MACSE species_tree
+[PASS] Valid model JSON: Placentalia_MACSE species_tree
+[PASS] Manifest hash matches: Placentalia_MACSE species_tree
+[PASS] Valid model JSON: Sauropsida_MACSE species_tree
+[PASS] Manifest hash matches: Sauropsida_MACSE species_tree
+[PASS] FUBAR topology-isolation manifest contains 16 final runs
+[PASS] Every FUBAR run records a tree hash
+[PASS] Each FUBAR run uses a distinct cache path
+[PASS] No shared-path FUBAR cache remains beside active selection inputs
+[PASS] Shared-path FUBAR cache archive manifest exists
+[PASS] Shared-path cache archive contains 12 alignment caches
+[PASS] Archived shared-cache hash matches: Euarchontoglires_MACSE_selection_input.fasta.FUBAR.cache
+[PASS] Archived shared-cache hash matches: Euarchontoglires_MAFFT_selection_input.fasta.FUBAR.cache
+[PASS] Archived shared-cache hash matches: Euarchontoglires_PRANK_selection_input.fasta.FUBAR.cache
+[PASS] Archived shared-cache hash matches: Laurasiatheria_MACSE_selection_input.fasta.FUBAR.cache
+[PASS] Archived shared-cache hash matches: Laurasiatheria_MAFFT_selection_input.fasta.FUBAR.cache
+[PASS] Archived shared-cache hash matches: Laurasiatheria_PRANK_selection_input.fasta.FUBAR.cache
+[PASS] Archived shared-cache hash matches: Placentalia_MACSE_selection_input.fasta.FUBAR.cache
+[PASS] Archived shared-cache hash matches: Placentalia_MAFFT_selection_input.fasta.FUBAR.cache
+[PASS] Archived shared-cache hash matches: Placentalia_PRANK_selection_input.fasta.FUBAR.cache
+[PASS] Archived shared-cache hash matches: Sauropsida_MACSE_selection_input.fasta.FUBAR.cache
+[PASS] Archived shared-cache hash matches: Sauropsida_MAFFT_selection_input.fasta.FUBAR.cache
+[PASS] Archived shared-cache hash matches: Sauropsida_PRANK_selection_input.fasta.FUBAR.cache
+[PASS] Superseded broader-target conditional-output archive manifest exists
+[PASS] Superseded conditional archive contains one summary, four JSON files, and four logs
+[PASS] Superseded conditional-output hash matches: MEME_multihit_primary_sites_summary.csv
+[PASS] Superseded conditional-output hash matches: MEME_primary_sites_DoubleTriple.json
+[PASS] Superseded conditional-output hash matches: MEME_primary_sites_DoubleTriple.json
+[PASS] Superseded conditional-output hash matches: MEME_primary_sites_DoubleTriple.json
+[PASS] Superseded conditional-output hash matches: MEME_primary_sites_DoubleTriple.json
+[PASS] Superseded conditional-output hash matches: Placentalia_MACSE_meme_multihit.log
+[PASS] Superseded conditional-output hash matches: Euarchontoglires_MACSE_meme_multihit.log
+[PASS] Superseded conditional-output hash matches: Laurasiatheria_MACSE_meme_multihit.log
+[PASS] Superseded conditional-output hash matches: Sauropsida_MACSE_meme_multihit.log
+[PASS] Summary exists: sitewise_selection_all_models.csv
+[PASS] Summary exists: site_robustness_by_scope.csv
+[PASS] Summary exists: cross_scope_recurrence.csv
+[PASS] Summary exists: BUSTED_gene_wide_summary.csv
+[PASS] Summary exists: BUSTED_robustness_by_scope.csv
+[PASS] Summary exists: h358_expanded_audit.csv
+[PASS] Summary exists: gene_tree_vs_species_tree_sitewise.csv
+[PASS] Summary exists: h358_tree_topology_sensitivity.csv
+[PASS] Summary exists: switching_helix_window_sensitivity.csv
+[PASS] Summary exists: tree_aware_parsimony_constraint_by_site.csv
+[PASS] Summary exists: tree_aware_parsimony_domain_tests.csv
+[PASS] Summary exists: tree_aware_parsimony_structural_tests.csv
+[PASS] Summary exists: tree_aware_parsimony_window_sensitivity.csv
+[PASS] Summary exists: phylogeny_diagnostics.csv
+[PASS] Summary exists: ADD_vs_C_terminal_entropy_by_alignment.csv
+[PASS] Summary exists: BUSTED_error_sink_summary.csv
+[PASS] Summary exists: BUSTED_multihit_moderate_risk_summary.csv
+[PASS] Summary exists: FEL_multihit_primary_sites_summary.csv
+[PASS] Summary exists: MEME_multihit_primary_sites_summary.csv
+[PASS] Every robust site passes the coverage-aware alignment-stability rule
+[PASS] Robust_Pervasive_q10 requires support from at least two aligners
+[PASS] Robust_Pervasive_q05 requires support from at least two aligners
+[PASS] Robust_Episodic_q10 requires support from at least two aligners
+[PASS] Robust_Episodic_q05 requires support from at least two aligners
+[PASS] Robust_Purifying_q05 requires support from at least two aligners
+[PASS] h358 audit contains all 12 scope-by-aligner models
+[PASS] h358 audit contains all four scopes
+[PASS] h358 audit contains all three aligners
+[PASS] BUSTED error-sink runs exactly match robust primary scopes
+[PASS] BUSTED error-sink q values match BH correction across tested scopes
+[PASS] Valid BUSTED error-sink JSON: Euarchontoglires
+[PASS] BUSTED error-sink p value matches JSON: Euarchontoglires
+[PASS] Valid BUSTED error-sink JSON: Laurasiatheria
+[PASS] BUSTED error-sink p value matches JSON: Laurasiatheria
+[PASS] Valid BUSTED error-sink JSON: Placentalia
+[PASS] BUSTED error-sink p value matches JSON: Placentalia
+[PASS] Valid BUSTED error-sink JSON: Sauropsida
+[PASS] BUSTED error-sink p value matches JSON: Sauropsida
+[PASS] Multinucleotide BUSTED runs exactly match robust moderate-risk MACSE scopes
+[PASS] Multinucleotide BUSTED q values match BH correction across tested scopes
+[PASS] Valid multinucleotide BUSTED JSON: Euarchontoglires
+[PASS] Multinucleotide BUSTED p value matches JSON: Euarchontoglires
+[PASS] Multinucleotide BUSTED setting recorded: Euarchontoglires
+[PASS] Valid multinucleotide BUSTED JSON: Sauropsida
+[PASS] Multinucleotide BUSTED p value matches JSON: Sauropsida
+[PASS] Multinucleotide BUSTED setting recorded: Sauropsida
+[PASS] Multinucleotide MEME runs exactly cover strict candidates plus h358 across three aligners
+[PASS] Multinucleotide MEME sensitivity includes h358 in all 12 scope-by-aligner data sets
+[PASS] Multinucleotide MEME dataset labels match scope and aligner
+[PASS] Every focal MEME site filter uses the validated leading-comma syntax
+[PASS] Valid multinucleotide MEME JSON: Euarchontoglires_MACSE
+[PASS] Recorded multinucleotide MEME filter matches: Euarchontoglires_MACSE
+[PASS] Multinucleotide MEME focal p values match JSON: Euarchontoglires_MACSE
+[PASS] Unevaluable MEME targets are zero-information p=1 rows: Euarchontoglires_MACSE
+[PASS] Any additional MEME evaluations are decimal prefixes of requested sites: Euarchontoglires_MACSE
+[PASS] Multinucleotide MEME prefix-expansion audit matches JSON: Euarchontoglires_MACSE
+[PASS] Valid multinucleotide MEME JSON: Euarchontoglires_MAFFT
+[PASS] Recorded multinucleotide MEME filter matches: Euarchontoglires_MAFFT
+[PASS] Multinucleotide MEME focal p values match JSON: Euarchontoglires_MAFFT
+[PASS] Unevaluable MEME targets are zero-information p=1 rows: Euarchontoglires_MAFFT
+[PASS] Any additional MEME evaluations are decimal prefixes of requested sites: Euarchontoglires_MAFFT
+[PASS] Multinucleotide MEME prefix-expansion audit matches JSON: Euarchontoglires_MAFFT
+[PASS] Valid multinucleotide MEME JSON: Euarchontoglires_PRANK
+[PASS] Recorded multinucleotide MEME filter matches: Euarchontoglires_PRANK
+[PASS] Multinucleotide MEME focal p values match JSON: Euarchontoglires_PRANK
+[PASS] Unevaluable MEME targets are zero-information p=1 rows: Euarchontoglires_PRANK
+[PASS] Any additional MEME evaluations are decimal prefixes of requested sites: Euarchontoglires_PRANK
+[PASS] Multinucleotide MEME prefix-expansion audit matches JSON: Euarchontoglires_PRANK
+[PASS] Valid multinucleotide MEME JSON: Laurasiatheria_MACSE
+[PASS] Recorded multinucleotide MEME filter matches: Laurasiatheria_MACSE
+[PASS] Multinucleotide MEME focal p values match JSON: Laurasiatheria_MACSE
+[PASS] Unevaluable MEME targets are zero-information p=1 rows: Laurasiatheria_MACSE
+[PASS] Any additional MEME evaluations are decimal prefixes of requested sites: Laurasiatheria_MACSE
+[PASS] Multinucleotide MEME prefix-expansion audit matches JSON: Laurasiatheria_MACSE
+[PASS] Valid multinucleotide MEME JSON: Laurasiatheria_MAFFT
+[PASS] Recorded multinucleotide MEME filter matches: Laurasiatheria_MAFFT
+[PASS] Multinucleotide MEME focal p values match JSON: Laurasiatheria_MAFFT
+[PASS] Unevaluable MEME targets are zero-information p=1 rows: Laurasiatheria_MAFFT
+[PASS] Any additional MEME evaluations are decimal prefixes of requested sites: Laurasiatheria_MAFFT
+[PASS] Multinucleotide MEME prefix-expansion audit matches JSON: Laurasiatheria_MAFFT
+[PASS] Valid multinucleotide MEME JSON: Laurasiatheria_PRANK
+[PASS] Recorded multinucleotide MEME filter matches: Laurasiatheria_PRANK
+[PASS] Multinucleotide MEME focal p values match JSON: Laurasiatheria_PRANK
+[PASS] Unevaluable MEME targets are zero-information p=1 rows: Laurasiatheria_PRANK
+[PASS] Any additional MEME evaluations are decimal prefixes of requested sites: Laurasiatheria_PRANK
+[PASS] Multinucleotide MEME prefix-expansion audit matches JSON: Laurasiatheria_PRANK
+[PASS] Valid multinucleotide MEME JSON: Placentalia_MACSE
+[PASS] Recorded multinucleotide MEME filter matches: Placentalia_MACSE
+[PASS] Multinucleotide MEME focal p values match JSON: Placentalia_MACSE
+[PASS] Unevaluable MEME targets are zero-information p=1 rows: Placentalia_MACSE
+[PASS] Any additional MEME evaluations are decimal prefixes of requested sites: Placentalia_MACSE
+[PASS] Multinucleotide MEME prefix-expansion audit matches JSON: Placentalia_MACSE
+[PASS] Valid multinucleotide MEME JSON: Placentalia_MAFFT
+[PASS] Recorded multinucleotide MEME filter matches: Placentalia_MAFFT
+[PASS] Multinucleotide MEME focal p values match JSON: Placentalia_MAFFT
+[PASS] Unevaluable MEME targets are zero-information p=1 rows: Placentalia_MAFFT
+[PASS] Any additional MEME evaluations are decimal prefixes of requested sites: Placentalia_MAFFT
+[PASS] Multinucleotide MEME prefix-expansion audit matches JSON: Placentalia_MAFFT
+[PASS] Valid multinucleotide MEME JSON: Placentalia_PRANK
+[PASS] Recorded multinucleotide MEME filter matches: Placentalia_PRANK
+[PASS] Multinucleotide MEME focal p values match JSON: Placentalia_PRANK
+[PASS] Unevaluable MEME targets are zero-information p=1 rows: Placentalia_PRANK
+[PASS] Any additional MEME evaluations are decimal prefixes of requested sites: Placentalia_PRANK
+[PASS] Multinucleotide MEME prefix-expansion audit matches JSON: Placentalia_PRANK
+[PASS] Valid multinucleotide MEME JSON: Sauropsida_MACSE
+[PASS] Recorded multinucleotide MEME filter matches: Sauropsida_MACSE
+[PASS] Multinucleotide MEME focal p values match JSON: Sauropsida_MACSE
+[PASS] Unevaluable MEME targets are zero-information p=1 rows: Sauropsida_MACSE
+[PASS] Any additional MEME evaluations are decimal prefixes of requested sites: Sauropsida_MACSE
+[PASS] Multinucleotide MEME prefix-expansion audit matches JSON: Sauropsida_MACSE
+[PASS] Valid multinucleotide MEME JSON: Sauropsida_MAFFT
+[PASS] Recorded multinucleotide MEME filter matches: Sauropsida_MAFFT
+[PASS] Multinucleotide MEME focal p values match JSON: Sauropsida_MAFFT
+[PASS] Unevaluable MEME targets are zero-information p=1 rows: Sauropsida_MAFFT
+[PASS] Any additional MEME evaluations are decimal prefixes of requested sites: Sauropsida_MAFFT
+[PASS] Multinucleotide MEME prefix-expansion audit matches JSON: Sauropsida_MAFFT
+[PASS] Valid multinucleotide MEME JSON: Sauropsida_PRANK
+[PASS] Recorded multinucleotide MEME filter matches: Sauropsida_PRANK
+[PASS] Multinucleotide MEME focal p values match JSON: Sauropsida_PRANK
+[PASS] Unevaluable MEME targets are zero-information p=1 rows: Sauropsida_PRANK
+[PASS] Any additional MEME evaluations are decimal prefixes of requested sites: Sauropsida_PRANK
+[PASS] Multinucleotide MEME prefix-expansion audit matches JSON: Sauropsida_PRANK
+[PASS] Multinucleotide MEME q values match BH correction across focal tests
+[PASS] Multinucleotide MEME row-level q05 flags are reproducible
+[PASS] Multinucleotide MEME two-of-three counts are reproducible
+[PASS] Multinucleotide MEME two-of-three retention flags are reproducible
+[PASS] Multinucleotide FEL runs exactly cover strict pervasive candidates plus h358 across three aligners
+[PASS] Multinucleotide FEL sensitivity includes h358 in all 12 scope-by-aligner data sets
+[PASS] Multinucleotide FEL dataset labels match scope and aligner
+[PASS] Every focal FEL site filter uses the validated leading-comma syntax
+[PASS] Valid multinucleotide FEL JSON: Euarchontoglires_MACSE
+[PASS] Recorded multinucleotide FEL filter matches: Euarchontoglires_MACSE
+[PASS] Multinucleotide FEL focal p values match JSON: Euarchontoglires_MACSE
+[PASS] Unevaluable FEL targets are zero-information p=1 rows: Euarchontoglires_MACSE
+[PASS] Any additional FEL evaluations are decimal prefixes of requested sites: Euarchontoglires_MACSE
+[PASS] Multinucleotide FEL prefix-expansion audit matches JSON: Euarchontoglires_MACSE
+[PASS] Valid multinucleotide FEL JSON: Euarchontoglires_MAFFT
+[PASS] Recorded multinucleotide FEL filter matches: Euarchontoglires_MAFFT
+[PASS] Multinucleotide FEL focal p values match JSON: Euarchontoglires_MAFFT
+[PASS] Unevaluable FEL targets are zero-information p=1 rows: Euarchontoglires_MAFFT
+[PASS] Any additional FEL evaluations are decimal prefixes of requested sites: Euarchontoglires_MAFFT
+[PASS] Multinucleotide FEL prefix-expansion audit matches JSON: Euarchontoglires_MAFFT
+[PASS] Valid multinucleotide FEL JSON: Euarchontoglires_PRANK
+[PASS] Recorded multinucleotide FEL filter matches: Euarchontoglires_PRANK
+[PASS] Multinucleotide FEL focal p values match JSON: Euarchontoglires_PRANK
+[PASS] Unevaluable FEL targets are zero-information p=1 rows: Euarchontoglires_PRANK
+[PASS] Any additional FEL evaluations are decimal prefixes of requested sites: Euarchontoglires_PRANK
+[PASS] Multinucleotide FEL prefix-expansion audit matches JSON: Euarchontoglires_PRANK
+[PASS] Valid multinucleotide FEL JSON: Laurasiatheria_MACSE
+[PASS] Recorded multinucleotide FEL filter matches: Laurasiatheria_MACSE
+[PASS] Multinucleotide FEL focal p values match JSON: Laurasiatheria_MACSE
+[PASS] Unevaluable FEL targets are zero-information p=1 rows: Laurasiatheria_MACSE
+[PASS] Any additional FEL evaluations are decimal prefixes of requested sites: Laurasiatheria_MACSE
+[PASS] Multinucleotide FEL prefix-expansion audit matches JSON: Laurasiatheria_MACSE
+[PASS] Valid multinucleotide FEL JSON: Laurasiatheria_MAFFT
+[PASS] Recorded multinucleotide FEL filter matches: Laurasiatheria_MAFFT
+[PASS] Multinucleotide FEL focal p values match JSON: Laurasiatheria_MAFFT
+[PASS] Unevaluable FEL targets are zero-information p=1 rows: Laurasiatheria_MAFFT
+[PASS] Any additional FEL evaluations are decimal prefixes of requested sites: Laurasiatheria_MAFFT
+[PASS] Multinucleotide FEL prefix-expansion audit matches JSON: Laurasiatheria_MAFFT
+[PASS] Valid multinucleotide FEL JSON: Laurasiatheria_PRANK
+[PASS] Recorded multinucleotide FEL filter matches: Laurasiatheria_PRANK
+[PASS] Multinucleotide FEL focal p values match JSON: Laurasiatheria_PRANK
+[PASS] Unevaluable FEL targets are zero-information p=1 rows: Laurasiatheria_PRANK
+[PASS] Any additional FEL evaluations are decimal prefixes of requested sites: Laurasiatheria_PRANK
+[PASS] Multinucleotide FEL prefix-expansion audit matches JSON: Laurasiatheria_PRANK
+[PASS] Valid multinucleotide FEL JSON: Placentalia_MACSE
+[PASS] Recorded multinucleotide FEL filter matches: Placentalia_MACSE
+[PASS] Multinucleotide FEL focal p values match JSON: Placentalia_MACSE
+[PASS] Unevaluable FEL targets are zero-information p=1 rows: Placentalia_MACSE
+[PASS] Any additional FEL evaluations are decimal prefixes of requested sites: Placentalia_MACSE
+[PASS] Multinucleotide FEL prefix-expansion audit matches JSON: Placentalia_MACSE
+[PASS] Valid multinucleotide FEL JSON: Placentalia_MAFFT
+[PASS] Recorded multinucleotide FEL filter matches: Placentalia_MAFFT
+[PASS] Multinucleotide FEL focal p values match JSON: Placentalia_MAFFT
+[PASS] Unevaluable FEL targets are zero-information p=1 rows: Placentalia_MAFFT
+[PASS] Any additional FEL evaluations are decimal prefixes of requested sites: Placentalia_MAFFT
+[PASS] Multinucleotide FEL prefix-expansion audit matches JSON: Placentalia_MAFFT
+[PASS] Valid multinucleotide FEL JSON: Placentalia_PRANK
+[PASS] Recorded multinucleotide FEL filter matches: Placentalia_PRANK
+[PASS] Multinucleotide FEL focal p values match JSON: Placentalia_PRANK
+[PASS] Unevaluable FEL targets are zero-information p=1 rows: Placentalia_PRANK
+[PASS] Any additional FEL evaluations are decimal prefixes of requested sites: Placentalia_PRANK
+[PASS] Multinucleotide FEL prefix-expansion audit matches JSON: Placentalia_PRANK
+[PASS] Valid multinucleotide FEL JSON: Sauropsida_MACSE
+[PASS] Recorded multinucleotide FEL filter matches: Sauropsida_MACSE
+[PASS] Multinucleotide FEL focal p values match JSON: Sauropsida_MACSE
+[PASS] Unevaluable FEL targets are zero-information p=1 rows: Sauropsida_MACSE
+[PASS] Any additional FEL evaluations are decimal prefixes of requested sites: Sauropsida_MACSE
+[PASS] Multinucleotide FEL prefix-expansion audit matches JSON: Sauropsida_MACSE
+[PASS] Valid multinucleotide FEL JSON: Sauropsida_MAFFT
+[PASS] Recorded multinucleotide FEL filter matches: Sauropsida_MAFFT
+[PASS] Multinucleotide FEL focal p values match JSON: Sauropsida_MAFFT
+[PASS] Unevaluable FEL targets are zero-information p=1 rows: Sauropsida_MAFFT
+[PASS] Any additional FEL evaluations are decimal prefixes of requested sites: Sauropsida_MAFFT
+[PASS] Multinucleotide FEL prefix-expansion audit matches JSON: Sauropsida_MAFFT
+[PASS] Valid multinucleotide FEL JSON: Sauropsida_PRANK
+[PASS] Recorded multinucleotide FEL filter matches: Sauropsida_PRANK
+[PASS] Multinucleotide FEL focal p values match JSON: Sauropsida_PRANK
+[PASS] Unevaluable FEL targets are zero-information p=1 rows: Sauropsida_PRANK
+[PASS] Any additional FEL evaluations are decimal prefixes of requested sites: Sauropsida_PRANK
+[PASS] Multinucleotide FEL prefix-expansion audit matches JSON: Sauropsida_PRANK
+[PASS] Multinucleotide FEL q values match BH correction across focal tests
+[PASS] Multinucleotide FEL row-level diversifying q05 flags are reproducible
+[PASS] Multinucleotide FEL two-of-three counts are reproducible
+[PASS] Multinucleotide FEL two-of-three retention flags are reproducible
+[PASS] Phylogeny diagnostics contain 12 inferred trees
+[PASS] Only the three pooled Placentalia trees have at least as many parameters as codon sites
+[PASS] Twelve-alignment saturation summary exists
+[PASS] Pairwise saturation diagnostics exist
+[PASS] NP-to-Q9UJW3 coordinate crosswalk exists
+[PASS] Coordinate crosswalk contains all 387 NP positions
+[PASS] Coordinate crosswalk identifies the NP333 insertion
+[PASS] Coordinate crosswalk verifies all focal NP-to-Q9UJW3 mappings
+[PASS] Figure exists: Figure_1_data_foundation.png
+[PASS] Figure exists: Figure_1_data_foundation.pdf
+[PASS] Figure resolution is publication-scale: Figure_1_data_foundation.png
+[PASS] Figure exists: Figure_2_constraint_architecture.png
+[PASS] Figure exists: Figure_2_constraint_architecture.pdf
+[PASS] Figure resolution is publication-scale: Figure_2_constraint_architecture.png
+[PASS] Figure exists: Figure_3_structural_state_evolution.png
+[PASS] Figure exists: Figure_3_structural_state_evolution.pdf
+[PASS] Figure resolution is publication-scale: Figure_3_structural_state_evolution.png
+[PASS] Figure exists: Figure_4_selection_robustness.png
+[PASS] Figure exists: Figure_4_selection_robustness.pdf
+[PASS] Figure resolution is publication-scale: Figure_4_selection_robustness.png
+[PASS] Figure exists: Figure_S1_saturation_diagnostics.png
+[PASS] Figure exists: Figure_S1_saturation_diagnostics.pdf
+[PASS] Figure resolution is publication-scale: Figure_S1_saturation_diagnostics.png
+[PASS] Figure exists: Figure_S2_tree_aware_constraint.png
+[PASS] Figure exists: Figure_S2_tree_aware_constraint.pdf
+[PASS] Figure resolution is publication-scale: Figure_S2_tree_aware_constraint.png
+[PASS] Final manuscript DOCX exists
+[PASS] Resubmission audit DOCX exists
+[PASS] H358 supplementary-tables DOCX exists
+[PASS] No authorial word 'we' remains in the manuscript
+[PASS] No audit framing remains in the manuscript
+[PASS] Results explain the 291-to-269 filter intersection
+[PASS] Abstract length is 150-250 words (250)
+[PASS] Abstract avoids undefined model and coordinate abbreviations
+[PASS] Keyword count is 4-6 (6)
+[PASS] Reference list is alphabetical by first author
+[PASS] No em dash remains in the manuscript
+[PASS] H358 supplement contains Tables S1-S3
+[PASS] No audit framing remains in the H358 supplement
+[PASS] Supplementary data exists: Table_S1_h358_primary_results.csv
+[PASS] Table_S1_h358_primary_results.csv contains 12 rows
+[PASS] Supplementary data exists: Table_S2_h358_topology_sensitivity.csv
+[PASS] Table_S2_h358_topology_sensitivity.csv contains 4 rows
+[PASS] Supplementary data exists: Table_S3_h358_multinucleotide_sensitivity.csv
+[PASS] Table_S3_h358_multinucleotide_sensitivity.csv contains 12 rows
+[PASS] Release documentation exists: README.md
+[PASS] Release documentation exists: COMMANDS.md
+[PASS] Release documentation exists: ANALYSIS_PLAN_20261006.md
+[PASS] Release documentation exists: EXPLORATORY_ANALYSIS_ADDENDUM_20261006.md
+[PASS] Release documentation exists: POSTHOC_MODEL_SENSITIVITY_ADDENDUM_20261006.md
+[PASS] Release documentation exists: FUBAR_CACHE_AUDIT_20261006.md
+[PASS] Release documentation exists: HYPHY_SITE_FILTER_AUDIT_20261006.md
+[PASS] Release documentation exists: TREE_DIAGNOSTIC_AUDIT_20261006.md
+[PASS] Release documentation exists: ALIGNMENT_OVERLAP_AUDIT_20261006.md
+[PASS] Release documentation exists: COORDINATE_DOMAIN_AUDIT_20261006.md
+[PASS] Release documentation exists: SCIENTIFIC_FRAMING_NOTES.md
+
+FAILED CHECKS
+None
+
+WARNINGS
+[WARN] Repository URL and immutable DOI remain submission placeholders
+[WARN] Unaffiliated address still needs city and country of residence for Journal of Molecular Evolution

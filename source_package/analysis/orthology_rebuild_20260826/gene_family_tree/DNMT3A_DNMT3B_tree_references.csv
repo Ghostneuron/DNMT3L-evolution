@@ -1,0 +1,22 @@
+Tip,Group,Species,GeneID,Protein_Accession,Protein_Length
+DNMT3A__Alligator_mississippiensis__XP_059583600_1,DNMT3A,Alligator mississippiensis,102561346,XP_059583600.1,938
+DNMT3A__Anolis_carolinensis__XP_062825001_1,DNMT3A,Anolis carolinensis,100529107,XP_062825001.1,941
+DNMT3A__Bos_taurus__XP_059747014_1,DNMT3A,Bos taurus,359716,XP_059747014.1,957
+DNMT3A__Canis_lupus_familiaris__XP_038308941_1,DNMT3A,Canis lupus familiaris,482996,XP_038308941.1,909
+DNMT3A__Gallus_gallus__XP_040553157_1,DNMT3A,Gallus gallus,421991,XP_040553157.1,991
+DNMT3A__Homo_sapiens__NP_072046_2,DNMT3A,Homo sapiens,1788,NP_072046.2,912
+DNMT3A__Loxodonta_africana__XP_023406265_1,DNMT3A,Loxodonta africana,100669385,XP_023406265.1,909
+DNMT3A__Monodelphis_domestica__XP_016279286_1,DNMT3A,Monodelphis domestica,100030681,XP_016279286.1,918
+DNMT3A__Mus_musculus__NP_001258682_1,DNMT3A,Mus musculus,13435,NP_001258682.1,908
+DNMT3A__Rattus_norvegicus__NP_001003958_1,DNMT3A,Rattus norvegicus,444984,NP_001003958.1,908
+DNMT3A__Xenopus_tropicalis__XP_004919668_1,DNMT3A,Xenopus tropicalis,100496503,XP_004919668.1,952
+DNMT3B__Alligator_mississippiensis__XP_059569104_1,DNMT3B,Alligator mississippiensis,102574151,XP_059569104.1,845
+DNMT3B__Anolis_carolinensis__NP_001280056_1,DNMT3B,Anolis carolinensis,100528060,NP_001280056.1,852
+DNMT3B__Bos_taurus__NP_861529_2,DNMT3B,Bos taurus,353354,NP_861529.2,844
+DNMT3B__Canis_lupus_familiaris__XP_038289403_1,DNMT3B,Canis lupus familiaris,100685634,XP_038289403.1,854
+DNMT3B__Gallus_gallus__NP_001019999_2,DNMT3B,Gallus gallus,419287,NP_001019999.2,851
+DNMT3B__Homo_sapiens__XP_047295902_1,DNMT3B,Homo sapiens,1789,XP_047295902.1,865
+DNMT3B__Loxodonta_africana__XP_023405914_1,DNMT3B,Loxodonta africana,100660290,XP_023405914.1,863
+DNMT3B__Monodelphis_domestica__XP_056667925_1,DNMT3B,Monodelphis domestica,100009884,XP_056667925.1,819
+DNMT3B__Mus_musculus__XP_006498745_1,DNMT3B,Mus musculus,13436,XP_006498745.1,872
+DNMT3B__Rattus_norvegicus__NP_001383278_1,DNMT3B,Rattus norvegicus,444985,NP_001383278.1,839

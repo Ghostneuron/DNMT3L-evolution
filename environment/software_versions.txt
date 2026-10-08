@@ -1,0 +1,22 @@
+DNMT3L broadened evolutionary reanalysis
+Environment recorded: 2026-10-06
+Platform: macOS arm64
+
+Core executables
+Python 3.13.9
+HyPhy 2.5.94 (MP, Darwin arm64)
+IQ-TREE 2.3.6 (MacOS ARM 64-bit, build 2024-07-30)
+MAFFT 7.526 (2024-04-26)
+MACSE 2.07
+PRANK 170427
+PyMOL 3.1.0 Open-Source (2025-12-22)
+
+Python libraries used by package scripts
+Biopython 1.86
+matplotlib 3.10.6
+numpy 2.3.5
+pandas 2.3.3
+scipy 1.16.3
+python-docx 1.2.0
+
+Document rendering uses the OpenAI bundled document runtime recorded by the final render command in COMMANDS.md.
