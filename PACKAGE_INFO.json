@@ -3,5 +3,10 @@
   "version": "1.0.0",
   "release_date": "2026-10-07",
   "bundle": "github",
-  "description": "Compact GitHub release bundle"
+  "description": "Compact GitHub release bundle",
+  "licenses": {
+    "original_code": "MIT",
+    "other_original_content": "CC-BY-4.0",
+    "notice": "LICENSE"
+  }
 }

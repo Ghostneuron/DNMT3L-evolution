@@ -36,7 +36,9 @@ def main() -> int:
         ROOT / ".zenodo.json",
         ROOT / "RELEASE_NOTES.md",
         ROOT / "RELEASE_CHECKLIST.md",
-        ROOT / "LICENSE_SELECTION_REQUIRED.md",
+        ROOT / "LICENSE",
+        ROOT / "LICENSE-CODE",
+        ROOT / "LICENSE-DATA",
         ROOT / "documents" / "DNMT3L_supplementary_tables_20261007.docx",
         ROOT / "supplementary" / "Table_S1_h358_primary_results.csv",
         ROOT / "supplementary" / "Table_S2_h358_topology_sensitivity.csv",
@@ -53,6 +55,7 @@ def main() -> int:
         ROOT / "documents" / "DNMT3L_clade_aware_evolution_manuscript_20261006.docx",
         ROOT / "documents" / "DNMT3L_clade_aware_evolution_manuscript_20261006.pdf",
         ROOT / "scripts" / "build_dnmt3l_broadened_manuscript.py",
+        ROOT / "LICENSE_SELECTION_REQUIRED.md",
     ]
     for path in excluded_public_files:
         if path.exists():

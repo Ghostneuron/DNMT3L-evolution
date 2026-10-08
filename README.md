@@ -104,6 +104,11 @@ Repository: <https://github.com/Ghostneuron/DNMT3L-evolution>
 
 Citation metadata are provided in `CITATION.cff`. The Zenodo DOI remains pending and should be added after the deposit is created. Until then, cite the title, author, release version, and release date shown there.
 
-## License status
+## License
 
-No public-use license has yet been selected by the author. See `LICENSE_SELECTION_REQUIRED.md` before publishing the repository or Zenodo record. A license must be selected explicitly; the presence of files in these bundles does not itself grant reuse rights.
+This repository uses path-specific dual licensing:
+
+- Original source code in `scripts/` directories is licensed under the [MIT License](LICENSE-CODE).
+- Other original data, figures, supplementary material, documentation, metadata, and provenance records are licensed under [Creative Commons Attribution 4.0 International](LICENSE-DATA).
+
+See [LICENSE](LICENSE) for scope, attribution, and third-party-material exclusions. The licenses apply only to rights held by Jie Lu; source database and structural records remain subject to their original terms.

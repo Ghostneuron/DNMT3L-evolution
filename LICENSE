@@ -1,0 +1,39 @@
+DNMT3L evolution reproducibility package
+Dual-license notice
+
+Copyright (c) 2026 Jie Lu
+
+1. Code
+
+Original source code in any directory named `scripts/`, including archived
+source code under `source_package/scripts/`, is licensed under the MIT
+License. The complete terms are in LICENSE-CODE.
+
+SPDX identifier: MIT
+
+2. Data, figures, and documentation
+
+All other original material for which Jie Lu holds the applicable rights,
+including derived data tables, figures, supplementary material,
+documentation, metadata, and provenance records, is licensed under the
+Creative Commons Attribution 4.0 International License. The complete terms
+are in LICENSE-DATA.
+
+SPDX identifier: CC-BY-4.0
+Canonical URL: https://creativecommons.org/licenses/by/4.0/
+
+Suggested attribution:
+
+Jie Lu (2026). Clade-aware analysis of vertebrate DNMT3L reveals modular
+constraint and lineage-structured switching-helix residue states. Version
+1.0.0. https://github.com/Ghostneuron/DNMT3L-evolution
+
+3. Third-party material
+
+These licenses apply only to rights held by Jie Lu. Third-party source
+material and database records, including sequence records derived from NCBI
+resources and structural record 9MPP obtained from the Protein Data Bank,
+remain subject to their source terms. No additional rights to third-party
+material are granted here. A file-specific notice or source term controls if
+it conflicts with this repository-level notice.
+

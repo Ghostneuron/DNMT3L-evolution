@@ -14,6 +14,7 @@ Initial public-release candidate for the broadened DNMT3L evolutionary analysis.
 - Recorded software environment, manifests, SHA256 checksums, and public-package validator
 - Dated methodological and validation provenance
 - Complete raw model outputs and archived source analysis in the Zenodo bundle
+- Path-specific open licensing: MIT for original code and CC BY 4.0 for other original content
 
 ### Public-release cleanup
 
@@ -26,8 +27,6 @@ Initial public-release candidate for the broadened DNMT3L evolutionary analysis.
 
 No scientific parameter, result, figure, table, manuscript claim, or archived numerical output was changed during packaging.
 
-### Pending before publication
+### Remaining archive step
 
-- Author selection of a public-use license
-- GitHub repository URL
-- Zenodo DOI
+- Mint and add the Zenodo DOI

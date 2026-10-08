@@ -5,6 +5,7 @@ type: dataset
 version: 1.0.0
 date-released: 2026-10-07
 repository-code: "https://github.com/Ghostneuron/DNMT3L-evolution"
+license-url: "https://github.com/Ghostneuron/DNMT3L-evolution/blob/main/LICENSE"
 authors:
   - family-names: Lu
     given-names: Jie

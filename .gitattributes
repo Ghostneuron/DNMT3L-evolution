@@ -5,6 +5,9 @@
 *.cff text eol=lf
 .gitignore text eol=lf
 .gitattributes text eol=lf
+LICENSE text eol=lf
+LICENSE-CODE text eol=lf
+LICENSE-DATA text eol=lf
 *.docx binary
 *.pdf binary
 *.png binary
