@@ -64,7 +64,11 @@ def main() -> int:
         fail(f"cannot parse PACKAGE_INFO.json: {exc}", failures)
         info = {}
 
-    files = [path for path in ROOT.rglob("*") if path.is_file()]
+    files = [
+        path
+        for path in ROOT.rglob("*")
+        if path.is_file() and ".git" not in path.relative_to(ROOT).parts
+    ]
     for path in files:
         rel = path.relative_to(ROOT)
         if any(part in JUNK_PARTS or part.startswith("._") for part in rel.parts):
