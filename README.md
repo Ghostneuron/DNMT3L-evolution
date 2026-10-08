@@ -100,7 +100,9 @@ These data support comparative sequence and structural-context conclusions. They
 
 ## Citation and identifiers
 
-Citation metadata are provided in `CITATION.cff`. Replace the repository and DOI placeholders after the GitHub repository and Zenodo record are created. Until then, cite the title, author, release version, and release date shown there.
+Repository: <https://github.com/Ghostneuron/DNMT3L-evolution>
+
+Citation metadata are provided in `CITATION.cff`. The Zenodo DOI remains pending and should be added after the deposit is created. Until then, cite the title, author, release version, and release date shown there.
 
 ## License status
 

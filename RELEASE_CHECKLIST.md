@@ -13,10 +13,11 @@ Complete the unchecked items before making the release public.
 - [x] Package validator passes
 - [x] Archive integrity test passes
 - [ ] Select and add the public-use license or licenses
-- [ ] Create the GitHub repository and upload the contents of the GitHub package directory
+- [x] Create the private GitHub repository and upload the contents of the GitHub package directory
 - [ ] Create a GitHub release tagged `v1.0.0`
 - [ ] Reserve or mint the Zenodo DOI and upload the Zenodo ZIP archive
-- [ ] Add the GitHub URL and Zenodo DOI to `README.md`, `CITATION.cff`, and the manuscript Data availability statement
+- [x] Add the GitHub URL to `README.md` and `CITATION.cff`
+- [ ] Add the Zenodo DOI to `README.md`, `CITATION.cff`, and the manuscript Data availability statement
 - [ ] Update `.zenodo.json` with the selected license and any reserved DOI-related identifier fields required by the chosen Zenodo workflow
 - [ ] Rebuild manifests and archives after identifier or license edits
 - [ ] Rerun `python scripts/validate_public_package.py` on the final uploaded contents

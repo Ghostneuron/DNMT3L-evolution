@@ -4,6 +4,7 @@ title: "Clade-aware analysis of vertebrate DNMT3L reveals modular constraint and
 type: dataset
 version: 1.0.0
 date-released: 2026-10-07
+repository-code: "https://github.com/Ghostneuron/DNMT3L-evolution"
 authors:
   - family-names: Lu
     given-names: Jie
