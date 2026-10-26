@@ -1,0 +1,6 @@
+safe_id,species,gene_id,protein_accession,Full_Reference_Coverage,CTD_Reference_Coverage
+Canis_aureus,Canis aureus,144302050,XP_077735497.1,0.8320413436692506,0.9455445544554456
+Canis_lupus_dingo,Canis lupus dingo,112669206,XP_048960539.1,0.8320413436692506,0.9455445544554456
+Canis_lupus_familiaris,Canis lupus familiaris,608536,XP_038317659.1,0.9534883720930232,0.9455445544554456
+Grammomys_surdaster,Grammomys surdaster,114621553,XP_028623697.1,0.979328165374677,0.9752475247524752
+Suncus_etruscus,Suncus etruscus,126025788,XP_049641513.1,0.9767441860465116,0.9653465346534652

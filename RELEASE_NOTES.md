@@ -1,5 +1,30 @@
 # Release notes
 
+## Version 1.1.0 - 2026-10-25
+
+Additive revision release for **"Modular evolutionary constraint and lineage-structured switching-helix variation in DNMT3L."** The v1.0.0 analysis state remains preserved by its tag and commit.
+
+### Added
+
+- Ancestral-state reconstruction at human-reference positions NP349 and NP352 under taxonomy-step and unit branch lengths
+- An h358-ungated placental sensitivity that restores five otherwise eligible records (213 to 218 sequences)
+- Genomic-neighborhood checks for seven representative non-avian sauropsid DNMT3L loci
+- A clean-start HyPhy 2.5.103 GARD analysis and partition-aware FUBAR, FEL, and MEME sensitivity for the Sauropsida MACSE alignment
+- Portable revision inputs, outputs, scripts, diagnostics, and checksums under `revision_20261025/`
+- Updated formatted supplementary tables and consolidated machine-readable workbook
+
+### Updated
+
+- Revised Figures 3 and 4 in PDF and PNG
+- Repository title, findings summary, citation metadata, package metadata, commands, manifest, and checksums
+- Public interpretation boundaries to keep structure and selection statements at the level supported by comparative sequence evidence
+
+### Excluded
+
+- Manuscript and cover-letter files
+- Journal decision letters, reviewer or editor correspondence, and submission-platform records
+- Local execution paths, credentials, caches, temporary files, and AppleDouble sidecars
+
 ## Version 1.0.0 - 2026-10-07
 
 Initial public-release candidate for the broadened DNMT3L evolutionary analysis.

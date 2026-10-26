@@ -40,12 +40,20 @@ def main() -> int:
         ROOT / "LICENSE-CODE",
         ROOT / "LICENSE-DATA",
         ROOT / "documents" / "DNMT3L_supplementary_tables_20261007.docx",
+        ROOT / "documents" / "DNMT3L_supplementary_tables_20261025.docx",
+        ROOT / "supplementary" / "DNMT3L_machine_readable_tables_S1-S14_20261025.xlsx",
         ROOT / "supplementary" / "Table_S1_h358_primary_results.csv",
         ROOT / "supplementary" / "Table_S2_h358_topology_sensitivity.csv",
         ROOT / "supplementary" / "Table_S3_h358_multinucleotide_sensitivity.csv",
         MANIFEST,
         CHECKSUMS,
         PACKAGE_INFO,
+        ROOT / "revision_20261025" / "README.md",
+        ROOT / "revision_20261025" / "SHA256SUMS.tsv",
+        ROOT / "revision_20261025" / "results" / "ancestral_state" / "ancestral_state_summary.csv",
+        ROOT / "revision_20261025" / "results" / "gard" / "gard_summary.csv",
+        ROOT / "revision_20261025" / "results" / "synteny" / "representative_sauropsid_synteny_summary.csv",
+        ROOT / "revision_20261025" / "results" / "ungated_sensitivity" / "ungated_constraint_summary.csv",
     ]
     for path in required:
         if not path.is_file() or path.stat().st_size == 0:

@@ -1,9 +1,9 @@
 {
-  "name": "DNMT3L_clade_aware_evolution_v1.0.0",
-  "version": "1.0.0",
-  "release_date": "2026-10-07",
+  "name": "DNMT3L_modular_evolution_v1.1.0",
+  "version": "1.1.0",
+  "release_date": "2026-10-25",
   "bundle": "github",
-  "description": "Compact GitHub release bundle",
+  "description": "Compact GitHub release bundle with additive revision-specific analyses",
   "licenses": {
     "original_code": "MIT",
     "other_original_content": "CC-BY-4.0",

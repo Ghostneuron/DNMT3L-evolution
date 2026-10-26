@@ -15,6 +15,10 @@ Complete the unchecked items before publishing the Zenodo record.
 - [x] Add MIT licensing for original code and CC BY 4.0 licensing for other original content
 - [x] Create the public GitHub repository and upload the contents of the GitHub package directory
 - [x] Create a GitHub release tagged `v1.0.0`
+- [x] Preserve the immutable `v1.0.0` tag and stage the additive `v1.1.0` update
+- [x] Add revision-specific analyses under `revision_20261025/`
+- [x] Update Figures 3 and 4 and the current supplementary-table artifacts
+- [x] Audit newly added v1.1.0 files for private correspondence, credentials, absolute paths, and filesystem metadata
 - [ ] Reserve or mint the Zenodo DOI and upload the Zenodo ZIP archive
 - [x] Add the GitHub URL to `README.md` and `CITATION.cff`
 - [ ] Add the Zenodo DOI to `README.md`, `CITATION.cff`, and the manuscript Data availability statement

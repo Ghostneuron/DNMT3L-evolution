@@ -27,8 +27,11 @@ PyMOL is invoked directly from the shell and must be on `PATH`.
 ## Validate the downloaded package
 
 ```bash
+python scripts/rebuild_release_indexes.py
 python scripts/validate_public_package.py
 ```
+
+The first command is needed only after intentionally changing release files; ordinary users can run the validator alone.
 
 ## Build inputs, alignments, and trees
 
@@ -84,7 +87,13 @@ Conditional analyses are determined by the primary summaries. They qualify prima
 python scripts/build_dnmt3l_broadened_figures.py
 ```
 
-The formatted supplementary-table document and its three machine-readable CSV tables are supplied as release artifacts. The manuscript files and manuscript-generation scripts are intentionally excluded from the public bundles. Their exclusion does not affect reproduction of any scientific calculation, summary, or figure.
+## Revision-specific analyses in v1.1.0
+
+The additive files for ancestral-state reconstruction, the h358-ungated placental sensitivity, representative sauropsid genomic-neighborhood checks, and the Sauropsida GARD/partition-aware selection sensitivity are under `revision_20261025/`. Read `revision_20261025/README.md` before rerunning them.
+
+The GitHub release contains the reported revision outputs. A clean from-source rerun of the ancestral-state and ungated analyses additionally requires the complete v1.0.0 source package distributed in the companion Zenodo bundle. The scripts accept explicit project and output roots where supported; the figure and GARD-summary scripts retain the frozen full-archive directory assumptions used for the reported revision.
+
+The current formatted supplementary-table document and consolidated machine-readable workbook are supplied as release artifacts. The manuscript files and manuscript-generation scripts are intentionally excluded from the public bundles. Their exclusion does not affect reproduction of any scientific calculation, summary, or figure.
 
 ## Computational cost
 
