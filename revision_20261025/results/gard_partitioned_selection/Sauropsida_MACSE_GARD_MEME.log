@@ -1,0 +1,540 @@
+
+Analysis Description
+--------------------
+MEME (Mixed Effects Model of Evolution) estimates a site-wise synonymous
+(&alpha;) and a two-category mixture of non-synonymous (&beta;-, with
+proportion p-, and &beta;+ with proportion [1-p-]) rates, and uses a
+likelihood ratio test to determine if &beta;+ > &alpha; at a site. The
+estimates aggregate information over a proportion of branches at a site,
+so the signal is derived from episodic diversification, which is a
+combination of strength of selection [effect size] and the proportion of
+the tree affected. A subset of branches can be selected for testing as
+well, in which case an additional (nuisance) parameter will be inferred
+-- the non-synonymous rate on branches NOT selected for testing.
+Multiple partitions within a NEXUS file are also supported for
+recombination - aware analysis. Version 3.0 adds a different format for
+ancestral state reconstruction, branch-site posterior storage, and
+site-level heterogeneity testing. Version 4 adds support for multiple
+hits and more than 2 rate classes on omega, as well as site-level
+imputation option. Version 4.1 fixes bugs with EBF computation for > 2
+more rates and MH reporting. 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Detecting Individual Sites Subject to Episodic Diversifying Selection.
+_PLoS Genet_ 8(7): e1002764.
+
+- __Written by__: Sergei L. Kosakovsky Pond, Steven Weaver
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 4.1
+
+
+>code => Universal
+>Loaded a multiple sequence alignment with **42** sequences, **372** codons, and **3** partitions from `results/gard/Sauropsida_MACSE_GARD.best-gard`
+
+>branches => All
+
+>Select the p-value threshold to use when testing for selection (permissible range = [0,1], default value = 0.1): 
+>pvalue => 0.1
+
+>[Advanced setting, will result in MUCH SLOWER run time] Perform parametric bootstrap resampling to derive site-level null LRT distributions up to this many replicates per site. Recommended use for small to medium (<30 sequences) datasets (permissible range = [0,1000], default value = 50, integer): 
+>resample => 0
+The number omega rate classes to include in the model [2 is the strongly recommended default] (permissible range = [2,4], default value = 2, integer): 
+>rates => 2
+
+>multiple-hits => None
+
+>impute-states => No
+
+>precision => standard
+
+
+### Branches to include in the MEME analysis
+Selected 81 branches to include in the MEME analysis: `AHAETULLA_PRASINA, PITUOPHIS_CATENIFER_ANNECTENS, NODE12, NATRIX_HELVETICA, NODE11, PROTOBOTHROPS_MUCROSQUAMATUS, CROTALUS_TIGRIS, VIPERA_BERUS, NODE18, NODE16, NODE10, PSEUDONAJA_TEXTILIS, NODE9, NOTECHIS_SCUTATUS, NODE8, ERYTHROLAMPRUS_REGINAE, ELGARIA_MULTICARINATA_WEBBII, NODE25, EULEPTES_EUROPAEA, NODE24, ALLIGATOR_SINENSIS, CROCODYLUS_POROSUS, NODE31, CARETTA_CARETTA, ERETMOCHELYS_IMBRICATA, LEPIDOCHELYS_KEMPII, NODE40, NODE38, CHELONIA_MYDAS, NODE37, NATATOR_DEPRESSUS, NODE36, MAUREMYS_MUTICA, NODE35, TRACHEMYS_SCRIPTA_ELEGANS, NODE34, NODE30, MALACLEMYS_TERRAPIN_PILEATA, EMYDURA_MACQUARII_MACQUARII, NODE47, NODE29, NODE23, NODE7, POGONA_VITTICEPS, SCELOPORUS_UNDULATUS, NODE51, EUBLEPHARIS_MACULARIUS, PAROEDURA_PICTA, SPHAERODACTYLUS_TOWNSENDI, NODE59, GEKKO_JAPONICUS, NODE58, NODE56, HETERONOTIA_BINOEI, NODE55, HEMICORDYLUS_CAPENSIS, NODE54, NODE50, NODE6, CANDOIA_ASPERA, NODE5, RHINEURA_FLORIDANA, PODARCIS_MURALIS, NODE67, PODARCIS_RAFFONEI, NODE66, NODE4, ZOOTOCA_VIVIPARA, NODE3, PODARCIS_CRETENSIS, PODARCIS_PITYUSENSIS, NODE73, PODARCIS_ERHARDII, NODE72, NODE2, PODARCIS_MELISELLENSIS, NODE1, PODARCIS_BOCAGEI, LACERTA_AGILIS, NODE78, PODARCIS_VAUCHERI`
+Selected 81 branches to include in the MEME analysis: `AHAETULLA_PRASINA, PITUOPHIS_CATENIFER_ANNECTENS, NODE14, NATRIX_HELVETICA, NODE13, ERYTHROLAMPRUS_REGINAE, NODE12, NOTECHIS_SCUTATUS, PSEUDONAJA_TEXTILIS, NODE19, NODE11, PROTOBOTHROPS_MUCROSQUAMATUS, CROTALUS_TIGRIS, NODE23, VIPERA_BERUS, NODE22, NODE10, CANDOIA_ASPERA, NODE9, ELGARIA_MULTICARINATA_WEBBII, SCELOPORUS_UNDULATUS, NODE29, POGONA_VITTICEPS, NODE28, NODE8, EUBLEPHARIS_MACULARIUS, PAROEDURA_PICTA, HETERONOTIA_BINOEI, NODE40, GEKKO_JAPONICUS, NODE39, EULEPTES_EUROPAEA, NODE38, SPHAERODACTYLUS_TOWNSENDI, NODE37, NODE35, ALLIGATOR_SINENSIS, CROCODYLUS_POROSUS, NODE47, CARETTA_CARETTA, ERETMOCHELYS_IMBRICATA, NODE54, LEPIDOCHELYS_KEMPII, NODE53, CHELONIA_MYDAS, NATATOR_DEPRESSUS, NODE58, NODE52, MAUREMYS_MUTICA, TRACHEMYS_SCRIPTA_ELEGANS, MALACLEMYS_TERRAPIN_PILEATA, NODE63, NODE61, NODE51, EMYDURA_MACQUARII_MACQUARII, NODE50, NODE46, NODE34, HEMICORDYLUS_CAPENSIS, NODE33, NODE7, RHINEURA_FLORIDANA, NODE6, ZOOTOCA_VIVIPARA, NODE5, LACERTA_AGILIS, NODE4, PODARCIS_MELISELLENSIS, NODE3, PODARCIS_RAFFONEI, NODE2, PODARCIS_MURALIS, PODARCIS_BOCAGEI, PODARCIS_VAUCHERI, NODE75, NODE73, NODE1, PODARCIS_CRETENSIS, PODARCIS_ERHARDII, NODE78, PODARCIS_PITYUSENSIS`
+Selected 81 branches to include in the MEME analysis: `AHAETULLA_PRASINA, NATRIX_HELVETICA, NODE16, PITUOPHIS_CATENIFER_ANNECTENS, NODE15, ERYTHROLAMPRUS_REGINAE, NODE14, NOTECHIS_SCUTATUS, PSEUDONAJA_TEXTILIS, NODE21, NODE13, PROTOBOTHROPS_MUCROSQUAMATUS, CROTALUS_TIGRIS, NODE25, VIPERA_BERUS, NODE24, NODE12, POGONA_VITTICEPS, NODE11, EUBLEPHARIS_MACULARIUS, PAROEDURA_PICTA, GEKKO_JAPONICUS, HETERONOTIA_BINOEI, NODE35, NODE33, EULEPTES_EUROPAEA, SPHAERODACTYLUS_TOWNSENDI, NODE38, NODE32, NODE30, NODE10, CANDOIA_ASPERA, ALLIGATOR_SINENSIS, NODE44, CROCODYLUS_POROSUS, NODE43, CARETTA_CARETTA, ERETMOCHELYS_IMBRICATA, NODE53, LEPIDOCHELYS_KEMPII, NODE52, CHELONIA_MYDAS, NATATOR_DEPRESSUS, NODE57, NODE51, TRACHEMYS_SCRIPTA_ELEGANS, MALACLEMYS_TERRAPIN_PILEATA, NODE60, NODE50, MAUREMYS_MUTICA, NODE49, EMYDURA_MACQUARII_MACQUARII, NODE48, NODE42, ELGARIA_MULTICARINATA_WEBBII, NODE41, NODE9, SCELOPORUS_UNDULATUS, NODE8, HEMICORDYLUS_CAPENSIS, RHINEURA_FLORIDANA, NODE67, NODE7, LACERTA_AGILIS, NODE6, PODARCIS_CRETENSIS, NODE5, PODARCIS_RAFFONEI, NODE4, PODARCIS_MELISELLENSIS, NODE3, PODARCIS_MURALIS, PODARCIS_BOCAGEI, PODARCIS_VAUCHERI, NODE76, NODE74, NODE2, PODARCIS_ERHARDII, NODE1, PODARCIS_PITYUSENSIS, ZOOTOCA_VIVIPARA`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths => Yes
+
+### Deleted 11 zero-length internal branches: `NODE1, NODE11, NODE18, NODE37, NODE40, NODE56, NODE6, NODE67, NODE73, NODE78, NODE9`
+Deleted 4 zero-length internal branches: `NODE12, NODE13, NODE2, NODE54`
+Deleted 11 zero-length internal branches: `NODE1, NODE11, NODE16, NODE2, NODE3, NODE4, NODE41, NODE5, NODE50, NODE52, NODE76`
+* Log(L) = -14150.88, AIC-c = 28806.48 (251 estimated parameters)
+* 3 partitions. Total tree length by partition (subs/site)  5.896,  2.404, 2022.436
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -13684.57, AIC-c = 27840.16 (232 estimated parameters)
+* 3 partitions. Total tree length by partition (subs/site)  6.336,  2.553, 2110.200
+* non-synonymous/synonymous rate ratio for *test* =   0.3392
+
+>full-model => Yes
+Only analyze sites whose 1-based indices match the following list (null to skip) : 
+>limit-to-sites => null
+For sites whose 1-based indices match the following list, write out likelihood function snapshots (null string to skip) : 
+>save-lf-for-sites => null
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+* Log(L) = -13655.39
+* Log(L) = -13655.39, AIC-c = 27781.81 (232 estimated parameters)
+* 3 partitions. Total tree length by partition (subs/site)  6.607,  2.574, 2103.534
+* non-synonymous/synonymous rate ratio for *test* =   0.3035
+[2K
+Working on site pattern 1/55 in partition 1[2K
+Working on site pattern 2/55 in partition 1[2K
+Working on site pattern 3/55 in partition 1[2K
+Working on site pattern 4/55 in partition 1[2K
+                                           [2K
+### For partition 1 these sites are significant at p <=0.1
+
+|   Codon    | Partition  |   alpha    |non-syn rate (beta) distribution, rates : weights|    LRT     |Episodic selection detected?| # branches |         List of most common codon substitutions at this site          |
+|:----------:|:----------:|:----------:|:-----------------------------------------------:|:----------:|:--------------------------:|:----------:|:---------------------------------------------------------------------:|
+|     3      |     1      |    1.793   |             0.87/55.95 : 0.84/0.16              |    9.167   |      Yes, p =  0.0045      |     2      |[2]gTc>gCc|[1]Gtc>Atc,gtC>gtG,gtC>gtT,GTC>TGT,GTG>ACC,Gtg>Ctg,gtG>gt...|
+[2K
+Working on site pattern 5/55 in partition 1[2K
+Working on site pattern 6/55 in partition 1[2K
+                                           [2K
+|     1      |     1      |    2.666   |             0.00/35.72 : 0.83/0.17              |    5.360   |      Yes, p =  0.0313      |     4      |  [1]aTG>aGA,ATG>CCA,ATg>CCg,ccA>ccG,CCG>AGT,ccG>ccC,CCg>GAg,CcG>GcA   |
+[2K
+Working on site pattern 7/55 in partition 1[2K
+Working on site pattern 8/55 in partition 1[2K
+Working on site pattern 9/55 in partition 1[2K
+Working on site pattern 10/55 in partition 1[2K
+Working on site pattern 11/55 in partition 1[2K
+Working on site pattern 12/55 in partition 1[2K
+Working on site pattern 13/55 in partition 1[2K
+Working on site pattern 14/55 in partition 1[2K
+Working on site pattern 15/55 in partition 1[2K
+Working on site pattern 16/55 in partition 1[2K
+Working on site pattern 17/55 in partition 1[2K
+Working on site pattern 18/55 in partition 1[2K
+Working on site pattern 19/55 in partition 1[2K
+                                            [2K
+|     16     |     1      |    0.152   |             0.06/16.48 : 0.59/0.41              |    7.294   |      Yes, p =  0.0116      |     1      |[1]Aaa>Gaa,aaG>aaA,aAG>aGC,Aag>Gag,AAg>TCg,AAG>TCT,aaT>aaG,AAt>CCt,T...|
+[2K
+Working on site pattern 20/55 in partition 1[2K
+Working on site pattern 21/55 in partition 1[2K
+Working on site pattern 22/55 in partition 1[2K
+Working on site pattern 23/55 in partition 1[2K
+Working on site pattern 24/55 in partition 1[2K
+Working on site pattern 25/55 in partition 1[2K
+Working on site pattern 26/55 in partition 1[2K
+Working on site pattern 27/55 in partition 1[2K
+Working on site pattern 28/55 in partition 1[2K
+Working on site pattern 29/55 in partition 1[2K
+                                            [2K
+|     26     |     1      |    0.000   |             0.00/24.87 : 0.79/0.21              |    9.605   |      Yes, p =  0.0036      |     2      |          [1]Agt>Ggt,GGt>ACt,TCt>AAt,TCt>AGt,TCT>GGC,tCT>tTG           |
+[2K
+Working on site pattern 30/55 in partition 1[2K
+                                            [2K
+|     27     |     1      |    0.725   |             0.62/23.16 : 0.76/0.24              |    3.958   |      Yes, p =  0.0647      |     0      |[2]gGt>gAt|[1]cAt>cCt,Gat>Cat,gaT>gaA,gAT>gGA,gAt>gGt,gAT>gTG,GGt>TC...|
+[2K
+Working on site pattern 31/55 in partition 1[2K
+Working on site pattern 32/55 in partition 1[2K
+                                            [2K
+|     28     |     1      |    0.553   |             0.22/65.09 : 0.95/0.05              |    9.386   |      Yes, p =  0.0040      |     1      |                  [1]TCT>CAA,tcT>tcG,tCt>tGt,tCt>tTt                   |
+[2K
+Working on site pattern 33/55 in partition 1[2K
+Working on site pattern 34/55 in partition 1[2K
+Working on site pattern 35/55 in partition 1[2K
+Working on site pattern 36/55 in partition 1[2K
+Working on site pattern 37/55 in partition 1[2K
+Working on site pattern 38/55 in partition 1[2K
+Working on site pattern 39/55 in partition 1[2K
+Working on site pattern 40/55 in partition 1[2K
+Working on site pattern 41/55 in partition 1[2K
+                                            [2K
+|     36     |     1      |    1.500   |             0.00/15.06 : 0.86/0.14              |    4.984   |      Yes, p =  0.0380      |     4      |          [1]GCA>AGC,GCA>AGT,GCa>ATa,gcA>gcC,gcA>gcT,gCA>gTG           |
+[2K
+Working on site pattern 42/55 in partition 1[2K
+Working on site pattern 43/55 in partition 1[2K
+Working on site pattern 44/55 in partition 1[2K
+Working on site pattern 45/55 in partition 1[2K
+Working on site pattern 46/55 in partition 1[2K
+Working on site pattern 47/55 in partition 1[2K
+Working on site pattern 48/55 in partition 1[2K
+Working on site pattern 49/55 in partition 1[2K
+                                            [2K
+|     47     |     1      |    0.000   |             0.00/14.62 : 0.90/0.10              |    4.175   |      Yes, p =  0.0578      |     1      |                      [1]Caa>Aaa,GAa>AGa,Gaa>Caa                       |
+[2K
+Working on site pattern 50/55 in partition 1[2K
+Working on site pattern 51/55 in partition 1[2K
+Working on site pattern 52/55 in partition 1[2K
+Working on site pattern 53/55 in partition 1[2K
+Working on site pattern 54/55 in partition 1[2K
+Working on site pattern 55/55 in partition 1[2K
+                                            [2K
+[2K
+Working on site pattern 1/241 in partition 2[2K
+Working on site pattern 2/241 in partition 2[2K
+Working on site pattern 3/241 in partition 2[2K
+Working on site pattern 4/241 in partition 2[2K
+Working on site pattern 5/241 in partition 2[2K
+Working on site pattern 6/241 in partition 2[2K
+Working on site pattern 7/241 in partition 2[2K
+Working on site pattern 8/241 in partition 2[2K
+Working on site pattern 9/241 in partition 2[2K
+Working on site pattern 10/241 in partition 2[2K
+                                             [2K
+### For partition 2 these sites are significant at p <=0.1
+
+|   Codon    | Partition  |   alpha    |non-syn rate (beta) distribution, rates : weights|    LRT     |Episodic selection detected?| # branches |         List of most common codon substitutions at this site          |
+|:----------:|:----------:|:----------:|:-----------------------------------------------:|:----------:|:--------------------------:|:----------:|:---------------------------------------------------------------------:|
+|     61     |     2      |    1.538   |             0.00/33.49 : 0.97/0.03              |    3.368   |      Yes, p =  0.0880      |     1      |                          [1]CaG>AaT,caG>caA                           |
+[2K
+Working on site pattern 11/241 in partition 2[2K
+Working on site pattern 12/241 in partition 2[2K
+Working on site pattern 13/241 in partition 2[2K
+Working on site pattern 14/241 in partition 2[2K
+Working on site pattern 15/241 in partition 2[2K
+Working on site pattern 16/241 in partition 2[2K
+Working on site pattern 17/241 in partition 2[2K
+Working on site pattern 18/241 in partition 2[2K
+Working on site pattern 19/241 in partition 2[2K
+Working on site pattern 20/241 in partition 2[2K
+Working on site pattern 21/241 in partition 2[2K
+Working on site pattern 22/241 in partition 2[2K
+Working on site pattern 23/241 in partition 2[2K
+Working on site pattern 24/241 in partition 2[2K
+Working on site pattern 25/241 in partition 2[2K
+Working on site pattern 26/241 in partition 2[2K
+Working on site pattern 27/241 in partition 2[2K
+Working on site pattern 28/241 in partition 2[2K
+Working on site pattern 29/241 in partition 2[2K
+Working on site pattern 30/241 in partition 2[2K
+Working on site pattern 31/241 in partition 2[2K
+Working on site pattern 32/241 in partition 2[2K
+Working on site pattern 33/241 in partition 2[2K
+Working on site pattern 34/241 in partition 2[2K
+Working on site pattern 35/241 in partition 2[2K
+Working on site pattern 36/241 in partition 2[2K
+Working on site pattern 37/241 in partition 2[2K
+Working on site pattern 38/241 in partition 2[2K
+Working on site pattern 39/241 in partition 2[2K
+Working on site pattern 40/241 in partition 2[2K
+Working on site pattern 41/241 in partition 2[2K
+Working on site pattern 42/241 in partition 2[2K
+Working on site pattern 43/241 in partition 2[2K
+Working on site pattern 44/241 in partition 2[2K
+Working on site pattern 45/241 in partition 2[2K
+Working on site pattern 46/241 in partition 2[2K
+Working on site pattern 47/241 in partition 2[2K
+Working on site pattern 48/241 in partition 2[2K
+Working on site pattern 49/241 in partition 2[2K
+Working on site pattern 50/241 in partition 2[2K
+Working on site pattern 51/241 in partition 2[2K
+Working on site pattern 52/241 in partition 2[2K
+Working on site pattern 53/241 in partition 2[2K
+Working on site pattern 54/241 in partition 2[2K
+Working on site pattern 55/241 in partition 2[2K
+Working on site pattern 56/241 in partition 2[2K
+Working on site pattern 57/241 in partition 2[2K
+Working on site pattern 58/241 in partition 2[2K
+Working on site pattern 59/241 in partition 2[2K
+Working on site pattern 60/241 in partition 2[2K
+Working on site pattern 61/241 in partition 2[2K
+Working on site pattern 62/241 in partition 2[2K
+Working on site pattern 63/241 in partition 2[2K
+Working on site pattern 64/241 in partition 2[2K
+Working on site pattern 65/241 in partition 2[2K
+Working on site pattern 66/241 in partition 2[2K
+Working on site pattern 67/241 in partition 2[2K
+Working on site pattern 68/241 in partition 2[2K
+Working on site pattern 69/241 in partition 2[2K
+Working on site pattern 70/241 in partition 2[2K
+Working on site pattern 71/241 in partition 2[2K
+Working on site pattern 72/241 in partition 2[2K
+Working on site pattern 73/241 in partition 2[2K
+Working on site pattern 74/241 in partition 2[2K
+                                             [2K
+|    124     |     2      |    0.000   |              0.00/4.65 : 0.01/0.99              |    3.345   |      Yes, p =  0.0891      |     3      |[2]cGt>cAt|[1]Aga>Gga,agT>agA,agT>agG,Cgt>Agt,CGt>TAt,gGa>gAa,Tgt>Ag...|
+[2K
+Working on site pattern 75/241 in partition 2[2K
+Working on site pattern 76/241 in partition 2[2K
+Working on site pattern 77/241 in partition 2[2K
+Working on site pattern 78/241 in partition 2[2K
+Working on site pattern 79/241 in partition 2[2K
+Working on site pattern 80/241 in partition 2[2K
+Working on site pattern 81/241 in partition 2[2K
+Working on site pattern 82/241 in partition 2[2K
+Working on site pattern 83/241 in partition 2[2K
+Working on site pattern 84/241 in partition 2[2K
+Working on site pattern 85/241 in partition 2[2K
+Working on site pattern 86/241 in partition 2[2K
+Working on site pattern 87/241 in partition 2[2K
+Working on site pattern 88/241 in partition 2[2K
+Working on site pattern 89/241 in partition 2[2K
+Working on site pattern 90/241 in partition 2[2K
+Working on site pattern 91/241 in partition 2[2K
+Working on site pattern 92/241 in partition 2[2K
+Working on site pattern 93/241 in partition 2[2K
+Working on site pattern 94/241 in partition 2[2K
+Working on site pattern 95/241 in partition 2[2K
+Working on site pattern 96/241 in partition 2[2K
+Working on site pattern 97/241 in partition 2[2K
+Working on site pattern 98/241 in partition 2[2K
+Working on site pattern 99/241 in partition 2[2K
+Working on site pattern 100/241 in partition 2[2K
+Working on site pattern 101/241 in partition 2[2K
+Working on site pattern 102/241 in partition 2[2K
+Working on site pattern 103/241 in partition 2[2K
+Working on site pattern 104/241 in partition 2[2K
+Working on site pattern 105/241 in partition 2[2K
+Working on site pattern 106/241 in partition 2[2K
+Working on site pattern 107/241 in partition 2[2K
+Working on site pattern 108/241 in partition 2[2K
+Working on site pattern 109/241 in partition 2[2K
+Working on site pattern 110/241 in partition 2[2K
+Working on site pattern 111/241 in partition 2[2K
+Working on site pattern 112/241 in partition 2[2K
+Working on site pattern 113/241 in partition 2[2K
+Working on site pattern 114/241 in partition 2[2K
+Working on site pattern 115/241 in partition 2[2K
+                                              [2K
+|    167     |     2      |    9.113   |             0.00/49.73 : 0.92/0.08              |    3.306   |      Yes, p =  0.0909      |     3      |             [3]caG>caA|[1]caA>caG,CaG>AaT,CAG>TGC,CAg>TGg             |
+[2K
+Working on site pattern 116/241 in partition 2[2K
+Working on site pattern 117/241 in partition 2[2K
+Working on site pattern 118/241 in partition 2[2K
+Working on site pattern 119/241 in partition 2[2K
+Working on site pattern 120/241 in partition 2[2K
+Working on site pattern 121/241 in partition 2[2K
+Working on site pattern 122/241 in partition 2[2K
+Working on site pattern 123/241 in partition 2[2K
+Working on site pattern 124/241 in partition 2[2K
+Working on site pattern 125/241 in partition 2[2K
+Working on site pattern 126/241 in partition 2[2K
+Working on site pattern 127/241 in partition 2[2K
+Working on site pattern 128/241 in partition 2[2K
+Working on site pattern 129/241 in partition 2[2K
+Working on site pattern 130/241 in partition 2[2K
+Working on site pattern 131/241 in partition 2[2K
+Working on site pattern 132/241 in partition 2[2K
+Working on site pattern 133/241 in partition 2[2K
+Working on site pattern 134/241 in partition 2[2K
+Working on site pattern 135/241 in partition 2[2K
+                                              [2K
+|    186     |     2      |    4.342   |             0.00/153.46 : 0.96/0.04             |    3.934   |      Yes, p =  0.0655      |     2      |                     [3]atC>atT|[2]atC>atA,Gtc>Atc                     |
+[2K
+Working on site pattern 136/241 in partition 2[2K
+Working on site pattern 137/241 in partition 2[2K
+Working on site pattern 138/241 in partition 2[2K
+Working on site pattern 139/241 in partition 2[2K
+Working on site pattern 140/241 in partition 2[2K
+Working on site pattern 141/241 in partition 2[2K
+Working on site pattern 142/241 in partition 2[2K
+Working on site pattern 143/241 in partition 2[2K
+Working on site pattern 144/241 in partition 2[2K
+Working on site pattern 145/241 in partition 2[2K
+Working on site pattern 146/241 in partition 2[2K
+Working on site pattern 147/241 in partition 2[2K
+Working on site pattern 148/241 in partition 2[2K
+Working on site pattern 149/241 in partition 2[2K
+Working on site pattern 150/241 in partition 2[2K
+Working on site pattern 151/241 in partition 2[2K
+Working on site pattern 152/241 in partition 2[2K
+Working on site pattern 153/241 in partition 2[2K
+Working on site pattern 154/241 in partition 2[2K
+                                              [2K
+|    207     |     2      |    0.001   |              0.00/3.67 : 0.01/0.99              |    3.392   |      Yes, p =  0.0869      |     1      |                     [5]Gaa>Aaa|[1]GAA>AGC,Gaa>Caa                     |
+[2K
+Working on site pattern 155/241 in partition 2[2K
+Working on site pattern 156/241 in partition 2[2K
+Working on site pattern 157/241 in partition 2[2K
+Working on site pattern 158/241 in partition 2[2K
+Working on site pattern 159/241 in partition 2[2K
+Working on site pattern 160/241 in partition 2[2K
+Working on site pattern 161/241 in partition 2[2K
+Working on site pattern 162/241 in partition 2[2K
+Working on site pattern 163/241 in partition 2[2K
+Working on site pattern 164/241 in partition 2[2K
+Working on site pattern 165/241 in partition 2[2K
+Working on site pattern 166/241 in partition 2[2K
+Working on site pattern 167/241 in partition 2[2K
+Working on site pattern 168/241 in partition 2[2K
+Working on site pattern 169/241 in partition 2[2K
+Working on site pattern 170/241 in partition 2[2K
+Working on site pattern 171/241 in partition 2[2K
+Working on site pattern 172/241 in partition 2[2K
+Working on site pattern 173/241 in partition 2[2K
+Working on site pattern 174/241 in partition 2[2K
+Working on site pattern 175/241 in partition 2[2K
+Working on site pattern 176/241 in partition 2[2K
+Working on site pattern 177/241 in partition 2[2K
+Working on site pattern 178/241 in partition 2[2K
+Working on site pattern 179/241 in partition 2[2K
+Working on site pattern 180/241 in partition 2[2K
+Working on site pattern 181/241 in partition 2[2K
+Working on site pattern 182/241 in partition 2[2K
+Working on site pattern 183/241 in partition 2[2K
+Working on site pattern 184/241 in partition 2[2K
+Working on site pattern 185/241 in partition 2[2K
+Working on site pattern 186/241 in partition 2[2K
+Working on site pattern 187/241 in partition 2[2K
+Working on site pattern 188/241 in partition 2[2K
+Working on site pattern 189/241 in partition 2[2K
+Working on site pattern 190/241 in partition 2[2K
+Working on site pattern 191/241 in partition 2[2K
+Working on site pattern 192/241 in partition 2[2K
+                                              [2K
+|    245     |     2      |    0.000   |              0.00/2.09 : 0.01/0.99              |    3.813   |      Yes, p =  0.0697      |     0      |                         [4]gCa>gGa|[1]gGa>gCa                         |
+[2K
+Working on site pattern 193/241 in partition 2[2K
+Working on site pattern 194/241 in partition 2[2K
+Working on site pattern 195/241 in partition 2[2K
+Working on site pattern 196/241 in partition 2[2K
+Working on site pattern 197/241 in partition 2[2K
+Working on site pattern 198/241 in partition 2[2K
+Working on site pattern 199/241 in partition 2[2K
+Working on site pattern 200/241 in partition 2[2K
+Working on site pattern 201/241 in partition 2[2K
+Working on site pattern 202/241 in partition 2[2K
+Working on site pattern 203/241 in partition 2[2K
+Working on site pattern 204/241 in partition 2[2K
+Working on site pattern 205/241 in partition 2[2K
+Working on site pattern 206/241 in partition 2[2K
+Working on site pattern 207/241 in partition 2[2K
+Working on site pattern 208/241 in partition 2[2K
+Working on site pattern 209/241 in partition 2[2K
+Working on site pattern 210/241 in partition 2[2K
+Working on site pattern 211/241 in partition 2[2K
+Working on site pattern 212/241 in partition 2[2K
+Working on site pattern 213/241 in partition 2[2K
+Working on site pattern 214/241 in partition 2[2K
+                                              [2K
+|    267     |     2      |    0.000   |              0.00/3.37 : 0.01/0.99              |    4.325   |      Yes, p =  0.0534      |     5      |         [2]aGa>aAa,aGt>aCt|[1]Aaa>Gaa,aCa>aGa,aCa>aTa,agA>agT         |
+[2K
+Working on site pattern 215/241 in partition 2[2K
+Working on site pattern 216/241 in partition 2[2K
+                                              [2K
+|    269     |     2      |    1.688   |             0.90/20.05 : 0.77/0.23              |    3.969   |      Yes, p =  0.0643      |     1      |   [3]Cca>Aca|[2]ccA>ccG|[1]aCa>aGa,CCa>ATa,cCa>cTa,CCa>GAa,Gaa>Aaa    |
+[2K
+Working on site pattern 217/241 in partition 2[2K
+Working on site pattern 218/241 in partition 2[2K
+Working on site pattern 219/241 in partition 2[2K
+Working on site pattern 220/241 in partition 2[2K
+Working on site pattern 221/241 in partition 2[2K
+                                              [2K
+|    272     |     2      |    2.527   |             0.00/120.50 : 0.98/0.02             |    6.887   |      Yes, p =  0.0143      |     1      |                      [1]ATG>CCA,ccA>ccC,ccA>ccT                       |
+[2K
+Working on site pattern 222/241 in partition 2[2K
+Working on site pattern 223/241 in partition 2[2K
+Working on site pattern 224/241 in partition 2[2K
+Working on site pattern 225/241 in partition 2[2K
+Working on site pattern 226/241 in partition 2[2K
+Working on site pattern 227/241 in partition 2[2K
+Working on site pattern 228/241 in partition 2[2K
+Working on site pattern 229/241 in partition 2[2K
+Working on site pattern 230/241 in partition 2[2K
+Working on site pattern 231/241 in partition 2[2K
+Working on site pattern 232/241 in partition 2[2K
+Working on site pattern 233/241 in partition 2[2K
+Working on site pattern 234/241 in partition 2[2K
+Working on site pattern 235/241 in partition 2[2K
+Working on site pattern 236/241 in partition 2[2K
+Working on site pattern 237/241 in partition 2[2K
+Working on site pattern 238/241 in partition 2[2K
+Working on site pattern 239/241 in partition 2[2K
+Working on site pattern 240/241 in partition 2[2K
+Working on site pattern 241/241 in partition 2[2K
+                                              [2K
+[2K
+Working on site pattern 1/74 in partition 3[2K
+Working on site pattern 2/74 in partition 3[2K
+Working on site pattern 3/74 in partition 3[2K
+Working on site pattern 4/74 in partition 3[2K
+Working on site pattern 5/74 in partition 3[2K
+Working on site pattern 6/74 in partition 3[2K
+                                           [2K
+### For partition 3 these sites are significant at p <=0.1
+
+|   Codon    | Partition  |   alpha    |non-syn rate (beta) distribution, rates : weights|    LRT     |Episodic selection detected?| # branches |         List of most common codon substitutions at this site          |
+|:----------:|:----------:|:----------:|:-----------------------------------------------:|:----------:|:--------------------------:|:----------:|:---------------------------------------------------------------------:|
+|    300     |     3      |    1.777   |             0.01/64.51 : 0.94/0.06              |    3.358   |      Yes, p =  0.0885      |     2      |              [1]GTA>ACC,GTG>CAA,Gtg>Ctg,gtG>gtA,gtG>gtT               |
+[2K
+Working on site pattern 7/74 in partition 3[2K
+Working on site pattern 8/74 in partition 3[2K
+Working on site pattern 9/74 in partition 3[2K
+Working on site pattern 10/74 in partition 3[2K
+Working on site pattern 11/74 in partition 3[2K
+                                            [2K
+|    303     |     3      |    2.195   |             0.12/119.98 : 0.91/0.09             |   11.792   |      Yes, p =  0.0012      |     3      |          [1]CAC>ACA,TAc>ATc,TAC>ATG,TaT>CaC,taT>taC,tAt>tGt           |
+[2K
+Working on site pattern 12/74 in partition 3[2K
+                                            [2K
+|    306     |     3      |    3.126   |             0.00/25.63 : 0.85/0.15              |    4.537   |      Yes, p =  0.0479      |     4      |         [2]caT>caG|[1]caG>caA,CaG>GaC,CaG>GaT,CAt>TCt,gaC>gaT         |
+[2K
+Working on site pattern 13/74 in partition 3[2K
+Working on site pattern 14/74 in partition 3[2K
+Working on site pattern 15/74 in partition 3[2K
+Working on site pattern 16/74 in partition 3[2K
+Working on site pattern 17/74 in partition 3[2K
+Working on site pattern 18/74 in partition 3[2K
+Working on site pattern 19/74 in partition 3[2K
+Working on site pattern 20/74 in partition 3[2K
+Working on site pattern 21/74 in partition 3[2K
+Working on site pattern 22/74 in partition 3[2K
+Working on site pattern 23/74 in partition 3[2K
+Working on site pattern 24/74 in partition 3[2K
+Working on site pattern 25/74 in partition 3[2K
+Working on site pattern 26/74 in partition 3[2K
+Working on site pattern 27/74 in partition 3[2K
+Working on site pattern 28/74 in partition 3[2K
+Working on site pattern 29/74 in partition 3[2K
+Working on site pattern 30/74 in partition 3[2K
+Working on site pattern 31/74 in partition 3[2K
+Working on site pattern 32/74 in partition 3[2K
+Working on site pattern 33/74 in partition 3[2K
+Working on site pattern 34/74 in partition 3[2K
+Working on site pattern 35/74 in partition 3[2K
+Working on site pattern 36/74 in partition 3[2K
+Working on site pattern 37/74 in partition 3[2K
+Working on site pattern 38/74 in partition 3[2K
+Working on site pattern 39/74 in partition 3[2K
+Working on site pattern 40/74 in partition 3[2K
+Working on site pattern 41/74 in partition 3[2K
+Working on site pattern 42/74 in partition 3[2K
+Working on site pattern 43/74 in partition 3[2K
+Working on site pattern 44/74 in partition 3[2K
+Working on site pattern 45/74 in partition 3[2K
+Working on site pattern 46/74 in partition 3[2K
+Working on site pattern 47/74 in partition 3[2K
+Working on site pattern 48/74 in partition 3[2K
+Working on site pattern 49/74 in partition 3[2K
+Working on site pattern 50/74 in partition 3[2K
+Working on site pattern 51/74 in partition 3[2K
+Working on site pattern 52/74 in partition 3[2K
+Working on site pattern 53/74 in partition 3[2K
+Working on site pattern 54/74 in partition 3[2K
+Working on site pattern 55/74 in partition 3[2K
+Working on site pattern 56/74 in partition 3[2K
+Working on site pattern 57/74 in partition 3[2K
+Working on site pattern 58/74 in partition 3[2K
+Working on site pattern 59/74 in partition 3[2K
+Working on site pattern 60/74 in partition 3[2K
+Working on site pattern 61/74 in partition 3[2K
+Working on site pattern 62/74 in partition 3[2K
+Working on site pattern 63/74 in partition 3[2K
+Working on site pattern 64/74 in partition 3[2K
+Working on site pattern 65/74 in partition 3[2K
+Working on site pattern 66/74 in partition 3[2K
+Working on site pattern 67/74 in partition 3[2K
+Working on site pattern 68/74 in partition 3[2K
+Working on site pattern 69/74 in partition 3[2K
+Working on site pattern 70/74 in partition 3[2K
+                                            [2K
+|    361     |     3      |    2.343   |             0.00/164.06 : 0.96/0.04             |    6.119   |      Yes, p =  0.0212      |     1      |                     [2]tTT>tGG|[1]TTT>GGC,ttT>ttC                     |
+[2K
+Working on site pattern 71/74 in partition 3[2K
+Working on site pattern 72/74 in partition 3[2K
+Working on site pattern 73/74 in partition 3[2K
+Working on site pattern 74/74 in partition 3[2K
+                                            [2K
+### ** Found _21_ sites under episodic diversifying positive selection at p <= 0.1**
+
+
+

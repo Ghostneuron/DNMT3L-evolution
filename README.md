@@ -2,7 +2,7 @@
 
 This repository accompanies the manuscript **"Modular evolutionary constraint and lineage-structured switching-helix variation in DNMT3L."** It contains the data products, scripts, figures, and supplementary material for a clade-aware analysis of vertebrate DNMT3L sequence evolution. The manuscript itself is not distributed in this release.
 
-Release **v1.1.0 (25 October 2026)** adds the revision-specific ancestral-state, genomic-neighborhood, h358-ungated, and recombination-partition sensitivity analyses. The complete additive update is under `revision_20261025/`; the validated v1.0.0 analysis remains in the original directories.
+Release **v1.1.1 (25 October 2026)** adds the revision-specific ancestral-state, genomic-neighborhood, h358-ungated, and recombination-partition sensitivity analyses. It supersedes v1.1.0 by restoring three checksum-listed HyPhy logs that were omitted by the repository's `*.log` ignore rule. The complete additive update is under `revision_20261025/`; the validated v1.0.0 analysis remains in the original directories.
 
 ## Study overview
 

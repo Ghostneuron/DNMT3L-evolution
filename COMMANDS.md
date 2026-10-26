@@ -87,7 +87,7 @@ Conditional analyses are determined by the primary summaries. They qualify prima
 python scripts/build_dnmt3l_broadened_figures.py
 ```
 
-## Revision-specific analyses in v1.1.0
+## Revision-specific analyses in v1.1.1
 
 The additive files for ancestral-state reconstruction, the h358-ungated placental sensitivity, representative sauropsid genomic-neighborhood checks, and the Sauropsida GARD/partition-aware selection sensitivity are under `revision_20261025/`. Read `revision_20261025/README.md` before rerunning them.
 

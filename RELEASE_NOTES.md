@@ -1,5 +1,9 @@
 # Release notes
 
+## Version 1.1.1 - 2026-10-25
+
+Packaging hotfix for v1.1.0. Three checksum-listed HyPhy execution logs were omitted from the first push because the repository ignores `*.log`; v1.1.1 restores those audited logs. No scientific result, figure, table, or interpretation changed.
+
 ## Version 1.1.0 - 2026-10-25
 
 Additive revision release for **"Modular evolutionary constraint and lineage-structured switching-helix variation in DNMT3L."** The v1.0.0 analysis state remains preserved by its tag and commit.

@@ -3,6 +3,7 @@
 __pycache__/
 *.py[cod]
 *.log
+!revision_20261025/results/gard_partitioned_selection/*.log
 *.tmp
 *.swp
 ~$*

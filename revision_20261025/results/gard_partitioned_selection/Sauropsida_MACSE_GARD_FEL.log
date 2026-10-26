@@ -1,0 +1,1027 @@
+
+Analysis Description
+--------------------
+FEL (Fixed Effects Likelihood) estimates site-wise synonymous (&alpha;)
+and non-synonymous (&beta;) rates, and uses a likelihood ratio test to
+determine if beta &neq; alpha at a site. The estimates aggregate
+information over all branches, so the signal is derived from pervasive
+diversification or conservation. A subset of branches can be selected
+for testing as well, in which case an additional (nuisance) parameter
+will be inferred -- the non-synonymous rate on branches NOT selected for
+testing. Multiple partitions within a NEXUS file are also supported for
+recombination - aware analysis. Version 2.5 adds MH support. Version 2.6
+adds substitution mapping. 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Not So Different After All: A Comparison of Methods for Detecting Amino
+Acid Sites Under Selection (2005). _Mol Biol Evol_ 22 (5): 1208-1222
+
+- __Written by__: Sergei L Kosakovsky Pond and Simon DW Frost
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.6
+
+
+>code => Universal
+>Loaded a multiple sequence alignment with **42** sequences, **372** codons, and **3** partitions from `results/gard/Sauropsida_MACSE_GARD.best-gard`
+
+>branches => All
+
+>srv => Yes
+
+>multiple-hits => None
+
+>Select the p-value threshold to use when testing for selection (permissible range = [0,1], default value = 0.1): 
+>pvalue => 0.1
+
+>ci => No
+Only analyze sites whose 1-based indices match the following list (null to skip) : 
+>limit-to-sites => null
+For sites whose 1-based indices match the following list, write out likelihood function snapshots (null string to skip) : 
+>save-lf-for-sites => null
+
+>[Advanced setting, will result in MUCH SLOWER run time] Perform parametric bootstrap resampling to derive site-level null LRT distributions up to this many replicates per site. Recommended use for small to medium (<30 sequences) datasets (permissible range = [0,1000], default value = 50, integer): 
+>resample => 0
+
+
+### Branches to include in the FEL analysis
+Selected 81 branches to include in FEL calculations: `AHAETULLA_PRASINA, PITUOPHIS_CATENIFER_ANNECTENS, NODE12, NATRIX_HELVETICA, NODE11, PROTOBOTHROPS_MUCROSQUAMATUS, CROTALUS_TIGRIS, VIPERA_BERUS, NODE18, NODE16, NODE10, PSEUDONAJA_TEXTILIS, NODE9, NOTECHIS_SCUTATUS, NODE8, ERYTHROLAMPRUS_REGINAE, ELGARIA_MULTICARINATA_WEBBII, NODE25, EULEPTES_EUROPAEA, NODE24, ALLIGATOR_SINENSIS, CROCODYLUS_POROSUS, NODE31, CARETTA_CARETTA, ERETMOCHELYS_IMBRICATA, LEPIDOCHELYS_KEMPII, NODE40, NODE38, CHELONIA_MYDAS, NODE37, NATATOR_DEPRESSUS, NODE36, MAUREMYS_MUTICA, NODE35, TRACHEMYS_SCRIPTA_ELEGANS, NODE34, NODE30, MALACLEMYS_TERRAPIN_PILEATA, EMYDURA_MACQUARII_MACQUARII, NODE47, NODE29, NODE23, NODE7, POGONA_VITTICEPS, SCELOPORUS_UNDULATUS, NODE51, EUBLEPHARIS_MACULARIUS, PAROEDURA_PICTA, SPHAERODACTYLUS_TOWNSENDI, NODE59, GEKKO_JAPONICUS, NODE58, NODE56, HETERONOTIA_BINOEI, NODE55, HEMICORDYLUS_CAPENSIS, NODE54, NODE50, NODE6, CANDOIA_ASPERA, NODE5, RHINEURA_FLORIDANA, PODARCIS_MURALIS, NODE67, PODARCIS_RAFFONEI, NODE66, NODE4, ZOOTOCA_VIVIPARA, NODE3, PODARCIS_CRETENSIS, PODARCIS_PITYUSENSIS, NODE73, PODARCIS_ERHARDII, NODE72, NODE2, PODARCIS_MELISELLENSIS, NODE1, PODARCIS_BOCAGEI, LACERTA_AGILIS, NODE78, PODARCIS_VAUCHERI`
+Selected 81 branches to include in FEL calculations: `AHAETULLA_PRASINA, PITUOPHIS_CATENIFER_ANNECTENS, NODE14, NATRIX_HELVETICA, NODE13, ERYTHROLAMPRUS_REGINAE, NODE12, NOTECHIS_SCUTATUS, PSEUDONAJA_TEXTILIS, NODE19, NODE11, PROTOBOTHROPS_MUCROSQUAMATUS, CROTALUS_TIGRIS, NODE23, VIPERA_BERUS, NODE22, NODE10, CANDOIA_ASPERA, NODE9, ELGARIA_MULTICARINATA_WEBBII, SCELOPORUS_UNDULATUS, NODE29, POGONA_VITTICEPS, NODE28, NODE8, EUBLEPHARIS_MACULARIUS, PAROEDURA_PICTA, HETERONOTIA_BINOEI, NODE40, GEKKO_JAPONICUS, NODE39, EULEPTES_EUROPAEA, NODE38, SPHAERODACTYLUS_TOWNSENDI, NODE37, NODE35, ALLIGATOR_SINENSIS, CROCODYLUS_POROSUS, NODE47, CARETTA_CARETTA, ERETMOCHELYS_IMBRICATA, NODE54, LEPIDOCHELYS_KEMPII, NODE53, CHELONIA_MYDAS, NATATOR_DEPRESSUS, NODE58, NODE52, MAUREMYS_MUTICA, TRACHEMYS_SCRIPTA_ELEGANS, MALACLEMYS_TERRAPIN_PILEATA, NODE63, NODE61, NODE51, EMYDURA_MACQUARII_MACQUARII, NODE50, NODE46, NODE34, HEMICORDYLUS_CAPENSIS, NODE33, NODE7, RHINEURA_FLORIDANA, NODE6, ZOOTOCA_VIVIPARA, NODE5, LACERTA_AGILIS, NODE4, PODARCIS_MELISELLENSIS, NODE3, PODARCIS_RAFFONEI, NODE2, PODARCIS_MURALIS, PODARCIS_BOCAGEI, PODARCIS_VAUCHERI, NODE75, NODE73, NODE1, PODARCIS_CRETENSIS, PODARCIS_ERHARDII, NODE78, PODARCIS_PITYUSENSIS`
+Selected 81 branches to include in FEL calculations: `AHAETULLA_PRASINA, NATRIX_HELVETICA, NODE16, PITUOPHIS_CATENIFER_ANNECTENS, NODE15, ERYTHROLAMPRUS_REGINAE, NODE14, NOTECHIS_SCUTATUS, PSEUDONAJA_TEXTILIS, NODE21, NODE13, PROTOBOTHROPS_MUCROSQUAMATUS, CROTALUS_TIGRIS, NODE25, VIPERA_BERUS, NODE24, NODE12, POGONA_VITTICEPS, NODE11, EUBLEPHARIS_MACULARIUS, PAROEDURA_PICTA, GEKKO_JAPONICUS, HETERONOTIA_BINOEI, NODE35, NODE33, EULEPTES_EUROPAEA, SPHAERODACTYLUS_TOWNSENDI, NODE38, NODE32, NODE30, NODE10, CANDOIA_ASPERA, ALLIGATOR_SINENSIS, NODE44, CROCODYLUS_POROSUS, NODE43, CARETTA_CARETTA, ERETMOCHELYS_IMBRICATA, NODE53, LEPIDOCHELYS_KEMPII, NODE52, CHELONIA_MYDAS, NATATOR_DEPRESSUS, NODE57, NODE51, TRACHEMYS_SCRIPTA_ELEGANS, MALACLEMYS_TERRAPIN_PILEATA, NODE60, NODE50, MAUREMYS_MUTICA, NODE49, EMYDURA_MACQUARII_MACQUARII, NODE48, NODE42, ELGARIA_MULTICARINATA_WEBBII, NODE41, NODE9, SCELOPORUS_UNDULATUS, NODE8, HEMICORDYLUS_CAPENSIS, RHINEURA_FLORIDANA, NODE67, NODE7, LACERTA_AGILIS, NODE6, PODARCIS_CRETENSIS, NODE5, PODARCIS_RAFFONEI, NODE4, PODARCIS_MELISELLENSIS, NODE3, PODARCIS_MURALIS, PODARCIS_BOCAGEI, PODARCIS_VAUCHERI, NODE76, NODE74, NODE2, PODARCIS_ERHARDII, NODE1, PODARCIS_PITYUSENSIS, ZOOTOCA_VIVIPARA`
+
+>precision => standard
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths => Yes
+
+### Deleted 11 zero-length internal branches: `NODE1, NODE11, NODE18, NODE37, NODE40, NODE56, NODE6, NODE67, NODE73, NODE78, NODE9`
+Deleted 4 zero-length internal branches: `NODE12, NODE13, NODE2, NODE54`
+Deleted 11 zero-length internal branches: `NODE1, NODE11, NODE16, NODE2, NODE3, NODE4, NODE41, NODE5, NODE50, NODE52, NODE76`
+* Log(L) = -14150.88, AIC-c = 28806.48 (251 estimated parameters)
+* 3 partitions. Total tree length by partition (subs/site)  5.896,  2.404, 2022.436
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -13684.57, AIC-c = 27840.16 (232 estimated parameters)
+* 3 partitions. Total tree length by partition (subs/site)  6.336,  2.553, 2110.200
+* non-synonymous/synonymous rate ratio for *test* =   0.3392
+
+>full-model => Yes
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+* Log(L) = -13655.40, AIC-c = 27781.82 (232 estimated parameters)
+* 3 partitions. Total tree length by partition (subs/site)  6.609,  2.576, 1646.940
+* non-synonymous/synonymous rate ratio for *test* =   0.3038
+[2K
+Working on site pattern 1/55 in partition 1[2K
+Working on site pattern 2/55 in partition 1[2K
+Working on site pattern 3/55 in partition 1[2K
+Working on site pattern 4/55 in partition 1[2K
+Working on site pattern 5/55 in partition 1[2K
+Working on site pattern 6/55 in partition 1[2K
+Working on site pattern 7/55 in partition 1[2K
+Working on site pattern 8/55 in partition 1[2K
+Working on site pattern 9/55 in partition 1[2K
+Working on site pattern 10/55 in partition 1[2K
+                                            [2K
+### For partition 1 these sites are significant at p <=0.1
+
+|     Codon      |   Partition    |     alpha      |      beta      |      LRT       |Selection detected?|
+|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:-----------------:|
+|       7        |       1        |        2.039   |        0.600   |        2.880   |  Neg. p = 0.0897  |
+[2K
+Working on site pattern 11/55 in partition 1[2K
+Working on site pattern 12/55 in partition 1[2K
+Working on site pattern 13/55 in partition 1[2K
+Working on site pattern 14/55 in partition 1[2K
+Working on site pattern 15/55 in partition 1[2K
+Working on site pattern 16/55 in partition 1[2K
+Working on site pattern 17/55 in partition 1[2K
+Working on site pattern 18/55 in partition 1[2K
+Working on site pattern 19/55 in partition 1[2K
+                                            [2K
+|       16       |       1        |        0.032   |        1.080   |        3.346   |  Pos. p = 0.0674  |
+[2K
+Working on site pattern 20/55 in partition 1[2K
+Working on site pattern 21/55 in partition 1[2K
+Working on site pattern 22/55 in partition 1[2K
+Working on site pattern 23/55 in partition 1[2K
+Working on site pattern 24/55 in partition 1[2K
+                                            [2K
+|       21       |       1        |        3.023   |        0.768   |        5.981   |  Neg. p = 0.0145  |
+[2K
+Working on site pattern 25/55 in partition 1[2K
+Working on site pattern 26/55 in partition 1[2K
+Working on site pattern 27/55 in partition 1[2K
+Working on site pattern 28/55 in partition 1[2K
+Working on site pattern 29/55 in partition 1[2K
+Working on site pattern 30/55 in partition 1[2K
+Working on site pattern 31/55 in partition 1[2K
+Working on site pattern 32/55 in partition 1[2K
+Working on site pattern 33/55 in partition 1[2K
+Working on site pattern 34/55 in partition 1[2K
+Working on site pattern 35/55 in partition 1[2K
+Working on site pattern 36/55 in partition 1[2K
+                                            [2K
+|       34       |       1        |        1.977   |        0.269   |        7.464   |  Neg. p = 0.0063  |
+[2K
+Working on site pattern 37/55 in partition 1[2K
+Working on site pattern 38/55 in partition 1[2K
+Working on site pattern 39/55 in partition 1[2K
+Working on site pattern 40/55 in partition 1[2K
+Working on site pattern 41/55 in partition 1[2K
+Working on site pattern 42/55 in partition 1[2K
+                                            [2K
+|       39       |       1        |        0.673   |        0.214   |        2.896   |  Neg. p = 0.0888  |
+[2K
+Working on site pattern 43/55 in partition 1[2K
+Working on site pattern 44/55 in partition 1[2K
+Working on site pattern 45/55 in partition 1[2K
+Working on site pattern 46/55 in partition 1[2K
+Working on site pattern 47/55 in partition 1[2K
+                                            [2K
+|       44       |       1        |        0.882   |        0.147   |        6.064   |  Neg. p = 0.0138  |
+[2K
+Working on site pattern 48/55 in partition 1[2K
+Working on site pattern 49/55 in partition 1[2K
+Working on site pattern 50/55 in partition 1[2K
+Working on site pattern 51/55 in partition 1[2K
+Working on site pattern 52/55 in partition 1[2K
+Working on site pattern 53/55 in partition 1[2K
+Working on site pattern 54/55 in partition 1[2K
+                                            [2K
+|       51       |       1        |        0.605   |        0.031   |        8.548   |  Neg. p = 0.0035  |
+[2K
+Working on site pattern 55/55 in partition 1[2K
+                                            [2K
+|       50       |       1        |        1.042   |        0.000   |       15.701   |  Neg. p = 0.0001  |
+[2K
+                                            [2K
+[2K
+                                            [2K
+|       52       |       1        |        0.248   |        0.000   |        6.251   |  Neg. p = 0.0124  |
+[2K
+                                            [2K
+|       54       |       1        |        0.146   |        0.000   |        4.529   |  Neg. p = 0.0333  |
+[2K
+                                            [2K
+|       55       |       1        |        1.199   |        0.278   |        4.384   |  Neg. p = 0.0363  |
+[2K
+Working on site pattern 1/241 in partition 2[2K
+Working on site pattern 2/241 in partition 2[2K
+Working on site pattern 3/241 in partition 2[2K
+Working on site pattern 4/241 in partition 2[2K
+Working on site pattern 5/241 in partition 2[2K
+Working on site pattern 6/241 in partition 2[2K
+Working on site pattern 7/241 in partition 2[2K
+Working on site pattern 8/241 in partition 2[2K
+Working on site pattern 9/241 in partition 2[2K
+                                            [2K
+### For partition 2 these sites are significant at p <=0.1
+
+|     Codon      |   Partition    |     alpha      |      beta      |      LRT       |Selection detected?|
+|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:-----------------:|
+|       59       |       2        |        3.216   |        0.134   |       16.319   |  Neg. p = 0.0001  |
+[2K
+Working on site pattern 10/241 in partition 2[2K
+                                             [2K
+|       62       |       2        |        1.675   |        0.000   |       13.504   |  Neg. p = 0.0002  |
+[2K
+Working on site pattern 11/241 in partition 2[2K
+                                             [2K
+|       63       |       2        |        1.008   |        0.000   |       12.176   |  Neg. p = 0.0005  |
+[2K
+Working on site pattern 12/241 in partition 2[2K
+                                             [2K
+|       64       |       2        |        0.596   |        0.000   |        5.328   |  Neg. p = 0.0210  |
+[2K
+Working on site pattern 13/241 in partition 2[2K
+                                             [2K
+|       67       |       2        |        0.388   |        0.000   |        4.607   |  Neg. p = 0.0318  |
+[2K
+Working on site pattern 14/241 in partition 2[2K
+                                             [2K
+|       65       |       2        |        1.872   |        0.000   |       11.312   |  Neg. p = 0.0008  |
+[2K
+Working on site pattern 15/241 in partition 2[2K
+                                             [2K
+|       66       |       2        |        3.616   |        0.071   |       14.316   |  Neg. p = 0.0002  |
+[2K
+Working on site pattern 16/241 in partition 2[2K
+                                             [2K
+|       68       |       2        |        0.401   |        0.000   |        4.595   |  Neg. p = 0.0321  |
+[2K
+Working on site pattern 17/241 in partition 2[2K
+                                             [2K
+|       69       |       2        |        3.359   |        0.193   |        8.447   |  Neg. p = 0.0037  |
+[2K
+Working on site pattern 18/241 in partition 2[2K
+                                             [2K
+|       70       |       2        |        2.078   |        0.000   |       12.321   |  Neg. p = 0.0004  |
+[2K
+Working on site pattern 19/241 in partition 2[2K
+Working on site pattern 20/241 in partition 2[2K
+                                             [2K
+|       72       |       2        |        1.385   |        0.136   |        7.925   |  Neg. p = 0.0049  |
+[2K
+Working on site pattern 21/241 in partition 2[2K
+                                             [2K
+|       73       |       2        |        1.050   |        0.000   |        9.982   |  Neg. p = 0.0016  |
+[2K
+Working on site pattern 22/241 in partition 2[2K
+                                             [2K
+|       74       |       2        |        1.231   |        0.082   |        8.758   |  Neg. p = 0.0031  |
+[2K
+Working on site pattern 23/241 in partition 2[2K
+                                             [2K
+|       75       |       2        |        1.196   |        0.000   |       10.183   |  Neg. p = 0.0014  |
+[2K
+Working on site pattern 24/241 in partition 2[2K
+Working on site pattern 25/241 in partition 2[2K
+                                             [2K
+|       76       |       2        |        3.105   |        0.709   |        4.076   |  Neg. p = 0.0435  |
+[2K
+Working on site pattern 26/241 in partition 2[2K
+                                             [2K
+|       79       |       2        |        1.064   |        0.000   |        9.641   |  Neg. p = 0.0019  |
+[2K
+Working on site pattern 27/241 in partition 2[2K
+                                             [2K
+|       80       |       2        |        1.303   |        0.170   |        4.969   |  Neg. p = 0.0258  |
+[2K
+Working on site pattern 28/241 in partition 2[2K
+                                             [2K
+|       78       |       2        |        1.068   |        0.000   |        9.760   |  Neg. p = 0.0018  |
+[2K
+Working on site pattern 29/241 in partition 2[2K
+                                             [2K
+|       81       |       2        |        2.684   |        0.000   |       20.698   |  Neg. p = 0.0000  |
+[2K
+Working on site pattern 30/241 in partition 2[2K
+                                             [2K
+|       82       |       2        |        0.385   |        0.000   |        3.472   |  Neg. p = 0.0624  |
+[2K
+Working on site pattern 31/241 in partition 2[2K
+                                             [2K
+|       83       |       2        |        0.684   |        0.000   |        8.051   |  Neg. p = 0.0045  |
+[2K
+Working on site pattern 32/241 in partition 2[2K
+                                             [2K
+|       84       |       2        |        3.011   |        0.092   |       11.196   |  Neg. p = 0.0008  |
+[2K
+Working on site pattern 33/241 in partition 2[2K
+                                             [2K
+|       85       |       2        |        1.794   |        0.000   |       12.328   |  Neg. p = 0.0004  |
+[2K
+Working on site pattern 34/241 in partition 2[2K
+                                             [2K
+|       86       |       2        |        3.003   |        0.589   |        3.259   |  Neg. p = 0.0711  |
+[2K
+Working on site pattern 35/241 in partition 2[2K
+                                             [2K
+|       87       |       2        |        1.038   |        0.000   |        8.014   |  Neg. p = 0.0046  |
+[2K
+Working on site pattern 36/241 in partition 2[2K
+Working on site pattern 37/241 in partition 2[2K
+                                             [2K
+|       88       |       2        |        1.941   |        0.000   |       21.546   |  Neg. p = 0.0000  |
+[2K
+Working on site pattern 38/241 in partition 2[2K
+                                             [2K
+|       90       |       2        |        3.351   |        0.560   |        6.400   |  Neg. p = 0.0114  |
+[2K
+Working on site pattern 39/241 in partition 2[2K
+                                             [2K
+|       91       |       2        |        1.598   |        0.423   |        3.797   |  Neg. p = 0.0514  |
+[2K
+Working on site pattern 40/241 in partition 2[2K
+                                             [2K
+|       92       |       2        |        3.161   |        0.416   |        8.262   |  Neg. p = 0.0040  |
+[2K
+Working on site pattern 41/241 in partition 2[2K
+                                             [2K
+|       93       |       2        |        0.521   |        0.000   |        3.843   |  Neg. p = 0.0500  |
+[2K
+Working on site pattern 42/241 in partition 2[2K
+                                             [2K
+|       94       |       2        |        2.223   |        0.407   |        8.201   |  Neg. p = 0.0042  |
+[2K
+Working on site pattern 43/241 in partition 2[2K
+Working on site pattern 44/241 in partition 2[2K
+                                             [2K
+|       96       |       2        |        1.382   |        0.000   |       12.758   |  Neg. p = 0.0004  |
+[2K
+Working on site pattern 45/241 in partition 2[2K
+                                             [2K
+|       97       |       2        |        0.961   |        0.000   |        9.404   |  Neg. p = 0.0022  |
+[2K
+Working on site pattern 46/241 in partition 2[2K
+                                             [2K
+|       98       |       2        |       17.347   |        0.735   |       17.938   |  Neg. p = 0.0000  |
+[2K
+Working on site pattern 47/241 in partition 2[2K
+                                             [2K
+|       99       |       2        |        1.496   |        0.164   |        8.589   |  Neg. p = 0.0034  |
+[2K
+Working on site pattern 48/241 in partition 2[2K
+Working on site pattern 49/241 in partition 2[2K
+                                             [2K
+|      101       |       2        |        1.578   |        0.404   |        3.764   |  Neg. p = 0.0524  |
+[2K
+Working on site pattern 50/241 in partition 2[2K
+                                             [2K
+|      103       |       2        |        1.878   |        0.286   |        6.619   |  Neg. p = 0.0101  |
+[2K
+Working on site pattern 51/241 in partition 2[2K
+                                             [2K
+|      102       |       2        |        1.035   |        0.000   |       11.304   |  Neg. p = 0.0008  |
+[2K
+Working on site pattern 52/241 in partition 2[2K
+                                             [2K
+|      105       |       2        |        2.158   |        0.000   |       13.344   |  Neg. p = 0.0003  |
+[2K
+Working on site pattern 53/241 in partition 2[2K
+                                             [2K
+|      104       |       2        |    10000.000   |        0.148   |        7.651   |  Neg. p = 0.0057  |
+[2K
+Working on site pattern 54/241 in partition 2[2K
+                                             [2K
+|      106       |       2        |        2.780   |        0.000   |       14.237   |  Neg. p = 0.0002  |
+[2K
+Working on site pattern 55/241 in partition 2[2K
+Working on site pattern 56/241 in partition 2[2K
+Working on site pattern 57/241 in partition 2[2K
+Working on site pattern 58/241 in partition 2[2K
+                                             [2K
+|      110       |       2        |        2.522   |        0.000   |       18.550   |  Neg. p = 0.0000  |
+[2K
+Working on site pattern 59/241 in partition 2[2K
+                                             [2K
+|      111       |       2        |        1.203   |        0.235   |        2.925   |  Neg. p = 0.0872  |
+[2K
+Working on site pattern 60/241 in partition 2[2K
+                                             [2K
+|      112       |       2        |        1.413   |        0.079   |        9.773   |  Neg. p = 0.0018  |
+[2K
+Working on site pattern 61/241 in partition 2[2K
+                                             [2K
+|      113       |       2        |        1.927   |        0.379   |        4.567   |  Neg. p = 0.0326  |
+[2K
+Working on site pattern 62/241 in partition 2[2K
+Working on site pattern 63/241 in partition 2[2K
+Working on site pattern 64/241 in partition 2[2K
+Working on site pattern 65/241 in partition 2[2K
+                                             [2K
+|      115       |       2        |        3.488   |        0.000   |       21.515   |  Neg. p = 0.0000  |
+[2K
+Working on site pattern 66/241 in partition 2[2K
+Working on site pattern 67/241 in partition 2[2K
+                                             [2K
+|      118       |       2        |        1.794   |        0.000   |       11.928   |  Neg. p = 0.0006  |
+[2K
+Working on site pattern 68/241 in partition 2[2K
+                                             [2K
+|      120       |       2        |        2.957   |        0.080   |       12.499   |  Neg. p = 0.0004  |
+[2K
+Working on site pattern 69/241 in partition 2[2K
+                                             [2K
+|      121       |       2        |        1.490   |        0.526   |        3.038   |  Neg. p = 0.0814  |
+[2K
+Working on site pattern 70/241 in partition 2[2K
+                                             [2K
+|      123       |       2        |        2.587   |        0.101   |       15.614   |  Neg. p = 0.0001  |
+[2K
+Working on site pattern 71/241 in partition 2[2K
+                                             [2K
+|      122       |       2        |        1.140   |        0.000   |       11.409   |  Neg. p = 0.0007  |
+[2K
+Working on site pattern 72/241 in partition 2[2K
+                                             [2K
+|      124       |       2        |        0.006   |        0.977   |        3.331   |  Pos. p = 0.0680  |
+[2K
+Working on site pattern 73/241 in partition 2[2K
+Working on site pattern 74/241 in partition 2[2K
+                                             [2K
+|      126       |       2        |        1.658   |        0.081   |       12.620   |  Neg. p = 0.0004  |
+[2K
+Working on site pattern 75/241 in partition 2[2K
+Working on site pattern 76/241 in partition 2[2K
+Working on site pattern 77/241 in partition 2[2K
+Working on site pattern 78/241 in partition 2[2K
+Working on site pattern 79/241 in partition 2[2K
+Working on site pattern 80/241 in partition 2[2K
+Working on site pattern 81/241 in partition 2[2K
+Working on site pattern 82/241 in partition 2[2K
+Working on site pattern 83/241 in partition 2[2K
+Working on site pattern 84/241 in partition 2[2K
+Working on site pattern 85/241 in partition 2[2K
+Working on site pattern 86/241 in partition 2[2K
+Working on site pattern 87/241 in partition 2[2K
+                                             [2K
+|      139       |       2        |        1.647   |        0.000   |       11.585   |  Neg. p = 0.0007  |
+[2K
+Working on site pattern 88/241 in partition 2[2K
+                                             [2K
+|      140       |       2        |        0.634   |        0.086   |        2.860   |  Neg. p = 0.0908  |
+[2K
+Working on site pattern 89/241 in partition 2[2K
+Working on site pattern 90/241 in partition 2[2K
+                                             [2K
+|      142       |       2        |        0.956   |        0.000   |        7.400   |  Neg. p = 0.0065  |
+[2K
+Working on site pattern 91/241 in partition 2[2K
+                                             [2K
+|      144       |       2        |        1.345   |        0.138   |        8.872   |  Neg. p = 0.0029  |
+[2K
+Working on site pattern 92/241 in partition 2[2K
+Working on site pattern 93/241 in partition 2[2K
+Working on site pattern 94/241 in partition 2[2K
+Working on site pattern 95/241 in partition 2[2K
+Working on site pattern 96/241 in partition 2[2K
+Working on site pattern 97/241 in partition 2[2K
+                                             [2K
+|      149       |       2        |        1.315   |        0.000   |       13.455   |  Neg. p = 0.0002  |
+[2K
+Working on site pattern 98/241 in partition 2[2K
+                                             [2K
+|      150       |       2        |        2.072   |        0.390   |        5.619   |  Neg. p = 0.0178  |
+[2K
+Working on site pattern 99/241 in partition 2[2K
+                                             [2K
+|      151       |       2        |        0.682   |        0.000   |        7.595   |  Neg. p = 0.0059  |
+[2K
+Working on site pattern 100/241 in partition 2[2K
+                                              [2K
+|      152       |       2        |        0.617   |        0.084   |        2.710   |  Neg. p = 0.0997  |
+[2K
+Working on site pattern 101/241 in partition 2[2K
+Working on site pattern 102/241 in partition 2[2K
+Working on site pattern 103/241 in partition 2[2K
+Working on site pattern 104/241 in partition 2[2K
+Working on site pattern 105/241 in partition 2[2K
+                                              [2K
+|      158       |       2        |        1.333   |        0.244   |        5.097   |  Neg. p = 0.0240  |
+[2K
+Working on site pattern 106/241 in partition 2[2K
+Working on site pattern 107/241 in partition 2[2K
+Working on site pattern 108/241 in partition 2[2K
+                                              [2K
+|      161       |       2        |        0.326   |        0.000   |        3.798   |  Neg. p = 0.0513  |
+[2K
+Working on site pattern 109/241 in partition 2[2K
+Working on site pattern 110/241 in partition 2[2K
+                                              [2K
+|      162       |       2        |        1.026   |        0.000   |        9.444   |  Neg. p = 0.0021  |
+[2K
+Working on site pattern 111/241 in partition 2[2K
+Working on site pattern 112/241 in partition 2[2K
+                                              [2K
+|      166       |       2        |        0.476   |        0.000   |        3.932   |  Neg. p = 0.0474  |
+[2K
+Working on site pattern 113/241 in partition 2[2K
+                                              [2K
+|      165       |       2        |        5.715   |        0.227   |       14.001   |  Neg. p = 0.0002  |
+[2K
+Working on site pattern 114/241 in partition 2[2K
+Working on site pattern 115/241 in partition 2[2K
+                                              [2K
+|      169       |       2        |        1.170   |        0.000   |       11.182   |  Neg. p = 0.0008  |
+[2K
+Working on site pattern 116/241 in partition 2[2K
+                                              [2K
+|      168       |       2        |        3.993   |        0.084   |       17.645   |  Neg. p = 0.0000  |
+[2K
+Working on site pattern 117/241 in partition 2[2K
+Working on site pattern 118/241 in partition 2[2K
+                                              [2K
+|      171       |       2        |        5.388   |        0.790   |        4.711   |  Neg. p = 0.0300  |
+[2K
+Working on site pattern 119/241 in partition 2[2K
+Working on site pattern 120/241 in partition 2[2K
+                                              [2K
+|      172       |       2        |        2.767   |        0.898   |        4.399   |  Neg. p = 0.0360  |
+[2K
+Working on site pattern 121/241 in partition 2[2K
+                                              [2K
+|      174       |       2        |        0.790   |        0.081   |        3.487   |  Neg. p = 0.0619  |
+[2K
+Working on site pattern 122/241 in partition 2[2K
+                                              [2K
+|      175       |       2        |        1.374   |        0.113   |        4.249   |  Neg. p = 0.0393  |
+[2K
+Working on site pattern 123/241 in partition 2[2K
+Working on site pattern 124/241 in partition 2[2K
+                                              [2K
+|      178       |       2        |        1.645   |        0.142   |        6.783   |  Neg. p = 0.0092  |
+[2K
+Working on site pattern 125/241 in partition 2[2K
+                                              [2K
+|      177       |       2        |        2.595   |        0.329   |        9.320   |  Neg. p = 0.0023  |
+[2K
+Working on site pattern 126/241 in partition 2[2K
+Working on site pattern 127/241 in partition 2[2K
+Working on site pattern 128/241 in partition 2[2K
+Working on site pattern 129/241 in partition 2[2K
+                                              [2K
+|      182       |       2        |        1.332   |        0.173   |        4.504   |  Neg. p = 0.0338  |
+[2K
+Working on site pattern 130/241 in partition 2[2K
+                                              [2K
+|      183       |       2        |        0.933   |        0.199   |        2.874   |  Neg. p = 0.0900  |
+[2K
+Working on site pattern 131/241 in partition 2[2K
+                                              [2K
+|      184       |       2        |        1.386   |        0.082   |        6.494   |  Neg. p = 0.0108  |
+[2K
+Working on site pattern 132/241 in partition 2[2K
+                                              [2K
+|      185       |       2        |        1.113   |        0.304   |        3.493   |  Neg. p = 0.0616  |
+[2K
+Working on site pattern 133/241 in partition 2[2K
+                                              [2K
+|      186       |       2        |        1.003   |        0.178   |        4.677   |  Neg. p = 0.0306  |
+[2K
+Working on site pattern 134/241 in partition 2[2K
+                                              [2K
+|      188       |       2        |        1.076   |        0.211   |        3.876   |  Neg. p = 0.0490  |
+[2K
+Working on site pattern 135/241 in partition 2[2K
+                                              [2K
+|      187       |       2        |        8.652   |        0.306   |       21.574   |  Neg. p = 0.0000  |
+[2K
+Working on site pattern 136/241 in partition 2[2K
+                                              [2K
+|      189       |       2        |        0.632   |        0.082   |        4.070   |  Neg. p = 0.0437  |
+[2K
+Working on site pattern 137/241 in partition 2[2K
+                                              [2K
+|      190       |       2        |        0.630   |        0.092   |        3.766   |  Neg. p = 0.0523  |
+[2K
+Working on site pattern 138/241 in partition 2[2K
+                                              [2K
+|      191       |       2        |        2.159   |        0.084   |       12.293   |  Neg. p = 0.0005  |
+[2K
+Working on site pattern 139/241 in partition 2[2K
+                                              [2K
+|      192       |       2        |        0.505   |        0.000   |        3.592   |  Neg. p = 0.0581  |
+[2K
+Working on site pattern 140/241 in partition 2[2K
+                                              [2K
+|      193       |       2        |        1.031   |        0.073   |        4.866   |  Neg. p = 0.0274  |
+[2K
+Working on site pattern 141/241 in partition 2[2K
+                                              [2K
+|      194       |       2        |        2.816   |        0.157   |        9.543   |  Neg. p = 0.0020  |
+[2K
+Working on site pattern 142/241 in partition 2[2K
+                                              [2K
+|      195       |       2        |        0.341   |        0.000   |        2.954   |  Neg. p = 0.0857  |
+[2K
+Working on site pattern 143/241 in partition 2[2K
+Working on site pattern 144/241 in partition 2[2K
+                                              [2K
+|      197       |       2        |        3.437   |        0.854   |        4.251   |  Neg. p = 0.0392  |
+[2K
+Working on site pattern 145/241 in partition 2[2K
+Working on site pattern 146/241 in partition 2[2K
+                                              [2K
+|      198       |       2        |        2.314   |        0.000   |       16.657   |  Neg. p = 0.0000  |
+[2K
+Working on site pattern 147/241 in partition 2[2K
+Working on site pattern 148/241 in partition 2[2K
+Working on site pattern 149/241 in partition 2[2K
+Working on site pattern 150/241 in partition 2[2K
+                                              [2K
+|      203       |       2        |        0.957   |        0.000   |       11.687   |  Neg. p = 0.0006  |
+[2K
+Working on site pattern 151/241 in partition 2[2K
+                                              [2K
+|      204       |       2        |        1.063   |        0.000   |        7.262   |  Neg. p = 0.0070  |
+[2K
+Working on site pattern 152/241 in partition 2[2K
+                                              [2K
+|      205       |       2        |        1.054   |        0.000   |       11.069   |  Neg. p = 0.0009  |
+[2K
+Working on site pattern 153/241 in partition 2[2K
+                                              [2K
+|      206       |       2        |        0.995   |        0.165   |        5.017   |  Neg. p = 0.0251  |
+[2K
+Working on site pattern 154/241 in partition 2[2K
+                                              [2K
+|      207       |       2        |        0.007   |        0.754   |        3.361   |  Pos. p = 0.0668  |
+[2K
+Working on site pattern 155/241 in partition 2[2K
+Working on site pattern 156/241 in partition 2[2K
+Working on site pattern 157/241 in partition 2[2K
+Working on site pattern 158/241 in partition 2[2K
+Working on site pattern 159/241 in partition 2[2K
+                                              [2K
+|      213       |       2        |        1.589   |        0.473   |        3.178   |  Neg. p = 0.0747  |
+[2K
+Working on site pattern 160/241 in partition 2[2K
+                                              [2K
+|      212       |       2        |        2.807   |        0.000   |       25.772   |  Neg. p = 0.0000  |
+[2K
+Working on site pattern 161/241 in partition 2[2K
+                                              [2K
+|      214       |       2        |        1.082   |        0.260   |        3.525   |  Neg. p = 0.0605  |
+[2K
+Working on site pattern 162/241 in partition 2[2K
+                                              [2K
+|      216       |       2        |        1.826   |        0.115   |        6.781   |  Neg. p = 0.0092  |
+[2K
+Working on site pattern 163/241 in partition 2[2K
+                                              [2K
+|      215       |       2        |        0.986   |        0.173   |        3.468   |  Neg. p = 0.0626  |
+[2K
+Working on site pattern 164/241 in partition 2[2K
+Working on site pattern 165/241 in partition 2[2K
+Working on site pattern 166/241 in partition 2[2K
+                                              [2K
+|      219       |       2        |        0.476   |        0.000   |        3.962   |  Neg. p = 0.0465  |
+[2K
+Working on site pattern 167/241 in partition 2[2K
+Working on site pattern 168/241 in partition 2[2K
+                                              [2K
+|      221       |       2        |        1.063   |        0.000   |       12.781   |  Neg. p = 0.0004  |
+[2K
+Working on site pattern 169/241 in partition 2[2K
+Working on site pattern 170/241 in partition 2[2K
+                                              [2K
+|      222       |       2        |        2.875   |        0.402   |        5.523   |  Neg. p = 0.0188  |
+[2K
+Working on site pattern 171/241 in partition 2[2K
+Working on site pattern 172/241 in partition 2[2K
+                                              [2K
+|      225       |       2        |        1.872   |        0.000   |       18.564   |  Neg. p = 0.0000  |
+[2K
+Working on site pattern 173/241 in partition 2[2K
+Working on site pattern 174/241 in partition 2[2K
+                                              [2K
+|      227       |       2        |        2.185   |        0.297   |        4.747   |  Neg. p = 0.0293  |
+[2K
+Working on site pattern 175/241 in partition 2[2K
+Working on site pattern 176/241 in partition 2[2K
+Working on site pattern 177/241 in partition 2[2K
+Working on site pattern 178/241 in partition 2[2K
+Working on site pattern 179/241 in partition 2[2K
+                                              [2K
+|      232       |       2        |        1.119   |        0.000   |       13.960   |  Neg. p = 0.0002  |
+[2K
+Working on site pattern 180/241 in partition 2[2K
+                                              [2K
+|      233       |       2        |        1.591   |        0.145   |       10.002   |  Neg. p = 0.0016  |
+[2K
+Working on site pattern 181/241 in partition 2[2K
+Working on site pattern 182/241 in partition 2[2K
+Working on site pattern 183/241 in partition 2[2K
+                                              [2K
+|      235       |       2        |        0.476   |        0.000   |        3.949   |  Neg. p = 0.0469  |
+[2K
+Working on site pattern 184/241 in partition 2[2K
+Working on site pattern 185/241 in partition 2[2K
+Working on site pattern 186/241 in partition 2[2K
+                                              [2K
+|      239       |       2        |        1.472   |        0.000   |       16.602   |  Neg. p = 0.0000  |
+[2K
+Working on site pattern 187/241 in partition 2[2K
+                                              [2K
+|      240       |       2        |        1.655   |        0.000   |       16.075   |  Neg. p = 0.0001  |
+[2K
+Working on site pattern 188/241 in partition 2[2K
+                                              [2K
+|      241       |       2        |        1.616   |        0.000   |       15.660   |  Neg. p = 0.0001  |
+[2K
+Working on site pattern 189/241 in partition 2[2K
+                                              [2K
+|      242       |       2        |        1.226   |        0.000   |       13.128   |  Neg. p = 0.0003  |
+[2K
+Working on site pattern 190/241 in partition 2[2K
+                                              [2K
+|      243       |       2        |        1.321   |        0.219   |        6.585   |  Neg. p = 0.0103  |
+[2K
+Working on site pattern 191/241 in partition 2[2K
+                                              [2K
+|      244       |       2        |        1.424   |        0.204   |        5.119   |  Neg. p = 0.0237  |
+[2K
+Working on site pattern 192/241 in partition 2[2K
+                                              [2K
+|      245       |       2        |        0.000   |        0.442   |        3.815   |  Pos. p = 0.0508  |
+[2K
+Working on site pattern 193/241 in partition 2[2K
+                                              [2K
+|      246       |       2        |        1.682   |        0.242   |        5.138   |  Neg. p = 0.0234  |
+[2K
+Working on site pattern 194/241 in partition 2[2K
+                                              [2K
+|      247       |       2        |        2.185   |        0.424   |        6.556   |  Neg. p = 0.0105  |
+[2K
+Working on site pattern 195/241 in partition 2[2K
+Working on site pattern 196/241 in partition 2[2K
+                                              [2K
+|      248       |       2        |        5.788   |        0.110   |       19.199   |  Neg. p = 0.0000  |
+[2K
+Working on site pattern 197/241 in partition 2[2K
+                                              [2K
+|      250       |       2        |        2.123   |        0.221   |        5.967   |  Neg. p = 0.0146  |
+[2K
+Working on site pattern 198/241 in partition 2[2K
+                                              [2K
+|      251       |       2        |        1.968   |        0.071   |       16.618   |  Neg. p = 0.0000  |
+[2K
+Working on site pattern 199/241 in partition 2[2K
+Working on site pattern 200/241 in partition 2[2K
+                                              [2K
+|      253       |       2        |        0.749   |        0.077   |        5.523   |  Neg. p = 0.0188  |
+[2K
+Working on site pattern 201/241 in partition 2[2K
+Working on site pattern 202/241 in partition 2[2K
+Working on site pattern 203/241 in partition 2[2K
+                                              [2K
+|      255       |       2        |        2.158   |        0.000   |       11.412   |  Neg. p = 0.0007  |
+[2K
+Working on site pattern 204/241 in partition 2[2K
+                                              [2K
+|      257       |       2        |        1.435   |        0.000   |        9.931   |  Neg. p = 0.0016  |
+[2K
+Working on site pattern 205/241 in partition 2[2K
+Working on site pattern 206/241 in partition 2[2K
+                                              [2K
+|      259       |       2        |        3.207   |        0.240   |       10.580   |  Neg. p = 0.0011  |
+[2K
+Working on site pattern 207/241 in partition 2[2K
+                                              [2K
+|      258       |       2        |        3.576   |        0.000   |       20.477   |  Neg. p = 0.0000  |
+[2K
+Working on site pattern 208/241 in partition 2[2K
+                                              [2K
+|      262       |       2        |        1.274   |        0.087   |        5.967   |  Neg. p = 0.0146  |
+[2K
+Working on site pattern 209/241 in partition 2[2K
+                                              [2K
+|      261       |       2        |        1.286   |        0.073   |        9.894   |  Neg. p = 0.0017  |
+[2K
+Working on site pattern 210/241 in partition 2[2K
+Working on site pattern 211/241 in partition 2[2K
+Working on site pattern 212/241 in partition 2[2K
+Working on site pattern 213/241 in partition 2[2K
+                                              [2K
+|      265       |       2        |        9.768   |        0.000   |       31.156   |  Neg. p = 0.0000  |
+[2K
+Working on site pattern 214/241 in partition 2[2K
+                                              [2K
+|      267       |       2        |        0.008   |        0.707   |        4.274   |  Pos. p = 0.0387  |
+[2K
+Working on site pattern 215/241 in partition 2[2K
+Working on site pattern 216/241 in partition 2[2K
+Working on site pattern 217/241 in partition 2[2K
+Working on site pattern 218/241 in partition 2[2K
+Working on site pattern 219/241 in partition 2[2K
+                                              [2K
+|      272       |       2        |        0.791   |        0.147   |        2.823   |  Neg. p = 0.0929  |
+[2K
+Working on site pattern 220/241 in partition 2[2K
+                                              [2K
+|      273       |       2        |        0.923   |        0.000   |        7.054   |  Neg. p = 0.0079  |
+[2K
+Working on site pattern 221/241 in partition 2[2K
+Working on site pattern 222/241 in partition 2[2K
+                                              [2K
+|      274       |       2        |        1.494   |        0.000   |       12.952   |  Neg. p = 0.0003  |
+[2K
+Working on site pattern 223/241 in partition 2[2K
+                                              [2K
+|      277       |       2        |        0.476   |        0.000   |        3.600   |  Neg. p = 0.0578  |
+[2K
+Working on site pattern 224/241 in partition 2[2K
+                                              [2K
+|      278       |       2        |        1.706   |        0.414   |        4.352   |  Neg. p = 0.0370  |
+[2K
+Working on site pattern 225/241 in partition 2[2K
+                                              [2K
+|      279       |       2        |        1.038   |        0.000   |        8.207   |  Neg. p = 0.0042  |
+[2K
+Working on site pattern 226/241 in partition 2[2K
+                                              [2K
+|      280       |       2        |        1.020   |        0.000   |        7.931   |  Neg. p = 0.0049  |
+[2K
+Working on site pattern 227/241 in partition 2[2K
+                                              [2K
+|      281       |       2        |        1.157   |        0.219   |        4.035   |  Neg. p = 0.0446  |
+[2K
+Working on site pattern 228/241 in partition 2[2K
+                                              [2K
+|      282       |       2        |        0.800   |        0.000   |        8.479   |  Neg. p = 0.0036  |
+[2K
+Working on site pattern 229/241 in partition 2[2K
+                                              [2K
+|      283       |       2        |        0.817   |        0.000   |        8.982   |  Neg. p = 0.0027  |
+[2K
+Working on site pattern 230/241 in partition 2[2K
+Working on site pattern 231/241 in partition 2[2K
+Working on site pattern 232/241 in partition 2[2K
+Working on site pattern 233/241 in partition 2[2K
+Working on site pattern 234/241 in partition 2[2K
+                                              [2K
+|      288       |       2        |        0.978   |        0.000   |       10.767   |  Neg. p = 0.0010  |
+[2K
+Working on site pattern 235/241 in partition 2[2K
+Working on site pattern 236/241 in partition 2[2K
+                                              [2K
+|      290       |       2        |        0.864   |        0.157   |        3.948   |  Neg. p = 0.0469  |
+[2K
+Working on site pattern 237/241 in partition 2[2K
+                                              [2K
+|      291       |       2        |        0.526   |        0.000   |        5.982   |  Neg. p = 0.0144  |
+[2K
+Working on site pattern 238/241 in partition 2[2K
+                                              [2K
+|      292       |       2        |        1.500   |        0.079   |        7.903   |  Neg. p = 0.0049  |
+[2K
+Working on site pattern 239/241 in partition 2[2K
+                                              [2K
+|      294       |       2        |        1.124   |        0.000   |        7.592   |  Neg. p = 0.0059  |
+[2K
+Working on site pattern 240/241 in partition 2[2K
+                                              [2K
+|      295       |       2        |        1.321   |        0.219   |        3.017   |  Neg. p = 0.0824  |
+[2K
+Working on site pattern 241/241 in partition 2[2K
+                                              [2K
+|      293       |       2        |        2.722   |        0.000   |       28.233   |  Neg. p = 0.0000  |
+[2K
+                                              [2K
+[2K
+                                              [2K
+|      297       |       2        |        2.090   |        0.414   |        2.885   |  Neg. p = 0.0894  |
+[2K
+                                              [2K
+|      298       |       2        |        2.024   |        0.168   |        7.471   |  Neg. p = 0.0063  |
+[2K
+Working on site pattern 1/74 in partition 3[2K
+Working on site pattern 2/74 in partition 3[2K
+Working on site pattern 3/74 in partition 3[2K
+Working on site pattern 4/74 in partition 3[2K
+Working on site pattern 5/74 in partition 3[2K
+                                           [2K
+### For partition 3 these sites are significant at p <=0.1
+
+|     Codon      |   Partition    |     alpha      |      beta      |      LRT       |Selection detected?|
+|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:-----------------:|
+|      299       |       3        |        0.583   |        0.064   |        4.024   |  Neg. p = 0.0449  |
+[2K
+Working on site pattern 6/74 in partition 3[2K
+Working on site pattern 7/74 in partition 3[2K
+Working on site pattern 8/74 in partition 3[2K
+                                           [2K
+|      304       |       3        |        0.918   |        0.142   |        3.564   |  Neg. p = 0.0590  |
+[2K
+Working on site pattern 9/74 in partition 3[2K
+Working on site pattern 10/74 in partition 3[2K
+Working on site pattern 11/74 in partition 3[2K
+Working on site pattern 12/74 in partition 3[2K
+Working on site pattern 13/74 in partition 3[2K
+Working on site pattern 14/74 in partition 3[2K
+Working on site pattern 15/74 in partition 3[2K
+Working on site pattern 16/74 in partition 3[2K
+Working on site pattern 17/74 in partition 3[2K
+                                            [2K
+|      313       |       3        |        1.308   |        0.139   |        7.152   |  Neg. p = 0.0075  |
+[2K
+Working on site pattern 18/74 in partition 3[2K
+                                            [2K
+|      314       |       3        |        1.104   |        0.172   |        4.566   |  Neg. p = 0.0326  |
+[2K
+Working on site pattern 19/74 in partition 3[2K
+                                            [2K
+|      315       |       3        |        1.971   |        0.126   |        8.084   |  Neg. p = 0.0045  |
+[2K
+Working on site pattern 20/74 in partition 3[2K
+                                            [2K
+|      312       |       3        |        2.260   |        0.000   |       14.085   |  Neg. p = 0.0002  |
+[2K
+Working on site pattern 21/74 in partition 3[2K
+                                            [2K
+|      316       |       3        |        2.110   |        0.230   |        7.307   |  Neg. p = 0.0069  |
+[2K
+Working on site pattern 22/74 in partition 3[2K
+Working on site pattern 23/74 in partition 3[2K
+                                            [2K
+|      318       |       3        |        1.069   |        0.000   |       11.722   |  Neg. p = 0.0006  |
+[2K
+Working on site pattern 24/74 in partition 3[2K
+                                            [2K
+|      319       |       3        |        1.356   |        0.000   |       12.310   |  Neg. p = 0.0005  |
+[2K
+Working on site pattern 25/74 in partition 3[2K
+                                            [2K
+|      320       |       3        |        0.950   |        0.000   |        9.972   |  Neg. p = 0.0016  |
+[2K
+Working on site pattern 26/74 in partition 3[2K
+                                            [2K
+|      322       |       3        |        0.450   |        0.002   |        5.313   |  Neg. p = 0.0212  |
+[2K
+Working on site pattern 27/74 in partition 3[2K
+                                            [2K
+|      321       |       3        |        0.603   |        0.000   |       15.405   |  Neg. p = 0.0001  |
+[2K
+Working on site pattern 28/74 in partition 3[2K
+Working on site pattern 29/74 in partition 3[2K
+                                            [2K
+|      325       |       3        |        0.555   |        0.002   |        7.074   |  Neg. p = 0.0078  |
+[2K
+Working on site pattern 30/74 in partition 3[2K
+                                            [2K
+|      323       |       3        |        1.017   |        0.000   |       10.706   |  Neg. p = 0.0011  |
+[2K
+Working on site pattern 31/74 in partition 3[2K
+Working on site pattern 32/74 in partition 3[2K
+Working on site pattern 33/74 in partition 3[2K
+                                            [2K
+|      327       |       3        |        3.870   |        0.090   |       13.492   |  Neg. p = 0.0002  |
+[2K
+Working on site pattern 34/74 in partition 3[2K
+Working on site pattern 35/74 in partition 3[2K
+Working on site pattern 36/74 in partition 3[2K
+Working on site pattern 37/74 in partition 3[2K
+Working on site pattern 38/74 in partition 3[2K
+Working on site pattern 39/74 in partition 3[2K
+                                            [2K
+|      333       |       3        |        7.676   |        0.368   |       16.346   |  Neg. p = 0.0001  |
+[2K
+Working on site pattern 40/74 in partition 3[2K
+Working on site pattern 41/74 in partition 3[2K
+                                            [2K
+|      336       |       3        |        2.326   |        0.271   |        8.044   |  Neg. p = 0.0046  |
+[2K
+Working on site pattern 42/74 in partition 3[2K
+Working on site pattern 43/74 in partition 3[2K
+                                            [2K
+|      338       |       3        |        1.410   |        0.420   |        2.866   |  Neg. p = 0.0905  |
+[2K
+Working on site pattern 44/74 in partition 3[2K
+Working on site pattern 45/74 in partition 3[2K
+Working on site pattern 46/74 in partition 3[2K
+Working on site pattern 47/74 in partition 3[2K
+                                            [2K
+|      343       |       3        |        1.413   |        0.079   |       10.003   |  Neg. p = 0.0016  |
+[2K
+Working on site pattern 48/74 in partition 3[2K
+Working on site pattern 49/74 in partition 3[2K
+Working on site pattern 50/74 in partition 3[2K
+Working on site pattern 51/74 in partition 3[2K
+Working on site pattern 52/74 in partition 3[2K
+Working on site pattern 53/74 in partition 3[2K
+                                            [2K
+|      349       |       3        |        1.801   |        0.457   |        3.248   |  Neg. p = 0.0715  |
+[2K
+Working on site pattern 54/74 in partition 3[2K
+                                            [2K
+|      348       |       3        |        2.385   |        0.356   |        7.062   |  Neg. p = 0.0079  |
+[2K
+Working on site pattern 55/74 in partition 3[2K
+Working on site pattern 56/74 in partition 3[2K
+Working on site pattern 57/74 in partition 3[2K
+Working on site pattern 58/74 in partition 3[2K
+                                            [2K
+|      353       |       3        |        0.766   |        0.000   |       18.117   |  Neg. p = 0.0000  |
+[2K
+Working on site pattern 59/74 in partition 3[2K
+Working on site pattern 60/74 in partition 3[2K
+                                            [2K
+|      355       |       3        |        1.395   |        0.151   |        7.376   |  Neg. p = 0.0066  |
+[2K
+Working on site pattern 61/74 in partition 3[2K
+Working on site pattern 62/74 in partition 3[2K
+Working on site pattern 63/74 in partition 3[2K
+                                            [2K
+|      358       |       3        |        2.397   |        0.737   |        2.921   |  Neg. p = 0.0874  |
+[2K
+Working on site pattern 64/74 in partition 3[2K
+Working on site pattern 65/74 in partition 3[2K
+Working on site pattern 66/74 in partition 3[2K
+Working on site pattern 67/74 in partition 3[2K
+Working on site pattern 68/74 in partition 3[2K
+                                            [2K
+|      363       |       3        |        0.964   |        0.197   |        3.369   |  Neg. p = 0.0665  |
+[2K
+Working on site pattern 69/74 in partition 3[2K
+Working on site pattern 70/74 in partition 3[2K
+                                            [2K
+|      365       |       3        |        1.105   |        0.159   |        3.829   |  Neg. p = 0.0504  |
+[2K
+Working on site pattern 71/74 in partition 3[2K
+Working on site pattern 72/74 in partition 3[2K
+                                            [2K
+|      367       |       3        |        1.371   |        0.097   |        5.690   |  Neg. p = 0.0171  |
+[2K
+Working on site pattern 73/74 in partition 3[2K
+Working on site pattern 74/74 in partition 3[2K
+                                            [2K
+### ** Found _5_ sites under pervasive positive diversifying and _181_ sites under negative selection at p <= 0.1**
+
+
+

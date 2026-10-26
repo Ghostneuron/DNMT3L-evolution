@@ -16,6 +16,7 @@ Complete the unchecked items before publishing the Zenodo record.
 - [x] Create the public GitHub repository and upload the contents of the GitHub package directory
 - [x] Create a GitHub release tagged `v1.0.0`
 - [x] Preserve the immutable `v1.0.0` tag and stage the additive `v1.1.0` update
+- [x] Publish `v1.1.1` to restore three checksum-listed logs omitted from `v1.1.0`
 - [x] Add revision-specific analyses under `revision_20261025/`
 - [x] Update Figures 3 and 4 and the current supplementary-table artifacts
 - [x] Audit newly added v1.1.0 files for private correspondence, credentials, absolute paths, and filesystem metadata
