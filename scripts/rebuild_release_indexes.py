@@ -8,7 +8,6 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-REVISION = ROOT / "revision_20261025"
 
 
 def sha256(path: Path) -> str:
@@ -39,14 +38,17 @@ def write_atomic(path: Path, text: str) -> None:
 
 
 def main() -> None:
-    revision_index = REVISION / "SHA256SUMS.tsv"
-    revision_files = public_files(REVISION, {revision_index})
-    revision_lines = ["path\tbytes\tsha256"]
-    revision_lines.extend(
-        f"{path.relative_to(REVISION).as_posix()}\t{path.stat().st_size}\t{sha256(path)}"
-        for path in revision_files
-    )
-    write_atomic(revision_index, "\n".join(revision_lines) + "\n")
+    revision_counts: list[tuple[str, int]] = []
+    for revision in sorted(path for path in ROOT.glob("revision_*") if path.is_dir()):
+        revision_index = revision / "SHA256SUMS.tsv"
+        revision_files = public_files(revision, {revision_index})
+        revision_lines = ["path\tbytes\tsha256"]
+        revision_lines.extend(
+            f"{path.relative_to(revision).as_posix()}\t{path.stat().st_size}\t{sha256(path)}"
+            for path in revision_files
+        )
+        write_atomic(revision_index, "\n".join(revision_lines) + "\n")
+        revision_counts.append((revision.name, len(revision_files)))
 
     manifest = ROOT / "MANIFEST.tsv"
     checksums = ROOT / "SHA256SUMS.txt"
@@ -64,8 +66,8 @@ def main() -> None:
     ]
     write_atomic(checksums, "\n".join(checksum_lines) + "\n")
     print(
-        f"Indexed {len(manifest_files)} release files and "
-        f"{len(revision_files)} revision-specific files."
+        f"Indexed {len(manifest_files)} release files and revision directories: "
+        + ", ".join(f"{name}={count}" for name, count in revision_counts)
     )
 
 

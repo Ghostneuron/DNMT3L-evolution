@@ -1,0 +1,6 @@
+method	sequence_count	alignment_codon_columns	human_mapped_residues	human_h358_alignment_codon_column	human_h358_residue	exact_ungapped_CDS_content_records	partial_gap_codons	internal_stop_codons	terminal_stop_codons	frameshift_symbols	records_with_frameshift_symbols	status
+MACSE	220	2452	387	2190	A	220	0	0	218	15	5	PASS_RAW_REQUIRES_MASKING
+MAFFT	220	2358	387	2130	A	220	0	0	0	0	0	PASS
+PRANK	220	6514	387	5936	A	220	0	0	0	0	0	PASS
+MUSCLE5	220	3358	387	2941	A	220	0	0	0	0	0	PASS
+COBALT	220	1628	387	1456	A	220	0	0	0	0	0	PASS

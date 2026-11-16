@@ -1,0 +1,4 @@
+mouse_position	mouse_residue	mafft_column	macse_column	human_position	human_residue	mapping_status	functional_evidence	claim_boundary
+139	L	1473	1537	105	L	CONCORDANT_MAPPED	triple-alanine mutant reduced G9a co-IP and chromatin association	residue conservation does not establish G9a binding
+140	F	1474	1538	106	L	CONCORDANT_MAPPED	triple-alanine mutant reduced G9a co-IP and chromatin association	residue conservation does not establish G9a binding
+141	I	1475	1539	107	I	CONCORDANT_MAPPED	triple-alanine mutant reduced G9a co-IP and chromatin association	residue conservation does not establish G9a binding

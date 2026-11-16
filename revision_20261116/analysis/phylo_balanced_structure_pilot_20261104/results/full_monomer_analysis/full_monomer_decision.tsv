@@ -1,0 +1,11 @@
+decision_id	status	evidence	claim_boundary
+FULL_MONOMER_COMPLETION	PASS	72/72 predictions validated across 24 targets and three seeds	Inputs and outputs are auditable
+ADD_TARGET_CONFIDENCE	PASS_WITH_ONE_EXCLUSION	23/24 targets pass; dog excluded	ADD comparisons are confidence-qualified for 23 targets
+CTD_TARGET_CONFIDENCE	LIMITED	10/24 targets pass; no sauropsid target passes	No broad vertebrate monomer-CTD conclusion
+CAECILIAN_SPECIFIC_ADD	NOT_SUPPORTED	Geotrypetes versus both salamanders does not exceed seed dispersion	Do not claim a Geotrypetes-specific fold
+AMPHIBIAN_WIDE_ADD_SHIFT	NOT_ESTABLISHED	Amphibian distances are descriptively elevated against some groups but robust pairs are incomplete	At most a structural-pattern hypothesis
+AMNIOTA_THERIA_GLOBAL_SHIFT	NOT_DETECTED	ADD and CTD ancestral contrasts remain below the prespecified threshold	Do not claim a therian-stem fold transition
+LOCAL_RESIDUE_EFFECTS	UNRESOLVED	Global folds are conserved; local substitutions may still affect chemistry	Requires biochemical or replicated local-dynamics evidence
+ADDITIONAL_MONOMER_PREDICTION	STOP	Balanced panel is complete	No added biological value expected
+FULL_COMPLEX_EXPANSION	NO_GO	Sentinel ancestral complex contrast did not exceed seed dispersion	Do not expand complexes
+MANUSCRIPT_USE	QUALIFIED_NEGATIVE	Conserved architecture with unresolved local functional consequences	No affinity, imprinting, or adaptation claim

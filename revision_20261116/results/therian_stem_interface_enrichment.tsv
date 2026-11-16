@@ -1,0 +1,9 @@
+test	primary	universe_positions	feature_positions	changes_in_feature	changes_outside_feature	odds_ratio	fisher_one_sided_p	BH_q
+interface_union_5A	True	241	25	4	14	2.748299319727891	0.10094014784858213	0.6203292890106852
+switching_helix_vs_other_C_terminal	True	134	5	0	12	0.0	1.0	1.0
+ADD_domain	False	241	102	6	12	0.6614583333333334	0.8535498064940694	1.0
+C_terminal_region	False	241	134	12	6	1.6557377049180328	0.23262348337900696	0.6203292890106852
+adjacent_loop	False	241	0	0	18		1.0	1.0
+DNMT3A_contact_5A	False	241	19	3	15	2.5875	0.15846856767244197	0.6203292890106852
+nucleosome_contact_5A	False	241	6	1	17	2.5647058823529414	0.37553240157407664	0.7510648031481533
+functional_atlas_sites	False	241	6	0	18	0.0	1.0	1.0

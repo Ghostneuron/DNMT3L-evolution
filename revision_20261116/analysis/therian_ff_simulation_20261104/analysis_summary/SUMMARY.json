@@ -1,0 +1,14 @@
+{
+  "analysis": "DNMT3L_FF_THERIAN_MD_20261104_V1_phase1_summary",
+  "canonical_replicas": 6,
+  "replicas_per_state": 3,
+  "frames_per_replica": 500,
+  "total_frames": 3000,
+  "production_ns_per_replica": 5.0,
+  "total_production_ns": 30.0,
+  "validation": "PASS",
+  "inference_unit": "replica summary",
+  "excluded": [
+    "amniote_YEE_seed1103_duplicate_corrupted_20261111"
+  ]
+}

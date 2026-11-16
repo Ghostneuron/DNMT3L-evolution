@@ -1,8 +1,17 @@
-# Modular evolutionary constraint and lineage-structured switching-helix variation in DNMT3L
+# DNMT3L evolutionary analysis: reproducible data and code
 
-This repository accompanies the manuscript **"Modular evolutionary constraint and lineage-structured switching-helix variation in DNMT3L."** It contains the data products, scripts, figures, and supplementary material for a clade-aware analysis of vertebrate DNMT3L sequence evolution. The manuscript itself is not distributed in this release.
+This repository contains reproducible data, scripts, figures, and supplementary material for comparative analyses of DNMT3L evolution. The current working manuscript is **"Tetrapod DNMT3L locus evidence and ancestral interface comparisons."** The manuscript itself is not distributed in this public repository.
 
-Release **v1.1.1 (25 October 2026)** adds the revision-specific ancestral-state, genomic-neighborhood, h358-ungated, and recombination-partition sensitivity analyses. It supersedes v1.1.0 by restoring three checksum-listed HyPhy logs that were omitted by the repository's `*.log` ignore rule. The complete additive update is under `revision_20261025/`; the validated v1.0.0 analysis remains in the original directories.
+The additive **16 November 2026 falsification-audit update** is under `revision_20261116/`. It supplies the current six-figure set, audited summary tables, and the reproducible NP349 leave-one-amphibian sensitivity analysis. The historical formal release **v1.1.1 (25 October 2026)** remains preserved under `revision_20261025/` and in the original directories.
+
+## Current audit update
+
+- The 18 alignment- and topology-robust Amniota-to-sampled-Theria substitutions are separated from NP349, which failed the whole-protein alignment gate.
+- Leave-one-amphibian analyses preserve the maximum-posterior NP349 endpoint states, but the Amniota K call falls below the 0.80 threshold when the only K-bearing amphibian is omitted.
+- Selection-model null results and nonsignificant interface enrichment are reported alongside positive findings.
+- Structural contrasts are bounded by independent-seed variation, and molecular-dynamics replicas are treated as independent rather than artificially paired.
+
+See `revision_20261116/README.md` for exact contents, commands, and interpretation limits.
 
 ## Study overview
 
@@ -75,6 +84,7 @@ The Zenodo bundle is the complete computational record. A clean from-source reru
 - `provenance`: dated methodological decision records and validation evidence
 - `source_package`: archived source analysis used by the broadened workflow (complete in Zenodo; minimal dependencies in GitHub)
 - `revision_20261025`: additive v1.1.0 scripts, inputs, results, diagnostics, checksums, and a revision-specific README
+- `revision_20261116`: additive falsification-audit figures, summary results, NP349 sensitivity inputs/code, and checksums
 
 ## Quick validation
 

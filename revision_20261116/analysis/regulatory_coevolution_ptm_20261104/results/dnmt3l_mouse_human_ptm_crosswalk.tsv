@@ -1,0 +1,42 @@
+ptm_type	mouse_position	mouse_residue	published_site	functional_followup	source_basis	mafft_column	mafft_human_position	mafft_human_residue	macse_column	macse_human_position	macse_human_residue	mapping_status	mapping_confidence	human_position	human_residue	human_region	same_modifiable_residue_in_human
+acetylation	45	K	K45	no	Nam et al. 2026 Figure 2 and curated spectra	1177	8	D	1218	8	D	CONCORDANT_MAPPED	LOW_DISORDERED_OR_TERMINAL	8	D	other	no
+acetylation	57	K	K57	no	Nam et al. 2026 Figure 2 and curated spectra	1198	23	S	1238	23	S	CONCORDANT_MAPPED	LOW_DISORDERED_OR_TERMINAL	23	S	other	no
+acetylation	77	K	K77	no	Nam et al. 2026 Figure 2 and curated spectra	1271	43	K	1343	43	K	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	43	K	ADD	yes
+acetylation	111	K	K111	no	Nam et al. 2026 Figure 2	1419	77	K	1483	77	K	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	77	K	ADD	yes
+acetylation	199	K	K199	no	Nam et al. 2026 Figure 2 and curated spectra	1612	165	K	1673	165	K	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	165	K	ADD	yes
+acetylation	214	K	K214	no	Nam et al. 2026 Figure 2 and curated spectra	1694	180	E	1760	180	E	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	180	E	C-terminal	no
+acetylation	235	K	K235	no	Nam et al. 2026 Figure 2 and curated spectra	1715	201	K	1781	201	K	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	201	K	C-terminal	yes
+acetylation	238	K	K238	yes	Nam et al. 2026 Figure 2, curated spectra, and endogenous mutation	1755	204	T	1821	204	T	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	204	T	C-terminal	no
+acetylation	255	K	K255	no	Nam et al. 2026 Figure 2 and curated spectra	1775	219	K	1838	219	K	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	219	K	C-terminal	yes
+acetylation	270	K	K270	no	Nam et al. 2026 Figure 2 and curated spectra	1790	234	E	1856	234	E	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	234	E	C-terminal	no
+acetylation	367	K	K367	no	Nam et al. 2026 Figure 2 and curated spectra	1991	331	R	2067	331	R	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	331	R	C-terminal	no
+acetylation	369	K	K369	no	Nam et al. 2026 Figure 2 and curated spectra	2047	334	R	2120	334	R	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	334	R	C-terminal	no
+acetylation	376	K	K376	no	Nam et al. 2026 Figure 2 and curated spectra	2071	341	E	2127	341	E	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	341	E	C-terminal	no
+acetylation	390	K	K390	no	Nam et al. 2026 Figure 2 and curated spectra	2127	355	K	2177	355	K	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	355	K	C-terminal	yes
+acetylation	395	K	K395	no	Nam et al. 2026 Figure 2 and curated spectra	2132	360	W	2196	360	W	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	360	W	C-terminal	no
+acetylation	401	K	K401	no	Nam et al. 2026 Figure 2 and curated spectra	2138	366	K	2216	366	K	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	366	K	C-terminal	yes
+acetylation	412	K	K412	yes	Nam et al. 2026 Figure 2, curated spectra, and endogenous mutation	2194	377	K	2253	377	K	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	377	K	C-terminal	yes
+phosphorylation	16	T	T16	no	Nam et al. 2026 Figure 2	793		-	580		-	CONCORDANT_HUMAN_GAP	UNRESOLVED			unmapped	unknown
+phosphorylation	21	T	T21	no	Nam et al. 2026 Figure 2	805		-	597		-	CONCORDANT_HUMAN_GAP	UNRESOLVED			unmapped	unknown
+phosphorylation	22	S	S22	no	Nam et al. 2026 Figure 2	806		-	598		-	CONCORDANT_HUMAN_GAP	UNRESOLVED			unmapped	unknown
+phosphorylation	24	S	S24	no	Nam et al. 2026 Figure 2	809		-	600		-	CONCORDANT_HUMAN_GAP	UNRESOLVED			unmapped	unknown
+phosphorylation	25	S	S25	no	Nam et al. 2026 Figure 2	810		-	601		-	CONCORDANT_HUMAN_GAP	UNRESOLVED			unmapped	unknown
+phosphorylation	26	S	S26	no	Nam et al. 2026 Figure 2	825		-	614		-	CONCORDANT_HUMAN_GAP	UNRESOLVED			unmapped	unknown
+phosphorylation	31	S	S31	no	Nam et al. 2026 Figure 2	854		-	626		-	CONCORDANT_HUMAN_GAP	UNRESOLVED			unmapped	unknown
+phosphorylation	40	S	S40	no	Nam et al. 2026 Figure 2	1172	3	A	1091	3	A	CONCORDANT_MAPPED	LOW_DISORDERED_OR_TERMINAL	3	A	other	no
+phosphorylation	41	S	S41	no	Nam et al. 2026 Figure 2	1173	4	I	1092	4	I	CONCORDANT_MAPPED	LOW_DISORDERED_OR_TERMINAL	4	I	other	no
+phosphorylation	48	S	S48	no	Nam et al. 2026 Figure 2	1184	14	S	1227	14	S	CONCORDANT_MAPPED	LOW_DISORDERED_OR_TERMINAL	14	S	other	yes
+phosphorylation	61	S	S61	no	Nam et al. 2026 Figure 2	1202	27	S	1245	27	S	CONCORDANT_MAPPED	LOW_DISORDERED_OR_TERMINAL	27	S	other	yes
+phosphorylation	63	S	S63	no	Nam et al. 2026 Figure 2	1204	29	V	1247	29	V	CONCORDANT_MAPPED	LOW_DISORDERED_OR_TERMINAL	29	V	other	no
+phosphorylation	64	S	S64	no	Nam et al. 2026 Figure 2	1205	30	S	1249	30	S	CONCORDANT_MAPPED	LOW_DISORDERED_OR_TERMINAL	30	S	other	yes
+phosphorylation	67	T	T67	no	Nam et al. 2026 Figure 2	1212	33	T	1256	33	T	CONCORDANT_MAPPED	LOW_DISORDERED_OR_TERMINAL	33	T	other	yes
+phosphorylation	247	S	S247	no	Nam et al. 2026 Figure 2	1764		-	1830	213	S	ALIGNER_DISCORDANT	UNRESOLVED			unmapped	unknown
+phosphorylation	249	S	S249	no	Nam et al. 2026 Figure 2	1766	213	S	1832		-	ALIGNER_DISCORDANT	UNRESOLVED			unmapped	unknown
+phosphorylation	253	T	T253	no	Nam et al. 2026 Figure 2	1770	217	Q	1836	217	Q	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	217	Q	C-terminal	no
+phosphorylation	295	Y	Y295	no	Nam et al. 2026 Figure 2	1828	259	Y	1894	259	Y	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	259	Y	C-terminal	yes
+phosphorylation	312	S	S312	no	Nam et al. 2026 Figure 2	1845	276	S	1911	276	S	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	276	S	C-terminal	yes
+phosphorylation	327	T	T327	no	Nam et al. 2026 Figure 2	1860	291	N	1926	291	N	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	291	N	C-terminal	no
+phosphorylation	361	S	S361	no	Nam et al. 2026 Figure 2	1985	325	S	2052	325	S	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	325	S	C-terminal	yes
+phosphorylation	368	S	S368	no	Nam et al. 2026 Figure 2	2046	333	S	2070	332	S	ALIGNER_DISCORDANT	UNRESOLVED			unmapped	unknown
+phosphorylation	374	T	T374	no	Nam et al. 2026 Figure 2	2069	339	V	2125	339	V	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	339	V	C-terminal	no
+phosphorylation	380	Y	Y380	no	Nam et al. 2026 Figure 2	2083	345	S	2131	345	S	CONCORDANT_MAPPED	HIGH_CROSS_ALIGNER_STRUCTURED	345	S	C-terminal	no

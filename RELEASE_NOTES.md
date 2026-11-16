@@ -1,5 +1,27 @@
 # Release notes
 
+## Repository update - 2026-11-16
+
+Additive pre-release reproducibility update for the current working manuscript **"Tetrapod DNMT3L locus evidence and ancestral interface comparisons."** This commit does not create a new GitHub or Zenodo release and does not alter the preserved v1.1.1 tag.
+
+### Added
+
+- Current Figures 1–6 in PDF and PNG under `revision_20261116/figures/`
+- Leave-one-amphibian NP349 sensitivity script, inputs, topologies, and final table
+- Audited locus, expression, alignment, selection, ancestral-state, interface, structure-prediction, and MD summary tables
+- Revision-specific README, software record, licenses, and SHA-256 index
+
+### Updated
+
+- Root README, global manifest, and SHA-256 index
+- Release-index builder so every `revision_*` directory receives its own checksum table
+
+### Excluded
+
+- Current and historical manuscripts
+- Falsification-audit report, journal correspondence, and submission records
+- Raw trajectories, large prediction outputs, temporary renders, caches, local paths, credentials, and AppleDouble files
+
 ## Version 1.1.1 - 2026-10-25
 
 Packaging hotfix for v1.1.0. Three checksum-listed HyPhy execution logs were omitted from the first push because the repository ignores `*.log`; v1.1.1 restores those audited logs. No scientific result, figure, table, or interpretation changed.

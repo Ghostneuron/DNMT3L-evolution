@@ -1,0 +1,7 @@
+analysis_id	retained_sites	FUBAR_complete	FUBAR_diversifying_PP_ge_0.90	FUBAR_purifying_PP_ge_0.90	MEME_complete	MEME_nominal_p_lt_0.05	MEME_BH_q_lt_0.05
+CONSENSUS	361	True	3	270	True	10	0
+MACSE	379	True	3	274	True	36	5
+MAFFT	380	True	3	282	True	37	10
+PRANK	372	True	4	276	True	13	0
+MUSCLE5	383	True	4	268	True	44	19
+COBALT	376	True	2	270	True	45	16

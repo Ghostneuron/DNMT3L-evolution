@@ -1,0 +1,8 @@
+clade	resolved_n	mouse_LFI_n	mouse_LFI_fraction	distinct_triplets	triplet_counts
+Afrotheria	7	0	0.000000	1	LLI:7
+Amphibia	4	1	0.250000	2	LFI:1;VII:3
+Euarchontoglires	84	27	0.321429	4	LFI:27;LLI:54;LLL:1;LLV:2
+Laurasiatheria	126	0	0.000000	3	LLI:121;LLL:2;LLV:3
+Marsupialia	12	0	0.000000	3	LLM:1;LLT:10;VLT:1
+Sauropsida	53	0	0.000000	7	LII:1;LIM:30;LLM:13;LMI:2;LMM:1;LVL:1;LVM:5
+Xenarthra	3	0	0.000000	1	LLI:3

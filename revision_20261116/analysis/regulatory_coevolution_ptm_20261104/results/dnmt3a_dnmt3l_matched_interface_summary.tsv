@@ -1,0 +1,9 @@
+gene_coordinate	matched_species	resolved_species	distinct_resolved_states	state_counts	missing_or_unresolved	primary_coevolution_informative	interpretation
+DNMT3A1_725_state	213	213	1	E:213	0	False	constant in the matched panel; cannot contribute a paired state transition
+DNMT3A1_726_state	213	213	1	G:213	0	False	constant in the matched panel; cannot contribute a paired state transition
+DNMT3A1_729_state	213	213	1	R:213	0	False	constant in the matched panel; cannot contribute a paired state transition
+DNMT3A1_732_state	213	213	1	F:213	0	False	constant in the matched panel; cannot contribute a paired state transition
+DNMT3A1_772_state	213	213	1	F:213	0	False	constant in the matched panel; cannot contribute a paired state transition
+DNMT3L_NP_261_state	213	213	3	F:141;L:34;Y:38	0	True	variable in the matched panel
+DNMT3L_NP_291_state	213	213	7	A:2;G:3;K:1;N:29;R:1;S:31;T:146	0	True	variable in the matched panel
+DNMT3L_NP_293_state	213	213	4	A:2;D:121;E:88;N:2	0	True	variable in the matched panel
