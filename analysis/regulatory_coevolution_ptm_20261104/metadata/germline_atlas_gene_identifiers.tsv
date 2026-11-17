@@ -1,0 +1,19 @@
+species	taxid	query_symbol	query_status	returned_symbol	ncbi_gene_id	ensembl_gene_ids	description	record_taxname	api_url
+Homo sapiens	9606	DNMT3L	PASS	DNMT3L	29947	ENSG00000142182	DNA methyltransferase 3 like	Homo sapiens	https://api.ncbi.nlm.nih.gov/datasets/v2alpha/gene/symbol/DNMT3L/taxon/9606
+Homo sapiens	9606	DNMT3A	PASS	DNMT3A	1788	ENSG00000119772	DNA methyltransferase 3 alpha	Homo sapiens	https://api.ncbi.nlm.nih.gov/datasets/v2alpha/gene/symbol/DNMT3A/taxon/9606
+Pan troglodytes	9598	DNMT3L	PASS	DNMT3L	470099	ENSPTRG00045028400	DNA methyltransferase 3 like	Pan troglodytes	https://api.ncbi.nlm.nih.gov/datasets/v2alpha/gene/symbol/DNMT3L/taxon/9598
+Pan troglodytes	9598	DNMT3A	PASS	DNMT3A	739139	ENSPTRG00045035830	DNA methyltransferase 3 alpha	Pan troglodytes	https://api.ncbi.nlm.nih.gov/datasets/v2alpha/gene/symbol/DNMT3A/taxon/9598
+Gorilla gorilla	9595	DNMT3L	PASS	DNMT3L	129529252	ENSGGOG00050018067	DNA methyltransferase 3 like	Gorilla gorilla gorilla	https://api.ncbi.nlm.nih.gov/datasets/v2alpha/gene/symbol/DNMT3L/taxon/9595
+Gorilla gorilla	9595	DNMT3A	PASS	DNMT3A	101149451	ENSGGOG00050015447	DNA methyltransferase 3 alpha	Gorilla gorilla gorilla	https://api.ncbi.nlm.nih.gov/datasets/v2alpha/gene/symbol/DNMT3A/taxon/9595
+Macaca mulatta	9544	DNMT3L	PASS	DNMT3L	722184	ENSMMUG00000010648	DNA methyltransferase 3 like	Macaca mulatta	https://api.ncbi.nlm.nih.gov/datasets/v2alpha/gene/symbol/DNMT3L/taxon/9544
+Macaca mulatta	9544	DNMT3A	PASS	DNMT3A	694822	ENSMMUG00000013565	DNA methyltransferase 3 alpha	Macaca mulatta	https://api.ncbi.nlm.nih.gov/datasets/v2alpha/gene/symbol/DNMT3A/taxon/9544
+Callithrix jacchus	9483	DNMT3L	PASS	DNMT3L	100392528	ENSCJAG00000003567	DNA methyltransferase 3 like	Callithrix jacchus	https://api.ncbi.nlm.nih.gov/datasets/v2alpha/gene/symbol/DNMT3L/taxon/9483
+Callithrix jacchus	9483	DNMT3A	PASS	DNMT3A	100413373	ENSCJAG00000008172	DNA methyltransferase 3 alpha	Callithrix jacchus	https://api.ncbi.nlm.nih.gov/datasets/v2alpha/gene/symbol/DNMT3A/taxon/9483
+Mus musculus	10090	DNMT3L	PASS	Dnmt3l	54427	ENSMUSG00000000730	DNA methyltransferase 3-like	Mus musculus	https://api.ncbi.nlm.nih.gov/datasets/v2alpha/gene/symbol/DNMT3L/taxon/10090
+Mus musculus	10090	DNMT3A	PASS	Dnmt3a	13435	ENSMUSG00000020661	DNA methyltransferase 3A	Mus musculus	https://api.ncbi.nlm.nih.gov/datasets/v2alpha/gene/symbol/DNMT3A/taxon/10090
+Monodelphis domestica	13616	DNMT3L	PASS	DNMT3L	100027435		DNA methyltransferase 3 like	Monodelphis domestica	https://api.ncbi.nlm.nih.gov/datasets/v2alpha/gene/symbol/DNMT3L/taxon/13616
+Monodelphis domestica	13616	DNMT3A	PASS	DNMT3A	100030681		DNA methyltransferase 3 alpha	Monodelphis domestica	https://api.ncbi.nlm.nih.gov/datasets/v2alpha/gene/symbol/DNMT3A/taxon/13616
+Ornithorhynchus anatinus	9258	DNMT3L	NO_RECORD						https://api.ncbi.nlm.nih.gov/datasets/v2alpha/gene/symbol/DNMT3L/taxon/9258
+Ornithorhynchus anatinus	9258	DNMT3A	PASS	DNMT3A	100077964	ENSOANG00000015836	DNA methyltransferase 3 alpha	Ornithorhynchus anatinus	https://api.ncbi.nlm.nih.gov/datasets/v2alpha/gene/symbol/DNMT3A/taxon/9258
+Gallus gallus	9031	DNMT3L	NO_RECORD						https://api.ncbi.nlm.nih.gov/datasets/v2alpha/gene/symbol/DNMT3L/taxon/9031
+Gallus gallus	9031	DNMT3A	PASS	DNMT3A	421991	ENSGALG00010009469	DNA methyltransferase 3 alpha	Gallus gallus	https://api.ncbi.nlm.nih.gov/datasets/v2alpha/gene/symbol/DNMT3A/taxon/9031

@@ -1,0 +1,9 @@
+metric	value
+NCBI_ortholog_group_GeneIDs	337
+GeneIDs_with_exact_pair	334
+GeneIDs_without_exact_pair	3
+Sequence_QC_pass	313
+Domain_QC_pass	310
+Hybrid_taxa	1
+Preliminary_alignment_ready	289
+Family_tree_validation	PENDING

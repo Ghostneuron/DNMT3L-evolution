@@ -1,0 +1,266 @@
+safe_id	species	clade	dnmt3a_alignment	dnmt3l_alignment	DNMT3A1_725_codon	DNMT3A1_725_state	DNMT3A1_726_codon	DNMT3A1_726_state	DNMT3A1_729_codon	DNMT3A1_729_state	DNMT3A1_732_codon	DNMT3A1_732_state	DNMT3A1_772_codon	DNMT3A1_772_state	DNMT3L_NP_261_state	DNMT3L_NP_291_state	DNMT3L_NP_293_state
+Acinonyx_jubatus	Acinonyx jubatus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Acomys_minous	Acomys minous	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGC	R	TTT	F	TTT	F	F	T	D
+Acomys_russatus	Acomys russatus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGC	R	TTT	F	TTT	F	F	T	D
+Ahaetulla_prasina	Ahaetulla prasina	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTC	F	Y	D	E
+Ailuropoda_melanoleuca	Ailuropoda melanoleuca	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	S	D
+Alligator_sinensis	Alligator sinensis	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTC	F	TTC	F	Y	T	E
+Antechinus_flavipes	Antechinus flavipes	Marsupialia	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTC	F	TTT	F	L	T	D
+Aotus_nancymaae	Aotus nancymaae	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Apodemus_sylvaticus	Apodemus sylvaticus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGC	R	TTT	F	TTT	F	F	T	D
+Artibeus_jamaicensis	Artibeus jamaicensis	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Arvicanthis_niloticus	Arvicanthis niloticus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGC	R	TTT	F	TTT	F	F	T	D
+Arvicola_amphibius	Arvicola amphibius	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGG	R	TTT	F	TTT	F	F	T	D
+Balaenoptera_acutorostrata	Balaenoptera acutorostrata	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Balaenoptera_borealis	Balaenoptera borealis	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Balaenoptera_musculus	Balaenoptera musculus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Balaenoptera_physalus	Balaenoptera physalus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	N	D
+Balaenoptera_ricei	Balaenoptera ricei	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Bison_bison_bison	Bison bison bison	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Bos_indicus	Bos indicus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Bos_javanicus	Bos javanicus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Bos_mutus	Bos mutus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Bos_taurus	Bos taurus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Bubalus_bubalis	Bubalus bubalis	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Bubalus_kerabau	Bubalus kerabau	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Budorcas_taxicolor	Budorcas taxicolor	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Callithrix_jacchus	Callithrix jacchus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	N	D
+Callorhinus_ursinus	Callorhinus ursinus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Callospermophilus_lateralis	Callospermophilus lateralis	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Camelus_bactrianus	Camelus bactrianus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Camelus_dromedarius	Camelus dromedarius	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Camelus_ferus	Camelus ferus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Candoia_aspera	Candoia aspera	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTC	F	Y	D	A
+Canis_aureus	Canis aureus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Canis_lupus_baileyi	Canis lupus baileyi	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Canis_lupus_dingo	Canis lupus dingo	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Canis_lupus_familiaris	Canis lupus familiaris	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Capra_hircus	Capra hircus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Capricornis_sumatraensis	Capricornis sumatraensis	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Caretta_caretta	Caretta caretta	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTC	F	TTC	F	Y	E	E
+Carlito_syrichta	Carlito syrichta	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Castor_canadensis	Castor canadensis	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Cavia_porcellus	Cavia porcellus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Cebus_imitator	Cebus imitator	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Ceratotherium_simum_simum	Ceratotherium simum simum	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Cercocebus_atys	Cercocebus atys	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Cervus_canadensis	Cervus canadensis	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Cervus_elaphus	Cervus elaphus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Chelonia_mydas	Chelonia mydas	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTC	F	TTC	F	Y	E	E
+Chinchilla_lanigera	Chinchilla lanigera	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Chionomys_nivalis	Chionomys nivalis	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGG	R	TTT	F	TTT	F	F	T	D
+Chlorocebus_sabaeus	Chlorocebus sabaeus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Choloepus_didactylus	Choloepus didactylus	Xenarthra	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Cnephaeus_nilssonii	Cnephaeus nilssonii	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Colobus_angolensis_palliatus	Colobus angolensis palliatus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Cricetulus_griseus	Cricetulus griseus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGG	R	TTT	F	TTT	F	F	S	D
+Crotalus_tigris	Crotalus tigris	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTC	F	Y	D	E
+Cynocephalus_volans	Cynocephalus volans	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	A	D
+Dama_dama	Dama dama	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Dasypus_novemcinctus	Dasypus novemcinctus	Xenarthra	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Delphinus_delphis	Delphinus delphis	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Diceros_bicornis_minor	Diceros bicornis minor	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Dipodomys_merriami	Dipodomys merriami	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	E
+Dipodomys_ordii	Dipodomys ordii	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Dipodomys_spectabilis	Dipodomys spectabilis	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Echinops_telfairi	Echinops telfairi	Afrotheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Elephantulus_edwardii	Elephantulus edwardii	Afrotheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Elephas_maximus_indicus	Elephas maximus indicus	Afrotheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Elgaria_multicarinata_webbii	Elgaria multicarinata webbii	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGC	R	TTT	F	TTC	F	Y	D	E
+Emydura_macquarii_macquarii	Emydura macquarii macquarii	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTC	F	Y	E	E
+Enhydra_lutris_kenyoni	Enhydra lutris kenyoni	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Equus_asinus	Equus asinus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Equus_caballus	Equus caballus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Equus_przewalskii	Equus przewalskii	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Eretmochelys_imbricata	Eretmochelys imbricata	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTC	F	TTC	F	Y	E	E
+Erinaceus_europaeus	Erinaceus europaeus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Erythrolamprus_reginae	Erythrolamprus reginae	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTC	F	Y	D	E
+Eschrichtius_robustus	Eschrichtius robustus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Eubalaena_glacialis	Eubalaena glacialis	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Eublepharis_macularius	Eublepharis macularius	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGG	G	CGG	R	TTT	F	TTC	F	Y	E	E
+Eulemur_rufifrons	Eulemur rufifrons	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Euleptes_europaea	Euleptes europaea	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGG	G	CGG	R	TTT	F	TTC	F	Y	E	E
+Eumetopias_jubatus	Eumetopias jubatus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Felis_catus	Felis catus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Fukomys_damarensis	Fukomys damarensis	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	N
+Gekko_japonicus	Gekko japonicus	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGG	G	CGG	R	TTT	F	TTC	F	Y	E	E
+Geotrypetes_seraphini	Geotrypetes seraphini	Amphibia	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAA	E	GGG	G	CGC	R	TTT	F	TTT	F	Y	E	E
+Giraffa_tippelskirchi	Giraffa tippelskirchi	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Globicephala_melas	Globicephala melas	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Gorilla_gorilla_gorilla	Gorilla gorilla gorilla	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Gracilinanus_agilis	Gracilinanus agilis	Marsupialia	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	D
+Halichoerus_grypus	Halichoerus grypus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Heloderma_suspectum	Heloderma suspectum	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGC	R	TTT	F	TTC	F	Y	D	E
+Hemicordylus_capensis	Hemicordylus capensis	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGG	G	CGG	R	TTT	F	TTC	F	Y	E	E
+Herpailurus_yagouaroundi	Herpailurus yagouaroundi	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Heterocephalus_glaber	Heterocephalus glaber	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	N
+Heteronotia_binoei	Heteronotia binoei	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGG	G	CGG	R	TTT	F	TTC	F	Y	E	E
+Hippopotamus_amphibius_kiboko	Hippopotamus amphibius kiboko	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Hipposideros_armiger	Hipposideros armiger	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Homo_sapiens	Homo sapiens	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Hyaena_hyaena	Hyaena hyaena	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Hylobates_moloch	Hylobates moloch	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Hyperoodon_ampullatus	Hyperoodon ampullatus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Ictidomys_tridecemlineatus	Ictidomys tridecemlineatus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Jaculus_jaculus	Jaculus jaculus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	S	E
+Lacerta_agilis	Lacerta agilis	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTC	F	Y	E	E
+Lagenorhynchus_albirostris	Lagenorhynchus albirostris	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Lemur_catta	Lemur catta	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Leopardus_geoffroyi	Leopardus geoffroyi	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Lepidochelys_kempii	Lepidochelys kempii	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTC	F	TTC	F	Y	E	E
+Lepidochelys_olivacea	Lepidochelys olivacea	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTC	F	TTC	F	Y	E	E
+Lepus_europaeus	Lepus europaeus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Lissotriton_helveticus	Lissotriton helveticus	Amphibia	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGA	G	CGC	R	TTT	F	TTC	F	Y	E	E
+Loxodonta_africana	Loxodonta africana	Afrotheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Lynx_canadensis	Lynx canadensis	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Lynx_rufus	Lynx rufus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Macaca_fascicularis	Macaca fascicularis	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Macaca_mulatta	Macaca mulatta	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Macaca_nemestrina	Macaca nemestrina	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Macaca_thibetana_thibetana	Macaca thibetana thibetana	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Macrotis_lagotis	Macrotis lagotis	Marsupialia	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	D
+Malaclemys_terrapin_pileata	Malaclemys terrapin pileata	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTC	F	TTC	F	Y	E	E
+Mandrillus_leucophaeus	Mandrillus leucophaeus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Marmota_flaviventris	Marmota flaviventris	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Marmota_monax	Marmota monax	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Martes_martes	Martes martes	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Mastomys_coucha	Mastomys coucha	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGC	R	TTT	F	TTT	F	F	T	D
+Mauremys_mutica	Mauremys mutica	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTC	F	TTC	F	Y	E	E
+Meles_meles	Meles meles	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Meriones_unguiculatus	Meriones unguiculatus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGC	R	TTT	F	TTC	F	F	T	D
+Mesocricetus_auratus	Mesocricetus auratus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Mesoplodon_bidens	Mesoplodon bidens	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Mesoplodon_densirostris	Mesoplodon densirostris	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Mesoplodon_mirus	Mesoplodon mirus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTT	F	Y	T	D
+Microcebus_murinus	Microcebus murinus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	E
+Micromys_minutus	Micromys minutus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGC	R	TTT	F	TTT	F	F	T	D
+Microtus_ochrogaster	Microtus ochrogaster	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGG	R	TTT	F	TTT	F	F	T	D
+Microtus_pennsylvanicus	Microtus pennsylvanicus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGG	R	TTT	F	TTT	F	F	T	D
+Miniopterus_natalensis	Miniopterus natalensis	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Miniopterus_schreibersii	Miniopterus schreibersii	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Mirounga_angustirostris	Mirounga angustirostris	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Mirounga_leonina	Mirounga leonina	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Monodelphis_domestica	Monodelphis domestica	Marsupialia	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	D
+Monodon_monoceros	Monodon monoceros	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Moschus_berezovskii	Moschus berezovskii	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Muntiacus_reevesi	Muntiacus reevesi	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Mus_musculus	Mus musculus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGC	R	TTT	F	TTT	F	F	T	D
+Mus_pahari	Mus pahari	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGC	R	TTT	F	TTT	F	F	T	D
+Muscardinus_avellanarius	Muscardinus avellanarius	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTT	F	F	T	D
+Mustela_lutreola	Mustela lutreola	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Mustela_nivalis	Mustela nivalis	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Myodes_glareolus	Myodes glareolus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGG	R	TTT	F	TTT	F	F	T	D
+Myotis_nattereri	Myotis nattereri	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Nannospalax_galili	Nannospalax galili	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGA	G	CGG	R	TTT	F	TTT	F	F	T	A
+Natator_depressus	Natator depressus	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTC	F	TTC	F	Y	E	E
+Natrix_helvetica	Natrix helvetica	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	AGA	R	TTT	F	TTC	F	Y	D	E
+Neofelis_nebulosa	Neofelis nebulosa	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Neophocaena_asiaeorientalis_asiaeorientalis	Neophocaena asiaeorientalis asiaeorientalis	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Nomascus_leucogenys	Nomascus leucogenys	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Notamacropus_eugenii	Notamacropus eugenii	Marsupialia	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	D
+Notechis_scutatus	Notechis scutatus	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTC	F	TTC	F	Y	D	E
+Nyctereutes_procyonoides	Nyctereutes procyonoides	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Nycticebus_coucang	Nycticebus coucang	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	G	E
+Ochotona_curzoniae	Ochotona curzoniae	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Ochotona_princeps	Ochotona princeps	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Odobenus_rosmarus_divergens	Odobenus rosmarus divergens	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Odocoileus_virginianus	Odocoileus virginianus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Onychomys_torridus	Onychomys torridus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTC	F	TTC	F	F	T	D
+Orcinus_orca	Orcinus orca	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Orycteropus_afer_afer	Orycteropus afer afer	Afrotheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Oryctolagus_cuniculus	Oryctolagus cuniculus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Otolemur_garnettii	Otolemur garnettii	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	G	D
+Ovis_aries	Ovis aries	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Ovis_canadensis	Ovis canadensis	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Pan_paniscus	Pan paniscus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Pan_troglodytes	Pan troglodytes	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Panthera_leo	Panthera leo	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Panthera_onca	Panthera onca	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Panthera_pardus	Panthera pardus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Panthera_tigris	Panthera tigris	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Panthera_uncia	Panthera uncia	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Pantherophis_guttatus	Pantherophis guttatus	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTC	F	Y	D	E
+Papio_anubis	Papio anubis	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Paroedura_picta	Paroedura picta	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGG	G	CGG	R	TTC	F	TTC	F	Y	E	E
+Peromyscus_californicus_insignis	Peromyscus californicus insignis	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGG	R	TTT	F	TTT	F	F	T	D
+Peromyscus_leucopus	Peromyscus leucopus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGG	R	TTT	F	TTT	F	F	T	D
+Peromyscus_maniculatus_bairdii	Peromyscus maniculatus bairdii	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGG	R	TTT	F	TTT	F	F	T	D
+Petaurus_breviceps_papuanus	Petaurus breviceps papuanus	Marsupialia	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTT	F	L	T	D
+Phacochoerus_africanus	Phacochoerus africanus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Phascolarctos_cinereus	Phascolarctos cinereus	Marsupialia	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	D
+Phoca_vitulina	Phoca vitulina	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Phocoena_sinus	Phocoena sinus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Phodopus_roborovskii	Phodopus roborovskii	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Phyllostomus_discolor	Phyllostomus discolor	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Phyllostomus_hastatus	Phyllostomus hastatus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Physeter_macrocephalus	Physeter macrocephalus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Piliocolobus_tephrosceles	Piliocolobus tephrosceles	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Pipistrellus_hanaki	Pipistrellus hanaki	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	A
+Pituophis_catenifer_annectens	Pituophis catenifer annectens	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTC	F	Y	D	E
+Plecotus_auritus	Plecotus auritus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Podarcis_bocagei	Podarcis bocagei	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTC	F	Y	E	E
+Podarcis_cretensis	Podarcis cretensis	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTC	F	Y	E	E
+Podarcis_filfolensis	Podarcis filfolensis	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTC	F	Y	E	E
+Podarcis_gaigeae	Podarcis gaigeae	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTC	F	Y	E	E
+Podarcis_liolepis	Podarcis liolepis	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTC	F	Y	E	E
+Podarcis_melisellensis	Podarcis melisellensis	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTC	F	Y	E	E
+Podarcis_muralis	Podarcis muralis	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTC	F	Y	E	E
+Podarcis_pityusensis	Podarcis pityusensis	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTC	F	Y	E	E
+Podarcis_raffonei	Podarcis raffonei	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTC	F	Y	E	E
+Podarcis_tiliguerta	Podarcis tiliguerta	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTC	F	Y	E	E
+Podarcis_vaucheri	Podarcis vaucheri	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTC	F	Y	E	E
+Pogona_vitticeps	Pogona vitticeps	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGG	G	CGG	R	TTC	F	TTC	F	Y	D	E
+Pongo_abelii	Pongo abelii	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Pongo_pygmaeus	Pongo pygmaeus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Prionailurus_bengalensis	Prionailurus bengalensis	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Prionailurus_viverrinus	Prionailurus viverrinus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Propithecus_coquereli	Propithecus coquereli	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	E
+Psammomys_obesus	Psammomys obesus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGC	R	TTT	F	TTC	F	F	T	D
+Pteronotus_mesoamericanus	Pteronotus mesoamericanus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Pteropus_medius	Pteropus medius	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Puma_concolor	Puma concolor	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Rattus_norvegicus	Rattus norvegicus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGC	R	TTT	F	TTT	F	F	T	D
+Rhineura_floridana	Rhineura floridana	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGG	G	CGC	R	TTT	F	TTC	F	Y	E	E
+Rhinolophus_ferrumequinum	Rhinolophus ferrumequinum	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	S	D
+Rhinolophus_hipposideros	Rhinolophus hipposideros	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	S	D
+Rhinolophus_sinicus	Rhinolophus sinicus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	S	D
+Rhinopithecus_bieti	Rhinopithecus bieti	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Rhinopithecus_roxellana	Rhinopithecus roxellana	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Rousettus_aegyptiacus	Rousettus aegyptiacus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Saccopteryx_bilineata	Saccopteryx bilineata	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Saccopteryx_leptura	Saccopteryx leptura	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Saimiri_boliviensis	Saimiri boliviensis	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Sapajus_apella	Sapajus apella	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Sarcophilus_harrisii	Sarcophilus harrisii	Marsupialia	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTC	F	TTC	F	L	T	D
+Sceloporus_undulatus	Sceloporus undulatus	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTC	F	Y	D	E
+Sminthopsis_crassicaudata	Sminthopsis crassicaudata	Marsupialia	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTT	F	L	T	D
+Sorex_araneus	Sorex araneus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTC	F	TTT	F	F	R	D
+Sorex_fumeus	Sorex fumeus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTC	F	TTT	F	F	G	D
+Spermophilus_citellus	Spermophilus citellus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Sphaerodactylus_townsendi	Sphaerodactylus townsendi	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGG	G	CGG	R	TTT	F	TTC	F	Y	E	E
+Stenella_coeruleoalba	Stenella coeruleoalba	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Sturnira_hondurensis	Sturnira hondurensis	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGC	R	TTT	F	TTT	F	Y	T	D
+Suricata_suricatta	Suricata suricatta	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Sus_scrofa	Sus scrofa	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Symphalangus_syndactylus	Symphalangus syndactylus	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Talpa_occidentalis	Talpa occidentalis	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	A	D
+Tamandua_tetradactyla	Tamandua tetradactyla	Xenarthra	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Tenrec_ecaudatus	Tenrec ecaudatus	Afrotheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	K	D
+Theropithecus_gelada	Theropithecus gelada	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Trachemys_scripta_elegans	Trachemys scripta elegans	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTC	F	TTC	F	Y	E	E
+Trachypithecus_francoisi	Trachypithecus francoisi	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Trichechus_manatus_latirostris	Trichechus manatus latirostris	Afrotheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Trichosurus_vulpecula	Trichosurus vulpecula	Marsupialia	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	D
+Triturus_cristatus	Triturus cristatus	Amphibia	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGA	G	CGC	R	TTT	F	TTC	F	Y	E	E
+Tupaia_belangeri_chinensis	Tupaia belangeri chinensis	Euarchontoglires	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Tursiops_truncatus	Tursiops truncatus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Ursus_americanus	Ursus americanus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Ursus_arctos	Ursus arctos	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Ursus_maritimus	Ursus maritimus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Vicugna_pacos	Vicugna pacos	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Vipera_berus	Vipera berus	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGG	G	CGA	R	TTT	F	TTC	F	Y	D	E
+Vipera_ursinii	Vipera ursinii	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGG	G	CGA	R	TTT	F	TTC	F	Y	D	E
+Vombatus_ursinus	Vombatus ursinus	Marsupialia	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	D
+Vulpes_vulpes	Vulpes vulpes	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Zalophus_californianus	Zalophus californianus	Laurasiatheria	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Zootoca_vivipara	Zootoca vivipara	Sauropsida	DNMT3A_MACSE_NT.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTC	F	Y	E	E

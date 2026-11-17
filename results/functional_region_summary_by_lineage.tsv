@@ -1,0 +1,5 @@
+feature_id	broad_lineage	records	coverage_pass_records	coverage_pass_fraction	median_identity_fraction_resolved	median_net_basic_minus_acidic	median_polar_or_charged_fraction
+SWITCHING_HELIX	Amphibia	4	3	0.75	0.26666666666666666	0.0	0.6666666666666666
+SWITCHING_HELIX	Marsupialia	12	12	1.0	0.4666666666666667	-2.5	0.5333333333333333
+SWITCHING_HELIX	Placentalia	220	218	0.990909090909091	0.6	0.0	0.6666666666666666
+SWITCHING_HELIX	Sauropsida	53	52	0.9811320754716981	0.4	0.0	0.5333333333333333

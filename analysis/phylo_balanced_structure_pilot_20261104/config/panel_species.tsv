@@ -1,0 +1,26 @@
+safe_id	lineage_group	panel_role	rationale	complex_eligible
+Geotrypetes_seraphini	Amphibia	extant_primary	caecilian; amphibian G9a-LFI exception	yes
+Lissotriton_helveticus	Amphibia	extant_primary	salamandrid amphibian	yes
+Triturus_cristatus	Amphibia	extant_primary	salamandrid amphibian	yes
+Alligator_sinensis	Sauropsida	extant_primary	crocodilian	yes
+Chelonia_mydas	Sauropsida	extant_primary	turtle	yes
+Pogona_vitticeps	Sauropsida	extant_primary	agamid lizard	yes
+Sceloporus_undulatus	Sauropsida	extant_primary	phrynosomatid lizard	yes
+Gekko_japonicus	Sauropsida	extant_primary	gecko	yes
+Pantherophis_guttatus	Sauropsida	extant_primary	snake	yes
+Monodelphis_domestica	Marsupialia	extant_primary	American marsupial	yes
+Sarcophilus_harrisii	Marsupialia	extant_primary	dasyurid marsupial	yes
+Notamacropus_eugenii	Marsupialia	extant_primary	macropod marsupial	yes
+Vombatus_ursinus	Marsupialia	extant_primary	vombatiform marsupial	yes
+Homo_sapiens	Placentalia	extant_primary	human reference; G9a LLI state	yes
+Mus_musculus	Placentalia	extant_primary	functional PTM and G9a LFI reference	yes
+Oryctolagus_cuniculus	Placentalia	extant_primary	lagomorph outside muroid LFI cluster	yes
+Canis_lupus_familiaris	Placentalia	extant_primary	carnivoran	yes
+Bos_taurus	Placentalia	extant_primary	artiodactyl	yes
+Pteropus_medius	Placentalia	extant_primary	bat	yes
+Sorex_araneus	Placentalia	extant_primary	eulipotyphlan	yes
+Loxodonta_africana	Placentalia	extant_primary	afrotherian	yes
+Dasypus_novemcinctus	Placentalia	extant_primary	xenarthran	yes
+ANCESTRAL_AMNIOTA	Ancestral	ancestral_primary	IQ-TREE node NCBI_32524; maximum-posterior sequence	yes
+ANCESTRAL_THERIA	Ancestral	ancestral_primary	IQ-TREE node NCBI_32525; maximum-posterior sequence	yes
+

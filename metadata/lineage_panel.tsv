@@ -1,0 +1,18 @@
+panel_id	major_lineage	species	purpose	priority	absence_interpretation
+LAMPREY	Cyclostomata	Petromyzon marinus	test pre-gnathostome annotation claim	high	No annotation is not evidence of loss; inspect candidate sequence, assembly, and syntenic locus
+ELEPHANT_SHARK	Chondrichthyes	Callorhinchus milii	test cartilaginous-fish presence	high	No annotation is not evidence of loss
+ZEBRAFISH	Actinopterygii	Danio rerio	test ray-finned-fish presence	high	No annotation is not evidence of loss; distinguish DNMT3 paralogs
+SPOTTED_GAR	Actinopterygii	Lepisosteus oculatus	test nonteleost actinopterygian presence	high	No annotation is not evidence of loss
+COELACANTH	Coelacanthimorpha	Latimeria chalumnae	test sarcopterygian transition	high	No annotation is not evidence of loss
+LUNGFISH	Dipnoi	Protopterus annectens	test tetrapod stem context	high	No annotation is not evidence of loss
+XENOPUS	Amphibia	Xenopus tropicalis	test anuran annotation and apparent absence	high	No annotation is not evidence of loss; conduct translated locus search
+AXOLOTL	Amphibia	Ambystoma mexicanum	validate existing amphibian candidate	high	Existing candidate requires domain and synteny review
+ANOLE	Lepidosauria	Anolis carolinensis	validate sauropsid locus and expression	high	Existing candidate and synteny evidence available
+TURTLE	Testudines	Pelodiscus sinensis	validate sauropsid locus and expression	high	Existing candidate; add locus and RNA support
+ALLIGATOR	Crocodylia	Alligator mississippiensis	validate archosaur locus	high	Partial annotation requires locus-level review
+CHICKEN	Aves	Gallus gallus	test reported avian absence	high	No annotation is not evidence of loss; inspect conserved neighborhood and pseudogene evidence
+ZEBRA_FINCH	Aves	Taeniopygia guttata	test whether avian pattern is shared	high	No annotation is not evidence of loss; inspect conserved neighborhood and pseudogene evidence
+PLATYPUS	Monotremata	Ornithorhynchus anatinus	close monotreme sampling gap	high	No annotation is not evidence of loss
+OPOSSUM	Marsupialia	Monodelphis domestica	therian anchor	medium	Expected annotated locus; verify context
+HUMAN	Placentalia	Homo sapiens	reference anchor	high	Positive control
+

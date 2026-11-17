@@ -1,0 +1,52 @@
+panel_id	major_lineage	species	queried_marker	gene_id	reported_symbol	description	genomic_accession	chromosome	start	end	orientation
+LAMPREY	Cyclostomata	Petromyzon marinus	TRAPPC10	116952976	TRAPPC10	trafficking protein particle complex subunit 10	NC_133715.1	49	11304903	11337023	plus
+ELEPHANT_SHARK	Chondrichthyes	Callorhinchus milii	GATD3	103185200	gatd3	glutamine amidotransferase class 1 domain containing 3	NW_024704745.1		6209005	6217722	plus
+ELEPHANT_SHARK	Chondrichthyes	Callorhinchus milii	PWP2	103185182	pwp2h	PWP2 small subunit processome component	NW_024704745.1		7028274	7033220	plus
+ELEPHANT_SHARK	Chondrichthyes	Callorhinchus milii	TRAPPC10	103185199	trappc10	trafficking protein particle complex subunit 10	NW_024704900.1		11426	39097	plus
+ZEBRAFISH	Actinopterygii	Danio rerio	GATD3	550355	gatd3	glutamine amidotransferase class 1 domain containing 3	NC_141029.1	9	34668156	34675292	minus
+ZEBRAFISH	Actinopterygii	Danio rerio	TRAPPC10	100334988	trappc10	trafficking protein particle complex subunit 10	NC_141031.1	11	48159992	48193308	minus
+SPOTTED_GAR	Actinopterygii	Lepisosteus oculatus	GATD3	102698855	gatd3	glutamine amidotransferase class 1 domain containing 3	NC_090710.1	15	17699377	17707581	minus
+SPOTTED_GAR	Actinopterygii	Lepisosteus oculatus	PWP2	102691958	pwp2h	PWP2 small subunit processome component	NC_090710.1	15	477288	532252	plus
+SPOTTED_GAR	Actinopterygii	Lepisosteus oculatus	TRAPPC10	102690761	trappc10	trafficking protein particle complex subunit 10	NC_090710.1	15	574970	659154	minus
+COELACANTH	Coelacanthimorpha	Latimeria chalumnae	ICOSLG	102357426	LOC102357426	butyrophilin-like protein 10	NC_088142.1	4	2429486	2471863	minus
+COELACANTH	Coelacanthimorpha	Latimeria chalumnae	GATD3	102357871	GATD3	glutamine amidotransferase class 1 domain containing 3	NC_088142.1	4	2378866	2422607	plus
+COELACANTH	Coelacanthimorpha	Latimeria chalumnae	PWP2	102361154	PWP2H	PWP2 small subunit processome component	NC_088142.1	4	2322134	2371225	plus
+COELACANTH	Coelacanthimorpha	Latimeria chalumnae	TRAPPC10	102364015	TRAPPC10	trafficking protein particle complex subunit 10	NC_088142.1	4	24059574	24191829	plus
+LUNGFISH	Dipnoi	Protopterus annectens	TRAPPC10	122802735	TRAPPC10	trafficking protein particle complex subunit 10	NC_056735.1	5.part0	655564804	658090078	plus
+XENOPUS	Amphibia	Xenopus tropicalis	ICOSLG	101732704	icoslg	inducible T cell costimulator ligand	NC_030678.2	2	1467076	1484365	plus
+XENOPUS	Amphibia	Xenopus tropicalis	GATD3	100135111	gatd3	glutamine amidotransferase class 1 domain containing 3	NC_030678.2	2	1486038	1495200	minus
+XENOPUS	Amphibia	Xenopus tropicalis	PWP2	100158563	pwp2	PWP2, small subunit processome component	NC_030678.2	2	1659201	1672219	plus
+XENOPUS	Amphibia	Xenopus tropicalis	TRAPPC10	100489172	trappc10	trafficking protein particle complex subunit 10	NC_030678.2	2	1633748	1654229	plus
+AXOLOTL	Amphibia	Ambystoma mexicanum	PWP2	138525625	PWP2	PWP2 small subunit processome component	NC_090939.1	7p	22025597	22332344	plus
+AXOLOTL	Amphibia	Ambystoma mexicanum	TRAPPC10	138525624	TRAPPC10	trafficking protein particle complex subunit 10	NC_090939.1	7p	20115380	21681693	plus
+ANOLE	Lepidosauria	Anolis carolinensis	ICOSLG	103278357	icoslg	inducible T cell costimulator ligand	NC_085843.1	3	82856327	82892710	minus
+ANOLE	Lepidosauria	Anolis carolinensis	GATD3	100565368	gatd3	glutamine amidotransferase class 1 domain containing 3	NC_085843.1	3	82836694	82848436	plus
+ANOLE	Lepidosauria	Anolis carolinensis	PWP2	100553906	pwp2	PWP2 small subunit processome component	NC_085843.1	3	82807773	82833285	plus
+ANOLE	Lepidosauria	Anolis carolinensis	TRAPPC10	100565568	trappc10	trafficking protein particle complex subunit 10	NC_085843.1	3	82734791	82803505	plus
+TURTLE	Testudines	Pelodiscus sinensis	ICOSLG	102456930	ICOSLG	inducible T cell costimulator ligand	NC_143052.1	1	197177052	197199715	minus
+TURTLE	Testudines	Pelodiscus sinensis	GATD3	102447237	GATD3	glutamine amidotransferase class 1 domain containing 3	NC_143052.1	1	197088384	197097731	plus
+TURTLE	Testudines	Pelodiscus sinensis	PWP2	102456688	PWP2	PWP2 small subunit processome component	NC_143052.1	1	197051389	197085879	plus
+TURTLE	Testudines	Pelodiscus sinensis	TRAPPC10	102446808	TRAPPC10	trafficking protein particle complex subunit 10	NC_143052.1	1	196949191	197048956	plus
+ALLIGATOR	Crocodylia	Alligator mississippiensis	ICOSLG	102574755	ICOSLG	inducible T cell costimulator ligand	NC_081824.1	1	301297582	301313095	minus
+ALLIGATOR	Crocodylia	Alligator mississippiensis	GATD3	102576276	GATD3	glutamine amidotransferase class 1 domain containing 3	NC_081824.1	1	301209544	301221941	plus
+ALLIGATOR	Crocodylia	Alligator mississippiensis	PWP2	102576044	PWP2	PWP2 small subunit processome component	NC_081824.1	1	301156547	301187732	plus
+ALLIGATOR	Crocodylia	Alligator mississippiensis	TRAPPC10	102576508	TRAPPC10	trafficking protein particle complex subunit 10	NC_081824.1	1	301070339	301154729	plus
+CHICKEN	Aves	Gallus gallus	ICOSLG	395968	ICOSLG	inducible T-cell costimulator ligand	NC_052532.1	1	110458975	110471686	minus
+CHICKEN	Aves	Gallus gallus	PWP2	107055627	PWP2	PWP2 small subunit processome component	NC_052532.1	1	110393896	110410508	plus
+CHICKEN	Aves	Gallus gallus	TRAPPC10	771556	TRAPPC10	trafficking protein particle complex 10	NC_052532.1	1	110351101	110393506	plus
+ZEBRA_FINCH	Aves	Taeniopygia guttata	ICOSLG	100228022	ICOSLG	inducible T cell costimulator ligand	NC_133024.1	1	109900956	109917153	plus
+ZEBRA_FINCH	Aves	Taeniopygia guttata	GATD3	100229868	GATD3	glutamine amidotransferase class 1 domain containing 3	NC_133024.1	1	109966044	109973582	minus
+ZEBRA_FINCH	Aves	Taeniopygia guttata	PWP2	100218390	PWP2	PWP2 small subunit processome component	NC_133024.1	1	109974102	109989358	minus
+ZEBRA_FINCH	Aves	Taeniopygia guttata	PWP2	101233114	PWP2	PWP2 periodic tryptophan protein homolog (yeast)	NC_011462.1	1	4915568	4924811	plus
+ZEBRA_FINCH	Aves	Taeniopygia guttata	TRAPPC10	100221241	TRAPPC10	trafficking protein particle complex subunit 10	NC_133024.1	1	109991435	110028977	minus
+PLATYPUS	Monotremata	Ornithorhynchus anatinus	ICOSLG	100081593	ICOSLG	inducible T cell costimulator ligand	NC_041745.1	18	8353943	8366805	minus
+PLATYPUS	Monotremata	Ornithorhynchus anatinus	GATD3	100081540	GATD3	glutamine amidotransferase class 1 domain containing 3	NC_041745.1	18	8284864	8292479	plus
+PLATYPUS	Monotremata	Ornithorhynchus anatinus	PWP2	100081511	PWP2	PWP2 small subunit processome component	NC_041745.1	18	8258588	8281990	plus
+PLATYPUS	Monotremata	Ornithorhynchus anatinus	TRAPPC10	100077929	TRAPPC10	trafficking protein particle complex subunit 10	NC_041745.1	18	8194290	8256072	plus
+OPOSSUM	Marsupialia	Monodelphis domestica	ICOSLG	100027399	LOC100027399	ICOS ligand	NC_077230.1	4	15551191	15577524	minus
+OPOSSUM	Marsupialia	Monodelphis domestica	PWP2	100027300	LOC100027300	periodic tryptophan protein 2 homolog	NC_077230.1	4	15306897	15344699	plus
+OPOSSUM	Marsupialia	Monodelphis domestica	TRAPPC10	100024973	TRAPPC10	trafficking protein particle complex subunit 10	NC_077230.1	4	10774272	10904460	plus
+HUMAN	Placentalia	Homo sapiens	ICOSLG	23308	ICOSLG	inducible T cell costimulator ligand	NC_000021.9	21	44216981	44240943	minus
+HUMAN	Placentalia	Homo sapiens	GATD3	8209	GATD3	glutamine amidotransferase class 1 domain containing 3	NC_000021.9	21	44133683	44145711	plus
+HUMAN	Placentalia	Homo sapiens	PWP2	5822	PWP2	PWP2 small subunit processome component	NC_000021.9	21	44107399	44131181	plus
+HUMAN	Placentalia	Homo sapiens	TRAPPC10	7109	TRAPPC10	trafficking protein particle complex subunit 10	NC_000021.9	21	44012309	44106552	plus

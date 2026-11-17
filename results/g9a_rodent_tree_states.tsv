@@ -1,0 +1,44 @@
+safe_id	species	broad_lineage	triplet_state	family	muroid
+Callospermophilus_lateralis	Callospermophilus lateralis	Placentalia	LLI	non-muroid Rodentia	False
+Castor_canadensis	Castor canadensis	Placentalia	LLI	non-muroid Rodentia	False
+Cavia_porcellus	Cavia porcellus	Placentalia	LLI	non-muroid Rodentia	False
+Chinchilla_lanigera	Chinchilla lanigera	Placentalia	LLI	non-muroid Rodentia	False
+Dipodomys_merriami	Dipodomys merriami	Placentalia	LLI	non-muroid Rodentia	False
+Dipodomys_ordii	Dipodomys ordii	Placentalia	LLI	non-muroid Rodentia	False
+Dipodomys_spectabilis	Dipodomys spectabilis	Placentalia	LLI	non-muroid Rodentia	False
+Fukomys_damarensis	Fukomys damarensis	Placentalia	LLI	non-muroid Rodentia	False
+Heterocephalus_glaber	Heterocephalus glaber	Placentalia	LLI	non-muroid Rodentia	False
+Ictidomys_tridecemlineatus	Ictidomys tridecemlineatus	Placentalia	LLI	non-muroid Rodentia	False
+Jaculus_jaculus	Jaculus jaculus	Placentalia	LLI	non-muroid Rodentia	False
+Marmota_flaviventris	Marmota flaviventris	Placentalia	LLI	non-muroid Rodentia	False
+Marmota_monax	Marmota monax	Placentalia	LLI	non-muroid Rodentia	False
+Muscardinus_avellanarius	Muscardinus avellanarius	Placentalia	LLI	non-muroid Rodentia	False
+Octodon_degus	Octodon degus	Placentalia	LLI	non-muroid Rodentia	False
+Spermophilus_citellus	Spermophilus citellus	Placentalia	LLI	non-muroid Rodentia	False
+Arvicola_amphibius	Arvicola amphibius	Placentalia	LFI	Cricetidae	True
+Chionomys_nivalis	Chionomys nivalis	Placentalia	LFI	Cricetidae	True
+Cricetulus_griseus	Cricetulus griseus	Placentalia	LFI	Cricetidae	True
+Mesocricetus_auratus	Mesocricetus auratus	Placentalia	LFI	Cricetidae	True
+Microtus_ochrogaster	Microtus ochrogaster	Placentalia	LFI	Cricetidae	True
+Microtus_oregoni	Microtus oregoni	Placentalia	LFI	Cricetidae	True
+Microtus_pennsylvanicus	Microtus pennsylvanicus	Placentalia	LFI	Cricetidae	True
+Myodes_glareolus	Myodes glareolus	Placentalia	LFI	Cricetidae	True
+Onychomys_torridus	Onychomys torridus	Placentalia	LFI	Cricetidae	True
+Peromyscus_californicus_insignis	Peromyscus californicus insignis	Placentalia	LFI	Cricetidae	True
+Peromyscus_eremicus	Peromyscus eremicus	Placentalia	LFI	Cricetidae	True
+Peromyscus_leucopus	Peromyscus leucopus	Placentalia	LFI	Cricetidae	True
+Peromyscus_maniculatus_bairdii	Peromyscus maniculatus bairdii	Placentalia	LFI	Cricetidae	True
+Phodopus_roborovskii	Phodopus roborovskii	Placentalia	LFI	Cricetidae	True
+Acomys_minous	Acomys minous	Placentalia	LFI	Muridae	True
+Acomys_russatus	Acomys russatus	Placentalia	LFI	Muridae	True
+Apodemus_sylvaticus	Apodemus sylvaticus	Placentalia	LFI	Muridae	True
+Arvicanthis_niloticus	Arvicanthis niloticus	Placentalia	LFI	Muridae	True
+Mastomys_coucha	Mastomys coucha	Placentalia	LFI	Muridae	True
+Meriones_unguiculatus	Meriones unguiculatus	Placentalia	LFI	Muridae	True
+Micromys_minutus	Micromys minutus	Placentalia	LFI	Muridae	True
+Mus_musculus	Mus musculus	Placentalia	LFI	Muridae	True
+Mus_pahari	Mus pahari	Placentalia	LFI	Muridae	True
+Psammomys_obesus	Psammomys obesus	Placentalia	LFI	Muridae	True
+Rattus_norvegicus	Rattus norvegicus	Placentalia	LFI	Muridae	True
+Rattus_rattus	Rattus rattus	Placentalia	LFI	Muridae	True
+Nannospalax_galili	Nannospalax galili	Placentalia	LFI	Spalacidae	True

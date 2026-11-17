@@ -1,0 +1,718 @@
+IQ-TREE 2.3.6 built Jul 30 2024
+
+Input file name: Vertebrate_Gene_History_Redesign_20261102/analysis/switching_helix_asr_337/inputs/DNMT3L_289_human_coordinate_strict_focal_masked.fasta
+User tree file name: Vertebrate_Gene_History_Redesign_20261102/analysis/switching_helix_asr_337/trees/DNMT3L_289_ncbi_taxonomy_topology.nwk
+Type of analysis: tree reconstruction
+Random seed number: 20261102
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 289 sequences with 387 amino-acid sites
+Number of constant sites: 26 (= 6.71835% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 26 (= 6.71835% of all sites)
+Number of parsimony informative sites: 336
+Number of distinct site patterns: 377
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+R4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0499
+  pi(R) = 0.0667
+  pi(N) = 0.0268
+  pi(D) = 0.0599
+  pi(C) = 0.0492
+  pi(Q) = 0.0386
+  pi(E) = 0.0644
+  pi(G) = 0.0565
+  pi(H) = 0.0231
+  pi(I) = 0.0374
+  pi(L) = 0.1066
+  pi(K) = 0.0431
+  pi(M) = 0.0168
+  pi(F) = 0.0558
+  pi(P) = 0.0662
+  pi(S) = 0.0745
+  pi(T) = 0.0447
+  pi(W) = 0.0209
+  pi(Y) = 0.0325
+  pi(V) = 0.0664
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.1797,0.0868) (0.2584,0.4526) (0.3427,1.0864) (0.2193,2.2584)
+
+ Category  Relative_rate  Proportion
+  1         0.0868         0.1797
+  2         0.4526         0.2584
+  3         1.0864         0.3427
+  4         2.2584         0.2193
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -38266.3585 (s.e. 1279.5438)
+Unconstrained log-likelihood (without tree): -2289.0222
+Number of free parameters (#branches + #model parameters): 474
+Akaike information criterion (AIC) score: 77480.7170
+Corrected Akaike information criterion (AICc) score: 527780.7170
+Bayesian information criterion (BIC) score: 79357.0103
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 474
+Sample size (n, alignment length): 387
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 20.9777
+Sum of internal branch lengths: 9.1471 (43.6041% of tree length)
+
+WARNING: 11 near-zero internal branches (<0.0026) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Acinonyx_jubatus' is drawn at root
+
++--Acinonyx_jubatus
+| (NCBI_338152)
+|                                    +--Acomys_minous
+|                                 +--| (NCBI_10067)
+|                                 |  +--Acomys_russatus
+|                              +--| (NCBI_10066)
+|                              |  |  +--Apodemus_sylvaticus
+|                              |  +--| (NCBI_39107)
+|                              |  |  +--Arvicanthis_niloticus
+|                              |  |  |
+|                              |  |  +--Mastomys_coucha
+|                              |  |  |
+|                              |  |  +--Micromys_minutus
+|                              |  |  |
+|                              |  |  |  +--Mus_musculus
+|                              |  |  +--| (NCBI_10088)
+|                              |  |  |  +--Mus_pahari
+|                              |  |  |
+|                              |  |  |  +--Rattus_norvegicus
+|                              |  |  +--| (NCBI_10114)
+|                              |  |     +--Rattus_rattus
+|                              |  |
+|                              |  |  +--Meriones_unguiculatus
+|                              |  +--| (NCBI_10045)
+|                              |     +--Psammomys_obesus
+|                           +--| (NCBI_337687)
+|                           |  |     +--Arvicola_amphibius
+|                           |  |  +--| (NCBI_39087)
+|                           |  |  |  +--Chionomys_nivalis
+|                           |  |  |  |
+|                           |  |  |  |  +--Microtus_ochrogaster
+|                           |  |  |  +--| (NCBI_10053)
+|                           |  |  |  |  +--Microtus_oregoni
+|                           |  |  |  |  |
+|                           |  |  |  |  +--Microtus_pennsylvanicus
+|                           |  |  |  |
+|                           |  |  |  +--Myodes_glareolus
+|                           |  +--| (NCBI_337677)
+|                           |  |  |  +--Cricetulus_griseus
+|                           |  |  +--| (NCBI_10026)
+|                           |  |  |  +--Mesocricetus_auratus
+|                           |  |  |  |
+|                           |  |  |  +--Phodopus_roborovskii
+|                           |  |  |
+|                           |  |  |  +--Onychomys_torridus
+|                           |  |  +--| (NCBI_337963)
+|                           |  |     |  +--Peromyscus_californicus_insignis
+|                           |  |     +--| (NCBI_10040)
+|                           |  |        +--Peromyscus_eremicus
+|                           |  |        |
+|                           |  |        +--Peromyscus_leucopus
+|                           |  |        |
+|                           |  |        +--Peromyscus_maniculatus_bairdii
+|                           |  |
+|                           |  +-------Nannospalax_galili
+|                       +---| (NCBI_1963758)
+|                       |   +----------Jaculus_jaculus
+|                    +--| (NCBI_9989)
+|                    |  |      +--Callospermophilus_lateralis
+|                    |  |  +---| (NCBI_337730)
+|                    |  |  |   +--Ictidomys_tridecemlineatus
+|                    |  |  |   |
+|                    |  |  |   |  +--Marmota_flaviventris
+|                    |  |  |   +--| (NCBI_9992)
+|                    |  |  |   |  +--Marmota_monax
+|                    |  |  |   |
+|                    |  |  |   +--Spermophilus_citellus
+|                    |  +--| (NCBI_33553)
+|                    |  |  +----Muscardinus_avellanarius
+|                    |  |
+|                    |  |  +---Castor_canadensis
+|                    |  +--| (NCBI_1963757)
+|                    |  |  |        +---Dipodomys_merriami
+|                    |  |  +--------| (NCBI_10016)
+|                    |  |           +--Dipodomys_ordii
+|                    |  |           |
+|                    |  |           +--Dipodomys_spectabilis
+|                    |  |
+|                    |  |     +----Cavia_porcellus
+|                    |  +-----| (NCBI_33550)
+|                    |        +--Chinchilla_lanigera
+|                    |        |
+|                    |        |   +---Fukomys_damarensis
+|                    |        +---| (NCBI_10167)
+|                    |        |   +--Heterocephalus_glaber
+|                    |        |
+|                    |        +--Octodon_degus
+|                 +--| (NCBI_314147)
+|                 |  |      +--Lepus_europaeus
+|                 |  |  +---| (NCBI_9979)
+|                 |  |  |   +--Oryctolagus_cuniculus
+|                 |  +--| (NCBI_9975)
+|                 |     |        +--Ochotona_curzoniae
+|                 |     +--------| (NCBI_9977)
+|                 |              +--Ochotona_princeps
+|              +--| (NCBI_314146)
+|              |  |           +--Aotus_nancymaae
+|              |  |        +--| (NCBI_9479)
+|              |  |        |  |  +--Callithrix_jacchus
+|              |  |        |  +**| (NCBI_9498)
+|              |  |        |     |  +**Cebus_imitator
+|              |  |        |     +--| (NCBI_38070)
+|              |  |        |     |  +--Sapajus_apella
+|              |  |        |     |
+|              |  |        |     +--Saimiri_boliviensis
+|              |  |     +--| (NCBI_314293)
+|              |  |     |  |        +--Cercocebus_atys
+|              |  |     |  |     +**| (NCBI_9528)
+|              |  |     |  |     |  +--Chlorocebus_sabaeus
+|              |  |     |  |     |  |
+|              |  |     |  |     |  |  +--Macaca_fascicularis
+|              |  |     |  |     |  +--| (NCBI_9539)
+|              |  |     |  |     |  |  +--Macaca_mulatta
+|              |  |     |  |     |  |  |
+|              |  |     |  |     |  |  +--Macaca_nemestrina
+|              |  |     |  |     |  |  |
+|              |  |     |  |     |  |  +--Macaca_thibetana_thibetana
+|              |  |     |  |     |  |
+|              |  |     |  |     |  +**Mandrillus_leucophaeus
+|              |  |     |  |     |  |
+|              |  |     |  |     |  +--Papio_anubis
+|              |  |     |  |     |  |
+|              |  |     |  |     |  +--Theropithecus_gelada
+|              |  |     |  |  +--| (NCBI_9527)
+|              |  |     |  |  |  |  +--Colobus_angolensis_palliatus
+|              |  |     |  |  |  +--| (NCBI_9569)
+|              |  |     |  |  |     +--Piliocolobus_tephrosceles
+|              |  |     |  |  |     |
+|              |  |     |  |  |     |  +--Rhinopithecus_bieti
+|              |  |     |  |  |     +**| (NCBI_542827)
+|              |  |     |  |  |     |  +**Rhinopithecus_roxellana
+|              |  |     |  |  |     |
+|              |  |     |  |  |     +--Trachypithecus_francoisi
+|              |  |     |  +--| (NCBI_9526)
+|              |  |     |     |        +**Gorilla_gorilla_gorilla
+|              |  |     |     |     +--| (NCBI_207598)
+|              |  |     |     |     |  +**Homo_sapiens
+|              |  |     |     |     |  |
+|              |  |     |     |     |  |  +--Pan_paniscus
+|              |  |     |     |     |  +--| (NCBI_9596)
+|              |  |     |     |     |     +**Pan_troglodytes
+|              |  |     |     |  +--| (NCBI_9604)
+|              |  |     |     |  |  |  +**Pongo_abelii
+|              |  |     |     |  |  +--| (NCBI_9599)
+|              |  |     |     |  |     +**Pongo_pygmaeus
+|              |  |     |     +--| (NCBI_314295)
+|              |  |     |        |  +**Hylobates_moloch
+|              |  |     |        +--| (NCBI_9577)
+|              |  |     |           +--Nomascus_leucogenys
+|              |  |     |           |
+|              |  |     |           +**Symphalangus_syndactylus
+|              |  |  +--| (NCBI_376913)
+|              |  |  |  +--Carlito_syrichta
+|              |  +--| (NCBI_9443)
+|              |  |  |        +--Eulemur_rufifrons
+|              |  |  |     +--| (NCBI_9445)
+|              |  |  |     |  +--Lemur_catta
+|              |  |  |  +--| (NCBI_376915)
+|              |  |  |  |  +--Microcebus_murinus
+|              |  |  |  |  |
+|              |  |  |  |  +--Propithecus_coquereli
+|              |  |  +--| (NCBI_376911)
+|              |  |     |  +--Nycticebus_coucang
+|              |  |     +--| (NCBI_376917)
+|              |  |        +--Otolemur_garnettii
+|              |  |
+|              |  +---Cynocephalus_volans
+|              |  |
+|              |  +---Tupaia_belangeri_chinensis
+|           +--| (NCBI_1437010)
+|           |  |                                              +--Ahaetulla_prasina
+|           |  |                                           +--| (NCBI_8578)
+|           |  |                                           |  |  +--Pantherophis_guttatus
+|           |  |                                           |  +--| (NCBI_169863)
+|           |  |                                           |     +**Pituophis_catenifer_annectens
+|           |  |                                     +-----| (NCBI_34989)
+|           |  |                                     |     +-----------Candoia_aspera
+|           |  |                                     |     |
+|           |  |                                     |     |     +--Crotalus_tigris
+|           |  |                                     |     |  +--| (NCBI_8710)
+|           |  |                                     |     |  |  +--Protobothrops_mucrosquamatus
+|           |  |                                     |     +--| (NCBI_8689)
+|           |  |                                     |     |  |  +--Vipera_berus
+|           |  |                                     |     |  +--| (NCBI_8703)
+|           |  |                                     |     |     +--Vipera_ursinii
+|           |  |                                     |     |
+|           |  |                                     |     +----Erythrolamprus_reginae
+|           |  |                                     |     |
+|           |  |                                     |     |  +--Natrix_helvetica
+|           |  |                                     |     +--| (NCBI_169862)
+|           |  |                                     |     |  +--Thamnophis_sirtalis
+|           |  |                                     |     |
+|           |  |                                     |     |  +--Notechis_scutatus
+|           |  |                                     |     +--| (NCBI_292440)
+|           |  |                                     |        +--Pseudonaja_textilis
+|           |  |                                  +--| (NCBI_1329911)
+|           |  |                                  |  |  +--Elgaria_multicarinata_webbii
+|           |  |                                  |  +--| (NCBI_1330543)
+|           |  |                                  |  |  +--Heloderma_suspectum
+|           |  |                                  |  |
+|           |  |                                  |  |  +-----Pogona_vitticeps
+|           |  |                                  |  +--| (NCBI_8511)
+|           |  |                                  |     |    +--Sceloporus_occidentalis
+|           |  |                                  |     +----| (NCBI_8518)
+|           |  |                                  |          +--Sceloporus_undulatus
+|           |  |                               +--| (NCBI_1329912)
+|           |  |                               |  |      +--Lacerta_agilis
+|           |  |                               |  |  +---| (NCBI_162266)
+|           |  |                               |  |  |   |  +--Podarcis_bocagei
+|           |  |                               |  |  |   +--| (NCBI_42163)
+|           |  |                               |  |  |   |  +--Podarcis_cretensis
+|           |  |                               |  |  |   |  |
+|           |  |                               |  |  |   |  +--Podarcis_erhardii
+|           |  |                               |  |  |   |  |
+|           |  |                               |  |  |   |  +--Podarcis_filfolensis
+|           |  |                               |  |  |   |  |
+|           |  |                               |  |  |   |  +--Podarcis_gaigeae
+|           |  |                               |  |  |   |  |
+|           |  |                               |  |  |   |  +--Podarcis_liolepis
+|           |  |                               |  |  |   |  |
+|           |  |                               |  |  |   |  +--Podarcis_melisellensis
+|           |  |                               |  |  |   |  |
+|           |  |                               |  |  |   |  +--Podarcis_muralis
+|           |  |                               |  |  |   |  |
+|           |  |                               |  |  |   |  +--Podarcis_pityusensis
+|           |  |                               |  |  |   |  |
+|           |  |                               |  |  |   |  +--Podarcis_raffonei
+|           |  |                               |  |  |   |  |
+|           |  |                               |  |  |   |  +--Podarcis_tiliguerta
+|           |  |                               |  |  |   |  |
+|           |  |                               |  |  |   |  +--Podarcis_vaucheri
+|           |  |                               |  |  |   |
+|           |  |                               |  |  |   +--Zootoca_vivipara
+|           |  |                               |  +--| (NCBI_1329975)
+|           |  |                               |     +--Rhineura_floridana
+|           |  |                            +--| (NCBI_1329950)
+|           |  |                            |  +-------Hemicordylus_capensis
+|           |  |                     +------| (NCBI_1329961)
+|           |  |                     |      |    +----Eublepharis_macularius
+|           |  |                     |      +----| (NCBI_8560)
+|           |  |                     |           |  +--Euleptes_europaea
+|           |  |                     |           +--| (NCBI_1329929)
+|           |  |                     |           |  +---Sphaerodactylus_townsendi
+|           |  |                     |           |
+|           |  |                     |           |  +--Gekko_japonicus
+|           |  |                     |           +--| (NCBI_385256)
+|           |  |                     |              +---Heteronotia_binoei
+|           |  |                     |              |
+|           |  |                     |              +--Paroedura_picta
+|           |  |                 +---| (NCBI_32561)
+|           |  |                 |   |       +---Alligator_sinensis
+|           |  |                 |   |  +----| (NCBI_1294634)
+|           |  |                 |   |  |    +--Crocodylus_porosus
+|           |  |                 |   +--| (NCBI_1329799)
+|           |  |                 |      |           +--Caretta_caretta
+|           |  |                 |      |        +--| (NCBI_8465)
+|           |  |                 |      |        |  +--Chelonia_mydas
+|           |  |                 |      |        |  |
+|           |  |                 |      |        |  +--Eretmochelys_imbricata
+|           |  |                 |      |        |  |
+|           |  |                 |      |        |  |  +**Lepidochelys_kempii
+|           |  |                 |      |        |  +--| (NCBI_8471)
+|           |  |                 |      |        |  |  +**Lepidochelys_olivacea
+|           |  |                 |      |        |  |
+|           |  |                 |      |        |  +--Natator_depressus
+|           |  |                 |      |     +--| (NCBI_1579337)
+|           |  |                 |      |     |  |     +--Malaclemys_terrapin_pileata
+|           |  |                 |      |     |  |  +--| (NCBI_8476)
+|           |  |                 |      |     |  |  |  +--Trachemys_scripta_elegans
+|           |  |                 |      |     |  +--| (NCBI_8486)
+|           |  |                 |      |     |     +--Mauremys_mutica
+|           |  |                 |      |  +--| (NCBI_8464)
+|           |  |                 |      |  |  +--Pelodiscus_sinensis
+|           |  |                 |      +--| (NCBI_8459)
+|           |  |                 |         +--Emydura_macquarii_macquarii
+|           |  |         +-------| (NCBI_32524)
+|           |  |         |       |       +--------------Geotrypetes_seraphini
+|           |  |         |       +-------| (NCBI_8292)
+|           |  |         |               |                  +--Lissotriton_helveticus
+|           |  |         |               |               +--| (NCBI_339868)
+|           |  |         |               |               |  +--Lissotriton_vulgaris
+|           |  |         |               +---------------| (NCBI_1331674)
+|           |  |         |                               +**Triturus_cristatus
+|           |  |  +------| (NCBI_32525)
+|           |  |  |      |        +--Antechinus_flavipes
+|           |  |  |      |     +--| (NCBI_9277)
+|           |  |  |      |     |  +--Sarcophilus_harrisii
+|           |  |  |      |     |  |
+|           |  |  |      |     |  +--Sminthopsis_crassicaudata
+|           |  |  |      +-----| (NCBI_9263)
+|           |  |  |            +--Dromiciops_gliroides
+|           |  |  |            |
+|           |  |  |            |  +--Gracilinanus_agilis
+|           |  |  |            +--| (NCBI_126287)
+|           |  |  |            |  +--Monodelphis_domestica
+|           |  |  |            |
+|           |  |  |            +--Macrotis_lagotis
+|           |  |  |            |
+|           |  |  |            |  +--Notamacropus_eugenii
+|           |  |  |            +--| (NCBI_38609)
+|           |  |  |               +--Petaurus_breviceps_papuanus
+|           |  |  |               |
+|           |  |  |               +--Phascolarctos_cinereus
+|           |  |  |               |
+|           |  |  |               +--Trichosurus_vulpecula
+|           |  |  |               |
+|           |  |  |               +--Vombatus_ursinus
+|           |  +--| (NCBI_9347)
+|           |     |     +--Choloepus_didactylus
+|           |     |  +--| (NCBI_948950)
+|           |     |  |  +----Tamandua_tetradactyla
+|           |     +--| (NCBI_9348)
+|           |     |  +---Dasypus_novemcinctus
+|           |     |
+|           |     |       +--Echinops_telfairi
+|           |     |  +----| (NCBI_176113)
+|           |     |  |    +--Tenrec_ecaudatus
+|           |     +--| (NCBI_311790)
+|           |        +---Elephantulus_edwardii
+|           |        |
+|           |        |  +**Elephas_maximus_indicus
+|           |        +--| (NCBI_9780)
+|           |        |  +**Loxodonta_africana
+|           |        |
+|           |        +--Orycteropus_afer_afer
+|           |        |
+|           |        +--Trichechus_manatus_latirostris
+|        +--| (NCBI_314145)
+|        |  |              +--Aethalodelphis_obliquidens
+|        |  |           +--| (NCBI_9726)
+|        |  |           |  +--Delphinus_delphis
+|        |  |           |  |
+|        |  |           |  +**Globicephala_melas
+|        |  |           |  |
+|        |  |           |  +--Grampus_griseus
+|        |  |           |  |
+|        |  |           |  +--Lagenorhynchus_albirostris
+|        |  |           |  |
+|        |  |           |  +--Leucopleurus_acutus
+|        |  |           |  |
+|        |  |           |  +--Orcinus_orca
+|        |  |           |  |
+|        |  |           |  +--Stenella_coeruleoalba
+|        |  |           |  |
+|        |  |           |  +--Tursiops_truncatus
+|        |  |        +--| (NCBI_9722)
+|        |  |        |  |  +--Hyperoodon_ampullatus
+|        |  |        |  +--| (NCBI_9756)
+|        |  |        |  |  |  +--Mesoplodon_bidens
+|        |  |        |  |  +**| (NCBI_9757)
+|        |  |        |  |     +--Mesoplodon_densirostris
+|        |  |        |  |     |
+|        |  |        |  |     +**Mesoplodon_mirus
+|        |  |        |  |
+|        |  |        |  +--Lipotes_vexillifer
+|        |  |        |  |
+|        |  |        |  +--Monodon_monoceros
+|        |  |        |  |
+|        |  |        |  |  +--Neophocaena_asiaeorientalis_asiaeorientalis
+|        |  |        |  +--| (NCBI_9740)
+|        |  |        |  |  |  +--Phocoena_phocoena
+|        |  |        |  |  +--| (NCBI_9741)
+|        |  |        |  |     +--Phocoena_sinus
+|        |  |        |  |
+|        |  |        |  +--Physeter_macrocephalus
+|        |  |     +--| (NCBI_9721)
+|        |  |     |  |     +--Balaenoptera_acutorostrata
+|        |  |     |  |  +**| (NCBI_9766)
+|        |  |     |  |  |  +--Balaenoptera_borealis
+|        |  |     |  |  |  |
+|        |  |     |  |  |  +--Balaenoptera_musculus
+|        |  |     |  |  |  |
+|        |  |     |  |  |  +--Balaenoptera_physalus
+|        |  |     |  |  |  |
+|        |  |     |  |  |  +--Balaenoptera_ricei
+|        |  |     |  +--| (NCBI_9761)
+|        |  |     |     +--Eschrichtius_robustus
+|        |  |     |     |
+|        |  |     |     +--Eubalaena_glacialis
+|        |  |  +--| (NCBI_2653789)
+|        |  |  |  +--Hippopotamus_amphibius_kiboko
+|        |  +--| (NCBI_91561)
+|        |  |  |        +--Bison_bison_bison
+|        |  |  |     +--| (NCBI_27592)
+|        |  |  |     |  |  +--Bos_grunniens
+|        |  |  |     |  +**| (NCBI_9903)
+|        |  |  |     |  |  +--Bos_indicus
+|        |  |  |     |  |  |
+|        |  |  |     |  |  +--Bos_javanicus
+|        |  |  |     |  |  |
+|        |  |  |     |  |  +--Bos_mutus
+|        |  |  |     |  |  |
+|        |  |  |     |  |  +--Bos_taurus
+|        |  |  |     |  |
+|        |  |  |     |  |  +--Bubalus_bubalis
+|        |  |  |     |  +--| (NCBI_9918)
+|        |  |  |     |     +--Bubalus_kerabau
+|        |  |  |  +--| (NCBI_9895)
+|        |  |  |  |  |  +--Budorcas_taxicolor
+|        |  |  |  |  +--| (NCBI_9963)
+|        |  |  |  |  |  +--Capra_hircus
+|        |  |  |  |  |  |
+|        |  |  |  |  |  +--Capricornis_sumatraensis
+|        |  |  |  |  |  |
+|        |  |  |  |  |  |  +**Ovis_aries
+|        |  |  |  |  |  +**| (NCBI_9935)
+|        |  |  |  |  |     +--Ovis_canadensis
+|        |  |  |  |  |
+|        |  |  |  |  +--Oryx_dammah
+|        |  |  +--| (NCBI_35500)
+|        |  |  |  |        +**Cervus_canadensis
+|        |  |  |  |     +**| (NCBI_9859)
+|        |  |  |  |     |  +**Cervus_elaphus
+|        |  |  |  |  +--| (NCBI_34878)
+|        |  |  |  |  |  +--Dama_dama
+|        |  |  |  +--| (NCBI_9850)
+|        |  |  |  |  +**Muntiacus_reevesi
+|        |  |  |  |  |
+|        |  |  |  |  +--Odocoileus_virginianus
+|        |  |  |  |
+|        |  |  |  +--Giraffa_tippelskirchi
+|        |  |  |  |
+|        |  |  |  +--Moschus_berezovskii
+|        |  |  |
+|        |  |  |     +**Camelus_bactrianus
+|        |  |  |  +--| (NCBI_9836)
+|        |  |  |  |  +--Camelus_dromedarius
+|        |  |  |  |  |
+|        |  |  |  |  +**Camelus_ferus
+|        |  |  +--| (NCBI_9835)
+|        |  |  |  +**Vicugna_pacos
+|        |  |  |
+|        |  |  |  +----Phacochoerus_africanus
+|        |  |  +--| (NCBI_9821)
+|        |  |     +--Sus_scrofa
+|        |  |
+|        |  |            +--Artibeus_jamaicensis
+|        |  |         +--| (NCBI_40234)
+|        |  |         |  +--Sturnira_hondurensis
+|        |  |     +---| (NCBI_9415)
+|        |  |     |   +--Desmodus_rotundus
+|        |  |     |   |
+|        |  |     |   |  +--Phyllostomus_discolor
+|        |  |     |   +--| (NCBI_9422)
+|        |  |     |      +--Phyllostomus_hastatus
+|        |  |  +--| (NCBI_30560)
+|        |  |  |  |   +--Cnephaeus_nilssonii
+|        |  |  |  +---| (NCBI_9431)
+|        |  |  |  |   +--Eptesicus_fuscus
+|        |  |  |  |   |
+|        |  |  |  |   +--Myotis_nattereri
+|        |  |  |  |   |
+|        |  |  |  |   +-------Pipistrellus_hanaki
+|        |  |  |  |   |
+|        |  |  |  |   +--Plecotus_auritus
+|        |  |  |  |
+|        |  |  |  |  +--Miniopterus_natalensis
+|        |  |  |  +--| (NCBI_9432)
+|        |  |  |  |  +**Miniopterus_schreibersii
+|        |  |  |  |
+|        |  |  |  +---Pteronotus_mesoamericanus
+|        |  |  |  |
+|        |  |  |  |  +--Saccopteryx_bilineata
+|        |  |  |  +--| (NCBI_59481)
+|        |  |  |     +**Saccopteryx_leptura
+|        |  +--| (NCBI_9397)
+|        |  |  |     +--Hipposideros_armiger
+|        |  |  |  +--| (NCBI_3136022)
+|        |  |  |  |  |  +--Rhinolophus_ferrumequinum
+|        |  |  |  |  +--| (NCBI_49442)
+|        |  |  |  |     +--Rhinolophus_hipposideros
+|        |  |  |  |     |
+|        |  |  |  |     +--Rhinolophus_sinicus
+|        |  |  +--| (NCBI_30559)
+|        |  |     |  +--Pteropus_medius
+|        |  |     +--| (NCBI_9398)
+|        |  |        +--Rousettus_aegyptiacus
+|        |  |
+|        |  |     +--Ceratotherium_simum_simum
+|        |  |  +--| (NCBI_9803)
+|        |  |  |  +--Diceros_bicornis_minor
+|        |  +--| (NCBI_9787)
+|        |  |  |  +--Equus_asinus
+|        |  |  +--| (NCBI_9789)
+|        |  |     +**Equus_caballus
+|        |  |     |
+|        |  |     +**Equus_przewalskii
+|        |  |
+|        |  |   +------------Erinaceus_europaeus
+|        |  +---| (NCBI_9362)
+|        |      |         +--Sorex_araneus
+|        |      +---------| (NCBI_9379)
+|        |      |         +--Sorex_fumeus
+|        |      |
+|        |      +--------Talpa_occidentalis
+|     +--| (NCBI_33554)
+|     |  |     +--Ailuropoda_melanoleuca
+|     |  |  +--| (NCBI_9632)
+|     |  |  |  |  +--Ursus_americanus
+|     |  |  |  +--| (NCBI_9639)
+|     |  |  |     +--Ursus_arctos
+|     |  |  |     |
+|     |  |  |     +------Ursus_maritimus
+|     |  +--| (NCBI_379584)
+|     |     |     +--Callorhinus_ursinus
+|     |     |  +--| (NCBI_9702)
+|     |     |  |  +**Eumetopias_jubatus
+|     |     |  |  |
+|     |     |  |  +**Zalophus_californianus
+|     |     +--| (NCBI_3072905)
+|     |     |  |     +----Halichoerus_grypus
+|     |     |  |  +**| (NCBI_3410118)
+|     |     |  |  |  +**Phoca_vitulina
+|     |     |  +--| (NCBI_9709)
+|     |     |  |  |     +**Mirounga_angustirostris
+|     |     |  |  |  +--| (NCBI_9714)
+|     |     |  |  |  |  +--Mirounga_leonina
+|     |     |  |  +--| (NCBI_3410119)
+|     |     |  |     +--Neomonachus_schauinslandi
+|     |     |  |
+|     |     |  +--Odobenus_rosmarus_divergens
+|     |     |
+|     |     |       +--Canis_aureus
+|     |     |    +--| (NCBI_9611)
+|     |     |    |  |  +--Canis_lupus_baileyi
+|     |     |    |  +**| (NCBI_9612)
+|     |     |    |     +--Canis_lupus_dingo
+|     |     |    |     |
+|     |     |    |     +--Canis_lupus_familiaris
+|     |     +----| (NCBI_9608)
+|     |     |    +--Nyctereutes_procyonoides
+|     |     |    |
+|     |     |    |  +--Vulpes_lagopus
+|     |     |    +--| (NCBI_9625)
+|     |     |       +**Vulpes_vulpes
+|     |     |
+|     |     |  +---Enhydra_lutris_kenyoni
+|     |     +--| (NCBI_9655)
+|     |        +--Martes_martes
+|     |        |
+|     |        +-----------Meles_meles
+|     |        |
+|     |        |  +--Mustela_lutreola
+|     |        +--| (NCBI_9665)
+|     |           +--Mustela_nivalis
+|  +--| (NCBI_379583)
+|  |  +--Hyaena_hyaena
+|  |  |
+|  |  +--Suricata_suricatta
++**| (NCBI_9681)
+|  |  +--Neofelis_nebulosa
+|  +--| (NCBI_338153)
+|     |  +**Panthera_leo
+|     +--| (NCBI_9688)
+|        +--Panthera_onca
+|        |
+|        +**Panthera_pardus
+|        |
+|        +--Panthera_tigris
+|        |
+|        +--Panthera_uncia
+|
++--Felis_catus
+|
++--Herpailurus_yagouaroundi
+|
++--Leopardus_geoffroyi
+|
+|  +--Lynx_canadensis
++--| (NCBI_13124)
+|  +--Lynx_rufus
+|
+|  +--Prionailurus_bengalensis
++--| (NCBI_37028)
+|  +--Prionailurus_viverrinus
+|
++--Puma_concolor
+
+Tree in newick format:
+
+(Acinonyx_jubatus:0.1064092656,((((((((((((Acomys_minous:0.0169789945,Acomys_russatus:0.0107090627)NCBI_10067:0.0947076123,(Apodemus_sylvaticus:0.0769079516,Arvicanthis_niloticus:0.0629281328,Mastomys_coucha:0.1028632224,Micromys_minutus:0.0937033519,(Mus_musculus:0.0514631294,Mus_pahari:0.0481460434)NCBI_10088:0.0337565712,(Rattus_norvegicus:0.0080464156,Rattus_rattus:0.0026782034)NCBI_10114:0.0488960096)NCBI_39107:0.0904075667,(Meriones_unguiculatus:0.0124350195,Psammomys_obesus:0.0172989908)NCBI_10045:0.0927326914)NCBI_10066:0.0263299494,((Arvicola_amphibius:0.0250923401,Chionomys_nivalis:0.0073171450,(Microtus_ochrogaster:0.0053483016,Microtus_oregoni:0.0106586648,Microtus_pennsylvanicus:0.0026734088)NCBI_10053:0.0125456135,Myodes_glareolus:0.0285004921)NCBI_39087:0.0838781702,(Cricetulus_griseus:0.0307051159,Mesocricetus_auratus:0.0488016915,Phodopus_roborovskii:0.0398878179)NCBI_10026:0.0485655799,(Onychomys_torridus:0.0121068392,(Peromyscus_californicus_insignis:0.0092136076,Peromyscus_eremicus:0.0037823161,Peromyscus_leucopus:0.0097604843,Peromyscus_maniculatus_bairdii:0.0125058913)NCBI_10040:0.0114386065)NCBI_337963:0.0653918735)NCBI_337677:0.0396505747,Nannospalax_galili:0.2268881670)NCBI_337687:0.0951550856,Jaculus_jaculus:0.3134980132)NCBI_1963758:0.1208858857,((Callospermophilus_lateralis:0.0161815641,Ictidomys_tridecemlineatus:0.0160164985,(Marmota_flaviventris:0.0108619056,Marmota_monax:0.0055512080)NCBI_9992:0.0137555958,Spermophilus_citellus:0.0450121216)NCBI_337730:0.1127224693,Muscardinus_avellanarius:0.1406330535)NCBI_33553:0.0451243019,(Castor_canadensis:0.1148476121,(Dipodomys_merriami:0.1175493536,Dipodomys_ordii:0.0199453484,Dipodomys_spectabilis:0.0101745842)NCBI_10016:0.2721371858)NCBI_1963757:0.0417733806,(Cavia_porcellus:0.1526793144,Chinchilla_lanigera:0.0930906618,(Fukomys_damarensis:0.1365893366,Heterocephalus_glaber:0.0965028885)NCBI_10167:0.1151666817,Octodon_degus:0.1111499510)NCBI_33550:0.1759702479)NCBI_9989:0.0224916159,((Lepus_europaeus:0.0044674534,Oryctolagus_cuniculus:0.0431341549)NCBI_9979:0.1232689979,(Ochotona_curzoniae:0.0496813954,Ochotona_princeps:0.0404644471)NCBI_9977:0.2587665453)NCBI_9975:0.1100547818)NCBI_314147:0.0717130628,((((Aotus_nancymaae:0.0351273870,(Callithrix_jacchus:0.0400935426,(Cebus_imitator:0.0025655531,Sapajus_apella:0.0051379532)NCBI_38070:0.0078686155,Saimiri_boliviensis:0.0211595198)NCBI_9498:0.0000045874)NCBI_9479:0.1022832477,(((Cercocebus_atys:0.0052606258,Chlorocebus_sabaeus:0.0159659570,(Macaca_fascicularis:0.0052653486,Macaca_mulatta:0.0026347685,Macaca_nemestrina:0.0026186310,Macaca_thibetana_thibetana:0.0079257341)NCBI_9539:0.0105931989,Mandrillus_leucophaeus:0.0000045874,Papio_anubis:0.0158726360,Theropithecus_gelada:0.0079173117)NCBI_9528:0.0017702907,(Colobus_angolensis_palliatus:0.0186336096,Piliocolobus_tephrosceles:0.0158408197,(Rhinopithecus_bieti:0.0026090494,Rhinopithecus_roxellana:0.0000045874)NCBI_542827:0.0000045874,Trachypithecus_francoisi:0.0132198758)NCBI_9569:0.0037082309)NCBI_9527:0.0153101278,(((Gorilla_gorilla_gorilla:0.0025692565,Homo_sapiens:0.0000045874,(Pan_paniscus:0.0025939767,Pan_troglodytes:0.0025404301)NCBI_9596:0.0051794049)NCBI_207598:0.0078738068,(Pongo_abelii:0.0000045874,Pongo_pygmaeus:0.0000045874)NCBI_9599:0.0206733189)NCBI_9604:0.0080543632,(Hylobates_moloch:0.0000045874,Nomascus_leucogenys:0.0051364122,Symphalangus_syndactylus:0.0000045874)NCBI_9577:0.0240798090)NCBI_314295:0.0253198854)NCBI_9526:0.0359299004)NCBI_314293:0.0783322909,Carlito_syrichta:0.0886776308)NCBI_376913:0.0145542443,(((Eulemur_rufifrons:0.0361475587,Lemur_catta:0.0360074157)NCBI_9445:0.0338703885,Microcebus_murinus:0.0570385641,Propithecus_coquereli:0.0378501145)NCBI_376915:0.0479167664,(Nycticebus_coucang:0.0331421934,Otolemur_garnettii:0.0172462685)NCBI_376917:0.0979089981)NCBI_376911:0.0385704900)NCBI_9443:0.0275795913,Cynocephalus_volans:0.1295750617,Tupaia_belangeri_chinensis:0.1185634982)NCBI_314146:0.0295574986,((((((((((Ahaetulla_prasina:0.0221577932,(Pantherophis_guttatus:0.0052083862,Pituophis_catenifer_annectens:0.0000033885)NCBI_169863:0.0153289795)NCBI_8578:0.0065358005,Candoia_aspera:0.3425092673,((Crotalus_tigris:0.0125902917,Protobothrops_mucrosquamatus:0.0057832533)NCBI_8710:0.0075311545,(Vipera_berus:0.0026196227,Vipera_ursinii:0.0053299086)NCBI_8703:0.0172634511)NCBI_8689:0.0190248564,Erythrolamprus_reginae:0.1508813841,(Natrix_helvetica:0.0173991527,Thamnophis_sirtalis:0.0257241866)NCBI_169862:0.0134065482,(Notechis_scutatus:0.0051991809,Pseudonaja_textilis:0.0131578298)NCBI_292440:0.0262268078)NCBI_34989:0.1723816738,(Elgaria_multicarinata_webbii:0.1075852606,Heloderma_suspectum:0.0416844560)NCBI_1330543:0.0809784445,(Pogona_vitticeps:0.1750243086,(Sceloporus_occidentalis:0.0099147313,Sceloporus_undulatus:0.0085694721)NCBI_8518:0.1667853156)NCBI_8511:0.0239180184)NCBI_1329911:0.0770696133,((Lacerta_agilis:0.0205195819,(Podarcis_bocagei:0.0081410402,Podarcis_cretensis:0.0027064471,Podarcis_erhardii:0.0054302445,Podarcis_filfolensis:0.0195407280,Podarcis_gaigeae:0.0109422101,Podarcis_liolepis:0.0081279783,Podarcis_melisellensis:0.0136918597,Podarcis_muralis:0.0211866660,Podarcis_pityusensis:0.0054360422,Podarcis_raffonei:0.0570822087,Podarcis_tiliguerta:0.0081764343,Podarcis_vaucheri:0.0136432296)NCBI_42163:0.0128671653,Zootoca_vivipara:0.0217404807)NCBI_162266:0.1317591838,Rhineura_floridana:0.1055152305)NCBI_1329975:0.0532422139)NCBI_1329912:0.0319662228,Hemicordylus_capensis:0.2301586116)NCBI_1329950:0.0400198126,(Eublepharis_macularius:0.1528471412,(Euleptes_europaea:0.1008722046,Sphaerodactylus_townsendi:0.1322462024)NCBI_1329929:0.0141243559,(Gekko_japonicus:0.1090185587,Heteronotia_binoei:0.1245261428,Paroedura_picta:0.0928298127)NCBI_385256:0.0290450883)NCBI_8560:0.1399149303)NCBI_1329961:0.1985875844,((Alligator_sinensis:0.1173583990,Crocodylus_porosus:0.0075164661)NCBI_1294634:0.1402813660,((((Caretta_caretta:0.0086012457,Chelonia_mydas:0.0099745052,Eretmochelys_imbricata:0.0139976171,(Lepidochelys_kempii:0.0000045874,Lepidochelys_olivacea:0.0000045874)NCBI_8471:0.0086092232,Natator_depressus:0.0100032474)NCBI_8465:0.0246286833,((Malaclemys_terrapin_pileata:0.0142574362,Trachemys_scripta_elegans:0.0058948269)NCBI_8476:0.0436255295,Mauremys_mutica:0.0451369658)NCBI_8486:0.0119745385)NCBI_1579337:0.0176466562,Pelodiscus_sinensis:0.0936429960)NCBI_8464:0.0138334248,Emydura_macquarii_macquarii:0.0463991729)NCBI_8459:0.0416171343)NCBI_1329799:0.0730590668)NCBI_32561:0.1120054346,(Geotrypetes_seraphini:0.4399673167,((Lissotriton_helveticus:0.0261394644,Lissotriton_vulgaris:0.0211004271)NCBI_339868:0.0258916664,Triturus_cristatus:0.0000045874)NCBI_1331674:0.4572403192)NCBI_8292:0.2488721520)NCBI_32524:0.2304841176,((Antechinus_flavipes:0.0135487610,Sarcophilus_harrisii:0.0161431139,Sminthopsis_crassicaudata:0.0222185431)NCBI_9277:0.0751386386,Dromiciops_gliroides:0.0377220653,(Gracilinanus_agilis:0.0315966444,Monodelphis_domestica:0.0364542303)NCBI_126287:0.0699829506,Macrotis_lagotis:0.0748908128,(Notamacropus_eugenii:0.0775316042,Petaurus_breviceps_papuanus:0.0582410504,Phascolarctos_cinereus:0.0419445711,Trichosurus_vulpecula:0.0465594995,Vombatus_ursinus:0.0477792042)NCBI_38609:0.0203966679)NCBI_9263:0.1930708372)NCBI_32525:0.2184704562,((Choloepus_didactylus:0.0757258741,Tamandua_tetradactyla:0.1656553021)NCBI_948950:0.0394823064,Dasypus_novemcinctus:0.1196259966)NCBI_9348:0.0526978268,((Echinops_telfairi:0.0342618822,Tenrec_ecaudatus:0.1011420520)NCBI_176113:0.1508956400,Elephantulus_edwardii:0.1333087907,(Elephas_maximus_indicus:0.0000038350,Loxodonta_africana:0.0000045874)NCBI_9780:0.0574606898,Orycteropus_afer_afer:0.0684162650,Trichechus_manatus_latirostris:0.0697848709)NCBI_311790:0.0977988359)NCBI_9347:0.0465105101)NCBI_1437010:0.0316406002,(((((Aethalodelphis_obliquidens:0.0301506435,Delphinus_delphis:0.0081073969,Globicephala_melas:0.0000045874,Grampus_griseus:0.0026875559,Lagenorhynchus_albirostris:0.0162570941,Leucopleurus_acutus:0.0218833031,Orcinus_orca:0.0113028347,Stenella_coeruleoalba:0.0107799342,Tursiops_truncatus:0.0068922149)NCBI_9726:0.0430792080,(Hyperoodon_ampullatus:0.0081162384,(Mesoplodon_bidens:0.0080032560,Mesoplodon_densirostris:0.0079968565,Mesoplodon_mirus:0.0000045262)NCBI_9757:0.0000047041)NCBI_9756:0.0484711645,Lipotes_vexillifer:0.0279986911,Monodon_monoceros:0.0346079006,(Neophocaena_asiaeorientalis_asiaeorientalis:0.0054103886,(Phocoena_phocoena:0.0026593349,Phocoena_sinus:0.0053211318)NCBI_9741:0.0025979108)NCBI_9740:0.0345502715,Physeter_macrocephalus:0.0641654728)NCBI_9722:0.0228234441,((Balaenoptera_acutorostrata:0.0052803996,Balaenoptera_borealis:0.0026716589,Balaenoptera_musculus:0.0189306988,Balaenoptera_physalus:0.0132445381,Balaenoptera_ricei:0.0052832565)NCBI_9766:0.0000045874,Eschrichtius_robustus:0.0080919284,Eubalaena_glacialis:0.0107785801)NCBI_9761:0.0299685207)NCBI_9721:0.0532679596,Hippopotamus_amphibius_kiboko:0.0474683207)NCBI_2653789:0.0162446001,(((Bison_bison_bison:0.0108368079,(Bos_grunniens:0.0053913693,Bos_indicus:0.0027095842,Bos_javanicus:0.0080964379,Bos_mutus:0.0053913006,Bos_taurus:0.0080964296)NCBI_9903:0.0000045874,(Bubalus_bubalis:0.0079825537,Bubalus_kerabau:0.0027541537)NCBI_9918:0.0192730062)NCBI_27592:0.0176439155,(Budorcas_taxicolor:0.0210422053,Capra_hircus:0.0310868259,Capricornis_sumatraensis:0.0053570735,(Ovis_aries:0.0000045874,Ovis_canadensis:0.0034554909)NCBI_9935:0.0000045874)NCBI_9963:0.0094416532,Oryx_dammah:0.0122126392)NCBI_9895:0.0100961000,(((Cervus_canadensis:0.0000045874,Cervus_elaphus:0.0000045874)NCBI_9859:0.0000045874,Dama_dama:0.0071688027)NCBI_34878:0.0071914328,Muntiacus_reevesi:0.0000038350,Odocoileus_virginianus:0.0218207702)NCBI_9850:0.0250437171,Giraffa_tippelskirchi:0.0396875538,Moschus_berezovskii:0.0278761058)NCBI_35500:0.0579912149,((Camelus_bactrianus:0.0000045874,Camelus_dromedarius:0.0080034898,Camelus_ferus:0.0000045874)NCBI_9836:0.0135161711,Vicugna_pacos:0.0000045874)NCBI_9835:0.0553483315,(Phacochoerus_africanus:0.1435488316,Sus_scrofa:0.0065817597)NCBI_9821:0.1074069974)NCBI_91561:0.0240285571,((((Artibeus_jamaicensis:0.0309472505,Sturnira_hondurensis:0.0202287826)NCBI_40234:0.0218900229,Desmodus_rotundus:0.0470947686,(Phyllostomus_discolor:0.0094252869,Phyllostomus_hastatus:0.0197977667)NCBI_9422:0.0662125366)NCBI_9415:0.1187608601,(Cnephaeus_nilssonii:0.0934941579,Eptesicus_fuscus:0.1053675450,Myotis_nattereri:0.0583309471,Pipistrellus_hanaki:0.2355775628,Plecotus_auritus:0.0155702911)NCBI_9431:0.1194006472,(Miniopterus_natalensis:0.0196471793,Miniopterus_schreibersii:0.0000045874)NCBI_9432:0.1099525272,Pteronotus_mesoamericanus:0.1321242268,(Saccopteryx_bilineata:0.0080663801,Saccopteryx_leptura:0.0000045874)NCBI_59481:0.0648981559)NCBI_30560:0.0487721922,((Hipposideros_armiger:0.0657934606,(Rhinolophus_ferrumequinum:0.0063836307,Rhinolophus_hipposideros:0.0230523319,Rhinolophus_sinicus:0.0121998360)NCBI_49442:0.0506453419)NCBI_3136022:0.0730897424,(Pteropus_medius:0.0216420208,Rousettus_aegyptiacus:0.0718063078)NCBI_9398:0.1036759410)NCBI_30559:0.0100379429)NCBI_9397:0.0383840372,((Ceratotherium_simum_simum:0.0032060470,Diceros_bicornis_minor:0.0093748853)NCBI_9803:0.0314735654,(Equus_asinus:0.0108215524,Equus_caballus:0.0000042817,Equus_przewalskii:0.0000045874)NCBI_9789:0.0361187543)NCBI_9787:0.0332685379,(Erinaceus_europaeus:0.3694209783,(Sorex_araneus:0.0534821532,Sorex_fumeus:0.0649904977)NCBI_9379:0.2967399662,Talpa_occidentalis:0.2778166440)NCBI_9362:0.1395883002)NCBI_314145:0.0486942415,((Ailuropoda_melanoleuca:0.0887768219,(Ursus_americanus:0.0027744014,Ursus_arctos:0.0080666091,Ursus_maritimus:0.2147684436)NCBI_9639:0.0110433404)NCBI_9632:0.0410989282,((Callorhinus_ursinus:0.0053480848,Eumetopias_jubatus:0.0000040588,Zalophus_californianus:0.0000043312)NCBI_9702:0.0127608570,((Halichoerus_grypus:0.1584122552,Phoca_vitulina:0.0000045874)NCBI_3410118:0.0000045874,((Mirounga_angustirostris:0.0000045874,Mirounga_leonina:0.0494736761)NCBI_9714:0.0027525639,Neomonachus_schauinslandi:0.0082863304)NCBI_3410119:0.0027725276)NCBI_9709:0.0120333397,Odobenus_rosmarus_divergens:0.0157935572)NCBI_3072905:0.0199892257,((Canis_aureus:0.0033435055,(Canis_lupus_baileyi:0.0066835853,Canis_lupus_dingo:0.0134188435,Canis_lupus_familiaris:0.0034482042)NCBI_9612:0.0000045874)NCBI_9611:0.0111062776,Nyctereutes_procyonoides:0.0353945716,(Vulpes_lagopus:0.0054587149,Vulpes_vulpes:0.0000045874)NCBI_9625:0.0079600526)NCBI_9608:0.1556717655,(Enhydra_lutris_kenyoni:0.1154677194,Martes_martes:0.0345760975,Meles_meles:0.3539866512,(Mustela_lutreola:0.0289148221,Mustela_nivalis:0.0284692932)NCBI_9665:0.0244623047)NCBI_9655:0.0750632062)NCBI_379584:0.0415772139)NCBI_33554:0.0472222096,Hyaena_hyaena:0.0841429616,Suricata_suricatta:0.0991222780)NCBI_379583:0.0805992825,(Neofelis_nebulosa:0.0137131660,(Panthera_leo:0.0000045874,Panthera_onca:0.0080886856,Panthera_pardus:0.0000045874,Panthera_tigris:0.0026944245,Panthera_uncia:0.0026990367)NCBI_9688:0.0053630662)NCBI_338153:0.0026993691)NCBI_9681:0.0000045874,Felis_catus:0.0054261316,Herpailurus_yagouaroundi:0.0026404568,Leopardus_geoffroyi:0.0107573976,(Lynx_canadensis:0.0026830737,Lynx_rufus:0.0108391994)NCBI_13124:0.0219016014,(Prionailurus_bengalensis:0.0026436102,Prionailurus_viverrinus:0.0081632361)NCBI_37028:0.0026509067,Puma_concolor:0.0053108264)NCBI_338152;
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t Vertebrate_Gene_History_Redesign_20261102/analysis/switching_helix_asr_337/runs/TAXONOMY_STRICT_LG_F_R4/DNMT3L_289_taxonomy_strict.treefile -m "LG+F+R4{0.179716,0.0867968,0.258362,0.452629,0.342666,1.08644,0.219256,2.25842}" --length 387
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s Vertebrate_Gene_History_Redesign_20261102/analysis/switching_helix_asr_337/inputs/DNMT3L_289_human_coordinate_strict_focal_masked.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s Vertebrate_Gene_History_Redesign_20261102/analysis/switching_helix_asr_337/inputs/DNMT3L_289_human_coordinate_strict_focal_masked.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Nov  2 22:27:02 2026
+Total CPU time used: 233.263 seconds (0h:3m:53s)
+Total wall-clock time used: 77.8384 seconds (0h:1m:17s)
+

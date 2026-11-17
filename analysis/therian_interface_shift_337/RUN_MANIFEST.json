@@ -1,0 +1,35 @@
+{
+  "run_id": "THERIAN_INTERFACE_SHIFT_337_V1",
+  "status": "VALIDATED",
+  "command": "python scripts/analyze_therian_interface_shift_337.py",
+  "decision_rules": "analysis/therian_interface_shift_337/DECISION_RULES.md",
+  "seed": 20261104,
+  "permutation_draws": 100000,
+  "input_hashes": {
+    "./analysis/switching_helix_asr_337/runs/TAXONOMY_STRICT_LG_F_R4/DNMT3L_289_taxonomy_strict.state": "d90a52801a76c37f83708b50fdb64aecdb20a4b5d59ce87e01f5ff854fbef11f",
+    "./analysis/switching_helix_asr_337/runs/GENE_TREE_STRICT_LG_F_R4/DNMT3L_289_gene_tree_strict.state": "f77d658c895b46a815d1726b2d02cdd9ed36b511b68d42e12ea3deafa811af5f",
+    "./analysis/switching_helix_asr_337/inputs/DNMT3L_289_human_coordinate_MAFFT.fasta": "2dde7349505e16d49852cde372bafc3fc85d31703dc3b09098733456883a4521",
+    "./results/DNMT3L_337_orthology_evidence_matrix.tsv": "232d8ac66ec1a5499159c24628e71bfd82b82d08317d5ea78a4fa3260f0eb255",
+    "./metadata/functional_site_manifest.tsv": "f355809613934f64677177e2a923fecfd6a8cb662a3fdb73e435264ac69f3aad",
+    "${EXTERNAL_VOLUME}/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/submission/Computational_Biology_and_Chemistry_20261007/Post_Genetica_Revision_20261025/GitHub_Release_Stage_v1.1.0/analysis_v2/structure/9MPP.cif": "04eda55f070595fabeb1e0a3af9f67889aa059346f1aed2112cbcd101e6bbc07",
+    "${EXTERNAL_VOLUME}/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/submission/Computational_Biology_and_Chemistry_20261007/Post_Genetica_Revision_20261025/GitHub_Release_Stage_v1.1.0/analysis_v2/summaries/NP_037501_2_to_9MPP_Q9UJW3_crosswalk.csv": "fa466ad9db5c601e63cbcb6e4aa2e67b32c1c38a9fb79113d9aeee79abfc5bf6",
+    "./analysis/codon_alignments_337/Placentalia/MACSE/Placentalia_MACSE_AA.fasta": "683c1cc64845ff64e729ac5b2b0fb9a7f7c4b86dec6f214b9884fab13a2cfbad",
+    "./analysis/codon_alignments_337/Sauropsida/MACSE/Sauropsida_MACSE_AA.fasta": "1d1893690b69824faf9c56a535543c3ba3a031b6855c90c50980eb4bda74e846",
+    "./analysis/codon_alignments_337/Amphibia/MACSE/Amphibia_MACSE_AA.fasta": "3883623a08b717e151a98021901e14e5cc885a3101bf97a46b5e353d540d4944"
+  },
+  "output_hashes": {
+    "results/therian_stem_full_substitution_inventory.tsv": "d0c2eb7a6bf01bfd6f3ffcb1d2bf9e91fd8ec26246f8eb9baf12c110b44d3041",
+    "results/therian_stem_robust_substitutions.tsv": "412e4c90ef3052c276dc482fe844be028dfb440e9c7ff20a2d5a42e700e8588f",
+    "results/therian_stem_alignment_robustness.tsv": "cf511f5d91b22830c8ccb405c947f9f4fde57b6643505a2bcbb45981fef7c804",
+    "results/therian_stem_structure_contacts.tsv": "05f55b29659a858905b60ee51d052d271c260f8a5cc93560f3b58dbfba5bc1c8",
+    "results/therian_stem_interface_enrichment.tsv": "0140125f75e74f74a6b811e5a999518bc8b7e56e8dd323c01092273c0bed1526",
+    "results/therian_stem_interface_shift_summary.tsv": "fbebfa4c25d19ed0b9ce992aec877b893bd860b80c028e4a3d60819b59e1905e"
+  },
+  "validator": {
+    "inventory_rows": 387,
+    "expected_inventory_rows": 387,
+    "eligible_positions": 241,
+    "robust_changes": 18,
+    "decision": "NARROW_INTERFACE_HYPOTHESIS"
+  }
+}

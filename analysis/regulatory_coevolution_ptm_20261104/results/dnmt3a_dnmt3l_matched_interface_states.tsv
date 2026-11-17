@@ -1,0 +1,214 @@
+safe_id	species	clade	dnmt3a_alignment	dnmt3l_alignment	DNMT3A1_725_codon	DNMT3A1_725_state	DNMT3A1_726_codon	DNMT3A1_726_state	DNMT3A1_729_codon	DNMT3A1_729_state	DNMT3A1_732_codon	DNMT3A1_732_state	DNMT3A1_772_codon	DNMT3A1_772_state	DNMT3L_NP_261_state	DNMT3L_NP_291_state	DNMT3L_NP_293_state
+Acinonyx_jubatus	Acinonyx jubatus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Acomys_minous	Acomys minous	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGC	R	TTT	F	TTT	F	F	T	D
+Acomys_russatus	Acomys russatus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGC	R	TTT	F	TTT	F	F	T	D
+Ailuropoda_melanoleuca	Ailuropoda melanoleuca	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	S	D
+Antechinus_flavipes	Antechinus flavipes	Marsupialia	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTC	F	TTT	F	L	T	D
+Aotus_nancymaae	Aotus nancymaae	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Apodemus_sylvaticus	Apodemus sylvaticus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGC	R	TTT	F	TTT	F	F	T	D
+Artibeus_jamaicensis	Artibeus jamaicensis	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Arvicanthis_niloticus	Arvicanthis niloticus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGC	R	TTT	F	TTT	F	F	T	D
+Arvicola_amphibius	Arvicola amphibius	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGG	R	TTT	F	TTT	F	F	T	D
+Balaenoptera_acutorostrata	Balaenoptera acutorostrata	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Balaenoptera_borealis	Balaenoptera borealis	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Balaenoptera_musculus	Balaenoptera musculus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Balaenoptera_physalus	Balaenoptera physalus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	N	D
+Balaenoptera_ricei	Balaenoptera ricei	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Bison_bison_bison	Bison bison bison	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Bos_indicus	Bos indicus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Bos_javanicus	Bos javanicus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Bos_mutus	Bos mutus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Bos_taurus	Bos taurus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Bubalus_bubalis	Bubalus bubalis	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Bubalus_kerabau	Bubalus kerabau	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Budorcas_taxicolor	Budorcas taxicolor	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Callithrix_jacchus	Callithrix jacchus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	N	D
+Callorhinus_ursinus	Callorhinus ursinus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Callospermophilus_lateralis	Callospermophilus lateralis	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Camelus_bactrianus	Camelus bactrianus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Camelus_dromedarius	Camelus dromedarius	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Canis_aureus	Canis aureus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Canis_lupus_baileyi	Canis lupus baileyi	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Canis_lupus_dingo	Canis lupus dingo	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Canis_lupus_familiaris	Canis lupus familiaris	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Capra_hircus	Capra hircus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Capricornis_sumatraensis	Capricornis sumatraensis	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Carlito_syrichta	Carlito syrichta	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Castor_canadensis	Castor canadensis	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Cavia_porcellus	Cavia porcellus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Cebus_imitator	Cebus imitator	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Ceratotherium_simum_simum	Ceratotherium simum simum	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Cercocebus_atys	Cercocebus atys	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Cervus_canadensis	Cervus canadensis	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Cervus_elaphus	Cervus elaphus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Chinchilla_lanigera	Chinchilla lanigera	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Chionomys_nivalis	Chionomys nivalis	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGG	R	TTT	F	TTT	F	F	T	D
+Chlorocebus_sabaeus	Chlorocebus sabaeus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Choloepus_didactylus	Choloepus didactylus	Xenarthra	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Cnephaeus_nilssonii	Cnephaeus nilssonii	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Colobus_angolensis_palliatus	Colobus angolensis palliatus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Cricetulus_griseus	Cricetulus griseus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGG	R	TTT	F	TTT	F	F	S	D
+Cynocephalus_volans	Cynocephalus volans	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	A	D
+Dama_dama	Dama dama	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Dasypus_novemcinctus	Dasypus novemcinctus	Xenarthra	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Delphinus_delphis	Delphinus delphis	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Diceros_bicornis_minor	Diceros bicornis minor	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Dipodomys_merriami	Dipodomys merriami	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	E
+Dipodomys_ordii	Dipodomys ordii	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Dipodomys_spectabilis	Dipodomys spectabilis	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Echinops_telfairi	Echinops telfairi	Afrotheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Elephantulus_edwardii	Elephantulus edwardii	Afrotheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Elephas_maximus_indicus	Elephas maximus indicus	Afrotheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Enhydra_lutris_kenyoni	Enhydra lutris kenyoni	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Equus_asinus	Equus asinus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Equus_caballus	Equus caballus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Equus_przewalskii	Equus przewalskii	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Erinaceus_europaeus	Erinaceus europaeus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Eschrichtius_robustus	Eschrichtius robustus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Eubalaena_glacialis	Eubalaena glacialis	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Eulemur_rufifrons	Eulemur rufifrons	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Eumetopias_jubatus	Eumetopias jubatus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Felis_catus	Felis catus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Fukomys_damarensis	Fukomys damarensis	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	N
+Giraffa_tippelskirchi	Giraffa tippelskirchi	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Globicephala_melas	Globicephala melas	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Gorilla_gorilla_gorilla	Gorilla gorilla gorilla	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Gracilinanus_agilis	Gracilinanus agilis	Marsupialia	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	D
+Halichoerus_grypus	Halichoerus grypus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Herpailurus_yagouaroundi	Herpailurus yagouaroundi	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Heterocephalus_glaber	Heterocephalus glaber	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	N
+Hippopotamus_amphibius_kiboko	Hippopotamus amphibius kiboko	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Hipposideros_armiger	Hipposideros armiger	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Homo_sapiens	Homo sapiens	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Hyaena_hyaena	Hyaena hyaena	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Hylobates_moloch	Hylobates moloch	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Hyperoodon_ampullatus	Hyperoodon ampullatus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Ictidomys_tridecemlineatus	Ictidomys tridecemlineatus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Jaculus_jaculus	Jaculus jaculus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	S	E
+Lagenorhynchus_albirostris	Lagenorhynchus albirostris	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Lemur_catta	Lemur catta	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Leopardus_geoffroyi	Leopardus geoffroyi	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Lepus_europaeus	Lepus europaeus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Loxodonta_africana	Loxodonta africana	Afrotheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Lynx_canadensis	Lynx canadensis	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Lynx_rufus	Lynx rufus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Macaca_fascicularis	Macaca fascicularis	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Macaca_mulatta	Macaca mulatta	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Macaca_nemestrina	Macaca nemestrina	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Macaca_thibetana_thibetana	Macaca thibetana thibetana	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Macrotis_lagotis	Macrotis lagotis	Marsupialia	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	D
+Mandrillus_leucophaeus	Mandrillus leucophaeus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Marmota_flaviventris	Marmota flaviventris	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Marmota_monax	Marmota monax	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Martes_martes	Martes martes	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Mastomys_coucha	Mastomys coucha	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGC	R	TTT	F	TTT	F	F	T	D
+Meles_meles	Meles meles	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Meriones_unguiculatus	Meriones unguiculatus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGC	R	TTT	F	TTC	F	F	T	D
+Mesocricetus_auratus	Mesocricetus auratus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Mesoplodon_bidens	Mesoplodon bidens	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Mesoplodon_densirostris	Mesoplodon densirostris	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Mesoplodon_mirus	Mesoplodon mirus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTT	F	Y	T	D
+Microcebus_murinus	Microcebus murinus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	E
+Micromys_minutus	Micromys minutus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGC	R	TTT	F	TTT	F	F	T	D
+Microtus_ochrogaster	Microtus ochrogaster	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGG	R	TTT	F	TTT	F	F	T	D
+Microtus_pennsylvanicus	Microtus pennsylvanicus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGG	R	TTT	F	TTT	F	F	T	D
+Miniopterus_natalensis	Miniopterus natalensis	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Miniopterus_schreibersii	Miniopterus schreibersii	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Mirounga_angustirostris	Mirounga angustirostris	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Mirounga_leonina	Mirounga leonina	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Monodelphis_domestica	Monodelphis domestica	Marsupialia	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	D
+Monodon_monoceros	Monodon monoceros	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Moschus_berezovskii	Moschus berezovskii	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Muntiacus_reevesi	Muntiacus reevesi	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Mus_musculus	Mus musculus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGC	R	TTT	F	TTT	F	F	T	D
+Mus_pahari	Mus pahari	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGC	R	TTT	F	TTT	F	F	T	D
+Muscardinus_avellanarius	Muscardinus avellanarius	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTT	F	F	T	D
+Mustela_lutreola	Mustela lutreola	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Mustela_nivalis	Mustela nivalis	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Myodes_glareolus	Myodes glareolus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGG	R	TTT	F	TTT	F	F	T	D
+Myotis_nattereri	Myotis nattereri	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Nannospalax_galili	Nannospalax galili	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGA	G	CGG	R	TTT	F	TTT	F	F	T	A
+Neofelis_nebulosa	Neofelis nebulosa	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Neophocaena_asiaeorientalis_asiaeorientalis	Neophocaena asiaeorientalis asiaeorientalis	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Nomascus_leucogenys	Nomascus leucogenys	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Notamacropus_eugenii	Notamacropus eugenii	Marsupialia	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	D
+Nyctereutes_procyonoides	Nyctereutes procyonoides	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Nycticebus_coucang	Nycticebus coucang	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	G	E
+Ochotona_curzoniae	Ochotona curzoniae	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Ochotona_princeps	Ochotona princeps	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Odobenus_rosmarus_divergens	Odobenus rosmarus divergens	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Odocoileus_virginianus	Odocoileus virginianus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Onychomys_torridus	Onychomys torridus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTC	F	TTC	F	F	T	D
+Orcinus_orca	Orcinus orca	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Orycteropus_afer_afer	Orycteropus afer afer	Afrotheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Oryctolagus_cuniculus	Oryctolagus cuniculus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Otolemur_garnettii	Otolemur garnettii	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	G	D
+Ovis_aries	Ovis aries	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Ovis_canadensis	Ovis canadensis	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	E
+Pan_paniscus	Pan paniscus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Pan_troglodytes	Pan troglodytes	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Panthera_leo	Panthera leo	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Panthera_onca	Panthera onca	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Panthera_pardus	Panthera pardus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Panthera_tigris	Panthera tigris	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Panthera_uncia	Panthera uncia	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Papio_anubis	Papio anubis	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Peromyscus_californicus_insignis	Peromyscus californicus insignis	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGG	R	TTT	F	TTT	F	F	T	D
+Peromyscus_leucopus	Peromyscus leucopus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGG	R	TTT	F	TTT	F	F	T	D
+Peromyscus_maniculatus_bairdii	Peromyscus maniculatus bairdii	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGG	R	TTT	F	TTT	F	F	T	D
+Petaurus_breviceps_papuanus	Petaurus breviceps papuanus	Marsupialia	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTT	F	L	T	D
+Phacochoerus_africanus	Phacochoerus africanus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Phascolarctos_cinereus	Phascolarctos cinereus	Marsupialia	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	D
+Phoca_vitulina	Phoca vitulina	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Phocoena_sinus	Phocoena sinus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Phodopus_roborovskii	Phodopus roborovskii	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Phyllostomus_discolor	Phyllostomus discolor	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Phyllostomus_hastatus	Phyllostomus hastatus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Physeter_macrocephalus	Physeter macrocephalus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Piliocolobus_tephrosceles	Piliocolobus tephrosceles	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Pipistrellus_hanaki	Pipistrellus hanaki	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	A
+Plecotus_auritus	Plecotus auritus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Pongo_abelii	Pongo abelii	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Pongo_pygmaeus	Pongo pygmaeus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Prionailurus_bengalensis	Prionailurus bengalensis	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Prionailurus_viverrinus	Prionailurus viverrinus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Propithecus_coquereli	Propithecus coquereli	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	E
+Psammomys_obesus	Psammomys obesus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGT	G	CGC	R	TTT	F	TTC	F	F	T	D
+Pteronotus_mesoamericanus	Pteronotus mesoamericanus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	Y	T	D
+Pteropus_medius	Pteropus medius	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Puma_concolor	Puma concolor	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Rattus_norvegicus	Rattus norvegicus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGC	R	TTT	F	TTT	F	F	T	D
+Rhinolophus_ferrumequinum	Rhinolophus ferrumequinum	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	S	D
+Rhinolophus_hipposideros	Rhinolophus hipposideros	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	S	D
+Rhinolophus_sinicus	Rhinolophus sinicus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	S	D
+Rhinopithecus_bieti	Rhinopithecus bieti	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Rhinopithecus_roxellana	Rhinopithecus roxellana	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Rousettus_aegyptiacus	Rousettus aegyptiacus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Saccopteryx_bilineata	Saccopteryx bilineata	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Saccopteryx_leptura	Saccopteryx leptura	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Saimiri_boliviensis	Saimiri boliviensis	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Sapajus_apella	Sapajus apella	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Sarcophilus_harrisii	Sarcophilus harrisii	Marsupialia	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTC	F	TTC	F	L	T	D
+Sminthopsis_crassicaudata	Sminthopsis crassicaudata	Marsupialia	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGA	R	TTT	F	TTT	F	L	T	D
+Sorex_araneus	Sorex araneus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTC	F	TTT	F	F	R	D
+Sorex_fumeus	Sorex fumeus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTC	F	TTT	F	F	G	D
+Spermophilus_citellus	Spermophilus citellus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Sturnira_hondurensis	Sturnira hondurensis	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGC	R	TTT	F	TTT	F	Y	T	D
+Suricata_suricatta	Suricata suricatta	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Sus_scrofa	Sus scrofa	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Symphalangus_syndactylus	Symphalangus syndactylus	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Talpa_occidentalis	Talpa occidentalis	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	A	D
+Tamandua_tetradactyla	Tamandua tetradactyla	Xenarthra	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	E
+Tenrec_ecaudatus	Tenrec ecaudatus	Afrotheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	K	D
+Theropithecus_gelada	Theropithecus gelada	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Trachypithecus_francoisi	Trachypithecus francoisi	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	N	E
+Trichechus_manatus_latirostris	Trichechus manatus latirostris	Afrotheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Trichosurus_vulpecula	Trichosurus vulpecula	Marsupialia	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	D
+Tupaia_belangeri_chinensis	Tupaia belangeri chinensis	Euarchontoglires	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	D
+Ursus_americanus	Ursus americanus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Ursus_arctos	Ursus arctos	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Ursus_maritimus	Ursus maritimus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D
+Vicugna_pacos	Vicugna pacos	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Vombatus_ursinus	Vombatus ursinus	Marsupialia	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	L	T	D
+Vulpes_vulpes	Vulpes vulpes	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	T	E
+Zalophus_californianus	Zalophus californianus	Laurasiatheria	A7_DNMT3A_MACSE_mammal_scope_alignment.fasta	DNMT3L_289_human_coordinate_MAFFT.fasta	GAG	E	GGC	G	CGG	R	TTT	F	TTT	F	F	S	D

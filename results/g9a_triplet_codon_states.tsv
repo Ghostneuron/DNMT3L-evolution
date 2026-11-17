@@ -1,0 +1,220 @@
+safe_id	species	triplet_state	triplet_codons	middle_residue	middle_codon	rodent_family_group	muroid
+Acinonyx_jubatus	Acinonyx jubatus	LLI	CTG-CTC-ATC	L	CTC		
+Acomys_minous	Acomys minous	LFI	CTG-TTC-ATC	F	TTC	Muridae	True
+Acomys_russatus	Acomys russatus	LFI	CTG-TTC-ATC	F	TTC	Muridae	True
+Aethalodelphis_obliquidens	Aethalodelphis obliquidens	LLI	CTG-CTC-ATC	L	CTC		
+Ailuropoda_melanoleuca	Ailuropoda melanoleuca	LLI	CTG-CTC-ATC	L	CTC		
+Aotus_nancymaae	Aotus nancymaae	LLI	CTG-CTC-ATC	L	CTC		
+Apodemus_sylvaticus	Apodemus sylvaticus	LFI	CTG-TTC-ATC	F	TTC	Muridae	True
+Artibeus_jamaicensis	Artibeus jamaicensis	LLI	CTG-CTC-ATC	L	CTC		
+Arvicanthis_niloticus	Arvicanthis niloticus	LFI	CTG-TTC-ATC	F	TTC	Muridae	True
+Arvicola_amphibius	Arvicola amphibius	LFI	CTG-TTC-ATC	F	TTC	Cricetidae	True
+Balaenoptera_acutorostrata	Balaenoptera acutorostrata	LLI	CTG-CTC-ATC	L	CTC		
+Balaenoptera_borealis	Balaenoptera borealis	LLI	CTT-CTC-ATC	L	CTC		
+Balaenoptera_musculus	Balaenoptera musculus	LLI	CTG-CTC-ATC	L	CTC		
+Balaenoptera_physalus	Balaenoptera physalus	LLI	CTG-CTC-ATC	L	CTC		
+Balaenoptera_ricei	Balaenoptera ricei	LLI	CTG-CTC-ATC	L	CTC		
+Bison_bison_bison	Bison bison bison	LLI	CTG-CTC-ATC	L	CTC		
+Bos_grunniens	Bos grunniens	LLI	CTG-CTC-ATC	L	CTC		
+Bos_indicus	Bos indicus	LLI	CTG-CTC-ATC	L	CTC		
+Bos_javanicus	Bos javanicus	LLI	CTG-CTC-ATC	L	CTC		
+Bos_mutus	Bos mutus	LLI	CTG-CTC-ATC	L	CTC		
+Bos_taurus	Bos taurus	LLI	CTG-CTC-ATC	L	CTC		
+Bubalus_bubalis	Bubalus bubalis	LLI	CTG-CTC-ATC	L	CTC		
+Bubalus_kerabau	Bubalus kerabau	LLI	CTG-CTC-ATC	L	CTC		
+Budorcas_taxicolor	Budorcas taxicolor	LLI	CTG-CTC-ATC	L	CTC		
+Callithrix_jacchus	Callithrix jacchus	LLI	CTG-CTC-ATC	L	CTC		
+Callorhinus_ursinus	Callorhinus ursinus	LLI	CTG-CTC-ATC	L	CTC		
+Callospermophilus_lateralis	Callospermophilus lateralis	LLI	CTG-CTC-ATC	L	CTC	non-muroid Rodentia	False
+Camelus_bactrianus	Camelus bactrianus	LLI	CTG-CTC-ATC	L	CTC		
+Camelus_dromedarius	Camelus dromedarius	LLI	CTG-CTC-ATC	L	CTC		
+Camelus_ferus	Camelus ferus	LLI	CTG-CTC-ATC	L	CTC		
+Canis_aureus	Canis aureus	LLI	CTG-CTC-ATC	L	CTC		
+Canis_lupus_baileyi	Canis lupus baileyi	LLI	CTG-CTC-ATC	L	CTC		
+Canis_lupus_dingo	Canis lupus dingo	LLI	CTG-CTC-ATC	L	CTC		
+Canis_lupus_familiaris	Canis lupus familiaris	LLI	CTG-CTC-ATC	L	CTC		
+Capra_hircus	Capra hircus	LLI	CTG-CTC-ATC	L	CTC		
+Capricornis_sumatraensis	Capricornis sumatraensis	LLI	CTG-CTC-ATC	L	CTC		
+Carlito_syrichta	Carlito syrichta	LLI	CTG-CTC-ATC	L	CTC		
+Castor_canadensis	Castor canadensis	LLI	CTG-CTT-ATC	L	CTT	non-muroid Rodentia	False
+Cavia_porcellus	Cavia porcellus	LLI	CTG-CTC-ATC	L	CTC	non-muroid Rodentia	False
+Cebus_imitator	Cebus imitator	LLI	CTG-CTC-ATC	L	CTC		
+Ceratotherium_simum_simum	Ceratotherium simum simum	LLI	CTG-CTC-ATC	L	CTC		
+Cercocebus_atys	Cercocebus atys	LLI	CTG-CTC-ATC	L	CTC		
+Cervus_canadensis	Cervus canadensis	LLI	CTA-CTC-ATC	L	CTC		
+Cervus_elaphus	Cervus elaphus	LLI	CTA-CTC-ATC	L	CTC		
+Chinchilla_lanigera	Chinchilla lanigera	LLI	CTG-CTC-ATC	L	CTC	non-muroid Rodentia	False
+Chionomys_nivalis	Chionomys nivalis	LFI	CTG-TTT-ATC	F	TTT	Cricetidae	True
+Chlorocebus_sabaeus	Chlorocebus sabaeus	LLI	CTG-CTC-ATC	L	CTC		
+Choloepus_didactylus	Choloepus didactylus	LLI	CTG-CTC-ATC	L	CTC		
+Cnephaeus_nilssonii	Cnephaeus nilssonii	LLI	CTG-CTC-ATC	L	CTC		
+Colobus_angolensis_palliatus	Colobus angolensis palliatus	LLI	CTG-CTC-ATC	L	CTC		
+Cricetulus_griseus	Cricetulus griseus	LFI	CTG-TTC-ATC	F	TTC	Cricetidae	True
+Cynocephalus_volans	Cynocephalus volans	LLI	CTG-CTC-ATC	L	CTC		
+Dama_dama	Dama dama	LLI	CTA-CTC-ATC	L	CTC		
+Dasypus_novemcinctus	Dasypus novemcinctus	LLI	TTG-CTC-ATC	L	CTC		
+Delphinus_delphis	Delphinus delphis	LLI	CTG-CTC-ATC	L	CTC		
+Desmodus_rotundus	Desmodus rotundus	LLI	CTG-CTC-ATC	L	CTC		
+Diceros_bicornis_minor	Diceros bicornis minor	LLI	CTG-CTC-ATC	L	CTC		
+Dipodomys_merriami	Dipodomys merriami	LLI	CTG-CTC-ATC	L	CTC	non-muroid Rodentia	False
+Dipodomys_ordii	Dipodomys ordii	LLI	CTG-CTC-ATC	L	CTC	non-muroid Rodentia	False
+Dipodomys_spectabilis	Dipodomys spectabilis	LLI	CTG-CTC-ATC	L	CTC	non-muroid Rodentia	False
+Echinops_telfairi	Echinops telfairi	LLI	CTG-CTC-ATC	L	CTC		
+Elephantulus_edwardii	Elephantulus edwardii	LLI	CTG-CTT-ATC	L	CTT		
+Elephas_maximus_indicus	Elephas maximus indicus	LLI	CTG-CTC-ATC	L	CTC		
+Enhydra_lutris_kenyoni	Enhydra lutris kenyoni	LLI	CTG-CTC-ATC	L	CTC		
+Eptesicus_fuscus	Eptesicus fuscus	LLI	CTG-CTC-ATC	L	CTC		
+Equus_asinus	Equus asinus	LLI	CTG-CTC-ATC	L	CTC		
+Equus_caballus	Equus caballus	LLI	CTG-CTC-ATC	L	CTC		
+Equus_przewalskii	Equus przewalskii	LLI	CTG-CTC-ATC	L	CTC		
+Eschrichtius_robustus	Eschrichtius robustus	LLI	CTG-CTC-ATC	L	CTC		
+Eubalaena_glacialis	Eubalaena glacialis	LLI	CTG-CTC-ATC	L	CTC		
+Eulemur_rufifrons	Eulemur rufifrons	LLI	CTG-CTC-ATC	L	CTC		
+Eumetopias_jubatus	Eumetopias jubatus	LLI	CTG-CTC-ATC	L	CTC		
+Felis_catus	Felis catus	LLI	CTG-CTC-ATC	L	CTC		
+Fukomys_damarensis	Fukomys damarensis	LLI	CTG-CTC-ATC	L	CTC	non-muroid Rodentia	False
+Giraffa_tippelskirchi	Giraffa tippelskirchi	LLI	CTA-CTC-ATC	L	CTC		
+Globicephala_melas	Globicephala melas	LLI	CTG-CTC-ATC	L	CTC		
+Gorilla_gorilla_gorilla	Gorilla gorilla gorilla	LLI	CTG-CTC-ATC	L	CTC		
+Grampus_griseus	Grampus griseus	LLI	CTG-CTC-ATC	L	CTC		
+Halichoerus_grypus	Halichoerus grypus	LLI	CTG-CTC-ATC	L	CTC		
+Herpailurus_yagouaroundi	Herpailurus yagouaroundi	LLI	CTG-CTC-ATC	L	CTC		
+Heterocephalus_glaber	Heterocephalus glaber	LLI	CTG-CTC-ATC	L	CTC	non-muroid Rodentia	False
+Hippopotamus_amphibius_kiboko	Hippopotamus amphibius kiboko	LLI	CTG-CTC-ATC	L	CTC		
+Hipposideros_armiger	Hipposideros armiger	LLI	CTG-CTC-ATC	L	CTC		
+Homo_sapiens	Homo sapiens	LLI	CTG-CTC-ATC	L	CTC		
+Hyaena_hyaena	Hyaena hyaena	LLI	CTG-CTC-ATC	L	CTC		
+Hylobates_moloch	Hylobates moloch	LLI	TTG-CTC-ATC	L	CTC		
+Hyperoodon_ampullatus	Hyperoodon ampullatus	LLI	CTG-CTC-ATC	L	CTC		
+Ictidomys_tridecemlineatus	Ictidomys tridecemlineatus	LLI	CTG-CTC-ATC	L	CTC	non-muroid Rodentia	False
+Jaculus_jaculus	Jaculus jaculus	LLI	CTG-CTC-ATC	L	CTC	non-muroid Rodentia	False
+Lagenorhynchus_albirostris	Lagenorhynchus albirostris	LLI	CTG-CTC-ATC	L	CTC		
+Lemur_catta	Lemur catta	LLI	CTG-CTC-ATC	L	CTC		
+Leopardus_geoffroyi	Leopardus geoffroyi	LLI	CTG-CTC-ATC	L	CTC		
+Lepus_europaeus	Lepus europaeus	LLI	CTG-CTC-ATC	L	CTC		
+Leucopleurus_acutus	Leucopleurus acutus	LLI	CTG-CTC-ATC	L	CTC		
+Lipotes_vexillifer	Lipotes vexillifer	LLI	CTG-CTC-ATC	L	CTC		
+Loxodonta_africana	Loxodonta africana	LLI	CTG-CTC-ATC	L	CTC		
+Lynx_canadensis	Lynx canadensis	LLI	CTG-CTC-ATC	L	CTC		
+Lynx_rufus	Lynx rufus	LLI	CTG-CTC-ATC	L	CTC		
+Macaca_fascicularis	Macaca fascicularis	LLI	CTG-CTC-ATC	L	CTC		
+Macaca_mulatta	Macaca mulatta	LLI	CTG-CTC-ATC	L	CTC		
+Macaca_nemestrina	Macaca nemestrina	LLI	CTG-CTC-ATC	L	CTC		
+Macaca_thibetana_thibetana	Macaca thibetana thibetana	LLI	CTG-CTC-ATC	L	CTC		
+Mandrillus_leucophaeus	Mandrillus leucophaeus	LLI	CTG-CTC-ATC	L	CTC		
+Marmota_flaviventris	Marmota flaviventris	LLI	CTG-CTC-ATC	L	CTC	non-muroid Rodentia	False
+Marmota_monax	Marmota monax	LLI	CTG-CTC-ATC	L	CTC	non-muroid Rodentia	False
+Martes_martes	Martes martes	LLI	CTG-CTC-ATC	L	CTC		
+Mastomys_coucha	Mastomys coucha	LFI	CTG-TTC-ATC	F	TTC	Muridae	True
+Meles_meles	Meles meles	LLI	CTG-CTC-ATC	L	CTC		
+Meriones_unguiculatus	Meriones unguiculatus	LFI	CTG-TTC-ATC	F	TTC	Muridae	True
+Mesocricetus_auratus	Mesocricetus auratus	LFI	CTG-TTC-ATC	F	TTC	Cricetidae	True
+Mesoplodon_bidens	Mesoplodon bidens	LLI	CTG-CTC-ATC	L	CTC		
+Mesoplodon_densirostris	Mesoplodon densirostris	LLI	CTG-CTC-ATC	L	CTC		
+Mesoplodon_mirus	Mesoplodon mirus	LLI	CTG-CTC-ATC	L	CTC		
+Microcebus_murinus	Microcebus murinus	LLI	CTG-CTC-ATC	L	CTC		
+Micromys_minutus	Micromys minutus	LFI	CTG-TTC-ATC	F	TTC	Muridae	True
+Microtus_ochrogaster	Microtus ochrogaster	LFI	CTG-TTT-ATC	F	TTT	Cricetidae	True
+Microtus_oregoni	Microtus oregoni	LFI	CTG-TTT-ATC	F	TTT	Cricetidae	True
+Microtus_pennsylvanicus	Microtus pennsylvanicus	LFI	CTG-TTT-ATC	F	TTT	Cricetidae	True
+Miniopterus_natalensis	Miniopterus natalensis	LLI	CTG-CTC-ATC	L	CTC		
+Miniopterus_schreibersii	Miniopterus schreibersii	LLI	CTG-CTC-ATC	L	CTC		
+Mirounga_angustirostris	Mirounga angustirostris	LLI	CTG-CTC-ATC	L	CTC		
+Mirounga_leonina	Mirounga leonina	LLI	CTG-CTC-ATC	L	CTC		
+Monodon_monoceros	Monodon monoceros	LLI	CTG-CTC-ATC	L	CTC		
+Moschus_berezovskii	Moschus berezovskii	LLI	CTA-CTC-ATC	L	CTC		
+Muntiacus_reevesi	Muntiacus reevesi	LLI	CTA-CTC-ATC	L	CTC		
+Mus_musculus	Mus musculus	LFI	CTG-TTC-ATC	F	TTC	Muridae	True
+Mus_pahari	Mus pahari	LFI	CTG-TTC-ATC	F	TTC	Muridae	True
+Muscardinus_avellanarius	Muscardinus avellanarius	LLI	CTG-CTC-ATT	L	CTC	non-muroid Rodentia	False
+Mustela_lutreola	Mustela lutreola	LLI	CTG-CTC-ATC	L	CTC		
+Mustela_nivalis	Mustela nivalis	LLI	CTG-CTC-ATC	L	CTC		
+Myodes_glareolus	Myodes glareolus	LFI	CTG-TTC-ATC	F	TTC	Cricetidae	True
+Myotis_nattereri	Myotis nattereri	LLI	CTG-CTC-ATC	L	CTC		
+Nannospalax_galili	Nannospalax galili	LFI	CTG-TTC-ATC	F	TTC	Spalacidae	True
+Neofelis_nebulosa	Neofelis nebulosa	LLI	CTG-CTC-ATC	L	CTC		
+Neomonachus_schauinslandi	Neomonachus schauinslandi	LLI	CTG-CTC-ATC	L	CTC		
+Neophocaena_asiaeorientalis_asiaeorientalis	Neophocaena asiaeorientalis asiaeorientalis	LLI	CTG-CTT-ATC	L	CTT		
+Nomascus_leucogenys	Nomascus leucogenys	LLI	CTG-CTC-ATC	L	CTC		
+Nyctereutes_procyonoides	Nyctereutes procyonoides	LLI	CTG-CTC-ATC	L	CTC		
+Nycticebus_coucang	Nycticebus coucang	LLI	CTG-CTC-ATC	L	CTC		
+Ochotona_curzoniae	Ochotona curzoniae	LLL	CTG-CTC-CTT	L	CTC		
+Ochotona_princeps	Ochotona princeps	LLV	CTG-CTC-GTT	L	CTC		
+Octodon_degus	Octodon degus	LLI	CTG-CTC-ATC	L	CTC	non-muroid Rodentia	False
+Odobenus_rosmarus_divergens	Odobenus rosmarus divergens	LLI	CTG-CTC-ATC	L	CTC		
+Odocoileus_virginianus	Odocoileus virginianus	LLI	CTA-CTC-ATC	L	CTC		
+Onychomys_torridus	Onychomys torridus	LFI	TTG-TTC-ATC	F	TTC	Cricetidae	True
+Orcinus_orca	Orcinus orca	LLI	CTG-CTC-ATC	L	CTC		
+Orycteropus_afer_afer	Orycteropus afer afer	LLI	CTG-CTC-ATC	L	CTC		
+Oryctolagus_cuniculus	Oryctolagus cuniculus	LLV	CTG-CTC-GTC	L	CTC		
+Oryx_dammah	Oryx dammah	LLI	CTG-CTC-ATC	L	CTC		
+Otolemur_garnettii	Otolemur garnettii	LLI	CTG-CTC-ATC	L	CTC		
+Ovis_aries	Ovis aries	LLI	CTG-CTC-ATC	L	CTC		
+Ovis_canadensis	Ovis canadensis	LLI	CTG-CTC-ATC	L	CTC		
+Pan_paniscus	Pan paniscus	LLI	CTG-CTC-ATC	L	CTC		
+Pan_troglodytes	Pan troglodytes	LLI	CTG-CTC-ATC	L	CTC		
+Panthera_leo	Panthera leo	LLI	CTG-CTC-ATC	L	CTC		
+Panthera_onca	Panthera onca	LLI	CTG-CTC-ATC	L	CTC		
+Panthera_pardus	Panthera pardus	LLI	CTG-CTC-ATC	L	CTC		
+Panthera_tigris	Panthera tigris	LLI	CTG-CTC-ATC	L	CTC		
+Panthera_uncia	Panthera uncia	LLI	CTG-CTC-ATC	L	CTC		
+Papio_anubis	Papio anubis	LLI	CTG-CTC-ATC	L	CTC		
+Peromyscus_californicus_insignis	Peromyscus californicus insignis	LFI	TTG-TTC-ATC	F	TTC	Cricetidae	True
+Peromyscus_eremicus	Peromyscus eremicus	LFI	TTG-TTC-ATC	F	TTC	Cricetidae	True
+Peromyscus_leucopus	Peromyscus leucopus	LFI	TTG-TTC-ATC	F	TTC	Cricetidae	True
+Peromyscus_maniculatus_bairdii	Peromyscus maniculatus bairdii	LFI	TTG-TTC-ATC	F	TTC	Cricetidae	True
+Phacochoerus_africanus	Phacochoerus africanus	LLI	CTG-CTC-ATC	L	CTC		
+Phoca_vitulina	Phoca vitulina	LLI	CTG-CTC-ATC	L	CTC		
+Phocoena_phocoena	Phocoena phocoena	LLI	CTG-CTT-ATC	L	CTT		
+Phocoena_sinus	Phocoena sinus	LLI	CTG-CTT-ATC	L	CTT		
+Phodopus_roborovskii	Phodopus roborovskii	LFI	CTG-TTT-ATC	F	TTT	Cricetidae	True
+Phyllostomus_discolor	Phyllostomus discolor	LLI	CTG-CTC-ATC	L	CTC		
+Phyllostomus_hastatus	Phyllostomus hastatus	LLI	CTG-CTC-ATC	L	CTC		
+Physeter_macrocephalus	Physeter macrocephalus	LLI	CTG-CTC-ATC	L	CTC		
+Piliocolobus_tephrosceles	Piliocolobus tephrosceles	LLI	CTG-CTC-ATC	L	CTC		
+Pipistrellus_hanaki	Pipistrellus hanaki	LLI	CTG-CTC-ATC	L	CTC		
+Plecotus_auritus	Plecotus auritus	LLI	CTG-CTC-ATC	L	CTC		
+Pongo_abelii	Pongo abelii	LLI	CTG-CTC-ATC	L	CTC		
+Pongo_pygmaeus	Pongo pygmaeus	LLI	CTG-CTC-ATC	L	CTC		
+Prionailurus_bengalensis	Prionailurus bengalensis	LLI	CTG-CTC-ATC	L	CTC		
+Prionailurus_viverrinus	Prionailurus viverrinus	LLI	CTG-CTC-ATC	L	CTC		
+Propithecus_coquereli	Propithecus coquereli	LLI	CTG-CTC-ATC	L	CTC		
+Psammomys_obesus	Psammomys obesus	LFI	CTG-TTC-ATC	F	TTC	Muridae	True
+Pteronotus_mesoamericanus	Pteronotus mesoamericanus	LLI	CTG-CTC-ATC	L	CTC		
+Pteropus_medius	Pteropus medius	LLI	CTG-CTC-ATC	L	CTC		
+Puma_concolor	Puma concolor	LLI	CTG-CTC-ATC	L	CTC		
+Rattus_norvegicus	Rattus norvegicus	LFI	CTG-TTC-ATC	F	TTC	Muridae	True
+Rattus_rattus	Rattus rattus	LFI	CTG-TTC-ATC	F	TTC	Muridae	True
+Rhinolophus_ferrumequinum	Rhinolophus ferrumequinum	LLI	CTG-CTC-ATC	L	CTC		
+Rhinolophus_hipposideros	Rhinolophus hipposideros	LLI	CTG-CTC-ATC	L	CTC		
+Rhinolophus_sinicus	Rhinolophus sinicus	LLV	CTG-CTC-GTC	L	CTC		
+Rhinopithecus_bieti	Rhinopithecus bieti	LLI	CTG-CTT-ATC	L	CTT		
+Rhinopithecus_roxellana	Rhinopithecus roxellana	LLI	CTG-CTT-ATC	L	CTT		
+Rousettus_aegyptiacus	Rousettus aegyptiacus	LLV	CTG-CTC-GTC	L	CTC		
+Saccopteryx_bilineata	Saccopteryx bilineata	LLI	CTG-CTC-ATC	L	CTC		
+Saccopteryx_leptura	Saccopteryx leptura	LLI	CTG-CTC-ATC	L	CTC		
+Saimiri_boliviensis	Saimiri boliviensis	LLI	CTG-CTC-ATC	L	CTC		
+Sapajus_apella	Sapajus apella	LLI	CTG-CTC-ATC	L	CTC		
+Sorex_araneus	Sorex araneus	LLL	CTG-CTC-CTG	L	CTC		
+Sorex_fumeus	Sorex fumeus	LLL	CTG-CTG-CTG	L	CTG		
+Spermophilus_citellus	Spermophilus citellus	LLI	CTG-CTC-ATC	L	CTC	non-muroid Rodentia	False
+Stenella_coeruleoalba	Stenella coeruleoalba	LLI	CTG-CTC-ATC	L	CTC		
+Sturnira_hondurensis	Sturnira hondurensis	LLI	CTG-CTC-ATC	L	CTC		
+Suricata_suricatta	Suricata suricatta	LLI	CTA-CTC-ATC	L	CTC		
+Sus_scrofa	Sus scrofa	LLI	CTG-CTC-ATC	L	CTC		
+Symphalangus_syndactylus	Symphalangus syndactylus	LLI	CTG-CTC-ATC	L	CTC		
+Talpa_occidentalis	Talpa occidentalis	LLV	CTG-CTC-GTC	L	CTC		
+Tamandua_tetradactyla	Tamandua tetradactyla	LLI	CTG-CTC-ATC	L	CTC		
+Tenrec_ecaudatus	Tenrec ecaudatus	LLI	CTG-CTC-ATC	L	CTC		
+Theropithecus_gelada	Theropithecus gelada	LLI	CTG-CTC-ATC	L	CTC		
+Trachypithecus_francoisi	Trachypithecus francoisi	LLI	CTG-CTT-ATC	L	CTT		
+Trichechus_manatus_latirostris	Trichechus manatus latirostris	LLI	CTG-CTC-ATC	L	CTC		
+Tupaia_belangeri_chinensis	Tupaia belangeri chinensis	LLI	TTG-CTC-ATC	L	CTC		
+Tursiops_truncatus	Tursiops truncatus	LLI	CTG-CTC-ATC	L	CTC		
+Ursus_americanus	Ursus americanus	LLI	CTG-CTC-ATC	L	CTC		
+Ursus_arctos	Ursus arctos	LLI	CTG-CTC-ATC	L	CTC		
+Ursus_maritimus	Ursus maritimus	LLI	CTG-CTC-ATC	L	CTC		
+Vicugna_pacos	Vicugna pacos	LLI	TTG-CTC-ATC	L	CTC		
+Vulpes_lagopus	Vulpes lagopus	LLI	CTG-CTC-ATC	L	CTC		
+Vulpes_vulpes	Vulpes vulpes	LLI	CTG-CTC-ATC	L	CTC		
+Zalophus_californianus	Zalophus californianus	LLI	CTG-CTC-ATC	L	CTC		

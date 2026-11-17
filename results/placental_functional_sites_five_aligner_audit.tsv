@@ -1,0 +1,14 @@
+feature_id	human_position	human_residue	minimum_method_occupancy	species_resolved_in_all_five	species_concordant_in_all_five	all_five_concordance_fraction	discordant_species	passes_80pct_occupancy_in_all_five
+H3K4ME0_D88	88	D	1.0	220	220	1.0		True
+H3K4ME0_D90_D124	90	D	1.0	220	220	1.0		True
+H3K4ME0_I107	107	I	1.0	220	220	1.0		True
+G9A_INTERFACE_L139	105	L	1.0	220	220	1.0		True
+G9A_INTERFACE_F140	106	L	1.0	220	220	1.0		True
+G9A_INTERFACE_I141	107	I	1.0	220	220	1.0		True
+PTM_STABILITY_K238	204	T	1.0	220	220	1.0		True
+PTM_STABILITY_K412	377	K	0.9681818181818181	212	212	1.0		True
+SWITCH_Q349	349	Q	0.9772727272727273	214	213	0.9953271028037384	Talpa_occidentalis	True
+SWITCH_K351	351	K	0.95	209	208	0.9952153110047847	Talpa_occidentalis	True
+SWITCH_Q352	352	Q	0.9590909090909091	211	210	0.995260663507109	Talpa_occidentalis	True
+SWITCH_K355	355	K	0.9454545454545454	206	204	0.9902912621359223	Pipistrellus_hanaki;Talpa_occidentalis	True
+H358_CANDIDATE	358	A	0.8545454545454545	182	182	1.0		True

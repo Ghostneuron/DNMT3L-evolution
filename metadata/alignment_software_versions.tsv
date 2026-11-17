@@ -1,0 +1,7 @@
+software	version	mode_or_key_parameters	executable_or_source
+MACSE	2.07	alignSequences; standard genetic code; BLOSUM62; optim=0	/opt/anaconda3/bin/macse
+MAFFT	7.526	--auto --thread 8	/opt/homebrew/bin/mafft
+PRANK	170427	-codon -f=fasta -iterate=2 -seed=20261102	/opt/homebrew/bin/prank
+MUSCLE	5.3	-super5 -threads 8	muscle (resolved from PATH or MUSCLE5)
+COBALT	3.0.0	-norps T -outfmt mfasta; local-similarity-only	cobalt (resolved from PATH or COBALT)
+IQ-TREE	2.3.6	LG+F+R4 -fast --alrt 1000 -T 4 --seed 20261102	/opt/homebrew/bin/iqtree2

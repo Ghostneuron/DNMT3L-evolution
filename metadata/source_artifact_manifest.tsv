@@ -1,0 +1,14 @@
+artifact_id	path	lineage_state	role	status	notes
+ORTHOLOGY_MATRIX	../../../source_package/analysis/orthology_rebuild_20260826/orthology_audit/DNMT3L_orthology_evidence_matrix.csv	archival_snapshot	primary inherited input	active	321 candidates; 269 nonhybrid selection-ready
+NCBI_337_ARCHIVE	data/raw/ncbi_dataset_DNMT3L_orthologs_20261102	immutable_raw_snapshot	updated NCBI ortholog package	active	337 GeneIDs; archive SHA256 f4b9e71a64cb4287fc13cf7182988ffef49464164f9a0890dde511db1fec1f12
+ORTHOLOGY_MATRIX_337	results/DNMT3L_337_orthology_evidence_matrix.tsv	working	current primary sequence input	active	337 candidates; 289 selection-ready after exact protein-CDS, sequence, domain, hybrid, and family-tree gates
+FAMILY_TREE_SUMMARY_337	results/DNMT3_family_337_group_separation_summary.tsv	working	current orthology gate	active	289 DNMT3L candidates form exact split; no candidate is nearest to DNMT3A/B reference
+FAMILY_TREE_SUMMARY	../../../source_package/analysis/orthology_rebuild_20260826/gene_family_tree/DNMT3_family_tree_group_separation_summary.csv	archival_snapshot	orthology gate	active	DNMT3L/DNMT3A/DNMT3B group separation
+FAMILY_TREE_DNMT3C	../../../analysis_v2/orthology_sensitivity/DNMT3_family_plus_DNMT3C_LG_F_R4.treefile	working sensitivity	orthology gate	active	Includes mouse DNMT3C
+NP_9MPP_CROSSWALK	../../../analysis_v2/summaries/NP_037501_2_to_9MPP_Q9UJW3_crosswalk.csv	working	coordinate gate	active	NP333 insertion handled explicitly
+DOMAIN_CONSTRAINT	../../../analysis_v2/summaries/tree_aware_parsimony_domain_tests.csv	working	supporting result	active	Do not treat overlapping scopes as replicates
+SELECTION_SUMMARY	../../../analysis_v2/summaries/diversifying_candidates_and_h358.csv	working	supporting result	active	Model-conditional; h358 is not the organizing hypothesis
+SAUROPSID_SYNTENY	../Post_Genetica_Revision_20261025/analysis/synteny/representative_sauropsid_synteny_summary.csv	working	genomic-context evidence	active	Seven representative sauropsids plus human anchor
+ORIGINAL_MBE	../../../../MBE revision 202608/DNMT3L Evolution Manuscript with figures_MBE_corrected_20260803.docx	frozen_submission	historical source	unchanged	Do not edit in place
+CURRENT_STRENGTHENED_MANUSCRIPT	../Scientific_Strengthening_Revision_20261102/manuscript/01_Manuscript_DNMT3L_Scientifically_Strengthened_20261102.docx	working parent	manuscript parent	unchanged	New design will create a descendant manuscript after canonical results exist
+

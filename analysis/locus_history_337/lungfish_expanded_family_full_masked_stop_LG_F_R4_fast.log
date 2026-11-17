@@ -1,0 +1,76 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Jis-MacBook-Air.local (SSE4.2, 24 GB RAM)
+Command: iqtree2 -s Vertebrate_Gene_History_Redesign_20261102/analysis/locus_history_337/lungfish_expanded_family_full_masked_stop_human_columns.fasta -m LG+F+R4 -fast --alrt 1000 -T 4 --seed 20261116 --prefix Vertebrate_Gene_History_Redesign_20261102/analysis/locus_history_337/lungfish_expanded_family_full_masked_stop_LG_F_R4_fast -redo
+Seed:    20261116 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Nov 16 17:47:42 2026
+Kernel:  SSE2 - 4 threads (10 CPU cores detected)
+
+Reading alignment file Vertebrate_Gene_History_Redesign_20261102/analysis/locus_history_337/lungfish_expanded_family_full_masked_stop_human_columns.fasta ... Fasta format detected
+Reading fasta file: done in 0.00127411 secs using 91.75% CPU
+Alignment most likely contains protein sequences
+Alignment has 311 sequences with 387 columns, 384 distinct patterns
+348 parsimony-informative, 29 singleton sites, 10 constant sites
+Analyzing sequences: done in 4.60148e-05 secs using 306.4% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.06 seconds
+
+NOTE: 77 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.50)
+1. Initial log-likelihood: -41017.60
+2. Current log-likelihood: -40680.72
+3. Current log-likelihood: -40679.40
+Optimal log-likelihood: -40679.00
+Site proportion and rates:  (0.20,0.12) (0.28,0.50) (0.34,1.18) (0.18,2.35)
+Parameters optimization took 3 rounds (7.18 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 2.20673 secs using 398.2% CPU
+Computing ML distances took 2.207015 sec (of wall-clock time) 8.787443 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000417948 secs using 378.3% CPU
+Computing RapidNJ tree took 0.015807 sec (of wall-clock time) 0.022233 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -41016.688
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -40629.153
+Finish initializing candidate tree set (4)
+Current best tree score: -40629.153 / CPU time: 8.533
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:19s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -40629.153
+Optimal log-likelihood: -40629.140
+Site proportion and rates:  (0.194,0.121) (0.276,0.499) (0.340,1.169) (0.189,2.330)
+Parameters optimization took 1 rounds (0.836 sec)
+BEST SCORE FOUND : -40629.140
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -40628.560 > -40629.140
+Alternative NNI shows better log-likelihood -40628.781 > -40629.140
+0.975 sec.
+Total tree length: 26.897
+
+Total number of iterations: 2
+CPU time used for tree search: 24.997 sec (0h:0m:24s)
+Wall-clock time used for tree search: 8.533 sec (0h:0m:8s)
+Total CPU time used: 65.700 sec (0h:1m:5s)
+Total wall-clock time used: 21.195 sec (0h:0m:21s)
+
+Analysis results written to: 
+  IQ-TREE report:                Vertebrate_Gene_History_Redesign_20261102/analysis/locus_history_337/lungfish_expanded_family_full_masked_stop_LG_F_R4_fast.iqtree
+  Maximum-likelihood tree:       Vertebrate_Gene_History_Redesign_20261102/analysis/locus_history_337/lungfish_expanded_family_full_masked_stop_LG_F_R4_fast.treefile
+  Likelihood distances:          Vertebrate_Gene_History_Redesign_20261102/analysis/locus_history_337/lungfish_expanded_family_full_masked_stop_LG_F_R4_fast.mldist
+  Screen log file:               Vertebrate_Gene_History_Redesign_20261102/analysis/locus_history_337/lungfish_expanded_family_full_masked_stop_LG_F_R4_fast.log
+
+Date and Time: Mon Nov 16 17:48:03 2026

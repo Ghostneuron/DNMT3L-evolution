@@ -1,0 +1,19 @@
+species	taxid	gene_label	h5ad_gene_id	feature_status	identifier_basis	notes	h5ad_file	feature_present	h5ad_feature_n
+Homo sapiens	9606	DNMT3L	ENSG00000142182	validated	NCBI Datasets cross-reference and exact H5AD feature		Homo_sapiens_ERP132584_droplet_based.h5ad	yes	42223
+Homo sapiens	9606	DNMT3A	ENSG00000119772	validated	NCBI Datasets cross-reference and exact H5AD feature		Homo_sapiens_ERP132584_droplet_based.h5ad	yes	42223
+Pan troglodytes	9598	DNMT3L	ENSPTRG00000013973	validated	Bgee release-matched ortholog and exact H5AD feature	Current NCBI-linked Ensembl ID is from a newer annotation	Pan_troglodytes_ERP139683_droplet_based.h5ad	yes	22956
+Pan troglodytes	9598	DNMT3A	ENSPTRG00000011723	validated	Bgee release-matched ortholog and exact H5AD feature	Current NCBI-linked Ensembl ID is from a newer annotation	Pan_troglodytes_ERP139683_droplet_based.h5ad	yes	22956
+Gorilla gorilla	9595	DNMT3L	ENSGGOG00000012431	validated	Bgee release-matched ortholog and exact H5AD feature	Current NCBI-linked Ensembl ID is from a newer annotation	Gorilla_gorilla_ERP132581_droplet_based.h5ad	yes	20760
+Gorilla gorilla	9595	DNMT3A	ENSGGOG00000012524	validated	Bgee release-matched ortholog and exact H5AD feature	Current NCBI-linked Ensembl ID is from a newer annotation	Gorilla_gorilla_ERP132581_droplet_based.h5ad	yes	20760
+Macaca mulatta	9544	DNMT3L	ENSMMUG00000010648	validated	NCBI Datasets cross-reference and exact H5AD feature		Macaca_mulatta_ERP132582_droplet_based.h5ad	yes	24711
+Macaca mulatta	9544	DNMT3A	ENSMMUG00000013565	validated	NCBI Datasets cross-reference and exact H5AD feature		Macaca_mulatta_ERP132582_droplet_based.h5ad	yes	24711
+Callithrix jacchus	9483	DNMT3L		unresolved_feature	Current NCBI-linked ENSCJAG00000003567 is absent from H5AD	Do not interpret zero expression; newer independent 2026 germline data provide stage-resolved evidence	Callithrix_jacchus_ERP132588_droplet_based.h5ad	no	26269
+Callithrix jacchus	9483	DNMT3A	ENSCJAG00000008172	validated	NCBI Datasets cross-reference and exact H5AD feature		Callithrix_jacchus_ERP132588_droplet_based.h5ad	yes	26269
+Mus musculus	10090	DNMT3L	ENSMUSG00000000730	validated	NCBI Datasets cross-reference and exact H5AD feature		Mus_musculus_ERP132577_droplet_based.h5ad	yes	28578
+Mus musculus	10090	DNMT3A	ENSMUSG00000020661	validated	NCBI Datasets cross-reference and exact H5AD feature		Mus_musculus_ERP132577_droplet_based.h5ad	yes	28578
+Monodelphis domestica	13616	DNMT3L	ENSMODG00000021084	validated	Bgee release-matched ortholog and exact H5AD feature	NCBI record lacks an Ensembl cross-reference	Monodelphis_domestica_ERP132579_droplet_based.h5ad	yes	26497
+Monodelphis domestica	13616	DNMT3A	ENSMODG00000015850	validated	Bgee release-matched ortholog and exact H5AD feature	NCBI record lacks an Ensembl cross-reference	Monodelphis_domestica_ERP132579_droplet_based.h5ad	yes	26497
+Ornithorhynchus anatinus	9258	DNMT3L		not_testable	No current NCBI DNMT3L symbol record and no validated H5AD feature	Do not interpret as locus or expression absence	Ornithorhynchus_anatinus_ERP132578_droplet_based.h5ad	no	18848
+Ornithorhynchus anatinus	9258	DNMT3A	ENSOANG00000015836	validated	NCBI Datasets cross-reference and exact H5AD feature		Ornithorhynchus_anatinus_ERP132578_droplet_based.h5ad	yes	18848
+Gallus gallus	9031	DNMT3L		not_testable	No current NCBI DNMT3L symbol record and no validated H5AD feature	Do not interpret as locus or expression absence	Gallus_gallus_ERP132576_droplet_based.h5ad	no	20632
+Gallus gallus	9031	DNMT3A	ENSGALG00000041454	validated	Bgee release-matched ortholog and exact H5AD feature	Current NCBI-linked Ensembl ID is from a newer annotation	Gallus_gallus_ERP132576_droplet_based.h5ad	yes	20632

@@ -1,0 +1,2 @@
+panel_id	species	genomic_accession	hit_genomic_start	hit_genomic_end	query_frame	translated_length_aa	top_subject	percent_identity	alignment_length_aa	evalue	bitscore	stop_count_in_direct_translation	stop_position_aa	stop_codon	interpretation	target_window_start	target_window_end
+LUNGFISH	Protopterus annectens	NC_056735.1	655462016	655462747	3	244	DNMT3L__Geotrypetes_seraphini	38.1	247	7.06e-37	151	1	230	TGA	single_in_frame_stop_unresolved_without_transcript_or_read_validation	655362016	655562747

@@ -1,0 +1,14 @@
+metric	value
+muroid_records	27
+muroid_middle_residue	F
+muroid_middle_codon_counts	TTC:22;TTT:5
+nonmuroid_rodent_records	16
+nonmuroid_rodent_middle_codon_counts	CTC:15;CTT:1
+jaculus_middle_codon	CTC
+same_middle_codon_in_all_muroids	False
+dominant_muroid_middle_codon	TTC
+nucleotide_differences_jaculus_to_dominant_muroid_codon	1
+muroid_F_codons_differ_synonymously	True
+ttt_muroid_species	Chionomys_nivalis;Microtus_ochrogaster;Microtus_oregoni;Microtus_pennsylvanicus;Phodopus_roborovskii
+ttt_muroids_form_single_clade	False
+minimum_synonymous_codon_changes_within_muroids	2

@@ -1,0 +1,27 @@
+{
+  "run_id": "THERIAN_INTERFACE_ATOMIC_CONTEXT_337_V1",
+  "status": "VALIDATED",
+  "command": "python scripts/map_therian_interface_changes_337.py",
+  "interpretation_limit": "Observed human 9MPP contact localization only; no mutation energy or functional effect is estimated.",
+  "input_hashes": {
+    "${EXTERNAL_VOLUME}/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/submission/Computational_Biology_and_Chemistry_20261007/Post_Genetica_Revision_20261025/GitHub_Release_Stage_v1.1.0/analysis_v2/structure/9MPP.cif": "04eda55f070595fabeb1e0a3af9f67889aa059346f1aed2112cbcd101e6bbc07",
+    "${EXTERNAL_VOLUME}/Codex_Project_Archive/DNMT3L_Evolution/DNMT3L_Broadened_Reanalysis_20261006/submission/Computational_Biology_and_Chemistry_20261007/Post_Genetica_Revision_20261025/GitHub_Release_Stage_v1.1.0/analysis_v2/summaries/NP_037501_2_to_9MPP_Q9UJW3_crosswalk.csv": "fa466ad9db5c601e63cbcb6e4aa2e67b32c1c38a9fb79113d9aeee79abfc5bf6",
+    "results/therian_stem_full_substitution_inventory.tsv": "d0c2eb7a6bf01bfd6f3ffcb1d2bf9e91fd8ec26246f8eb9baf12c110b44d3041"
+  },
+  "output_hashes": {
+    "results/therian_stem_interface_atomic_context.tsv": "bc579f646fc27c45877a919cb47d99abf422ed31e04e5ce9874a45294d828903",
+    "results/therian_stem_interface_residue_context.tsv": "23c79011fc63e55a0d7a3bf0eea1a5b0e91185f3b5d881d3d7f91b46d33ca8be"
+  },
+  "validator": {
+    "focal_positions": [
+      261,
+      291,
+      293,
+      313,
+      349
+    ],
+    "resolved_dnmt3l_instances": 10,
+    "expected_dnmt3l_instances": 10,
+    "atomic_partner_rows": 17
+  }
+}

@@ -1,0 +1,10 @@
+decision_id	status	evidence	next_action
+INPUT_AND_OUTPUT_VALIDITY	PASS	42/42 predictions validated with hashes and expected dimensions	Use archived sentinel outputs
+ADD_CONFIDENCE	PASS	7/7 targets pass in 3/3 seeds	Allow balanced monomer expansion
+CTD_MONOMER_CONFIDENCE	PARTIAL	4/7 targets pass in at least 2/3 seeds	Interpret only target-seed combinations passing the confidence mask
+COMPLEX_INTERFACE_CONFIDENCE	PASS	7/7 targets pass in 3/3 seeds	Confidence is adequate but does not itself establish a lineage difference
+AMNIOTA_THERIA_MONOMER_DIFFERENCE	NOT_DETECTED	ADD and CTD between-lineage RMSD do not exceed two times within-seed dispersion	Do not claim a global therian-stem monomer shift
+AMNIOTA_THERIA_COMPLEX_DIFFERENCE	NOT_DETECTED	DNMT3A-aligned DNMT3L CTD RMSD does not exceed two times within-seed dispersion	Do not expand all complexes or infer altered binding
+BALANCED_MONOMER_EXPANSION	GO	Geotrypetes ADD divergence requires amphibian and reptile context	Run remaining 17 targets with three seeds under frozen local-MSA policy
+BALANCED_COMPLEX_EXPANSION	NO_GO	No primary complex contrast exceeds seed variability	Stop at sentinel panel
+NEW_MD_FROM_BOLTZ	NO_GO	No comparison passes all MD-admission gates	Keep existing 2QRV MD logically independent

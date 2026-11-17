@@ -1,0 +1,16 @@
+metric	value
+archive_sha256	f4b9e71a64cb4287fc13cf7182988ffef49464164f9a0890dde511db1fec1f12
+gene_table_rows	337
+unique_gene_ids	337
+unique_species	337
+protein_records	526
+cds_records	526
+shared_species	319
+new_only_species	18
+old_only_species	2
+old_protein_accessions_recovered	304
+old_protein_sequences_identical	304
+old_cds_accessions_recovered	302
+old_cds_sequences_identical	302
+genes_with_exact_protein_cds_pair	334
+genes_without_exact_protein_cds_pair	3

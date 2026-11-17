@@ -1,0 +1,4 @@
+# DIAMOND v2.2.4. http://github.com/bbuchfink/diamond
+# Invocation: diamond blastx --query Vertebrate_Gene_History_Redesign_20261102/data/interim/marker_centered_intervals.fasta --db Vertebrate_Gene_History_Redesign_20261102/data/processed/dnmt3_full_family.dmnd --out Vertebrate_Gene_History_Redesign_20261102/results/marker_centered_diamond_hits_full_family.tsv --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qframe --header --evalue 1e-10 --max-target-seqs 500 --sensitive --threads 4
+# Fields: Query Seq - id, Subject Seq - id, Percentage of identical matches, Alignment length, Number of mismatches, Number of gap openings, Start of alignment in query, End of alignment in query, Start of alignment in subject, End of alignment in subject, Expect value, Bit score, Query frame
+LUNGFISH|MARKER_CENTERED|NC_056735.1|655314804-658340078	DNMT3L__Geotrypetes_seraphini	38.1	247	143	5	147213	147944	6	245	7.06e-37	151	3

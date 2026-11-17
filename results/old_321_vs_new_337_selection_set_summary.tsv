@@ -1,0 +1,12 @@
+metric	value
+old_candidate_GeneIDs	321
+new_candidate_GeneIDs	337
+old_selection_ready	269
+new_selection_ready	289
+shared_GeneIDs	321
+new_GeneIDs	16
+removed_GeneIDs	0
+gained_ready	21
+lost_ready	1
+ready_in_both	268
+accession_changed_among_ready_in_both	31

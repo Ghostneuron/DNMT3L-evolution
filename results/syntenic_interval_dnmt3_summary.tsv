@@ -1,0 +1,8 @@
+panel_id	species	genomic_accession	fetch_start	fetch_end	total_hsps	best_family	best_subject	best_bitscore	best_evalue	best_alignment_length_aa	best_query_start	best_query_end	dnmt3l_hsp_count	best_dnmt3l_subject	best_dnmt3l_bitscore	best_dnmt3l_evalue	best_dnmt3l_alignment_length_aa	best_non_dnmt3l_family	best_non_dnmt3l_bitscore	dnmt3l_minus_competitor_bitscore	screen_interpretation	locus_status
+ANOLE	Anolis carolinensis	NC_085843.1	82634791	82992710	7	DNMT3L	DNMT3L__Anolis_carolinensis	191	1.82e-54	90	260237	259968	4	DNMT3L__Anolis_carolinensis	191	1.82e-54	90	DNMT3C	63.9	127.1	DNMT3L_like_translated_match_detected	UNRESOLVED
+CHICKEN	Gallus gallus	NC_052532.1	110251101	110571686	0								0								no_DNMT3_family_match_at_threshold	UNRESOLVED
+ELEPHANT_SHARK	Callorhinchus milii	NW_024704745.1	6109005	7133220	0								0								no_DNMT3_family_match_at_threshold	UNRESOLVED
+HUMAN	Homo sapiens	NC_000021.9	43912309	44340943	7	DNMT3L	DNMT3L__Homo_sapiens	129	3.74e-33	83	346463	346215	4	DNMT3L__Homo_sapiens	129	3.74e-33	83	DNMT3B	64.3	64.7	DNMT3L_like_translated_match_detected	UNRESOLVED
+PLATYPUS	Ornithorhynchus anatinus	NC_041745.1	8094290	8466805	0								0								no_DNMT3_family_match_at_threshold	UNRESOLVED
+XENOPUS	Xenopus tropicalis	NC_030678.2	1367076	1772219	0								0								no_DNMT3_family_match_at_threshold	UNRESOLVED
+ZEBRA_FINCH	Taeniopygia guttata	NC_133024.1	109800956	110128977	0								0								no_DNMT3_family_match_at_threshold	UNRESOLVED

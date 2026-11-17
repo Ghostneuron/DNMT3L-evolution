@@ -1,0 +1,75 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Jis-MacBook-Air.local (SSE4.2, 24 GB RAM)
+Command: /opt/homebrew/bin/iqtree2 -s DNMT3_family_337_MAFFT_human_DNMT3L_columns.fasta -m LG+F+R4 -fast --alrt 1000 -T 4 --seed 20261102 --prefix DNMT3_family_337_LG_F_R4_fast
+Seed:    20261102 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Nov  2 16:20:04 2026
+Kernel:  SSE2 - 4 threads (10 CPU cores detected)
+
+Reading alignment file DNMT3_family_337_MAFFT_human_DNMT3L_columns.fasta ... Fasta format detected
+Reading fasta file: done in 0.00123382 secs using 89.56% CPU
+Alignment most likely contains protein sequences
+Alignment has 310 sequences with 387 columns, 378 distinct patterns
+346 parsimony-informative, 17 singleton sites, 24 constant sites
+Analyzing sequences: done in 7.98702e-05 secs using 237.9% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.04 seconds
+
+NOTE: 76 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.50)
+1. Initial log-likelihood: -40297.53
+2. Current log-likelihood: -40068.06
+3. Current log-likelihood: -40066.71
+Optimal log-likelihood: -40066.55
+Site proportion and rates:  (0.19,0.10) (0.29,0.50) (0.34,1.19) (0.18,2.35)
+Parameters optimization took 3 rounds (7.22 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 2.12737 secs using 393% CPU
+Computing ML distances took 2.127668 sec (of wall-clock time) 8.360033 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000415087 secs using 379.2% CPU
+Computing RapidNJ tree took 0.015606 sec (of wall-clock time) 0.021413 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -40372.931
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -40002.273
+Finish initializing candidate tree set (4)
+Current best tree score: -40002.273 / CPU time: 8.470
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:19s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -40002.273
+Optimal log-likelihood: -40002.218
+Site proportion and rates:  (0.181,0.094) (0.287,0.486) (0.340,1.170) (0.192,2.319)
+Parameters optimization took 1 rounds (2.559 sec)
+BEST SCORE FOUND : -40002.218
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -40001.673 > -40002.218
+0.936 sec.
+Total tree length: 21.564
+
+Total number of iterations: 2
+CPU time used for tree search: 24.704 sec (0h:0m:24s)
+Wall-clock time used for tree search: 8.471 sec (0h:0m:8s)
+Total CPU time used: 69.286 sec (0h:1m:9s)
+Total wall-clock time used: 22.946 sec (0h:0m:22s)
+
+Analysis results written to: 
+  IQ-TREE report:                DNMT3_family_337_LG_F_R4_fast.iqtree
+  Maximum-likelihood tree:       DNMT3_family_337_LG_F_R4_fast.treefile
+  Likelihood distances:          DNMT3_family_337_LG_F_R4_fast.mldist
+  Screen log file:               DNMT3_family_337_LG_F_R4_fast.log
+
+Date and Time: Mon Nov  2 16:20:27 2026

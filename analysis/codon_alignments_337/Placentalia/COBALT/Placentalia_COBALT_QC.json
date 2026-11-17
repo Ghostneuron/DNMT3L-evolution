@@ -1,0 +1,12 @@
+{
+  "sequences": 220,
+  "unique_identifiers": 220,
+  "aligned_amino_acid_columns": 1628,
+  "aligned_codon_columns": 1628,
+  "ungapped_protein_content_preserved_for_all_sequences": true,
+  "exact_cds_projection_for_all_sequences": true,
+  "raw_alignment_sha256": "d0efc2c612b29b1675808d39e4f5339a97bafea2114b7deb33ffcf54023f90a8",
+  "named_alignment_sha256": "43df21f80214a7a46a0f13df3dcb2b0510fc1d8ee17c76c5a468b438ee0cd8fe",
+  "codon_alignment_sha256": "ba30cd72140cc0f17818df5ec9af02001ac2eccdc8286098d13c94760ac76231",
+  "cobalt_mode": "local_similarity_only_-norps_T"
+}

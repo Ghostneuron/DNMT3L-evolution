@@ -1,0 +1,4 @@
+panel	records	placentals	marsupials	np261_F	added_therian_safe_ids
+original_therian	213	202	11	141	
+expanded_therian_subset	216	205	11	144	Camelus_ferus;Stenella_coeruleoalba;Tursiops_truncatus
+expanded_vertebrate	265	205	11	144	Camelus_ferus;Stenella_coeruleoalba;Tursiops_truncatus

@@ -1,0 +1,10 @@
+species	h5ad_file	x_dtype	sample_nonzero_n	sample_noninteger_fraction	sample_min	sample_max	analysis_scale
+Homo sapiens	Homo_sapiens_ERP132584_droplet_based.h5ad	float32	100000	0.99998	166.49168395996094	78230.671875	processed_noninteger
+Pan troglodytes	Pan_troglodytes_ERP139683_droplet_based.h5ad	float32	100000	0.99999	411.2137451171875	39677.75390625	processed_noninteger
+Gorilla gorilla	Gorilla_gorilla_ERP132581_droplet_based.h5ad	float32	100000	0.99995	525.0208740234375	143467.21875	processed_noninteger
+Macaca mulatta	Macaca_mulatta_ERP132582_droplet_based.h5ad	float32	100000	0.99994	192.76193237304688	37672.21484375	processed_noninteger
+Callithrix jacchus	Callithrix_jacchus_ERP132588_droplet_based.h5ad	float32	100000	0.99997	289.500732421875	41613.11328125	processed_noninteger
+Mus musculus	Mus_musculus_ERP132577_droplet_based.h5ad	float32	100000	0.99997	292.1114807128906	101551.484375	processed_noninteger
+Monodelphis domestica	Monodelphis_domestica_ERP132579_droplet_based.h5ad	float32	100000	0.99992	234.29974365234375	198161.09375	processed_noninteger
+Ornithorhynchus anatinus	Ornithorhynchus_anatinus_ERP132578_droplet_based.h5ad	float32	100000	0.99997	149.92474365234375	82448.8125	processed_noninteger
+Gallus gallus	Gallus_gallus_ERP132576_droplet_based.h5ad	float32	100000	0.99999	146.4984893798828	234871.390625	processed_noninteger

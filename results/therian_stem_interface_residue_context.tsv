@@ -1,0 +1,11 @@
+human_np_position	state_pair	evidence_class	dnmt3l_chain	pdb_entity_position	pdb_residue_name	residue_SASA_A2	contact_categories_within_5A	contact_partner_residue_count	minimum_interface_distance_A
+261	Y>F	robust_therian_stem_change	L	261	PHE	11.667774584467574	DNMT3A	4	3.4166910648345947
+261	Y>F	robust_therian_stem_change	N	261	PHE	6.83726172030791	DNMT3A	5	3.479687213897705
+291	E>T	robust_therian_stem_change	L	291	ASN	66.9633615705318	DNMT3A	2	4.566565990447998
+291	E>T	robust_therian_stem_change	N	291	ASN	81.29405061914701		0	
+293	E>D	robust_therian_stem_change	L	293	GLU	105.89157755702917	DNMT3A	1	3.518493413925171
+293	E>D	robust_therian_stem_change	N	293	GLU	75.60049198756374	DNMT3A	3	3.761594295501709
+313	H>C	robust_therian_stem_change	L	313	HIS	150.50064757441865		0	
+313	H>C	robust_therian_stem_change	N	313	HIS	112.08471225238625	histone	1	4.5904541015625
+349	K>Q	alignment_sensitive_change	L	348	GLN	109.93236942630006		0	
+349	K>Q	alignment_sensitive_change	N	348	GLN	96.43488101489933	histone	1	4.028438091278076

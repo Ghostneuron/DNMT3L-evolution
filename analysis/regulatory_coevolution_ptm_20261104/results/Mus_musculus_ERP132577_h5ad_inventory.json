@@ -1,0 +1,207 @@
+{
+  "path": "./analysis/regulatory_coevolution_ptm_20261104/data/raw/Mus_musculus_ERP132577_droplet_based.h5ad",
+  "size_bytes": 43761944,
+  "root_keys": [
+    "X",
+    "layers",
+    "obs",
+    "obsm",
+    "obsp",
+    "uns",
+    "var",
+    "varm",
+    "varp"
+  ],
+  "root_attributes": {
+    "encoding-type": "anndata",
+    "encoding-version": "0.1.0"
+  },
+  "obs": {
+    "_index": {
+      "kind": "dataset",
+      "shape": [
+        5264
+      ],
+      "dtype": "object"
+    },
+    "anatEntityAuthorAnnotation": {
+      "kind": "group",
+      "keys": [
+        "categories",
+        "codes"
+      ]
+    },
+    "anatEntityId": {
+      "kind": "group",
+      "keys": [
+        "categories",
+        "codes"
+      ]
+    },
+    "anatEntityName": {
+      "kind": "group",
+      "keys": [
+        "categories",
+        "codes"
+      ]
+    },
+    "barcodes": {
+      "kind": "group",
+      "keys": [
+        "categories",
+        "codes"
+      ]
+    },
+    "cellCompartment": {
+      "kind": "group",
+      "keys": [
+        "categories",
+        "codes"
+      ]
+    },
+    "cellTypeAuthorAnnotation": {
+      "kind": "group",
+      "keys": [
+        "categories",
+        "codes"
+      ]
+    },
+    "cellTypeId": {
+      "kind": "group",
+      "keys": [
+        "categories",
+        "codes"
+      ]
+    },
+    "cellTypeName": {
+      "kind": "group",
+      "keys": [
+        "categories",
+        "codes"
+      ]
+    },
+    "experiment_id": {
+      "kind": "group",
+      "keys": [
+        "categories",
+        "codes"
+      ]
+    },
+    "libraryType": {
+      "kind": "group",
+      "keys": [
+        "categories",
+        "codes"
+      ]
+    },
+    "library_id": {
+      "kind": "group",
+      "keys": [
+        "categories",
+        "codes"
+      ]
+    },
+    "rnaSeqSequencerName": {
+      "kind": "group",
+      "keys": [
+        "categories",
+        "codes"
+      ]
+    },
+    "sex": {
+      "kind": "group",
+      "keys": [
+        "categories",
+        "codes"
+      ]
+    },
+    "speciesId": {
+      "kind": "dataset",
+      "shape": [
+        5264
+      ],
+      "dtype": "int64"
+    },
+    "stageAuthorAnnotation": {
+      "kind": "group",
+      "keys": [
+        "categories",
+        "codes"
+      ]
+    },
+    "stageId": {
+      "kind": "group",
+      "keys": [
+        "categories",
+        "codes"
+      ]
+    },
+    "stageName": {
+      "kind": "group",
+      "keys": [
+        "categories",
+        "codes"
+      ]
+    },
+    "strain": {
+      "kind": "group",
+      "keys": [
+        "categories",
+        "codes"
+      ]
+    }
+  },
+  "var": {
+    "_index": {
+      "kind": "dataset",
+      "shape": [
+        28578
+      ],
+      "dtype": "object"
+    },
+    "gene_id": {
+      "kind": "dataset",
+      "shape": [
+        28578
+      ],
+      "dtype": "object"
+    }
+  },
+  "layers": {},
+  "obsm": {},
+  "uns": {},
+  "obs_n": 5264,
+  "obs_index_preview": [
+    "AAAGTAGGTGGCCCTA_ERX6700409",
+    "AAATGCCCAGCTATTG_ERX6700409",
+    "AAATGCCTCGAATGGG_ERX6700409",
+    "AACACGTAGTGAAGAG_ERX6700409",
+    "AACCGCGCAAGTAATG_ERX6700409",
+    "AACTCCCTCAGGTAAA_ERX6700409",
+    "AACTCCCTCTCTGTCG_ERX6700409",
+    "AAGGTTCTCCGCATCT_ERX6700409",
+    "ACAGCCGCAGACAGGT_ERX6700409",
+    "ACGATACTCTTTACAC_ERX6700409"
+  ],
+  "var_n": 28578,
+  "var_index_preview": [
+    "ENSMUSG00000094182",
+    "ENSMUSG00000112831",
+    "ENSMUSG00000069270",
+    "ENSMUSG00000042787",
+    "ENSMUSG00000069899",
+    "ENSMUSG00000103705",
+    "ENSMUSG00000085355",
+    "ENSMUSG00000098318",
+    "ENSMUSG00000080718",
+    "ENSMUSG00000074378"
+  ],
+  "X": {
+    "encoding": "group",
+    "keys": [
+      "data",
+      "indices",
+      "indptr"
+    ]
+  }
+}

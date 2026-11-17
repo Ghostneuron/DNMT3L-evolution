@@ -1,0 +1,369 @@
+species	library_id	author_cell_type	harmonized_cell_type	gene_label	stable_gene_id	n_nuclei	n_nonzero	detection_fraction	matrix_value_sum	matrix_value_mean_per_nucleus	analysis_scale
+Homo sapiens	ERX6700428		cell	DNMT3L	ENSG00000142182	54	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700428		cell	DNMT3A	ENSG00000119772	54	3	0.05555556	3286.056884765625	60.8529052734375	processed_noninteger
+Homo sapiens	ERX6700428	Differentiated_Spermatogonia	spermatogonium	DNMT3L	ENSG00000142182	144	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700428	Differentiated_Spermatogonia	spermatogonium	DNMT3A	ENSG00000119772	144	11	0.07638889	7800.37548828125	54.169273376464844	processed_noninteger
+Homo sapiens	ERX6700428	Early_Round_spermatids	early spermatid	DNMT3L	ENSG00000142182	270	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700428	Early_Round_spermatids	early spermatid	DNMT3A	ENSG00000119772	270	8	0.02962963	3723.11474609375	13.789314270019531	processed_noninteger
+Homo sapiens	ERX6700428	Elongated_spermatids	late spermatid	DNMT3L	ENSG00000142182	494	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700428	Elongated_spermatids	late spermatid	DNMT3A	ENSG00000119772	494	45	0.09109312	30298.7265625	61.33345413208008	processed_noninteger
+Homo sapiens	ERX6700428	Late_Round_spermatids	early spermatid	DNMT3L	ENSG00000142182	531	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700428	Late_Round_spermatids	early spermatid	DNMT3A	ENSG00000119772	531	12	0.02259887	7039.28857421875	13.256664276123047	processed_noninteger
+Homo sapiens	ERX6700428	Leptotene_Spermatocytes	spermatocyte	DNMT3L	ENSG00000142182	170	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700428	Leptotene_Spermatocytes	spermatocyte	DNMT3A	ENSG00000119772	170	6	0.03529412	5494.9990234375	32.323524475097656	processed_noninteger
+Homo sapiens	ERX6700428	Other_somatic	somatic cell	DNMT3L	ENSG00000142182	356	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700428	Other_somatic	somatic cell	DNMT3A	ENSG00000119772	356	22	0.06179775	19055.693359375	53.52722930908203	processed_noninteger
+Homo sapiens	ERX6700428	Pachytene_Spermatocytes	spermatocyte	DNMT3L	ENSG00000142182	238	1	0.00420168	267.60003662109375	1.1243698596954346	processed_noninteger
+Homo sapiens	ERX6700428	Pachytene_Spermatocytes	spermatocyte	DNMT3A	ENSG00000119772	238	10	0.04201681	3189.06298828125	13.39942455291748	processed_noninteger
+Homo sapiens	ERX6700428	Sertoli	Sertoli cell	DNMT3L	ENSG00000142182	348	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700428	Sertoli	Sertoli cell	DNMT3A	ENSG00000119772	348	157	0.45114943	60970.95703125	175.2039031982422	processed_noninteger
+Homo sapiens	ERX6700428	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3L	ENSG00000142182	393	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700428	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3A	ENSG00000119772	393	56	0.14249364	25827.890625	65.7198257446289	processed_noninteger
+Homo sapiens	ERX6700428	Zygotene_Spermatocytes	spermatocyte	DNMT3L	ENSG00000142182	385	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700428	Zygotene_Spermatocytes	spermatocyte	DNMT3A	ENSG00000119772	385	30	0.07792208	17343.0390625	45.04685592651367	processed_noninteger
+Homo sapiens	ERX6700429		cell	DNMT3L	ENSG00000142182	16	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700429		cell	DNMT3A	ENSG00000119772	16	3	0.18750000	1761.491455078125	110.09321594238281	processed_noninteger
+Homo sapiens	ERX6700429	Differentiated_Spermatogonia	spermatogonium	DNMT3L	ENSG00000142182	280	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700429	Differentiated_Spermatogonia	spermatogonium	DNMT3A	ENSG00000119772	280	21	0.07500000	11089.255859375	39.60448455810547	processed_noninteger
+Homo sapiens	ERX6700429	Early_Round_spermatids	early spermatid	DNMT3L	ENSG00000142182	338	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700429	Early_Round_spermatids	early spermatid	DNMT3A	ENSG00000119772	338	24	0.07100592	10527.21484375	31.145606994628906	processed_noninteger
+Homo sapiens	ERX6700429	Elongated_spermatids	late spermatid	DNMT3L	ENSG00000142182	566	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700429	Elongated_spermatids	late spermatid	DNMT3A	ENSG00000119772	566	62	0.10954064	34818.328125	61.5164794921875	processed_noninteger
+Homo sapiens	ERX6700429	Late_Round_spermatids	early spermatid	DNMT3L	ENSG00000142182	652	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700429	Late_Round_spermatids	early spermatid	DNMT3A	ENSG00000119772	652	23	0.03527607	10538.265625	16.16298484802246	processed_noninteger
+Homo sapiens	ERX6700429	Leptotene_Spermatocytes	spermatocyte	DNMT3L	ENSG00000142182	220	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700429	Leptotene_Spermatocytes	spermatocyte	DNMT3A	ENSG00000119772	220	11	0.05000000	8484.1484375	38.56431198120117	processed_noninteger
+Homo sapiens	ERX6700429	Other_somatic	somatic cell	DNMT3L	ENSG00000142182	373	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700429	Other_somatic	somatic cell	DNMT3A	ENSG00000119772	373	53	0.14209115	31998.08203125	85.7857437133789	processed_noninteger
+Homo sapiens	ERX6700429	Pachytene_Spermatocytes	spermatocyte	DNMT3L	ENSG00000142182	270	2	0.00740741	578.7950439453125	2.1436853408813477	processed_noninteger
+Homo sapiens	ERX6700429	Pachytene_Spermatocytes	spermatocyte	DNMT3A	ENSG00000119772	270	21	0.07777778	5014.77783203125	18.573251724243164	processed_noninteger
+Homo sapiens	ERX6700429	Sertoli	Sertoli cell	DNMT3L	ENSG00000142182	404	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700429	Sertoli	Sertoli cell	DNMT3A	ENSG00000119772	404	191	0.47277228	70525.9453125	174.5691680908203	processed_noninteger
+Homo sapiens	ERX6700429	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3L	ENSG00000142182	603	1	0.00165837	356.129638671875	0.5905964374542236	processed_noninteger
+Homo sapiens	ERX6700429	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3A	ENSG00000119772	603	112	0.18573798	41777.44921875	69.28266906738281	processed_noninteger
+Homo sapiens	ERX6700429	Zygotene_Spermatocytes	spermatocyte	DNMT3L	ENSG00000142182	489	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700429	Zygotene_Spermatocytes	spermatocyte	DNMT3A	ENSG00000119772	489	48	0.09815951	22155.888671875	45.30856704711914	processed_noninteger
+Homo sapiens	ERX6700430		cell	DNMT3L	ENSG00000142182	4	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700430		cell	DNMT3A	ENSG00000119772	4	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700430	Differentiated_Spermatogonia	spermatogonium	DNMT3L	ENSG00000142182	173	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700430	Differentiated_Spermatogonia	spermatogonium	DNMT3A	ENSG00000119772	173	14	0.08092486	19987.33203125	115.5337142944336	processed_noninteger
+Homo sapiens	ERX6700430	Early_Round_spermatids	early spermatid	DNMT3L	ENSG00000142182	350	1	0.00285714	752.4337768554688	2.149810791015625	processed_noninteger
+Homo sapiens	ERX6700430	Early_Round_spermatids	early spermatid	DNMT3A	ENSG00000119772	350	11	0.03142857	8632.833984375	24.665239334106445	processed_noninteger
+Homo sapiens	ERX6700430	Elongated_spermatids	late spermatid	DNMT3L	ENSG00000142182	563	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700430	Elongated_spermatids	late spermatid	DNMT3A	ENSG00000119772	563	40	0.07104796	29212.787109375	51.88772201538086	processed_noninteger
+Homo sapiens	ERX6700430	Late_Round_spermatids	early spermatid	DNMT3L	ENSG00000142182	470	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700430	Late_Round_spermatids	early spermatid	DNMT3A	ENSG00000119772	470	12	0.02553191	11362.5517578125	24.175642013549805	processed_noninteger
+Homo sapiens	ERX6700430	Leptotene_Spermatocytes	spermatocyte	DNMT3L	ENSG00000142182	168	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700430	Leptotene_Spermatocytes	spermatocyte	DNMT3A	ENSG00000119772	168	8	0.04761905	8242.5302734375	49.062679290771484	processed_noninteger
+Homo sapiens	ERX6700430	Other_somatic	somatic cell	DNMT3L	ENSG00000142182	128	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700430	Other_somatic	somatic cell	DNMT3A	ENSG00000119772	128	5	0.03906250	9671.3359375	75.55731201171875	processed_noninteger
+Homo sapiens	ERX6700430	Pachytene_Spermatocytes	spermatocyte	DNMT3L	ENSG00000142182	178	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700430	Pachytene_Spermatocytes	spermatocyte	DNMT3A	ENSG00000119772	178	8	0.04494382	3728.64892578125	20.947465896606445	processed_noninteger
+Homo sapiens	ERX6700430	Sertoli	Sertoli cell	DNMT3L	ENSG00000142182	98	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700430	Sertoli	Sertoli cell	DNMT3A	ENSG00000119772	98	18	0.18367347	12641.44140625	128.99429321289062	processed_noninteger
+Homo sapiens	ERX6700430	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3L	ENSG00000142182	429	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700430	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3A	ENSG00000119772	429	27	0.06293706	24590.765625	57.32113265991211	processed_noninteger
+Homo sapiens	ERX6700430	Zygotene_Spermatocytes	spermatocyte	DNMT3L	ENSG00000142182	345	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700430	Zygotene_Spermatocytes	spermatocyte	DNMT3A	ENSG00000119772	345	17	0.04927536	19072.009765625	55.28118896484375	processed_noninteger
+Homo sapiens	ERX6700431		cell	DNMT3L	ENSG00000142182	1	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700431		cell	DNMT3A	ENSG00000119772	1	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700431	Differentiated_Spermatogonia	spermatogonium	DNMT3L	ENSG00000142182	59	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700431	Differentiated_Spermatogonia	spermatogonium	DNMT3A	ENSG00000119772	59	10	0.16949153	6072.943359375	102.93124389648438	processed_noninteger
+Homo sapiens	ERX6700431	Early_Round_spermatids	early spermatid	DNMT3L	ENSG00000142182	215	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700431	Early_Round_spermatids	early spermatid	DNMT3A	ENSG00000119772	215	12	0.05581395	4268.61572265625	19.854026794433594	processed_noninteger
+Homo sapiens	ERX6700431	Elongated_spermatids	late spermatid	DNMT3L	ENSG00000142182	171	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700431	Elongated_spermatids	late spermatid	DNMT3A	ENSG00000119772	171	12	0.07017544	4771.30029296875	27.902341842651367	processed_noninteger
+Homo sapiens	ERX6700431	Late_Round_spermatids	early spermatid	DNMT3L	ENSG00000142182	180	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700431	Late_Round_spermatids	early spermatid	DNMT3A	ENSG00000119772	180	8	0.04444444	3583.16943359375	19.906496047973633	processed_noninteger
+Homo sapiens	ERX6700431	Leptotene_Spermatocytes	spermatocyte	DNMT3L	ENSG00000142182	28	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700431	Leptotene_Spermatocytes	spermatocyte	DNMT3A	ENSG00000119772	28	4	0.14285714	2303.1220703125	82.25435638427734	processed_noninteger
+Homo sapiens	ERX6700431	Other_somatic	somatic cell	DNMT3L	ENSG00000142182	73	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700431	Other_somatic	somatic cell	DNMT3A	ENSG00000119772	73	9	0.12328767	5128.4658203125	70.25296020507812	processed_noninteger
+Homo sapiens	ERX6700431	Pachytene_Spermatocytes	spermatocyte	DNMT3L	ENSG00000142182	272	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700431	Pachytene_Spermatocytes	spermatocyte	DNMT3A	ENSG00000119772	272	17	0.06250000	2051.099365234375	7.540806293487549	processed_noninteger
+Homo sapiens	ERX6700431	Sertoli	Sertoli cell	DNMT3L	ENSG00000142182	81	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700431	Sertoli	Sertoli cell	DNMT3A	ENSG00000119772	81	19	0.23456790	5662.49462890625	69.90734100341797	processed_noninteger
+Homo sapiens	ERX6700431	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3L	ENSG00000142182	149	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700431	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3A	ENSG00000119772	149	29	0.19463087	9323.0234375	62.57062530517578	processed_noninteger
+Homo sapiens	ERX6700431	Zygotene_Spermatocytes	spermatocyte	DNMT3L	ENSG00000142182	100	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700431	Zygotene_Spermatocytes	spermatocyte	DNMT3A	ENSG00000119772	100	6	0.06000000	1352.7545166015625	13.527544975280762	processed_noninteger
+Homo sapiens	ERX6700432		cell	DNMT3L	ENSG00000142182	5	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700432		cell	DNMT3A	ENSG00000119772	5	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700432	Differentiated_Spermatogonia	spermatogonium	DNMT3L	ENSG00000142182	229	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700432	Differentiated_Spermatogonia	spermatogonium	DNMT3A	ENSG00000119772	229	22	0.09606987	14178.31640625	61.91404724121094	processed_noninteger
+Homo sapiens	ERX6700432	Early_Round_spermatids	early spermatid	DNMT3L	ENSG00000142182	536	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700432	Early_Round_spermatids	early spermatid	DNMT3A	ENSG00000119772	536	17	0.03171642	8283.3515625	15.45401382446289	processed_noninteger
+Homo sapiens	ERX6700432	Elongated_spermatids	late spermatid	DNMT3L	ENSG00000142182	608	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700432	Elongated_spermatids	late spermatid	DNMT3A	ENSG00000119772	608	50	0.08223684	21458.673828125	35.29387283325195	processed_noninteger
+Homo sapiens	ERX6700432	Late_Round_spermatids	early spermatid	DNMT3L	ENSG00000142182	415	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700432	Late_Round_spermatids	early spermatid	DNMT3A	ENSG00000119772	415	16	0.03855422	6806.484375	16.401166915893555	processed_noninteger
+Homo sapiens	ERX6700432	Leptotene_Spermatocytes	spermatocyte	DNMT3L	ENSG00000142182	95	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700432	Leptotene_Spermatocytes	spermatocyte	DNMT3A	ENSG00000119772	95	5	0.05263158	4238.41455078125	44.614891052246094	processed_noninteger
+Homo sapiens	ERX6700432	Other_somatic	somatic cell	DNMT3L	ENSG00000142182	464	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700432	Other_somatic	somatic cell	DNMT3A	ENSG00000119772	464	37	0.07974138	24316.44140625	52.406124114990234	processed_noninteger
+Homo sapiens	ERX6700432	Pachytene_Spermatocytes	spermatocyte	DNMT3L	ENSG00000142182	552	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700432	Pachytene_Spermatocytes	spermatocyte	DNMT3A	ENSG00000119772	552	23	0.04166667	4889.333984375	8.857488632202148	processed_noninteger
+Homo sapiens	ERX6700432	Sertoli	Sertoli cell	DNMT3L	ENSG00000142182	424	1	0.00235849	314.2265319824219	0.7411003112792969	processed_noninteger
+Homo sapiens	ERX6700432	Sertoli	Sertoli cell	DNMT3A	ENSG00000119772	424	98	0.23113208	43470.203125	102.52406311035156	processed_noninteger
+Homo sapiens	ERX6700432	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3L	ENSG00000142182	566	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700432	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3A	ENSG00000119772	566	63	0.11130742	33723.12890625	59.58150100708008	processed_noninteger
+Homo sapiens	ERX6700432	Zygotene_Spermatocytes	spermatocyte	DNMT3L	ENSG00000142182	288	0	0.00000000	0.0	0.0	processed_noninteger
+Homo sapiens	ERX6700432	Zygotene_Spermatocytes	spermatocyte	DNMT3A	ENSG00000119772	288	16	0.05555556	5916.3623046875	20.542924880981445	processed_noninteger
+Pan troglodytes	ERX6700425		cell	DNMT3L	ENSPTRG00000013973	16	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700425		cell	DNMT3A	ENSPTRG00000011723	16	1	0.06250000	949.2865600585938	59.33041000366211	processed_noninteger
+Pan troglodytes	ERX6700425	Differentiated_Spermatogonia	spermatogonium	DNMT3L	ENSPTRG00000013973	375	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700425	Differentiated_Spermatogonia	spermatogonium	DNMT3A	ENSPTRG00000011723	375	18	0.04800000	17278.15625	46.0750846862793	processed_noninteger
+Pan troglodytes	ERX6700425	Early_Round_spermatids	early spermatid	DNMT3L	ENSPTRG00000013973	97	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700425	Early_Round_spermatids	early spermatid	DNMT3A	ENSPTRG00000011723	97	1	0.01030928	414.505615234375	4.273253917694092	processed_noninteger
+Pan troglodytes	ERX6700425	Elongated_spermatids	late spermatid	DNMT3L	ENSPTRG00000013973	754	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700425	Elongated_spermatids	late spermatid	DNMT3A	ENSPTRG00000011723	754	65	0.08620690	60425.7890625	80.14030456542969	processed_noninteger
+Pan troglodytes	ERX6700425	Late_Round_spermatids	early spermatid	DNMT3L	ENSPTRG00000013973	539	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700425	Late_Round_spermatids	early spermatid	DNMT3A	ENSPTRG00000011723	539	17	0.03153989	17768.7578125	32.966156005859375	processed_noninteger
+Pan troglodytes	ERX6700425	Leptotene_Spermatocytes	spermatocyte	DNMT3L	ENSPTRG00000013973	217	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700425	Leptotene_Spermatocytes	spermatocyte	DNMT3A	ENSPTRG00000011723	217	3	0.01382488	3533.40380859375	16.28296661376953	processed_noninteger
+Pan troglodytes	ERX6700425	Other_somatic	somatic cell	DNMT3L	ENSPTRG00000013973	191	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700425	Other_somatic	somatic cell	DNMT3A	ENSPTRG00000011723	191	8	0.04188482	14380.1162109375	75.28856658935547	processed_noninteger
+Pan troglodytes	ERX6700425	Pachytene_Spermatocytes	spermatocyte	DNMT3L	ENSPTRG00000013973	415	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700425	Pachytene_Spermatocytes	spermatocyte	DNMT3A	ENSPTRG00000011723	415	23	0.05542169	12530.65234375	30.19434356689453	processed_noninteger
+Pan troglodytes	ERX6700425	Sertoli	Sertoli cell	DNMT3L	ENSPTRG00000013973	357	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700425	Sertoli	Sertoli cell	DNMT3A	ENSPTRG00000011723	357	118	0.33053221	98273.953125	275.2771911621094	processed_noninteger
+Pan troglodytes	ERX6700425	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3L	ENSPTRG00000013973	687	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700425	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3A	ENSPTRG00000011723	687	60	0.08733624	52432.5	76.32096099853516	processed_noninteger
+Pan troglodytes	ERX6700425	Zygotene_Spermatocytes	spermatocyte	DNMT3L	ENSPTRG00000013973	382	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700425	Zygotene_Spermatocytes	spermatocyte	DNMT3A	ENSPTRG00000011723	382	22	0.05759162	20860.2734375	54.60804748535156	processed_noninteger
+Pan troglodytes	ERX6700426		cell	DNMT3L	ENSPTRG00000013973	2	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700426		cell	DNMT3A	ENSPTRG00000011723	2	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700426	Differentiated_Spermatogonia	spermatogonium	DNMT3L	ENSPTRG00000013973	220	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700426	Differentiated_Spermatogonia	spermatogonium	DNMT3A	ENSPTRG00000011723	220	14	0.06363636	9294.6240234375	42.248291015625	processed_noninteger
+Pan troglodytes	ERX6700426	Early_Round_spermatids	early spermatid	DNMT3L	ENSPTRG00000013973	668	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700426	Early_Round_spermatids	early spermatid	DNMT3A	ENSPTRG00000011723	668	13	0.01946108	7671.2021484375	11.483835220336914	processed_noninteger
+Pan troglodytes	ERX6700426	Elongated_spermatids	late spermatid	DNMT3L	ENSPTRG00000013973	670	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700426	Elongated_spermatids	late spermatid	DNMT3A	ENSPTRG00000011723	670	179	0.26716418	92013.921875	137.33421325683594	processed_noninteger
+Pan troglodytes	ERX6700426	Late_Round_spermatids	early spermatid	DNMT3L	ENSPTRG00000013973	896	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700426	Late_Round_spermatids	early spermatid	DNMT3A	ENSPTRG00000011723	896	74	0.08258929	34910.8515625	38.96300506591797	processed_noninteger
+Pan troglodytes	ERX6700426	Leptotene_Spermatocytes	spermatocyte	DNMT3L	ENSPTRG00000013973	261	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700426	Leptotene_Spermatocytes	spermatocyte	DNMT3A	ENSPTRG00000011723	261	8	0.03065134	6205.8115234375	23.777055740356445	processed_noninteger
+Pan troglodytes	ERX6700426	Other_somatic	somatic cell	DNMT3L	ENSPTRG00000013973	37	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700426	Other_somatic	somatic cell	DNMT3A	ENSPTRG00000011723	37	5	0.13513514	6706.4716796875	181.25599670410156	processed_noninteger
+Pan troglodytes	ERX6700426	Pachytene_Spermatocytes	spermatocyte	DNMT3L	ENSPTRG00000013973	514	1	0.00194553	260.90802001953125	0.5076031684875488	processed_noninteger
+Pan troglodytes	ERX6700426	Pachytene_Spermatocytes	spermatocyte	DNMT3A	ENSPTRG00000011723	514	19	0.03696498	8025.04052734375	15.612918853759766	processed_noninteger
+Pan troglodytes	ERX6700426	Sertoli	Sertoli cell	DNMT3L	ENSPTRG00000013973	184	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700426	Sertoli	Sertoli cell	DNMT3A	ENSPTRG00000011723	184	27	0.14673913	17355.2421875	94.32196807861328	processed_noninteger
+Pan troglodytes	ERX6700426	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3L	ENSPTRG00000013973	341	1	0.00293255	311.67071533203125	0.9139903783798218	processed_noninteger
+Pan troglodytes	ERX6700426	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3A	ENSPTRG00000011723	341	31	0.09090909	18743.68359375	54.96681594848633	processed_noninteger
+Pan troglodytes	ERX6700426	Zygotene_Spermatocytes	spermatocyte	DNMT3L	ENSPTRG00000013973	444	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700426	Zygotene_Spermatocytes	spermatocyte	DNMT3A	ENSPTRG00000011723	444	26	0.05855856	11808.296875	26.59526252746582	processed_noninteger
+Pan troglodytes	ERX6700427		cell	DNMT3L	ENSPTRG00000013973	5	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700427		cell	DNMT3A	ENSPTRG00000011723	5	1	0.20000000	505.304931640625	101.06098937988281	processed_noninteger
+Pan troglodytes	ERX6700427	Differentiated_Spermatogonia	spermatogonium	DNMT3L	ENSPTRG00000013973	240	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700427	Differentiated_Spermatogonia	spermatogonium	DNMT3A	ENSPTRG00000011723	240	23	0.09583333	16026.666015625	66.77777862548828	processed_noninteger
+Pan troglodytes	ERX6700427	Early_Round_spermatids	early spermatid	DNMT3L	ENSPTRG00000013973	755	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700427	Early_Round_spermatids	early spermatid	DNMT3A	ENSPTRG00000011723	755	12	0.01589404	8245.90625	10.921730041503906	processed_noninteger
+Pan troglodytes	ERX6700427	Elongated_spermatids	late spermatid	DNMT3L	ENSPTRG00000013973	994	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700427	Elongated_spermatids	late spermatid	DNMT3A	ENSPTRG00000011723	994	192	0.19315895	119180.015625	119.8994140625	processed_noninteger
+Pan troglodytes	ERX6700427	Late_Round_spermatids	early spermatid	DNMT3L	ENSPTRG00000013973	671	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700427	Late_Round_spermatids	early spermatid	DNMT3A	ENSPTRG00000011723	671	35	0.05216095	19770.646484375	29.46445083618164	processed_noninteger
+Pan troglodytes	ERX6700427	Leptotene_Spermatocytes	spermatocyte	DNMT3L	ENSPTRG00000013973	143	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700427	Leptotene_Spermatocytes	spermatocyte	DNMT3A	ENSPTRG00000011723	143	5	0.03496503	6818.7373046875	47.68347930908203	processed_noninteger
+Pan troglodytes	ERX6700427	Other_somatic	somatic cell	DNMT3L	ENSPTRG00000013973	204	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700427	Other_somatic	somatic cell	DNMT3A	ENSPTRG00000011723	204	20	0.09803922	29500.46875	144.61013793945312	processed_noninteger
+Pan troglodytes	ERX6700427	Pachytene_Spermatocytes	spermatocyte	DNMT3L	ENSPTRG00000013973	571	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700427	Pachytene_Spermatocytes	spermatocyte	DNMT3A	ENSPTRG00000011723	571	43	0.07530648	14812.111328125	25.940650939941406	processed_noninteger
+Pan troglodytes	ERX6700427	Sertoli	Sertoli cell	DNMT3L	ENSPTRG00000013973	81	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700427	Sertoli	Sertoli cell	DNMT3A	ENSPTRG00000011723	81	30	0.37037037	13109.9638671875	161.85140991210938	processed_noninteger
+Pan troglodytes	ERX6700427	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3L	ENSPTRG00000013973	158	1	0.00632911	520.83203125	3.29640531539917	processed_noninteger
+Pan troglodytes	ERX6700427	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3A	ENSPTRG00000011723	158	21	0.13291139	11480.4208984375	72.660888671875	processed_noninteger
+Pan troglodytes	ERX6700427	Zygotene_Spermatocytes	spermatocyte	DNMT3L	ENSPTRG00000013973	263	0	0.00000000	0.0	0.0	processed_noninteger
+Pan troglodytes	ERX6700427	Zygotene_Spermatocytes	spermatocyte	DNMT3A	ENSPTRG00000011723	263	19	0.07224335	9008.65625	34.25344467163086	processed_noninteger
+Gorilla gorilla	ERX6700420		cell	DNMT3L	ENSGGOG00000012431	32	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700420		cell	DNMT3A	ENSGGOG00000012524	32	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700420	Differentiated_Spermatogonia	spermatogonium	DNMT3L	ENSGGOG00000012431	168	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700420	Differentiated_Spermatogonia	spermatogonium	DNMT3A	ENSGGOG00000012524	168	5	0.02976190	16777.1484375	99.86397552490234	processed_noninteger
+Gorilla gorilla	ERX6700420	Early_Round_spermatids	early spermatid	DNMT3L	ENSGGOG00000012431	490	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700420	Early_Round_spermatids	early spermatid	DNMT3A	ENSGGOG00000012524	490	5	0.01020408	5248.119140625	10.710447311401367	processed_noninteger
+Gorilla gorilla	ERX6700420	Elongated_spermatids	late spermatid	DNMT3L	ENSGGOG00000012431	538	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700420	Elongated_spermatids	late spermatid	DNMT3A	ENSGGOG00000012524	538	16	0.02973978	20872.17578125	38.79586410522461	processed_noninteger
+Gorilla gorilla	ERX6700420	Late_Round_spermatids	early spermatid	DNMT3L	ENSGGOG00000012431	152	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700420	Late_Round_spermatids	early spermatid	DNMT3A	ENSGGOG00000012524	152	2	0.01315789	3930.68603515625	25.859777450561523	processed_noninteger
+Gorilla gorilla	ERX6700420	Leptotene_Spermatocytes	spermatocyte	DNMT3L	ENSGGOG00000012431	102	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700420	Leptotene_Spermatocytes	spermatocyte	DNMT3A	ENSGGOG00000012524	102	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700420	Other_somatic	somatic cell	DNMT3L	ENSGGOG00000012431	709	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700420	Other_somatic	somatic cell	DNMT3A	ENSGGOG00000012524	709	13	0.01833568	31958.37890625	45.075286865234375	processed_noninteger
+Gorilla gorilla	ERX6700420	Pachytene_Spermatocytes	spermatocyte	DNMT3L	ENSGGOG00000012431	329	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700420	Pachytene_Spermatocytes	spermatocyte	DNMT3A	ENSGGOG00000012524	329	3	0.00911854	3926.032470703125	11.933229446411133	processed_noninteger
+Gorilla gorilla	ERX6700420	Sertoli	Sertoli cell	DNMT3L	ENSGGOG00000012431	156	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700420	Sertoli	Sertoli cell	DNMT3A	ENSGGOG00000012524	156	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700420	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3L	ENSGGOG00000012431	378	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700420	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3A	ENSGGOG00000012524	378	13	0.03439153	21712.42578125	57.44028091430664	processed_noninteger
+Gorilla gorilla	ERX6700420	Zygotene_Spermatocytes	spermatocyte	DNMT3L	ENSGGOG00000012431	296	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700420	Zygotene_Spermatocytes	spermatocyte	DNMT3A	ENSGGOG00000012524	296	5	0.01689189	9097.6982421875	30.7354679107666	processed_noninteger
+Gorilla gorilla	ERX6700421		cell	DNMT3L	ENSGGOG00000012431	4	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700421		cell	DNMT3A	ENSGGOG00000012524	4	1	0.25000000	625.1416625976562	156.28541564941406	processed_noninteger
+Gorilla gorilla	ERX6700421	Differentiated_Spermatogonia	spermatogonium	DNMT3L	ENSGGOG00000012431	268	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700421	Differentiated_Spermatogonia	spermatogonium	DNMT3A	ENSGGOG00000012524	268	17	0.06343284	16308.1982421875	60.85148620605469	processed_noninteger
+Gorilla gorilla	ERX6700421	Early_Round_spermatids	early spermatid	DNMT3L	ENSGGOG00000012431	313	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700421	Early_Round_spermatids	early spermatid	DNMT3A	ENSGGOG00000012524	313	12	0.03833866	3555.902587890625	11.360711097717285	processed_noninteger
+Gorilla gorilla	ERX6700421	Elongated_spermatids	late spermatid	DNMT3L	ENSGGOG00000012431	895	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700421	Elongated_spermatids	late spermatid	DNMT3A	ENSGGOG00000012524	895	70	0.07821229	38698.46484375	43.23850631713867	processed_noninteger
+Gorilla gorilla	ERX6700421	Late_Round_spermatids	early spermatid	DNMT3L	ENSGGOG00000012431	756	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700421	Late_Round_spermatids	early spermatid	DNMT3A	ENSGGOG00000012524	756	20	0.02645503	11551.587890625	15.279878616333008	processed_noninteger
+Gorilla gorilla	ERX6700421	Leptotene_Spermatocytes	spermatocyte	DNMT3L	ENSGGOG00000012431	164	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700421	Leptotene_Spermatocytes	spermatocyte	DNMT3A	ENSGGOG00000012524	164	6	0.03658537	6759.19921875	41.214630126953125	processed_noninteger
+Gorilla gorilla	ERX6700421	Other_somatic	somatic cell	DNMT3L	ENSGGOG00000012431	389	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700421	Other_somatic	somatic cell	DNMT3A	ENSGGOG00000012524	389	34	0.08740360	29169.55078125	74.98599243164062	processed_noninteger
+Gorilla gorilla	ERX6700421	Pachytene_Spermatocytes	spermatocyte	DNMT3L	ENSGGOG00000012431	429	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700421	Pachytene_Spermatocytes	spermatocyte	DNMT3A	ENSGGOG00000012524	429	25	0.05827506	4092.806640625	9.5403413772583	processed_noninteger
+Gorilla gorilla	ERX6700421	Sertoli	Sertoli cell	DNMT3L	ENSGGOG00000012431	48	1	0.02083333	80.42432403564453	1.6755067110061646	processed_noninteger
+Gorilla gorilla	ERX6700421	Sertoli	Sertoli cell	DNMT3A	ENSGGOG00000012524	48	23	0.47916667	2594.95947265625	54.0616569519043	processed_noninteger
+Gorilla gorilla	ERX6700421	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3L	ENSGGOG00000012431	423	1	0.00236407	485.5107727050781	1.1477795839309692	processed_noninteger
+Gorilla gorilla	ERX6700421	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3A	ENSGGOG00000012524	423	71	0.16784870	41389.20703125	97.8468246459961	processed_noninteger
+Gorilla gorilla	ERX6700421	Zygotene_Spermatocytes	spermatocyte	DNMT3L	ENSGGOG00000012431	320	0	0.00000000	0.0	0.0	processed_noninteger
+Gorilla gorilla	ERX6700421	Zygotene_Spermatocytes	spermatocyte	DNMT3A	ENSGGOG00000012524	320	23	0.07187500	9561.3134765625	29.879104614257812	processed_noninteger
+Macaca mulatta	ERX6700422		cell	DNMT3L	ENSMMUG00000010648	9	1	0.11111111	305.3090515136719	33.9232292175293	processed_noninteger
+Macaca mulatta	ERX6700422		cell	DNMT3A	ENSMMUG00000013565	9	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700422	Differentiated_Spermatogonia	spermatogonium	DNMT3L	ENSMMUG00000010648	84	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700422	Differentiated_Spermatogonia	spermatogonium	DNMT3A	ENSMMUG00000013565	84	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700422	Early_Round_spermatids	early spermatid	DNMT3L	ENSMMUG00000010648	438	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700422	Early_Round_spermatids	early spermatid	DNMT3A	ENSMMUG00000013565	438	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700422	Elongated_spermatids	late spermatid	DNMT3L	ENSMMUG00000010648	499	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700422	Elongated_spermatids	late spermatid	DNMT3A	ENSMMUG00000013565	499	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700422	Late_Round_spermatids	early spermatid	DNMT3L	ENSMMUG00000010648	648	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700422	Late_Round_spermatids	early spermatid	DNMT3A	ENSMMUG00000013565	648	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700422	Leptotene_Spermatocytes	spermatocyte	DNMT3L	ENSMMUG00000010648	66	1	0.01515152	1039.216796875	15.745709419250488	processed_noninteger
+Macaca mulatta	ERX6700422	Leptotene_Spermatocytes	spermatocyte	DNMT3A	ENSMMUG00000013565	66	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700422	Other_somatic	somatic cell	DNMT3L	ENSMMUG00000010648	167	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700422	Other_somatic	somatic cell	DNMT3A	ENSMMUG00000013565	167	1	0.00598802	1426.17822265625	8.539989471435547	processed_noninteger
+Macaca mulatta	ERX6700422	Pachytene_Spermatocytes	spermatocyte	DNMT3L	ENSMMUG00000010648	234	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700422	Pachytene_Spermatocytes	spermatocyte	DNMT3A	ENSMMUG00000013565	234	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700422	Sertoli	Sertoli cell	DNMT3L	ENSMMUG00000010648	45	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700422	Sertoli	Sertoli cell	DNMT3A	ENSMMUG00000013565	45	5	0.11111111	1222.7569580078125	27.17237663269043	processed_noninteger
+Macaca mulatta	ERX6700422	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3L	ENSMMUG00000010648	59	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700422	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3A	ENSMMUG00000013565	59	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700422	Zygotene_Spermatocytes	spermatocyte	DNMT3L	ENSMMUG00000010648	145	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700422	Zygotene_Spermatocytes	spermatocyte	DNMT3A	ENSMMUG00000013565	145	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700423		cell	DNMT3L	ENSMMUG00000010648	4	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700423		cell	DNMT3A	ENSMMUG00000013565	4	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700423	Differentiated_Spermatogonia	spermatogonium	DNMT3L	ENSMMUG00000010648	230	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700423	Differentiated_Spermatogonia	spermatogonium	DNMT3A	ENSMMUG00000013565	230	5	0.02173913	5513.13720703125	23.97016143798828	processed_noninteger
+Macaca mulatta	ERX6700423	Early_Round_spermatids	early spermatid	DNMT3L	ENSMMUG00000010648	568	1	0.00176056	599.4359741210938	1.055345058441162	processed_noninteger
+Macaca mulatta	ERX6700423	Early_Round_spermatids	early spermatid	DNMT3A	ENSMMUG00000013565	568	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700423	Elongated_spermatids	late spermatid	DNMT3L	ENSMMUG00000010648	335	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700423	Elongated_spermatids	late spermatid	DNMT3A	ENSMMUG00000013565	335	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700423	Late_Round_spermatids	early spermatid	DNMT3L	ENSMMUG00000010648	306	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700423	Late_Round_spermatids	early spermatid	DNMT3A	ENSMMUG00000013565	306	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700423	Leptotene_Spermatocytes	spermatocyte	DNMT3L	ENSMMUG00000010648	238	0	0.00000000	0.0	0.0	processed_noninteger
+Macaca mulatta	ERX6700423	Leptotene_Spermatocytes	spermatocyte	DNMT3A	ENSMMUG00000013565	238	1	0.00420168	943.469482421875	3.9641575813293457	processed_noninteger
+Macaca mulatta	ERX6700423	Other_somatic	somatic cell	DNMT3L	ENSMMUG00000010648	1519	9	0.00592495	19434.744140625	12.79443359375	processed_noninteger
+Macaca mulatta	ERX6700423	Other_somatic	somatic cell	DNMT3A	ENSMMUG00000013565	1519	14	0.00921659	22882.271484375	15.06403636932373	processed_noninteger
+Macaca mulatta	ERX6700423	Pachytene_Spermatocytes	spermatocyte	DNMT3L	ENSMMUG00000010648	630	3	0.00476190	987.3529052734375	1.5672268867492676	processed_noninteger
+Macaca mulatta	ERX6700423	Pachytene_Spermatocytes	spermatocyte	DNMT3A	ENSMMUG00000013565	630	1	0.00158730	193.56797790527344	0.3072507679462433	processed_noninteger
+Macaca mulatta	ERX6700423	Sertoli	Sertoli cell	DNMT3L	ENSMMUG00000010648	528	1	0.00189394	457.5024108886719	0.8664818406105042	processed_noninteger
+Macaca mulatta	ERX6700423	Sertoli	Sertoli cell	DNMT3A	ENSMMUG00000013565	528	45	0.08522727	14727.8203125	27.893598556518555	processed_noninteger
+Macaca mulatta	ERX6700423	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3L	ENSMMUG00000010648	411	5	0.01216545	2127.50244140625	5.17640495300293	processed_noninteger
+Macaca mulatta	ERX6700423	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3A	ENSMMUG00000013565	411	2	0.00486618	728.4686889648438	1.7724299430847168	processed_noninteger
+Macaca mulatta	ERX6700423	Zygotene_Spermatocytes	spermatocyte	DNMT3L	ENSMMUG00000010648	468	1	0.00213675	764.7918090820312	1.6341705322265625	processed_noninteger
+Macaca mulatta	ERX6700423	Zygotene_Spermatocytes	spermatocyte	DNMT3A	ENSMMUG00000013565	468	0	0.00000000	0.0	0.0	processed_noninteger
+Callithrix jacchus	ERX6700543		cell	DNMT3A	ENSCJAG00000008172	318	0	0.00000000	0.0	0.0	processed_noninteger
+Callithrix jacchus	ERX6700543	Differentiated_Spermatogonia	spermatogonium	DNMT3A	ENSCJAG00000008172	226	1	0.00442478	1179.487548828125	5.218971252441406	processed_noninteger
+Callithrix jacchus	ERX6700543	Early_Round_spermatids	early spermatid	DNMT3A	ENSCJAG00000008172	510	1	0.00196078	831.027587890625	1.6294658184051514	processed_noninteger
+Callithrix jacchus	ERX6700543	Elongated_spermatids	late spermatid	DNMT3A	ENSCJAG00000008172	610	0	0.00000000	0.0	0.0	processed_noninteger
+Callithrix jacchus	ERX6700543	Late_Round_spermatids	early spermatid	DNMT3A	ENSCJAG00000008172	488	1	0.00204918	969.6085205078125	1.9869027137756348	processed_noninteger
+Callithrix jacchus	ERX6700543	Leptotene_Spermatocytes	spermatocyte	DNMT3A	ENSCJAG00000008172	174	0	0.00000000	0.0	0.0	processed_noninteger
+Callithrix jacchus	ERX6700543	Other_somatic	somatic cell	DNMT3A	ENSCJAG00000008172	112	0	0.00000000	0.0	0.0	processed_noninteger
+Callithrix jacchus	ERX6700543	Pachytene_Spermatocytes	spermatocyte	DNMT3A	ENSCJAG00000008172	377	3	0.00795756	1017.6166381835938	2.6992483139038086	processed_noninteger
+Callithrix jacchus	ERX6700543	Sertoli	Sertoli cell	DNMT3A	ENSCJAG00000008172	33	0	0.00000000	0.0	0.0	processed_noninteger
+Callithrix jacchus	ERX6700543	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3A	ENSCJAG00000008172	96	0	0.00000000	0.0	0.0	processed_noninteger
+Callithrix jacchus	ERX6700543	Zygotene_Spermatocytes	spermatocyte	DNMT3A	ENSCJAG00000008172	321	1	0.00311526	1188.122802734375	3.701317071914673	processed_noninteger
+Callithrix jacchus	ERX6700544		cell	DNMT3A	ENSCJAG00000008172	616	1	0.00162338	1539.42626953125	2.4990687370300293	processed_noninteger
+Callithrix jacchus	ERX6700544	Differentiated_Spermatogonia	spermatogonium	DNMT3A	ENSCJAG00000008172	224	0	0.00000000	0.0	0.0	processed_noninteger
+Callithrix jacchus	ERX6700544	Early_Round_spermatids	early spermatid	DNMT3A	ENSCJAG00000008172	531	1	0.00188324	1584.34765625	2.983705520629883	processed_noninteger
+Callithrix jacchus	ERX6700544	Elongated_spermatids	late spermatid	DNMT3A	ENSCJAG00000008172	566	0	0.00000000	0.0	0.0	processed_noninteger
+Callithrix jacchus	ERX6700544	Late_Round_spermatids	early spermatid	DNMT3A	ENSCJAG00000008172	561	1	0.00178253	1746.5306396484375	3.1132452487945557	processed_noninteger
+Callithrix jacchus	ERX6700544	Leptotene_Spermatocytes	spermatocyte	DNMT3A	ENSCJAG00000008172	190	0	0.00000000	0.0	0.0	processed_noninteger
+Callithrix jacchus	ERX6700544	Other_somatic	somatic cell	DNMT3A	ENSCJAG00000008172	104	0	0.00000000	0.0	0.0	processed_noninteger
+Callithrix jacchus	ERX6700544	Pachytene_Spermatocytes	spermatocyte	DNMT3A	ENSCJAG00000008172	507	1	0.00197239	2044.7828369140625	4.033102035522461	processed_noninteger
+Callithrix jacchus	ERX6700544	Sertoli	Sertoli cell	DNMT3A	ENSCJAG00000008172	142	1	0.00704225	380.7633361816406	2.681432008743286	processed_noninteger
+Callithrix jacchus	ERX6700544	Undifferentiated_Spermatogonia	male germ line stem cell	DNMT3A	ENSCJAG00000008172	326	2	0.00613497	1210.76171875	3.7139930725097656	processed_noninteger
+Callithrix jacchus	ERX6700544	Zygotene_Spermatocytes	spermatocyte	DNMT3A	ENSCJAG00000008172	286	1	0.00349650	519.0838623046875	1.8149784803390503	processed_noninteger
+Mus musculus	ERX6700409	Elongated_spermatids	late spermatid	DNMT3L	ENSMUSG00000000730	319	0	0.00000000	0.0	0.0	processed_noninteger
+Mus musculus	ERX6700409	Elongated_spermatids	late spermatid	DNMT3A	ENSMUSG00000020661	319	31	0.09717868	43098.5234375	135.10508728027344	processed_noninteger
+Mus musculus	ERX6700409	Other_somatic	somatic cell	DNMT3L	ENSMUSG00000000730	409	1	0.00244499	1218.71142578125	2.979734420776367	processed_noninteger
+Mus musculus	ERX6700409	Other_somatic	somatic cell	DNMT3A	ENSMUSG00000020661	409	50	0.12224939	41123.75	100.54706573486328	processed_noninteger
+Mus musculus	ERX6700409	Round_spermatids	early spermatid	DNMT3L	ENSMUSG00000000730	629	9	0.01430843	6812.935546875	10.831376075744629	processed_noninteger
+Mus musculus	ERX6700409	Round_spermatids	early spermatid	DNMT3A	ENSMUSG00000020661	629	25	0.03974563	24259.73046875	38.568729400634766	processed_noninteger
+Mus musculus	ERX6700409	Sertoli	Sertoli cell	DNMT3L	ENSMUSG00000000730	281	0	0.00000000	0.0	0.0	processed_noninteger
+Mus musculus	ERX6700409	Sertoli	Sertoli cell	DNMT3A	ENSMUSG00000020661	281	128	0.45551601	52543.828125	186.98870849609375	processed_noninteger
+Mus musculus	ERX6700409	Spermatocytes	spermatocyte	DNMT3L	ENSMUSG00000000730	292	3	0.01027397	716.1832885742188	2.4526824951171875	processed_noninteger
+Mus musculus	ERX6700409	Spermatocytes	spermatocyte	DNMT3A	ENSMUSG00000020661	292	11	0.03767123	2876.646484375	9.851529121398926	processed_noninteger
+Mus musculus	ERX6700409	Spermatogonia	spermatogonium	DNMT3L	ENSMUSG00000000730	129	2	0.01550388	2655.3818359375	20.584354400634766	processed_noninteger
+Mus musculus	ERX6700409	Spermatogonia	spermatogonium	DNMT3A	ENSMUSG00000020661	129	10	0.07751938	8591.6357421875	66.6018295288086	processed_noninteger
+Mus musculus	ERX6700410	Elongated_spermatids	late spermatid	DNMT3L	ENSMUSG00000000730	776	2	0.00257732	2978.1787109375	3.8378591537475586	processed_noninteger
+Mus musculus	ERX6700410	Elongated_spermatids	late spermatid	DNMT3A	ENSMUSG00000020661	776	48	0.06185567	56049.0234375	72.2281265258789	processed_noninteger
+Mus musculus	ERX6700410	Other_somatic	somatic cell	DNMT3L	ENSMUSG00000000730	1029	1	0.00097182	1647.9326171875	1.6014894247055054	processed_noninteger
+Mus musculus	ERX6700410	Other_somatic	somatic cell	DNMT3A	ENSMUSG00000020661	1029	107	0.10398445	96761.421875	94.034423828125	processed_noninteger
+Mus musculus	ERX6700410	Round_spermatids	early spermatid	DNMT3L	ENSMUSG00000000730	905	4	0.00441989	3274.5478515625	3.6182849407196045	processed_noninteger
+Mus musculus	ERX6700410	Round_spermatids	early spermatid	DNMT3A	ENSMUSG00000020661	905	18	0.01988950	18352.021484375	20.27847671508789	processed_noninteger
+Mus musculus	ERX6700410	Sertoli	Sertoli cell	DNMT3L	ENSMUSG00000000730	226	1	0.00442478	181.17044067382812	0.8016391396522522	processed_noninteger
+Mus musculus	ERX6700410	Sertoli	Sertoli cell	DNMT3A	ENSMUSG00000020661	226	107	0.47345133	47396.1953125	209.71768188476562	processed_noninteger
+Mus musculus	ERX6700410	Spermatocytes	spermatocyte	DNMT3L	ENSMUSG00000000730	141	0	0.00000000	0.0	0.0	processed_noninteger
+Mus musculus	ERX6700410	Spermatocytes	spermatocyte	DNMT3A	ENSMUSG00000020661	141	7	0.04964539	2816.086181640625	19.97224235534668	processed_noninteger
+Mus musculus	ERX6700410	Spermatogonia	spermatogonium	DNMT3L	ENSMUSG00000000730	128	0	0.00000000	0.0	0.0	processed_noninteger
+Mus musculus	ERX6700410	Spermatogonia	spermatogonium	DNMT3A	ENSMUSG00000020661	128	8	0.06250000	12555.478515625	98.08967590332031	processed_noninteger
+Monodelphis domestica	ERX6700414	Elongated_spermatids	late spermatid	DNMT3L	ENSMODG00000021084	122	0	0.00000000	0.0	0.0	processed_noninteger
+Monodelphis domestica	ERX6700414	Elongated_spermatids	late spermatid	DNMT3A	ENSMODG00000015850	122	9	0.07377049	15527.6591796875	127.27589416503906	processed_noninteger
+Monodelphis domestica	ERX6700414	Other_somatic	somatic cell	DNMT3L	ENSMODG00000021084	1466	0	0.00000000	0.0	0.0	processed_noninteger
+Monodelphis domestica	ERX6700414	Other_somatic	somatic cell	DNMT3A	ENSMODG00000015850	1466	168	0.11459754	398576.5625	271.8803405761719	processed_noninteger
+Monodelphis domestica	ERX6700414	Round_spermatids	early spermatid	DNMT3L	ENSMODG00000021084	432	0	0.00000000	0.0	0.0	processed_noninteger
+Monodelphis domestica	ERX6700414	Round_spermatids	early spermatid	DNMT3A	ENSMODG00000015850	432	36	0.08333333	33618.4453125	77.82047271728516	processed_noninteger
+Monodelphis domestica	ERX6700414	Sertoli	Sertoli cell	DNMT3L	ENSMODG00000021084	334	3	0.00898204	1950.803955078125	5.8407301902771	processed_noninteger
+Monodelphis domestica	ERX6700414	Sertoli	Sertoli cell	DNMT3A	ENSMODG00000015850	334	236	0.70658683	596065.375	1784.6268310546875	processed_noninteger
+Monodelphis domestica	ERX6700414	Spermatocytes	spermatocyte	DNMT3L	ENSMODG00000021084	611	2	0.00327332	2250.80029296875	3.683797597885132	processed_noninteger
+Monodelphis domestica	ERX6700414	Spermatocytes	spermatocyte	DNMT3A	ENSMODG00000015850	611	71	0.11620295	65870.84375	107.80825805664062	processed_noninteger
+Monodelphis domestica	ERX6700414	Spermatogonia	spermatogonium	DNMT3L	ENSMODG00000021084	158	0	0.00000000	0.0	0.0	processed_noninteger
+Monodelphis domestica	ERX6700414	Spermatogonia	spermatogonium	DNMT3A	ENSMODG00000015850	158	15	0.09493671	24441.93359375	154.69578552246094	processed_noninteger
+Monodelphis domestica	ERX6700415	Elongated_spermatids	late spermatid	DNMT3L	ENSMODG00000021084	288	0	0.00000000	0.0	0.0	processed_noninteger
+Monodelphis domestica	ERX6700415	Elongated_spermatids	late spermatid	DNMT3A	ENSMODG00000015850	288	30	0.10416667	35821.046875	124.37863159179688	processed_noninteger
+Monodelphis domestica	ERX6700415	Other_somatic	somatic cell	DNMT3L	ENSMODG00000021084	990	0	0.00000000	0.0	0.0	processed_noninteger
+Monodelphis domestica	ERX6700415	Other_somatic	somatic cell	DNMT3A	ENSMODG00000015850	990	127	0.12828283	241100.6875	243.53604125976562	processed_noninteger
+Monodelphis domestica	ERX6700415	Round_spermatids	early spermatid	DNMT3L	ENSMODG00000021084	722	3	0.00415512	2204.80029296875	3.0537400245666504	processed_noninteger
+Monodelphis domestica	ERX6700415	Round_spermatids	early spermatid	DNMT3A	ENSMODG00000015850	722	102	0.14127424	95170.515625	131.81512451171875	processed_noninteger
+Monodelphis domestica	ERX6700415	Sertoli	Sertoli cell	DNMT3L	ENSMODG00000021084	188	0	0.00000000	0.0	0.0	processed_noninteger
+Monodelphis domestica	ERX6700415	Sertoli	Sertoli cell	DNMT3A	ENSMODG00000015850	188	118	0.62765957	132424.71875	704.3867797851562	processed_noninteger
+Monodelphis domestica	ERX6700415	Spermatocytes	spermatocyte	DNMT3L	ENSMODG00000021084	458	6	0.01310044	3995.229248046875	8.7232084274292	processed_noninteger
+Monodelphis domestica	ERX6700415	Spermatocytes	spermatocyte	DNMT3A	ENSMODG00000015850	458	96	0.20960699	67218.0703125	146.76434326171875	processed_noninteger
+Monodelphis domestica	ERX6700415	Spermatogonia	spermatogonium	DNMT3L	ENSMODG00000021084	180	0	0.00000000	0.0	0.0	processed_noninteger
+Monodelphis domestica	ERX6700415	Spermatogonia	spermatogonium	DNMT3A	ENSMODG00000015850	180	18	0.10000000	30031.2421875	166.84024047851562	processed_noninteger
+Monodelphis domestica	ERX6700416	Elongated_spermatids	late spermatid	DNMT3L	ENSMODG00000021084	713	0	0.00000000	0.0	0.0	processed_noninteger
+Monodelphis domestica	ERX6700416	Elongated_spermatids	late spermatid	DNMT3A	ENSMODG00000015850	713	76	0.10659187	111907.6328125	156.9532012939453	processed_noninteger
+Monodelphis domestica	ERX6700416	Other_somatic	somatic cell	DNMT3L	ENSMODG00000021084	938	1	0.00106610	2840.80908203125	3.028581142425537	processed_noninteger
+Monodelphis domestica	ERX6700416	Other_somatic	somatic cell	DNMT3A	ENSMODG00000015850	938	79	0.08422175	202313.375	215.68589782714844	processed_noninteger
+Monodelphis domestica	ERX6700416	Round_spermatids	early spermatid	DNMT3L	ENSMODG00000021084	1198	2	0.00166945	2062.61279296875	1.7217135429382324	processed_noninteger
+Monodelphis domestica	ERX6700416	Round_spermatids	early spermatid	DNMT3A	ENSMODG00000015850	1198	155	0.12938230	168320.96875	140.50164794921875	processed_noninteger
+Monodelphis domestica	ERX6700416	Sertoli	Sertoli cell	DNMT3L	ENSMODG00000021084	402	1	0.00248756	516.92822265625	1.285891056060791	processed_noninteger
+Monodelphis domestica	ERX6700416	Sertoli	Sertoli cell	DNMT3A	ENSMODG00000015850	402	319	0.79353234	948825.5625	2360.2626953125	processed_noninteger
+Monodelphis domestica	ERX6700416	Spermatocytes	spermatocyte	DNMT3L	ENSMODG00000021084	495	10	0.02020202	7385.10107421875	14.91939640045166	processed_noninteger
+Monodelphis domestica	ERX6700416	Spermatocytes	spermatocyte	DNMT3A	ENSMODG00000015850	495	88	0.17777778	74505.296875	150.5157470703125	processed_noninteger
+Monodelphis domestica	ERX6700416	Spermatogonia	spermatogonium	DNMT3L	ENSMODG00000021084	231	0	0.00000000	0.0	0.0	processed_noninteger
+Monodelphis domestica	ERX6700416	Spermatogonia	spermatogonium	DNMT3A	ENSMODG00000015850	231	31	0.13419913	67866.734375	293.7953796386719	processed_noninteger
+Ornithorhynchus anatinus	ERX6700411	Elongated_spermatids	late spermatid	DNMT3A	ENSOANG00000015836	635	14	0.02204724	12854.740234375	20.243684768676758	processed_noninteger
+Ornithorhynchus anatinus	ERX6700411	Other_somatic	somatic cell	DNMT3A	ENSOANG00000015836	150	54	0.36000000	21149.986328125	140.99990844726562	processed_noninteger
+Ornithorhynchus anatinus	ERX6700411	Round_spermatids	early spermatid	DNMT3A	ENSOANG00000015836	1781	169	0.09489051	154951.25	87.00238800048828	processed_noninteger
+Ornithorhynchus anatinus	ERX6700411	Spermatocytes	spermatocyte	DNMT3A	ENSOANG00000015836	767	250	0.32594524	107088.6640625	139.6201629638672	processed_noninteger
+Ornithorhynchus anatinus	ERX6700411	Spermatogonia	spermatogonium	DNMT3A	ENSOANG00000015836	285	43	0.15087719	16831.6875	59.05855178833008	processed_noninteger
+Ornithorhynchus anatinus	ERX6700412	Elongated_spermatids	late spermatid	DNMT3A	ENSOANG00000015836	633	10	0.01579779	8841.421875	13.967491149902344	processed_noninteger
+Ornithorhynchus anatinus	ERX6700412	Other_somatic	somatic cell	DNMT3A	ENSOANG00000015836	116	50	0.43103448	31839.37109375	274.4773254394531	processed_noninteger
+Ornithorhynchus anatinus	ERX6700412	Round_spermatids	early spermatid	DNMT3A	ENSOANG00000015836	1451	144	0.09924190	124925.28125	86.09599304199219	processed_noninteger
+Ornithorhynchus anatinus	ERX6700412	Spermatocytes	spermatocyte	DNMT3A	ENSOANG00000015836	676	245	0.36242604	121661.3046875	179.97235107421875	processed_noninteger
+Ornithorhynchus anatinus	ERX6700412	Spermatogonia	spermatogonium	DNMT3A	ENSOANG00000015836	257	34	0.13229572	12327.298828125	47.96614456176758	processed_noninteger
+Gallus gallus	ERX6700407	Elongated_spermatids	late spermatid	DNMT3A	ENSGALG00000041454	947	5	0.00527983	5118.7431640625	5.405220031738281	processed_noninteger
+Gallus gallus	ERX6700407	Other_somatic	somatic cell	DNMT3A	ENSGALG00000041454	38	9	0.23684211	7024.53515625	184.85618591308594	processed_noninteger
+Gallus gallus	ERX6700407	Round_spermatids	early spermatid	DNMT3A	ENSGALG00000041454	1067	16	0.01499531	13293.36328125	12.458634376525879	processed_noninteger
+Gallus gallus	ERX6700407	Sertoli	Sertoli cell	DNMT3A	ENSGALG00000041454	76	42	0.55263158	5917.0244140625	77.85558319091797	processed_noninteger
+Gallus gallus	ERX6700407	Spermatocytes	spermatocyte	DNMT3A	ENSGALG00000041454	1247	74	0.05934242	23418.041015625	18.779502868652344	processed_noninteger
+Gallus gallus	ERX6700407	Spermatogonia	spermatogonium	DNMT3A	ENSGALG00000041454	792	140	0.17676768	41336.875	52.193023681640625	processed_noninteger
+Gallus gallus	ERX6700408	Elongated_spermatids	late spermatid	DNMT3A	ENSGALG00000041454	704	6	0.00852273	3876.2724609375	5.506068706512451	processed_noninteger
+Gallus gallus	ERX6700408	Other_somatic	somatic cell	DNMT3A	ENSGALG00000041454	110	15	0.13636364	12667.1396484375	115.15581512451172	processed_noninteger
+Gallus gallus	ERX6700408	Round_spermatids	early spermatid	DNMT3A	ENSGALG00000041454	783	8	0.01021711	6240.0791015625	7.969449520111084	processed_noninteger
+Gallus gallus	ERX6700408	Sertoli	Sertoli cell	DNMT3A	ENSGALG00000041454	187	46	0.24598930	8430.55078125	45.083160400390625	processed_noninteger
+Gallus gallus	ERX6700408	Spermatocytes	spermatocyte	DNMT3A	ENSGALG00000041454	1319	74	0.05610311	31641.947265625	23.98934555053711	processed_noninteger
+Gallus gallus	ERX6700408	Spermatogonia	spermatogonium	DNMT3A	ENSGALG00000041454	1143	209	0.18285214	66749.4375	58.39845657348633	processed_noninteger

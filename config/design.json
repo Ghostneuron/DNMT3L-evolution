@@ -1,0 +1,36 @@
+{
+  "project_date": "2026-11-02",
+  "human_reference_accession": "NP_037501.2",
+  "mouse_reference_accession": "NP_062321.1",
+  "structure_reference": "9MPP",
+  "minimum_site_occupancy": 0.8,
+  "minimum_local_identity_11aa": 0.45,
+  "expected_selection_ready_records": 289,
+  "primary_input_matrix": "results/DNMT3L_337_orthology_evidence_matrix.tsv",
+  "reference_sequence_archive": "data/raw/ncbi_dataset_DNMT3L_orthologs_20261102/ncbi_dataset/data/protein.faa",
+  "placental_alignment_methods": [
+    "MACSE",
+    "MAFFT",
+    "PRANK",
+    "MUSCLE5",
+    "COBALT"
+  ],
+  "reference_crosswalk": "../../../analysis_v2/summaries/NP_037501_2_to_9MPP_Q9UJW3_crosswalk.csv",
+  "existing_synteny_summary": "../Post_Genetica_Revision_20261025/analysis/synteny/representative_sauropsid_synteny_summary.csv",
+  "lineage_panel": [
+    "Cyclostomata",
+    "Chondrichthyes",
+    "Actinopterygii",
+    "Coelacanthimorpha",
+    "Dipnoi",
+    "Amphibia",
+    "Testudines",
+    "Crocodylia",
+    "Lepidosauria",
+    "Aves",
+    "Monotremata",
+    "Marsupialia",
+    "Placentalia"
+  ]
+}
+

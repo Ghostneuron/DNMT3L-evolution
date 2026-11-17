@@ -1,0 +1,12 @@
+metric	value
+modelarchive_accession	ma-dm-mmk9-101
+model_rank	1
+heavy_atom_cutoff_angstrom	5.0
+dnmt3l_residues	139-141
+g9a_contact_positions	699,700,701,702,703
+mouse_g9a_contact_state	KLRFH
+rodents_with_ehmt2_mapping	42
+muroids_with_ehmt2_mapping	26
+muroid_contact_state_counts	KLRFH:26
+nonmuroid_rodents_with_ehmt2_mapping	16
+nonmuroid_contact_state_counts	KLRFH:16

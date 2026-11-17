@@ -1,0 +1,15 @@
+broad_lineage	lineage_records	pass_at_all_three_positions	triplet_state	state_count_among_pass
+Amphibia	4	1	LFI	1
+Marsupialia	12	12	LLM	1
+Marsupialia	12	12	LLT	10
+Marsupialia	12	12	VLT	1
+Placentalia	220	219	LFI	27
+Placentalia	220	219	LLI	184
+Placentalia	220	219	LLL	3
+Placentalia	220	219	LLV	5
+Sauropsida	53	22	LII	1
+Sauropsida	53	22	LLM	13
+Sauropsida	53	22	LMI	2
+Sauropsida	53	22	LMM	1
+Sauropsida	53	22	LVM	5
+ALL	289	254	ALL_PASS_RECORDS	254

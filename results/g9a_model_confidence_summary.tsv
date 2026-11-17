@@ -1,0 +1,9 @@
+metric	value	source
+modelarchive_accession	ma-dm-mmk9-101	https://www.modelarchive.org/doi/10.5452/ma-dm-mmk9-101
+model_rank	1	ModelArchive model details
+rank1_mean_plddt	60.4	ModelArchive model details
+rank1_ptm	0.383	ModelArchive model details
+rank1_iptm	0.533	ModelArchive model details
+five_model_mean_plddt	58.88	Mean of five ModelArchive model-detail values
+five_model_mean_ptm	0.3488	Mean of five ModelArchive model-detail values
+five_model_mean_iptm	0.3842	Mean of five ModelArchive model-detail values

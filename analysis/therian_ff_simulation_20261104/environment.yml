@@ -1,0 +1,12 @@
+name: dnmt3l-therian-ff-md
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - openmm=8.6.1
+  - pdbfixer=1.12
+  - mdtraj=1.11.1
+  - numpy
+  - scipy
+  - pandas
+  - biopython

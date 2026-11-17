@@ -1,0 +1,126 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Jis-MacBook-Air.local (SSE4.2, 24 GB RAM)
+Command: /opt/homebrew/bin/iqtree2 -s Vertebrate_Gene_History_Redesign_20261102/analysis/locus_history_337/targeted_partial_candidate_panel_human_dnmt3l_columns.fasta -st AA -m LG+F+R4 -alrt 1000 -seed 20261104 -nt 2 -pre Vertebrate_Gene_History_Redesign_20261102/analysis/locus_history_337/targeted_partial_candidate_panel_human_columns_LG_F_R4 -redo
+Seed:    20261104 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Nov  3 18:19:59 2026
+Kernel:  SSE2 - 2 threads (10 CPU cores detected)
+
+Reading alignment file Vertebrate_Gene_History_Redesign_20261102/analysis/locus_history_337/targeted_partial_candidate_panel_human_dnmt3l_columns.fasta ... Fasta format detected
+Reading fasta file: done in 6.41346e-05 secs using 81.08% CPU
+Alignment most likely contains protein sequences
+Alignment has 13 sequences with 387 columns, 354 distinct patterns
+286 parsimony-informative, 50 singleton sites, 51 constant sites
+                                      Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 8.10623e-06 secs using 111% CPU
+   1  DNMT3L__Ambystoma_mexicanum            13.18%    passed     99.65%
+   2  DNMT3L__Geotrypetes_seraphini           2.58%    passed     76.85%
+   3  DNMT3L__Alligator_mississippiensis     15.25%    passed     98.61%
+   4  DNMT3L__Crocodylus_porosus              3.10%    passed     76.74%
+   5  DNMT3L__Anolis_carolinensis            14.73%    passed     93.48%
+   6  DNMT3L__Pogona_vitticeps                2.33%    passed     86.99%
+   7  DNMT3L__Pelodiscus_sinensis             2.33%    passed     93.03%
+   8  DNMT3L__Monodelphis_domestica           2.07%    passed     97.54%
+   9  DNMT3L__Mus_musculus                    1.29%    passed     86.99%
+  10  DNMT3L__Homo_sapiens                    0.00%    passed     83.20%
+  11  DNMT3B__Homo_sapiens__XP_047295902_1    2.58%    passed     53.33%
+  12  DNMT3A__Homo_sapiens__NP_072046_2       3.62%    passed     22.78%
+  13  DNMT3C__Mus_musculus__P0DOY1            3.88%    passed     85.01%
+****  TOTAL                                   5.15%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+
+NOTE: 3 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -7020.491
+2. Current log-likelihood: -6971.186
+3. Current log-likelihood: -6970.476
+Optimal log-likelihood: -6970.398
+Site proportion and rates:  (0.177,0.118) (0.259,0.583) (0.330,0.981) (0.234,2.156)
+Parameters optimization took 3 rounds (0.242 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00624609 secs using 190.8% CPU
+Computing ML distances took 0.006299 sec (of wall-clock time) 0.011948 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 2.69413e-05 secs using 59.39% CPU
+Computing RapidNJ tree took 0.000290 sec (of wall-clock time) 0.000099 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -6970.997
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.040 second
+Computing log-likelihood of 98 initial trees ... 0.784 seconds
+Current best score: -6970.398
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -6970.358
+Iteration 10 / LogL: -6972.057 / Time: 0h:0m:1s
+Iteration 20 / LogL: -6970.449 / Time: 0h:0m:3s
+Finish initializing candidate tree set (2)
+Current best tree score: -6970.358 / CPU time: 2.713
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -6970.460 / Time: 0h:0m:4s (0h:0m:11s left)
+Iteration 40 / LogL: -6970.876 / Time: 0h:0m:5s (0h:0m:9s left)
+Iteration 50 / LogL: -6970.384 / Time: 0h:0m:7s (0h:0m:7s left)
+Iteration 60 / LogL: -6970.582 / Time: 0h:0m:8s (0h:0m:6s left)
+Iteration 70 / LogL: -6970.673 / Time: 0h:0m:10s (0h:0m:4s left)
+Iteration 80 / LogL: -6970.912 / Time: 0h:0m:11s (0h:0m:3s left)
+Iteration 90 / LogL: -6974.474 / Time: 0h:0m:13s (0h:0m:1s left)
+Iteration 100 / LogL: -6970.516 / Time: 0h:0m:15s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:15s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -6970.358
+2. Current log-likelihood: -6970.330
+3. Current log-likelihood: -6970.304
+4. Current log-likelihood: -6970.279
+5. Current log-likelihood: -6970.256
+6. Current log-likelihood: -6970.233
+7. Current log-likelihood: -6970.211
+8. Current log-likelihood: -6970.189
+9. Current log-likelihood: -6970.168
+10. Current log-likelihood: -6970.148
+11. Current log-likelihood: -6970.129
+12. Current log-likelihood: -6970.110
+13. Current log-likelihood: -6970.092
+14. Current log-likelihood: -6970.075
+15. Current log-likelihood: -6970.059
+16. Current log-likelihood: -6970.044
+17. Current log-likelihood: -6970.029
+18. Current log-likelihood: -6970.016
+19. Current log-likelihood: -6970.003
+20. Current log-likelihood: -6969.991
+21. Current log-likelihood: -6969.980
+22. Current log-likelihood: -6969.969
+Optimal log-likelihood: -6969.960
+Site proportion and rates:  (0.138,0.084) (0.296,0.495) (0.402,1.095) (0.164,2.450)
+Parameters optimization took 22 rounds (1.389 sec)
+BEST SCORE FOUND : -6969.960
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.050 sec.
+Total tree length: 5.571
+
+Total number of iterations: 102
+CPU time used for tree search: 22.525 sec (0h:0m:22s)
+Wall-clock time used for tree search: 15.018 sec (0h:0m:15s)
+Total CPU time used: 25.201 sec (0h:0m:25s)
+Total wall-clock time used: 16.752 sec (0h:0m:16s)
+
+Analysis results written to: 
+  IQ-TREE report:                Vertebrate_Gene_History_Redesign_20261102/analysis/locus_history_337/targeted_partial_candidate_panel_human_columns_LG_F_R4.iqtree
+  Maximum-likelihood tree:       Vertebrate_Gene_History_Redesign_20261102/analysis/locus_history_337/targeted_partial_candidate_panel_human_columns_LG_F_R4.treefile
+  Likelihood distances:          Vertebrate_Gene_History_Redesign_20261102/analysis/locus_history_337/targeted_partial_candidate_panel_human_columns_LG_F_R4.mldist
+  Screen log file:               Vertebrate_Gene_History_Redesign_20261102/analysis/locus_history_337/targeted_partial_candidate_panel_human_columns_LG_F_R4.log
+
+Date and Time: Tue Nov  3 18:20:16 2026

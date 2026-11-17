@@ -1,0 +1,79 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Jul 30 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Jis-MacBook-Air.local (SSE4.2, 24 GB RAM)
+Command: iqtree2 -s analysis/selection_reanalysis_337/inputs/Placentalia_CONSENSUS_human_coordinate_occupancy80.fasta -st CODON -m MGK+F3X4+R4 -fast --alrt 1000 -T 2 --seed 20261102 --prefix analysis/selection_reanalysis_337/trees/Placentalia_CONSENSUS_common_MGK_F3X4_R4
+Seed:    20261102 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Nov  2 18:22:11 2026
+Kernel:  SSE2 - 2 threads (10 CPU cores detected)
+
+Reading alignment file analysis/selection_reanalysis_337/inputs/Placentalia_CONSENSUS_human_coordinate_occupancy80.fasta ... Fasta format detected
+Reading fasta file: done in 0.00185394 secs using 88.35% CPU
+Alignment most likely contains DNA/RNA sequences
+Converting to codon sequences with genetic code  ...
+Alignment has 220 sequences with 361 columns, 359 distinct patterns
+353 parsimony-informative, 2 singleton sites, 6 constant sites
+Analyzing sequences: done in 4.41074e-05 secs using 172.3% CPU
+Creating fast initial parsimony tree by random order stepwise addition...
+0.61 seconds, parsimony score: 7506 (based on 355 sites)
+
+NOTE: 173 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.50)
+1. Initial log-likelihood: -44766.96
+2. Current log-likelihood: -42756.35
+3. Current log-likelihood: -40887.92
+Optimal log-likelihood: -40887.85
+Nonsynonymous/synonymous ratio (omega): 0.22
+Transition/transversion ratio (kappa): 3.51
+Site proportion and rates:  (0.08,0.16) (0.41,0.53) (0.32,1.15) (0.19,2.17)
+Parameters optimization took 3 rounds (176.52 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 130.802 secs using 198% CPU
+Computing ML distances took 130.818738 sec (of wall-clock time) 259.005676 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000329971 secs using 232.4% CPU
+Computing RapidNJ tree took 0.005797 sec (of wall-clock time) 0.008463 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -40408.764
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -40317.557
+Finish initializing candidate tree set (4)
+Current best tree score: -40317.557 / CPU time: 92.873
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:6m:42s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -40317.557
+Optimal log-likelihood: -40317.556
+Nonsynonymous/synonymous ratio (omega): 0.216
+Transition/transversion ratio (kappa): 3.686
+Site proportion and rates:  (0.071,0.144) (0.385,0.486) (0.344,1.108) (0.200,2.105)
+Parameters optimization took 1 rounds (13.978 sec)
+BEST SCORE FOUND : -40317.556
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+6.496 sec.
+Total tree length: 25.247
+
+Total number of iterations: 2
+CPU time used for tree search: 147.668 sec (0h:2m:27s)
+Wall-clock time used for tree search: 92.874 sec (0h:1m:32s)
+Total CPU time used: 728.125 sec (0h:12m:8s)
+Total wall-clock time used: 423.288 sec (0h:7m:3s)
+
+Analysis results written to: 
+  IQ-TREE report:                analysis/selection_reanalysis_337/trees/Placentalia_CONSENSUS_common_MGK_F3X4_R4.iqtree
+  Maximum-likelihood tree:       analysis/selection_reanalysis_337/trees/Placentalia_CONSENSUS_common_MGK_F3X4_R4.treefile
+  Likelihood distances:          analysis/selection_reanalysis_337/trees/Placentalia_CONSENSUS_common_MGK_F3X4_R4.mldist
+  Screen log file:               analysis/selection_reanalysis_337/trees/Placentalia_CONSENSUS_common_MGK_F3X4_R4.log
+
+Date and Time: Mon Nov  2 18:29:18 2026

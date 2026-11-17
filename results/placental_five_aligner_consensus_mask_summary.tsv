@@ -1,0 +1,11 @@
+metric	value
+input_human_positions	387
+retained_human_positions	367
+removed_low_occupancy_positions	20
+taxa	220
+retained_taxon_position_calls	80740
+taxon_position_calls_masked_in_all_methods	2460
+masked_fraction	0.030468169432747088
+h358_retained	True
+filtered_alignments_byte_identical	True
+consensus_alignment_sha256	580938218b4031e79c50ae8b7c94900884fe9916f5a544139e3d298702369075

@@ -1,0 +1,8 @@
+metric	nsim	mean	median	q025	q975	minimum	maximum
+total_transitions	1000	31.253	31	26	39	25	45
+transitions_into_Q	1000	7.491	7	4	12	3	16
+transitions_into_K	1000	0.703	0	0	3	0	5
+direct_Q_to_K	1000	0	0	0	0	0	0
+direct_K_to_Q	1000	0	0	0	0	0	0
+probability_recurrent_Q_gain	1000	1	NA	NA	NA	NA	NA
+probability_recurrent_K_gain	1000	0.217	NA	NA	NA	NA	NA

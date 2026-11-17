@@ -1,0 +1,762 @@
+IQ-TREE 2.3.6 built Jul 30 2024
+
+Input file name: Vertebrate_Gene_History_Redesign_20261102/analysis/locus_history_337/lungfish_expanded_family_full_masked_stop_human_columns.fasta
+Type of analysis: tree reconstruction
+Random seed number: 20261116
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 311 sequences with 387 amino-acid sites
+Number of constant sites: 10 (= 2.58398% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 10 (= 2.58398% of all sites)
+Number of parsimony informative sites: 348
+Number of distinct site patterns: 384
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+R4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0504
+  pi(R) = 0.0673
+  pi(N) = 0.0284
+  pi(D) = 0.0594
+  pi(C) = 0.0496
+  pi(Q) = 0.0378
+  pi(E) = 0.0646
+  pi(G) = 0.0568
+  pi(H) = 0.0229
+  pi(I) = 0.0380
+  pi(L) = 0.1047
+  pi(K) = 0.0438
+  pi(M) = 0.0172
+  pi(F) = 0.0557
+  pi(P) = 0.0659
+  pi(S) = 0.0735
+  pi(T) = 0.0437
+  pi(W) = 0.0205
+  pi(Y) = 0.0329
+  pi(V) = 0.0667
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.1942,0.1214) (0.2763,0.4991) (0.3405,1.1693) (0.1890,2.3302)
+
+ Category  Relative_rate  Proportion
+  1         0.1214         0.1942
+  2         0.4991         0.2763
+  3         1.1693         0.3405
+  4         2.3302         0.1890
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -40629.1401 (s.e. 1302.8886)
+Unconstrained log-likelihood (without tree): -2301.7515
+Number of free parameters (#branches + #model parameters): 644
+Akaike information criterion (AIC) score: 82546.2802
+Corrected Akaike information criterion (AICc) score: 913306.2802
+Bayesian information criterion (BIC) score: 85095.5057
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 644
+Sample size (n, alignment length): 387
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 26.8971
+Sum of internal branch lengths: 10.7221 (39.8636% of tree length)
+
+WARNING: 40 near-zero internal branches (<0.0026) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'DNMT3L__Mus_musculus' is drawn at root
+Numbers in parentheses are SH-aLRT support (%)
+
++--DNMT3L__Mus_musculus
+|
+|                                                                 +**DNMT3L__Homo_sapiens
+|                                                              +**| (0)
+|                                                              |  |  +**DNMT3L__Pan_troglodytes
+|                                                              |  +--| (88.3)
+|                                                              |     +**DNMT3L__Pan_paniscus
+|                                                           +--| (91)
+|                                                           |  +**DNMT3L__Gorilla_gorilla_gorilla
+|                                                        +--| (90.3)
+|                                                        |  |  +**DNMT3L__Pongo_abelii
+|                                                        |  +--| (99.4)
+|                                                        |     +**DNMT3L__Pongo_pygmaeus
+|                                                     +--| (98.2)
+|                                                     |  |  +--DNMT3L__Nomascus_leucogenys
+|                                                     |  +--| (99.2)
+|                                                     |     |  +**DNMT3L__Hylobates_moloch
+|                                                     |     +**| (0)
+|                                                     |        +**DNMT3L__Symphalangus_syndactylus
+|                                                  +--| (97.7)
+|                                                  |  |              +--DNMT3L__Macaca_mulatta
+|                                                  |  |           +--| (75.2)
+|                                                  |  |           |  |  +**DNMT3L__Macaca_fascicularis
+|                                                  |  |           |  +--| (76.7)
+|                                                  |  |           |     +**DNMT3L__Macaca_nemestrina
+|                                                  |  |        +--| (92.5)
+|                                                  |  |        |  +--DNMT3L__Macaca_thibetana_thibetana
+|                                                  |  |     +--| (43.2)
+|                                                  |  |     |  |     +--DNMT3L__Chlorocebus_sabaeus
+|                                                  |  |     |  |  +**| (0)
+|                                                  |  |     |  |  |  |     +**DNMT3L__Rhinopithecus_roxellana
+|                                                  |  |     |  |  |  |  +--| (79.1)
+|                                                  |  |     |  |  |  |  |  |  +**DNMT3L__Rhinopithecus_bieti
+|                                                  |  |     |  |  |  |  |  +**| (0)
+|                                                  |  |     |  |  |  |  |     +--DNMT3L__Trachypithecus_francoisi
+|                                                  |  |     |  |  |  +--| (81.6)
+|                                                  |  |     |  |  |     |  +--DNMT3L__Colobus_angolensis_palliatus
+|                                                  |  |     |  |  |     +--| (62.6)
+|                                                  |  |     |  |  |        +--DNMT3L__Piliocolobus_tephrosceles
+|                                                  |  |     |  +**| (0)
+|                                                  |  |     |     +**DNMT3L__Mandrillus_leucophaeus
+|                                                  |  |  +**| (0)
+|                                                  |  |  |  +**DNMT3L__Cercocebus_atys
+|                                                  |  +--| (87.3)
+|                                                  |     |  +--DNMT3L__Papio_anubis
+|                                                  |     +--| (88.4)
+|                                                  |        +**DNMT3L__Theropithecus_gelada
+|                                               +--| (100)
+|                                               |  |     +--DNMT3L__Callithrix_jacchus
+|                                               |  |  +--| (72.5)
+|                                               |  |  |  |  +--DNMT3L__Aotus_nancymaae
+|                                               |  |  |  +**| (0)
+|                                               |  |  |     |  +**DNMT3L__Cebus_imitator
+|                                               |  |  |     +--| (92.3)
+|                                               |  |  |        +--DNMT3L__Sapajus_apella
+|                                               |  +--| (100)
+|                                               |     +--DNMT3L__Saimiri_boliviensis
+|                                            +--| (80.8)
+|                                            |  +--DNMT3L__Carlito_syrichta
+|                                         +--| (94)
+|                                         |  |     +--DNMT3L__Otolemur_garnettii
+|                                         |  |  +--| (100)
+|                                         |  |  |  +--DNMT3L__Nycticebus_coucang
+|                                         |  +--| (95.3)
+|                                         |     |     +--DNMT3L__Propithecus_coquereli
+|                                         |     |  +--| (93.1)
+|                                         |     |  |  +--DNMT3L__Microcebus_murinus
+|                                         |     +--| (98.5)
+|                                         |        |  +--DNMT3L__Lemur_catta
+|                                         |        +--| (96.9)
+|                                         |           +--DNMT3L__Eulemur_rufifrons
+|                                      +--| (99.2)
+|                                      |  |                                         +**DNMT3L__Bos_taurus
+|                                      |  |                                      +**| (0)
+|                                      |  |                                      |  +**DNMT3L__Bos_javanicus
+|                                      |  |                                   +--| (93.2)
+|                                      |  |                                   |  +--DNMT3L__Bison_bison_bison
+|                                      |  |                                +--| (95.5)
+|                                      |  |                                |  |     +**DNMT3L__Bos_mutus
+|                                      |  |                                |  |  +--| (91.2)
+|                                      |  |                                |  |  |  +**DNMT3L__Bos_grunniens
+|                                      |  |                                |  +**| (0)
+|                                      |  |                                |     +--DNMT3L__Bos_indicus
+|                                      |  |                             +--| (87.4)
+|                                      |  |                             |  |  +--DNMT3L__Bubalus_bubalis
+|                                      |  |                             |  +--| (93.5)
+|                                      |  |                             |     +--DNMT3L__Bubalus_kerabau
+|                                      |  |                          +--| (82.2)
+|                                      |  |                          |  |           +**DNMT3L__Ovis_aries
+|                                      |  |                          |  |        +**| (0)
+|                                      |  |                          |  |        |  |  +--DNMT3L__Capra_hircus
+|                                      |  |                          |  |        |  +**| (0)
+|                                      |  |                          |  |        |     +--DNMT3L__Ovis_canadensis
+|                                      |  |                          |  |     +--| (77.8)
+|                                      |  |                          |  |     |  +--DNMT3L__Capricornis_sumatraensis
+|                                      |  |                          |  |  +--| (88.4)
+|                                      |  |                          |  |  |  +--DNMT3L__Budorcas_taxicolor
+|                                      |  |                          |  +--| (74.1)
+|                                      |  |                          |     +--DNMT3L__Oryx_dammah
+|                                      |  |                       +--| (76.1)
+|                                      |  |                       |  |     +--DNMT3L__Odocoileus_virginianus
+|                                      |  |                       |  |  +**| (0)
+|                                      |  |                       |  |  |  +**DNMT3L__Muntiacus_reevesi
+|                                      |  |                       |  +--| (98.9)
+|                                      |  |                       |     |  +**DNMT3L__Cervus_canadensis
+|                                      |  |                       |     +--| (90.8)
+|                                      |  |                       |        |  +**DNMT3L__Cervus_elaphus
+|                                      |  |                       |        +**| (0)
+|                                      |  |                       |           +--DNMT3L__Dama_dama
+|                                      |  |                    +--| (100)
+|                                      |  |                    |  |  +--DNMT3L__Moschus_berezovskii
+|                                      |  |                    |  +--| (75.2)
+|                                      |  |                    |     +--DNMT3L__Giraffa_tippelskirchi
+|                                      |  |                 +--| (35)
+|                                      |  |                 |  |                             +--DNMT3L__Orcinus_orca
+|                                      |  |                 |  |                          +--| (84.3)
+|                                      |  |                 |  |                          |  |        +--DNMT3L__Aethalodelphis_obliquidens
+|                                      |  |                 |  |                          |  |     +**| (0)
+|                                      |  |                 |  |                          |  |     |  |  +**DNMT3L__Tursiops_truncatus
+|                                      |  |                 |  |                          |  |     |  +--| (80.2)
+|                                      |  |                 |  |                          |  |     |     +--DNMT3L__Delphinus_delphis
+|                                      |  |                 |  |                          |  |  +--| (74.4)
+|                                      |  |                 |  |                          |  |  |  +--DNMT3L__Stenella_coeruleoalba
+|                                      |  |                 |  |                          |  +**| (0)
+|                                      |  |                 |  |                          |     +**DNMT3L__Globicephala_melas
+|                                      |  |                 |  |                       +--| (75.8)
+|                                      |  |                 |  |                       |  +**DNMT3L__Grampus_griseus
+|                                      |  |                 |  |                    +--| (85.5)
+|                                      |  |                 |  |                    |  +--DNMT3L__Leucopleurus_acutus
+|                                      |  |                 |  |                 +--| (98.1)
+|                                      |  |                 |  |                 |  +--DNMT3L__Lagenorhynchus_albirostris
+|                                      |  |                 |  |              +--| (96.9)
+|                                      |  |                 |  |              |  |     +--DNMT3L__Neophocaena_asiaeorientalis_asiaeorientalis
+|                                      |  |                 |  |              |  |  +--| (97.4)
+|                                      |  |                 |  |              |  |  |  |  +--DNMT3L__Phocoena_sinus
+|                                      |  |                 |  |              |  |  |  +--| (75.3)
+|                                      |  |                 |  |              |  |  |     +--DNMT3L__Phocoena_phocoena
+|                                      |  |                 |  |              |  +--| (86.8)
+|                                      |  |                 |  |              |     +--DNMT3L__Monodon_monoceros
+|                                      |  |                 |  |           +--| (90.3)
+|                                      |  |                 |  |           |  +--DNMT3L__Lipotes_vexillifer
+|                                      |  |                 |  |        +--| (90.2)
+|                                      |  |                 |  |        |  |     +--DNMT3L__Mesoplodon_densirostris
+|                                      |  |                 |  |        |  |  +--| (44.7)
+|                                      |  |                 |  |        |  |  |  +**DNMT3L__Mesoplodon_mirus
+|                                      |  |                 |  |        |  +--| (99.5)
+|                                      |  |                 |  |        |     |  +--DNMT3L__Hyperoodon_ampullatus
+|                                      |  |                 |  |        |     +--| (76.9)
+|                                      |  |                 |  |        |        +--DNMT3L__Mesoplodon_bidens
+|                                      |  |                 |  |     +**| (62.6)
+|                                      |  |                 |  |     |  |              +**DNMT3L__Balaenoptera_acutorostrata
+|                                      |  |                 |  |     |  |           +--| (76.5)
+|                                      |  |                 |  |     |  |           |  +--DNMT3L__Balaenoptera_musculus
+|                                      |  |                 |  |     |  |        +--| (77.1)
+|                                      |  |                 |  |     |  |        |  +--DNMT3L__Balaenoptera_physalus
+|                                      |  |                 |  |     |  |     +**| (0)
+|                                      |  |                 |  |     |  |     |  |  +--DNMT3L__Balaenoptera_ricei
+|                                      |  |                 |  |     |  |     |  +**| (78.9)
+|                                      |  |                 |  |     |  |     |     +**DNMT3L__Balaenoptera_borealis
+|                                      |  |                 |  |     |  |  +--| (77.9)
+|                                      |  |                 |  |     |  |  |  +--DNMT3L__Eschrichtius_robustus
+|                                      |  |                 |  |     |  +--| (98.9)
+|                                      |  |                 |  |     |     +--DNMT3L__Eubalaena_glacialis
+|                                      |  |                 |  |  +--| (99.9)
+|                                      |  |                 |  |  |  +--DNMT3L__Physeter_macrocephalus
+|                                      |  |                 |  +--| (88.2)
+|                                      |  |                 |     +--DNMT3L__Hippopotamus_amphibius_kiboko
+|                                      |  |              +--| (96.8)
+|                                      |  |              |  |     +--DNMT3L__Sus_scrofa
+|                                      |  |              |  |  +--| (100)
+|                                      |  |              |  |  |  +--DNMT3L__Phacochoerus_africanus
+|                                      |  |              |  +--| (89)
+|                                      |  |              |     |        +**DNMT3L__Camelus_ferus
+|                                      |  |              |     |     +--| (90)
+|                                      |  |              |     |     |  +**DNMT3L__Camelus_bactrianus
+|                                      |  |              |     |  +--| (91.3)
+|                                      |  |              |     |  |  +--DNMT3L__Camelus_dromedarius
+|                                      |  |              |     +--| (99.9)
+|                                      |  |              |        +--DNMT3L__Vicugna_pacos
+|                                      |  |           +--| (86.1)
+|                                      |  |           |  |                       +**DNMT3L__Canis_lupus_familiaris
+|                                      |  |           |  |                    +--| (85.6)
+|                                      |  |           |  |                    |  +--DNMT3L__Canis_lupus_dingo
+|                                      |  |           |  |                 +**| (0)
+|                                      |  |           |  |                 |  +--DNMT3L__Canis_aureus
+|                                      |  |           |  |              +--| (91.1)
+|                                      |  |           |  |              |  +--DNMT3L__Canis_lupus_baileyi
+|                                      |  |           |  |           +--| (38.1)
+|                                      |  |           |  |           |  |  +**DNMT3L__Vulpes_vulpes
+|                                      |  |           |  |           |  +--| (87.3)
+|                                      |  |           |  |           |     +--DNMT3L__Vulpes_lagopus
+|                                      |  |           |  |        +--| (100)
+|                                      |  |           |  |        |  +--DNMT3L__Nyctereutes_procyonoides
+|                                      |  |           |  |     +--| (91.9)
+|                                      |  |           |  |     |  |        +--DNMT3L__Ailuropoda_melanoleuca
+|                                      |  |           |  |     |  |     +--| (98.3)
+|                                      |  |           |  |     |  |     |  |     +--DNMT3L__Ursus_maritimus
+|                                      |  |           |  |     |  |     |  |  +--| (73.2)
+|                                      |  |           |  |     |  |     |  |  |  +--DNMT3L__Ursus_arctos
+|                                      |  |           |  |     |  |     |  +--| (88.2)
+|                                      |  |           |  |     |  |     |     +--DNMT3L__Ursus_americanus
+|                                      |  |           |  |     |  |  +--| (86.3)
+|                                      |  |           |  |     |  |  |  |        +--DNMT3L__Meles_meles
+|                                      |  |           |  |     |  |  |  |     +--| (95.1)
+|                                      |  |           |  |     |  |  |  |     |  +--DNMT3L__Enhydra_lutris_kenyoni
+|                                      |  |           |  |     |  |  |  |  +--| (77.4)
+|                                      |  |           |  |     |  |  |  |  |  +--DNMT3L__Martes_martes
+|                                      |  |           |  |     |  |  |  +--| (100)
+|                                      |  |           |  |     |  |  |     |  +--DNMT3L__Mustela_lutreola
+|                                      |  |           |  |     |  |  |     +--| (94.6)
+|                                      |  |           |  |     |  |  |        +--DNMT3L__Mustela_nivalis
+|                                      |  |           |  |     |  +--| (78.1)
+|                                      |  |           |  |     |     |     +--DNMT3L__Odobenus_rosmarus_divergens
+|                                      |  |           |  |     |     |  +--| (85.8)
+|                                      |  |           |  |     |     |  |  |  +**DNMT3L__Callorhinus_ursinus
+|                                      |  |           |  |     |     |  |  +--| (86.2)
+|                                      |  |           |  |     |     |  |     |  +**DNMT3L__Zalophus_californianus
+|                                      |  |           |  |     |     |  |     +--| (91.3)
+|                                      |  |           |  |     |     |  |        +**DNMT3L__Eumetopias_jubatus
+|                                      |  |           |  |     |     +--| (92.2)
+|                                      |  |           |  |     |        |        +--DNMT3L__Neomonachus_schauinslandi
+|                                      |  |           |  |     |        |     +--| (76.6)
+|                                      |  |           |  |     |        |     |  |  +--DNMT3L__Mirounga_leonina
+|                                      |  |           |  |     |        |     |  +--| (78.3)
+|                                      |  |           |  |     |        |     |     +**DNMT3L__Mirounga_angustirostris
+|                                      |  |           |  |     |        |  +--| (78.7)
+|                                      |  |           |  |     |        |  |  +**DNMT3L__Phoca_vitulina
+|                                      |  |           |  |     |        +--| (77.9)
+|                                      |  |           |  |     |           +--DNMT3L__Halichoerus_grypus
+|                                      |  |           |  |  +--| (99.7)
+|                                      |  |           |  |  |  |                    +**DNMT3L__Felis_catus
+|                                      |  |           |  |  |  |                 +**| (0)
+|                                      |  |           |  |  |  |                 |  +--DNMT3L__Prionailurus_viverrinus
+|                                      |  |           |  |  |  |              +--| (43.4)
+|                                      |  |           |  |  |  |              |  +--DNMT3L__Prionailurus_bengalensis
+|                                      |  |           |  |  |  |           +--| (84.5)
+|                                      |  |           |  |  |  |           |  |              +--DNMT3L__Panthera_tigris
+|                                      |  |           |  |  |  |           |  |           +**| (0)
+|                                      |  |           |  |  |  |           |  |           |  +--DNMT3L__Panthera_onca
+|                                      |  |           |  |  |  |           |  |        +**| (0)
+|                                      |  |           |  |  |  |           |  |        |  +**DNMT3L__Panthera_leo
+|                                      |  |           |  |  |  |           |  |     +**| (0)
+|                                      |  |           |  |  |  |           |  |     |  +--DNMT3L__Panthera_uncia
+|                                      |  |           |  |  |  |           |  |  +--| (90.3)
+|                                      |  |           |  |  |  |           |  |  |  +**DNMT3L__Panthera_pardus
+|                                      |  |           |  |  |  |           |  +**| (0)
+|                                      |  |           |  |  |  |           |     +--DNMT3L__Neofelis_nebulosa
+|                                      |  |           |  |  |  |        +--| (78.8)
+|                                      |  |           |  |  |  |        |  |  +--DNMT3L__Puma_concolor
+|                                      |  |           |  |  |  |        |  +**| (0)
+|                                      |  |           |  |  |  |        |     +--DNMT3L__Herpailurus_yagouaroundi
+|                                      |  |           |  |  |  |     +**| (0)
+|                                      |  |           |  |  |  |     |  |     +--DNMT3L__Lynx_canadensis
+|                                      |  |           |  |  |  |     |  |  +--| (98.8)
+|                                      |  |           |  |  |  |     |  |  |  +--DNMT3L__Lynx_rufus
+|                                      |  |           |  |  |  |     |  +--| (78.8)
+|                                      |  |           |  |  |  |     |     +--DNMT3L__Leopardus_geoffroyi
+|                                      |  |           |  |  |  |  +--| (100)
+|                                      |  |           |  |  |  |  |  +--DNMT3L__Acinonyx_jubatus
+|                                      |  |           |  |  |  +--| (98.6)
+|                                      |  |           |  |  |     |  +--DNMT3L__Suricata_suricatta
+|                                      |  |           |  |  |     +--| (80.7)
+|                                      |  |           |  |  |        +--DNMT3L__Hyaena_hyaena
+|                                      |  |           |  +--| (23.4)
+|                                      |  |           |     |              +--DNMT3L__Sorex_araneus
+|                                      |  |           |     |           +--| (100)
+|                                      |  |           |     |           |  +--DNMT3L__Sorex_fumeus
+|                                      |  |           |     |        +--| (86.6)
+|                                      |  |           |     |        |  +--DNMT3L__Erinaceus_europaeus
+|                                      |  |           |     |     +--| (99.4)
+|                                      |  |           |     |     |  +--DNMT3L__Talpa_occidentalis
+|                                      |  |           |     |  +--| (62.7)
+|                                      |  |           |     |  |  |  +--DNMT3L__Rousettus_aegyptiacus
+|                                      |  |           |     |  |  +--| (99.7)
+|                                      |  |           |     |  |     +--DNMT3L__Pteropus_medius
+|                                      |  |           |     +--| (97.2)
+|                                      |  |           |        |                 +--DNMT3L__Eptesicus_fuscus
+|                                      |  |           |        |              +--| (100)
+|                                      |  |           |        |              |  +--DNMT3L__Cnephaeus_nilssonii
+|                                      |  |           |        |           +--| (85.5)
+|                                      |  |           |        |           |  |  +**DNMT3L__Plecotus_auritus
+|                                      |  |           |        |           |  +--| (7.2)
+|                                      |  |           |        |           |     +--DNMT3L__Pipistrellus_hanaki
+|                                      |  |           |        |        +--| (100)
+|                                      |  |           |        |        |  +--DNMT3L__Myotis_nattereri
+|                                      |  |           |        |     +--| (44)
+|                                      |  |           |        |     |  |  +--DNMT3L__Miniopterus_natalensis
+|                                      |  |           |        |     |  +--| (100)
+|                                      |  |           |        |     |     +**DNMT3L__Miniopterus_schreibersii
+|                                      |  |           |        |  +--| (85)
+|                                      |  |           |        |  |  |        +--DNMT3L__Desmodus_rotundus
+|                                      |  |           |        |  |  |     +--| (90.4)
+|                                      |  |           |        |  |  |     |  |     +--DNMT3L__Phyllostomus_discolor
+|                                      |  |           |        |  |  |     |  |  +--| (100)
+|                                      |  |           |        |  |  |     |  |  |  +--DNMT3L__Phyllostomus_hastatus
+|                                      |  |           |        |  |  |     |  +--| (0)
+|                                      |  |           |        |  |  |     |     |  +--DNMT3L__Sturnira_hondurensis
+|                                      |  |           |        |  |  |     |     +--| (95.8)
+|                                      |  |           |        |  |  |     |        +--DNMT3L__Artibeus_jamaicensis
+|                                      |  |           |        |  |  |  +--| (100)
+|                                      |  |           |        |  |  |  |  +--DNMT3L__Pteronotus_mesoamericanus
+|                                      |  |           |        |  |  +--| (2.2)
+|                                      |  |           |        |  |     |  +--DNMT3L__Saccopteryx_bilineata
+|                                      |  |           |        |  |     +--| (99.7)
+|                                      |  |           |        |  |        +**DNMT3L__Saccopteryx_leptura
+|                                      |  |           |        +--| (87.2)
+|                                      |  |           |           |  +--DNMT3L__Hipposideros_armiger
+|                                      |  |           |           +--| (100)
+|                                      |  |           |              |     +--DNMT3L__Rhinolophus_sinicus
+|                                      |  |           |              |  +--| (91.4)
+|                                      |  |           |              |  |  +--DNMT3L__Rhinolophus_ferrumequinum
+|                                      |  |           |              +--| (98.8)
+|                                      |  |           |                 +--DNMT3L__Rhinolophus_hipposideros
+|                                      |  |        +--| (98)
+|                                      |  |        |  |        +**DNMT3L__Equus_caballus
+|                                      |  |        |  |     +--| (87.8)
+|                                      |  |        |  |     |  +**DNMT3L__Equus_przewalskii
+|                                      |  |        |  |  +--| (99.5)
+|                                      |  |        |  |  |  +--DNMT3L__Equus_asinus
+|                                      |  |        |  +--| (96.2)
+|                                      |  |        |     |  +--DNMT3L__Ceratotherium_simum_simum
+|                                      |  |        |     +--| (99.6)
+|                                      |  |        |        +--DNMT3L__Diceros_bicornis_minor
+|                                      |  |     +--| (91.1)
+|                                      |  |     |  |                                   +**DNMT3L__Lepidochelys_olivacea
+|                                      |  |     |  |                                +--| (76.4)
+|                                      |  |     |  |                                |  +**DNMT3L__Lepidochelys_kempii
+|                                      |  |     |  |                             +--| (92.2)
+|                                      |  |     |  |                             |  |  +--DNMT3L__Caretta_caretta
+|                                      |  |     |  |                             |  +--| (76.5)
+|                                      |  |     |  |                             |     +--DNMT3L__Eretmochelys_imbricata
+|                                      |  |     |  |                          +--| (95.9)
+|                                      |  |     |  |                          |  |  +--DNMT3L__Chelonia_mydas
+|                                      |  |     |  |                          |  +--| (88.5)
+|                                      |  |     |  |                          |     +--DNMT3L__Natator_depressus
+|                                      |  |     |  |                       +--| (12.1)
+|                                      |  |     |  |                       |  +--DNMT3L__Mauremys_mutica
+|                                      |  |     |  |                    +--| (55.3)
+|                                      |  |     |  |                    |  |  +--DNMT3L__Trachemys_scripta_elegans
+|                                      |  |     |  |                    |  +--| (99.1)
+|                                      |  |     |  |                    |     +--DNMT3L__Malaclemys_terrapin_pileata
+|                                      |  |     |  |                 +--| (76.8)
+|                                      |  |     |  |                 |  +--DNMT3L__Pelodiscus_sinensis
+|                                      |  |     |  |              +--| (94)
+|                                      |  |     |  |              |  +--DNMT3L__Emydura_macquarii_macquarii
+|                                      |  |     |  |           +--| (96)
+|                                      |  |     |  |           |  |  +--DNMT3L__Alligator_sinensis
+|                                      |  |     |  |           |  +--| (99.9)
+|                                      |  |     |  |           |     +--DNMT3L__Crocodylus_porosus
+|                                      |  |     |  |        +--| (99.1)
+|                                      |  |     |  |        |  |                                +--DNMT3L__Thamnophis_sirtalis
+|                                      |  |     |  |        |  |                             +--| (94.5)
+|                                      |  |     |  |        |  |                             |  +--DNMT3L__Natrix_helvetica
+|                                      |  |     |  |        |  |                          +**| (0)
+|                                      |  |     |  |        |  |                          |  |     +--DNMT3L__Pantherophis_guttatus
+|                                      |  |     |  |        |  |                          |  |  +--| (96.3)
+|                                      |  |     |  |        |  |                          |  |  |  +**DNMT3L__Pituophis_catenifer_annectens
+|                                      |  |     |  |        |  |                          |  +--| (78.1)
+|                                      |  |     |  |        |  |                          |     +--DNMT3L__Ahaetulla_prasina
+|                                      |  |     |  |        |  |                       +--| (77.1)
+|                                      |  |     |  |        |  |                       |  +--DNMT3L__Erythrolamprus_reginae
+|                                      |  |     |  |        |  |                    +--| (86.4)
+|                                      |  |     |  |        |  |                    |  |  +--DNMT3L__Notechis_scutatus
+|                                      |  |     |  |        |  |                    |  +--| (99)
+|                                      |  |     |  |        |  |                    |     +--DNMT3L__Pseudonaja_textilis
+|                                      |  |     |  |        |  |                 +--| (97.4)
+|                                      |  |     |  |        |  |                 |  |     +--DNMT3L__Protobothrops_mucrosquamatus
+|                                      |  |     |  |        |  |                 |  |  +--| (80.9)
+|                                      |  |     |  |        |  |                 |  |  |  +--DNMT3L__Crotalus_tigris
+|                                      |  |     |  |        |  |                 |  +--| (90.3)
+|                                      |  |     |  |        |  |                 |     |  +--DNMT3L__Vipera_berus
+|                                      |  |     |  |        |  |                 |     +--| (97.9)
+|                                      |  |     |  |        |  |                 |        +--DNMT3L__Vipera_ursinii
+|                                      |  |     |  |        |  |              +--| (100)
+|                                      |  |     |  |        |  |              |  +--DNMT3L__Candoia_aspera
+|                                      |  |     |  |        |  |           +--| (0)
+|                                      |  |     |  |        |  |           |  +--DNMT3L__Pogona_vitticeps
+|                                      |  |     |  |        |  |        +--| (97.9)
+|                                      |  |     |  |        |  |        |  |     +--DNMT3L__Sceloporus_undulatus
+|                                      |  |     |  |        |  |        |  |  +--| (100)
+|                                      |  |     |  |        |  |        |  |  |  +--DNMT3L__Sceloporus_occidentalis
+|                                      |  |     |  |        |  |        |  +--| (89)
+|                                      |  |     |  |        |  |        |     |  +--DNMT3L__Elgaria_multicarinata_webbii
+|                                      |  |     |  |        |  |        |     +--| (98)
+|                                      |  |     |  |        |  |        |        +--DNMT3L__Heloderma_suspectum
+|                                      |  |     |  |        |  |     +--| (84.3)
+|                                      |  |     |  |        |  |     |  |                       +--DNMT3L__Podarcis_muralis
+|                                      |  |     |  |        |  |     |  |                    +--| (41)
+|                                      |  |     |  |        |  |     |  |                    |  |  +**DNMT3L__Podarcis_bocagei
+|                                      |  |     |  |        |  |     |  |                    |  +**| (0)
+|                                      |  |     |  |        |  |     |  |                    |     +--DNMT3L__Podarcis_vaucheri
+|                                      |  |     |  |        |  |     |  |                 +--| (90.5)
+|                                      |  |     |  |        |  |     |  |                 |  +--DNMT3L__Podarcis_liolepis
+|                                      |  |     |  |        |  |     |  |              +**| (0)
+|                                      |  |     |  |        |  |     |  |              |  +--DNMT3L__Podarcis_cretensis
+|                                      |  |     |  |        |  |     |  |           +**| (0)
+|                                      |  |     |  |        |  |     |  |           |  |  +--DNMT3L__Podarcis_pityusensis
+|                                      |  |     |  |        |  |     |  |           |  +**| (0)
+|                                      |  |     |  |        |  |     |  |           |     |     +--DNMT3L__Podarcis_melisellensis
+|                                      |  |     |  |        |  |     |  |           |     |  +--| (79.7)
+|                                      |  |     |  |        |  |     |  |           |     |  |  +--DNMT3L__Podarcis_gaigeae
+|                                      |  |     |  |        |  |     |  |           |     +**| (74.1)
+|                                      |  |     |  |        |  |     |  |           |        +--DNMT3L__Podarcis_tiliguerta
+|                                      |  |     |  |        |  |     |  |        +--| (76.6)
+|                                      |  |     |  |        |  |     |  |        |  +--DNMT3L__Podarcis_erhardii
+|                                      |  |     |  |        |  |     |  |     +--| (89.8)
+|                                      |  |     |  |        |  |     |  |     |  |  +--DNMT3L__Podarcis_raffonei
+|                                      |  |     |  |        |  |     |  |     |  +--| (85)
+|                                      |  |     |  |        |  |     |  |     |     +--DNMT3L__Podarcis_filfolensis
+|                                      |  |     |  |        |  |     |  |  +--| (100)
+|                                      |  |     |  |        |  |     |  |  |  |  +--DNMT3L__Lacerta_agilis
+|                                      |  |     |  |        |  |     |  |  |  +**| (0)
+|                                      |  |     |  |        |  |     |  |  |     +--DNMT3L__Zootoca_vivipara
+|                                      |  |     |  |        |  |     |  +--| (90.3)
+|                                      |  |     |  |        |  |     |     +--DNMT3L__Rhineura_floridana
+|                                      |  |     |  |        |  |  +--| (16.9)
+|                                      |  |     |  |        |  |  |  +--DNMT3L__Hemicordylus_capensis
+|                                      |  |     |  |        |  +--| (100)
+|                                      |  |     |  |        |     |              +--DNMT3L__Gekko_japonicus
+|                                      |  |     |  |        |     |           +--| (84.3)
+|                                      |  |     |  |        |     |           |  +--DNMT3L__Heteronotia_binoei
+|                                      |  |     |  |        |     |        +--| (90.3)
+|                                      |  |     |  |        |     |        |  +--DNMT3L__Paroedura_picta
+|                                      |  |     |  |        |     |     +--| (14.8)
+|                                      |  |     |  |        |     |     |  +--DNMT3L__Euleptes_europaea
+|                                      |  |     |  |        |     |  +--| (89.3)
+|                                      |  |     |  |        |     |  |  +--DNMT3L__Sphaerodactylus_townsendi
+|                                      |  |     |  |        |     +--| (100)
+|                                      |  |     |  |        |        +--DNMT3L__Eublepharis_macularius
+|                                      |  |     |  |     +--| (99.9)
+|                                      |  |     |  |     |  |     +---DNMT3L__Geotrypetes_seraphini
+|                                      |  |     |  |     |  |  +--| (96.4)
+|                                      |  |     |  |     |  |  |  |       +--DNMT3L__Lissotriton_helveticus
+|                                      |  |     |  |     |  |  |  |    +--| (88.8)
+|                                      |  |     |  |     |  |  |  |    |  +--DNMT3L__Lissotriton_vulgaris
+|                                      |  |     |  |     |  |  |  +----| (100)
+|                                      |  |     |  |     |  |  |       +**DNMT3L__Triturus_cristatus
+|                                      |  |     |  |     |  +--| (49.1)
+|                                      |  |     |  |     |     |                           +--DNMT3B__Homo_sapiens__XP_047295902_1
+|                                      |  |     |  |     |     |                        +--| (26.3)
+|                                      |  |     |  |     |     |                        |  +--DNMT3B__Bos_taurus__NP_861529_2
+|                                      |  |     |  |     |     |                     +--| (79.7)
+|                                      |  |     |  |     |     |                     |  |  +--DNMT3B__Loxodonta_africana__XP_023405914_1
+|                                      |  |     |  |     |     |                     |  +--| (81.7)
+|                                      |  |     |  |     |     |                     |     +--DNMT3B__Canis_lupus_familiaris__XP_038289403_1
+|                                      |  |     |  |     |     |                  +--| (90.4)
+|                                      |  |     |  |     |     |                  |  |  +--DNMT3B__Mus_musculus__XP_006498745_1
+|                                      |  |     |  |     |     |                  |  +--| (99.9)
+|                                      |  |     |  |     |     |                  |     +--DNMT3B__Rattus_norvegicus__NP_001383278_1
+|                                      |  |     |  |     |     |               +--| (99.4)
+|                                      |  |     |  |     |     |               |  +--DNMT3B__Monodelphis_domestica__XP_056667925_1
+|                                      |  |     |  |     |     |            +--| (80.6)
+|                                      |  |     |  |     |     |            |  |  +--DNMT3B__Alligator_mississippiensis__XP_059569104_1
+|                                      |  |     |  |     |     |            |  +--| (85.3)
+|                                      |  |     |  |     |     |            |     +--DNMT3B__Gallus_gallus__NP_001019999_2
+|                                      |  |     |  |     |     |         +--| (97.7)
+|                                      |  |     |  |     |     |         |  +--DNMT3B__Anolis_carolinensis__NP_001280056_1
+|                                      |  |     |  |     |     +---------| (100)
+|                                      |  |     |  |     |               |                       +--DNMT3A__Homo_sapiens__NP_072046_2
+|                                      |  |     |  |     |               |                    +--| (86.3)
+|                                      |  |     |  |     |               |                    |  +**DNMT3A__Canis_lupus_familiaris__XP_038308941_1
+|                                      |  |     |  |     |               |                 +**| (0)
+|                                      |  |     |  |     |               |                 |  +--DNMT3A__Bos_taurus__XP_059747014_1
+|                                      |  |     |  |     |               |              +**| (0)
+|                                      |  |     |  |     |               |              |  +**DNMT3A__Loxodonta_africana__XP_023406265_1
+|                                      |  |     |  |     |               |           +--| (98.2)
+|                                      |  |     |  |     |               |           |  |  +**DNMT3A__Rattus_norvegicus__NP_001003958_1
+|                                      |  |     |  |     |               |           |  +--| (82.3)
+|                                      |  |     |  |     |               |           |     +**DNMT3A__Mus_musculus__NP_001258682_1
+|                                      |  |     |  |     |               |        +--| (88.1)
+|                                      |  |     |  |     |               |        |  +**DNMT3A__Monodelphis_domestica__XP_016279286_1
+|                                      |  |     |  |     |               |     +--| (72.6)
+|                                      |  |     |  |     |               |     |  +--DNMT3A__Anolis_carolinensis__XP_062825001_1
+|                                      |  |     |  |     |               |  +--| (82.2)
+|                                      |  |     |  |     |               |  |  |  +**DNMT3A__Alligator_mississippiensis__XP_059583600_1
+|                                      |  |     |  |     |               |  |  +**| (74.3)
+|                                      |  |     |  |     |               |  |     +--DNMT3A__Gallus_gallus__XP_040553157_1
+|                                      |  |     |  |     |               +--| (99.8)
+|                                      |  |     |  |     |                  +--DNMT3A__Xenopus_tropicalis__XP_004919668_1
+|                                      |  |     |  |  +--| (100)
+|                                      |  |     |  |  |  |        +--DNMT3L__Monodelphis_domestica
+|                                      |  |     |  |  |  |     +--| (100)
+|                                      |  |     |  |  |  |     |  +--DNMT3L__Gracilinanus_agilis
+|                                      |  |     |  |  |  |  +--| (51)
+|                                      |  |     |  |  |  |  |  |              +--DNMT3L__Phascolarctos_cinereus
+|                                      |  |     |  |  |  |  |  |           +--| (92)
+|                                      |  |     |  |  |  |  |  |           |  +--DNMT3L__Vombatus_ursinus
+|                                      |  |     |  |  |  |  |  |        +--| (35.2)
+|                                      |  |     |  |  |  |  |  |        |  +--DNMT3L__Petaurus_breviceps_papuanus
+|                                      |  |     |  |  |  |  |  |     +--| (96.4)
+|                                      |  |     |  |  |  |  |  |     |  |  +--DNMT3L__Trichosurus_vulpecula
+|                                      |  |     |  |  |  |  |  |     |  +--| (81.2)
+|                                      |  |     |  |  |  |  |  |     |     +--DNMT3L__Notamacropus_eugenii
+|                                      |  |     |  |  |  |  |  |  +**| (0)
+|                                      |  |     |  |  |  |  |  |  |  +--DNMT3L__Macrotis_lagotis
+|                                      |  |     |  |  |  |  |  +--| (67.9)
+|                                      |  |     |  |  |  |  |     +--DNMT3L__Dromiciops_gliroides
+|                                      |  |     |  |  |  +--| (99.9)
+|                                      |  |     |  |  |     |     +--DNMT3L__Sarcophilus_harrisii
+|                                      |  |     |  |  |     |  +**| (0)
+|                                      |  |     |  |  |     |  |  +--DNMT3L__Antechinus_flavipes
+|                                      |  |     |  |  |     +--| (99.7)
+|                                      |  |     |  |  |        +--DNMT3L__Sminthopsis_crassicaudata
+|                                      |  |     |  +--| (91.6)
+|                                      |  |     |     |                 +**DNMT3L__Loxodonta_africana
+|                                      |  |     |     |              +--| (99.5)
+|                                      |  |     |     |              |  +**DNMT3L__Elephas_maximus_indicus
+|                                      |  |     |     |           +--| (89.2)
+|                                      |  |     |     |           |  +--DNMT3L__Trichechus_manatus_latirostris
+|                                      |  |     |     |        +--| (46.7)
+|                                      |  |     |     |        |  +--DNMT3L__Elephantulus_edwardii
+|                                      |  |     |     |     +--| (68.1)
+|                                      |  |     |     |     |  +--DNMT3L__Orycteropus_afer_afer
+|                                      |  |     |     |  +--| (97.9)
+|                                      |  |     |     |  |  |  +--DNMT3L__Echinops_telfairi
+|                                      |  |     |     |  |  +--| (100)
+|                                      |  |     |     |  |     +--DNMT3L__Tenrec_ecaudatus
+|                                      |  |     |     +--| (83.4)
+|                                      |  |     |        |  +--DNMT3L__Dasypus_novemcinctus
+|                                      |  |     |        +--| (99.1)
+|                                      |  |     |           |  +--DNMT3L__Choloepus_didactylus
+|                                      |  |     |           +--| (88.9)
+|                                      |  |     |              +--DNMT3L__Tamandua_tetradactyla
+|                                      |  |  +--| (67.3)
+|                                      |  |  |  +--DNMT3L__Cynocephalus_volans
+|                                      |  +--| (68.8)
+|                                      |     +--DNMT3L__Tupaia_belangeri_chinensis
+|                                   +--| (88.3)
+|                                   |  |           +--DNMT3L__Ictidomys_tridecemlineatus
+|                                   |  |        +--| (45.4)
+|                                   |  |        |  |  +--DNMT3L__Marmota_flaviventris
+|                                   |  |        |  +--| (96.1)
+|                                   |  |        |     +--DNMT3L__Marmota_monax
+|                                   |  |     +--| (85)
+|                                   |  |     |  +--DNMT3L__Callospermophilus_lateralis
+|                                   |  |  +--| (100)
+|                                   |  |  |  +--DNMT3L__Spermophilus_citellus
+|                                   |  +--| (92.2)
+|                                   |     +--DNMT3L__Muscardinus_avellanarius
+|                                +--| (64.3)
+|                                |  |  +--DNMT3L__Dipodomys_ordii
+|                                |  +--| (100)
+|                                |     |  +--DNMT3L__Dipodomys_spectabilis
+|                                |     +--| (88.1)
+|                                |        +--DNMT3L__Dipodomys_merriami
+|                             +--| (95.3)
+|                             |  |     +--DNMT3L__Cavia_porcellus
+|                             |  |  +--| (99.6)
+|                             |  |  |  |  +--DNMT3L__Octodon_degus
+|                             |  |  |  +--| (88.6)
+|                             |  |  |     |     +--DNMT3L__Heterocephalus_glaber
+|                             |  |  |     |  +--| (99.9)
+|                             |  |  |     |  |  +--DNMT3L__Fukomys_damarensis
+|                             |  |  |     +--| (55.1)
+|                             |  |  |        +--DNMT3L__Chinchilla_lanigera
+|                             |  +--| (92.1)
+|                             |     |     +--DNMT3L__Ochotona_princeps
+|                             |     |  +--| (100)
+|                             |     |  |  +--DNMT3L__Ochotona_curzoniae
+|                             |     +--| (99.3)
+|                             |        |  +--DNMT3L__Lepus_europaeus
+|                             |        +--| (99.8)
+|                             |           +--DNMT3L__Oryctolagus_cuniculus
+|                          +--| (40.7)
+|                          |  +--DNMT3L__Castor_canadensis
+|                       +**| (0)
+|                       |  +--------------------------------------------------------LUNGFISH_candidate_translated_segment
+|                    +--| (76.7)
+|                    |  +--DNMT3L__Jaculus_jaculus
+|                 +--| (100)
+|                 |  +--DNMT3L__Nannospalax_galili
+|              +--| (76.9)
+|              |  |     +--DNMT3L__Meriones_unguiculatus
+|              |  |  +--| (99.9)
+|              |  |  |  +--DNMT3L__Psammomys_obesus
+|              |  +--| (97)
+|              |     |  +--DNMT3L__Acomys_russatus
+|              |     +--| (100)
+|              |        +--DNMT3L__Acomys_minous
+|           +--| (99.9)
+|           |  |     +--DNMT3L__Mesocricetus_auratus
+|           |  |  +--| (96.7)
+|           |  |  |  |  +--DNMT3L__Cricetulus_griseus
+|           |  |  |  +--| (0)
+|           |  |  |     +--DNMT3L__Phodopus_roborovskii
+|           |  +--| (94.8)
+|           |     |                 +--DNMT3L__Microtus_ochrogaster
+|           |     |              +**| (70.1)
+|           |     |              |  +--DNMT3L__Microtus_oregoni
+|           |     |           +--| (95.8)
+|           |     |           |  +--DNMT3L__Microtus_pennsylvanicus
+|           |     |        +--| (94.5)
+|           |     |        |  +--DNMT3L__Chionomys_nivalis
+|           |     |     +--| (2.3)
+|           |     |     |  +--DNMT3L__Arvicola_amphibius
+|           |     |  +--| (99.8)
+|           |     |  |  +--DNMT3L__Myodes_glareolus
+|           |     +--| (7.6)
+|           |        |        +--DNMT3L__Peromyscus_maniculatus_bairdii
+|           |        |     +--| (92.3)
+|           |        |     |  +**DNMT3L__Peromyscus_leucopus
+|           |        |  +--| (87.9)
+|           |        |  |  |  +--DNMT3L__Peromyscus_californicus_insignis
+|           |        |  |  +--| (81.6)
+|           |        |  |     +**DNMT3L__Peromyscus_eremicus
+|           |        +--| (99.9)
+|           |           +--DNMT3L__Onychomys_torridus
+|        +--| (68)
+|        |  |  +--DNMT3L__Rattus_norvegicus
+|        |  +--| (99.5)
+|        |     +--DNMT3L__Rattus_rattus
+|     +--| (1.5)
+|     |  +--DNMT3L__Micromys_minutus
+|  +--| (87.6)
+|  |  +--DNMT3L__Arvicanthis_niloticus
++--| (96.8)
+|  |  +--DNMT3L__Mastomys_coucha
+|  +--| (87.7)
+|     +--DNMT3L__Apodemus_sylvaticus
+|
++--DNMT3L__Mus_pahari
+
+Tree in newick format:
+
+(DNMT3L__Mus_musculus:0.0524307027,((((((((((((((((((((((DNMT3L__Homo_sapiens:0.0000010000,(DNMT3L__Pan_troglodytes:0.0025001338,DNMT3L__Pan_paniscus:0.0025537524)88.3:0.0050991410)0:0.0000010000,DNMT3L__Gorilla_gorilla_gorilla:0.0025301655)91:0.0077096456,(DNMT3L__Pongo_abelii:0.0000010000,DNMT3L__Pongo_pygmaeus:0.0000010000)99.4:0.0203800950)90.3:0.0078408565,(DNMT3L__Nomascus_leucogenys:0.0050630181,(DNMT3L__Hylobates_moloch:0.0000010000,DNMT3L__Symphalangus_syndactylus:0.0000010000)0:0.0000010000)99.2:0.0238436773)98.2:0.0224919380,(((((DNMT3L__Macaca_mulatta:0.0025878118,(DNMT3L__Macaca_fascicularis:0.0025833179,DNMT3L__Macaca_nemestrina:0.0000010000)76.7:0.0025878115)75.2:0.0025939681,DNMT3L__Macaca_thibetana_thibetana:0.0051969007)92.5:0.0078116429,((DNMT3L__Chlorocebus_sabaeus:0.0157105617,((DNMT3L__Rhinopithecus_roxellana:0.0000010000,(DNMT3L__Rhinopithecus_bieti:0.0025691330,DNMT3L__Trachypithecus_francoisi:0.0130200380)0:0.0000010000)79.1:0.0025901548,(DNMT3L__Colobus_angolensis_palliatus:0.0130480598,DNMT3L__Piliocolobus_tephrosceles:0.0129911374)62.6:0.0025865418)81.6:0.0025995231)0:0.0000010000,DNMT3L__Mandrillus_leucophaeus:0.0000010000)0:0.0000010000)43.2:0.0025889311,DNMT3L__Cercocebus_atys:0.0025769999)0:0.0000022402,(DNMT3L__Papio_anubis:0.0077460439,DNMT3L__Theropithecus_gelada:0.0000010000)88.4:0.0051696927)87.3:0.0147863227)97.7:0.0327914175,((DNMT3L__Callithrix_jacchus:0.0393715356,(DNMT3L__Aotus_nancymaae:0.0344499857,(DNMT3L__Cebus_imitator:0.0025262507,DNMT3L__Sapajus_apella:0.0050599284)92.3:0.0076656164)0:0.0009016477)72.5:0.0048709070,DNMT3L__Saimiri_boliviensis:0.0150668710)100:0.0946363212)100:0.0851320798,DNMT3L__Carlito_syrichta:0.0858809972)80.8:0.0155499760,((DNMT3L__Otolemur_garnettii:0.0173115856,DNMT3L__Nycticebus_coucang:0.0322047357)100:0.1007144464,((DNMT3L__Propithecus_coquereli:0.0299971538,DNMT3L__Microcebus_murinus:0.0499013655)93.1:0.0210116439,(DNMT3L__Lemur_catta:0.0340079190,DNMT3L__Eulemur_rufifrons:0.0362121767)96.9:0.0220480062)98.5:0.0403550262)95.3:0.0335865493)94:0.0228922262,((((((((((((((DNMT3L__Bos_taurus:0.0000010000,DNMT3L__Bos_javanicus:0.0000010000)0:0.0000010000,DNMT3L__Bison_bison_bison:0.0026433036)93.2:0.0080156022,((DNMT3L__Bos_mutus:0.0000010000,DNMT3L__Bos_grunniens:0.0000010000)91.2:0.0052631818,DNMT3L__Bos_indicus:0.0026248674)0:0.0000010000)95.5:0.0106154805,(DNMT3L__Bubalus_bubalis:0.0079155616,DNMT3L__Bubalus_kerabau:0.0026558506)93.5:0.0080398256)87.4:0.0052203985,((((DNMT3L__Ovis_aries:0.0000010000,(DNMT3L__Capra_hircus:0.0306425552,DNMT3L__Ovis_canadensis:0.0034144147)0:0.0000010000)0:0.0000010000,DNMT3L__Capricornis_sumatraensis:0.0052707243)77.8:0.0026312672,DNMT3L__Budorcas_taxicolor:0.0173032834)88.4:0.0052798097,DNMT3L__Oryx_dammah:0.0106551235)74.1:0.0026545322)82.2:0.0052807115,((DNMT3L__Odocoileus_virginianus:0.0214931802,DNMT3L__Muntiacus_reevesi:0.0000010000)0:0.0000022647,(DNMT3L__Cervus_canadensis:0.0000010000,(DNMT3L__Cervus_elaphus:0.0000010000,DNMT3L__Dama_dama:0.0070822752)0:0.0000010000)90.8:0.0071081957)98.9:0.0216589896)76.1:0.0059183974,(DNMT3L__Moschus_berezovskii:0.0198250436,DNMT3L__Giraffa_tippelskirchi:0.0290466735)75.2:0.0080887369)100:0.0514453992,((((((((((DNMT3L__Orcinus_orca:0.0111582256,(((DNMT3L__Aethalodelphis_obliquidens:0.0263334768,(DNMT3L__Tursiops_truncatus:0.0000010000,DNMT3L__Delphinus_delphis:0.0026462245)80.2:0.0026602903)0:0.0000022884,DNMT3L__Stenella_coeruleoalba:0.0105921381)74.4:0.0026509187,DNMT3L__Globicephala_melas:0.0000010000)0:0.0000010000)84.3:0.0026456930,DNMT3L__Grampus_griseus:0.0000022782)75.8:0.0026394317,DNMT3L__Leucopleurus_acutus:0.0160726527)85.5:0.0049628002,DNMT3L__Lagenorhynchus_albirostris:0.0114021781)98.1:0.0181472660,((DNMT3L__Neophocaena_asiaeorientalis_asiaeorientalis:0.0052821280,(DNMT3L__Phocoena_sinus:0.0052402799,DNMT3L__Phocoena_phocoena:0.0026186298)75.3:0.0026053452)97.4:0.0131874199,DNMT3L__Monodon_monoceros:0.0132611243)86.8:0.0054148258)96.9:0.0182146226,DNMT3L__Lipotes_vexillifer:0.0245191169)90.3:0.0099044300,((DNMT3L__Mesoplodon_densirostris:0.0078824948,DNMT3L__Mesoplodon_mirus:0.0000010000)44.7:0.0026212305,(DNMT3L__Hyperoodon_ampullatus:0.0053482016,DNMT3L__Mesoplodon_bidens:0.0026237571)76.9:0.0026697458)99.5:0.0350925858)90.2:0.0142031166,(((((DNMT3L__Balaenoptera_acutorostrata:0.0000010000,DNMT3L__Balaenoptera_musculus:0.0133097822)76.5:0.0026013992,DNMT3L__Balaenoptera_physalus:0.0104411497)77.1:0.0025977221,(DNMT3L__Balaenoptera_ricei:0.0026273265,DNMT3L__Balaenoptera_borealis:0.0000010000)78.9:0.0025708656)0:0.0000010000,DNMT3L__Eschrichtius_robustus:0.0079119188)77.9:0.0028044095,DNMT3L__Eubalaena_glacialis:0.0079380659)98.9:0.0254445014)62.6:0.0014094907,DNMT3L__Physeter_macrocephalus:0.0386863447)99.9:0.0485046440,DNMT3L__Hippopotamus_amphibius_kiboko:0.0456312097)88.2:0.0130346462)35:0.0034596159,((DNMT3L__Sus_scrofa:0.0069397295,DNMT3L__Phacochoerus_africanus:0.1484222132)100:0.0929694962,(((DNMT3L__Camelus_ferus:0.0000010000,DNMT3L__Camelus_bactrianus:0.0000010000)90:0.0052297459,DNMT3L__Camelus_dromedarius:0.0026318250)91.3:0.0079035400,DNMT3L__Vicugna_pacos:0.0026009951)99.9:0.0388139224)89:0.0127774423)96.8:0.0219120286,((((((((DNMT3L__Canis_lupus_familiaris:0.0000010000,DNMT3L__Canis_lupus_dingo:0.0098966939)85.6:0.0034138018,DNMT3L__Canis_aureus:0.0032979871)0:0.0000010000,DNMT3L__Canis_lupus_baileyi:0.0065925217)91.1:0.0107629899,(DNMT3L__Vulpes_vulpes:0.0000010000,DNMT3L__Vulpes_lagopus:0.0053836917)87.3:0.0077582595)38.1:0.0095852036,DNMT3L__Nyctereutes_procyonoides:0.0261114428)100:0.1264967002,(((DNMT3L__Ailuropoda_melanoleuca:0.0857636927,((DNMT3L__Ursus_maritimus:0.2157776530,DNMT3L__Ursus_arctos:0.0047672279)73.2:0.0032342564,DNMT3L__Ursus_americanus:0.0026791532)88.2:0.0127267835)98.3:0.0287523613,(((DNMT3L__Meles_meles:0.3193533529,DNMT3L__Enhydra_lutris_kenyoni:0.0743420534)95.1:0.0455543957,DNMT3L__Martes_martes:0.0262078119)77.4:0.0091937574,(DNMT3L__Mustela_lutreola:0.0265483271,DNMT3L__Mustela_nivalis:0.0273934817)94.6:0.0199752273)100:0.0617834181)86.3:0.0124588583,((DNMT3L__Odobenus_rosmarus_divergens:0.0136141289,(DNMT3L__Callorhinus_ursinus:0.0000010000,(DNMT3L__Zalophus_californianus:0.0000010000,DNMT3L__Eumetopias_jubatus:0.0000010000)91.3:0.0052524356)86.2:0.0052652849)85.8:0.0052795441,(((DNMT3L__Neomonachus_schauinslandi:0.0081380850,(DNMT3L__Mirounga_leonina:0.0490125035,DNMT3L__Mirounga_angustirostris:0.0000010000)78.3:0.0027140180)76.6:0.0027344095,DNMT3L__Phoca_vitulina:0.0000010000)78.7:0.0035889910,DNMT3L__Halichoerus_grypus:0.1502498831)77.9:0.0046353958)92.2:0.0143253333)78.1:0.0193260795)91.9:0.0247995821,(((((((DNMT3L__Felis_catus:0.0000010000,DNMT3L__Prionailurus_viverrinus:0.0053387509)0:0.0000010000,DNMT3L__Prionailurus_bengalensis:0.0052553370)43.4:0.0026176470,(((((DNMT3L__Panthera_tigris:0.0026601905,DNMT3L__Panthera_onca:0.0079866137)0:0.0000010000,DNMT3L__Panthera_leo:0.0000010000)0:0.0000010000,DNMT3L__Panthera_uncia:0.0026654162)0:0.0000010000,DNMT3L__Panthera_pardus:0.0000010000)90.3:0.0053077043,DNMT3L__Neofelis_nebulosa:0.0135169619)0:0.0000022879)84.5:0.0026137101,(DNMT3L__Puma_concolor:0.0052381278,DNMT3L__Herpailurus_yagouaroundi:0.0026045225)0:0.0000010000)78.8:0.0026792919,((DNMT3L__Lynx_canadensis:0.0026542748,DNMT3L__Lynx_rufus:0.0107054731)98.8:0.0161959052,DNMT3L__Leopardus_geoffroyi:0.0053064453)78.8:0.0026504602)0:0.0000029079,DNMT3L__Acinonyx_jubatus:0.1111268465)100:0.0727368790,(DNMT3L__Suricata_suricatta:0.0879171045,DNMT3L__Hyaena_hyaena:0.0685049216)80.7:0.0195052873)98.6:0.0417271471)99.7:0.0431908836,(((((DNMT3L__Sorex_araneus:0.0533633801,DNMT3L__Sorex_fumeus:0.0633712212)100:0.2403871275,DNMT3L__Erinaceus_europaeus:0.3179636871)86.6:0.0457719609,DNMT3L__Talpa_occidentalis:0.2807777295)99.4:0.1011106973,(DNMT3L__Rousettus_aegyptiacus:0.0714858578,DNMT3L__Pteropus_medius:0.0198663658)99.7:0.0776718313)62.7:0.0289150253,((((((DNMT3L__Eptesicus_fuscus:0.0325773829,DNMT3L__Cnephaeus_nilssonii:0.0252731572)100:0.0696780664,(DNMT3L__Plecotus_auritus:0.0025603499,DNMT3L__Pipistrellus_hanaki:0.2339310480)7.2:0.0059809146)85.5:0.0151608951,DNMT3L__Myotis_nattereri:0.0466912037)100:0.0791090868,(DNMT3L__Miniopterus_natalensis:0.0193397822,DNMT3L__Miniopterus_schreibersii:0.0000010000)100:0.0798976685)44:0.0230936534,(((DNMT3L__Desmodus_rotundus:0.0426608452,((DNMT3L__Phyllostomus_discolor:0.0092202819,DNMT3L__Phyllostomus_hastatus:0.0195708536)100:0.0673475405,(DNMT3L__Sturnira_hondurensis:0.0196283919,DNMT3L__Artibeus_jamaicensis:0.0306879755)95.8:0.0164264063)0:0.0079354695)90.4:0.0168694011,DNMT3L__Pteronotus_mesoamericanus:0.0344201991)100:0.1113041351,(DNMT3L__Saccopteryx_bilineata:0.0079484830,DNMT3L__Saccopteryx_leptura:0.0000010000)99.7:0.0471245469)2.2:0.0155508953)85:0.0175221909,(DNMT3L__Hipposideros_armiger:0.0650291345,((DNMT3L__Rhinolophus_sinicus:0.0114806338,DNMT3L__Rhinolophus_ferrumequinum:0.0057821304)91.4:0.0112340207,DNMT3L__Rhinolophus_hipposideros:0.0118163982)98.8:0.0376870708)100:0.0727156007)87.2:0.0188563846)97.2:0.0293530290)23.4:0.0026245027)86.1:0.0106197612,(((DNMT3L__Equus_caballus:0.0000010000,DNMT3L__Equus_przewalskii:0.0000010000)87.8:0.0053066132,DNMT3L__Equus_asinus:0.0053615648)99.5:0.0282099498,(DNMT3L__Ceratotherium_simum_simum:0.0032270472,DNMT3L__Diceros_bicornis_minor:0.0094167336)99.6:0.0318820950)96.2:0.0215184466)98:0.0269467445,((((((((((((DNMT3L__Lepidochelys_olivacea:0.0000010000,DNMT3L__Lepidochelys_kempii:0.0000010000)76.4:0.0025908537,(DNMT3L__Caretta_caretta:0.0052483554,DNMT3L__Eretmochelys_imbricata:0.0052156472)76.5:0.0026172920)92.2:0.0080311358,(DNMT3L__Chelonia_mydas:0.0026019535,DNMT3L__Natator_depressus:0.0026076480)88.5:0.0051383875)95.9:0.0211666056,DNMT3L__Mauremys_mutica:0.0457164163)12.1:0.0143769915,(DNMT3L__Trachemys_scripta_elegans:0.0036272674,DNMT3L__Malaclemys_terrapin_pileata:0.0165345809)99.1:0.0434349221)55.3:0.0135232402,DNMT3L__Pelodiscus_sinensis:0.0946577292)76.8:0.0109464536,DNMT3L__Emydura_macquarii_macquarii:0.0447348153)94:0.0468497734,(DNMT3L__Alligator_sinensis:0.1188150298,DNMT3L__Crocodylus_porosus:0.0068636372)99.9:0.1342359881)96:0.0654042081,(((((((((((DNMT3L__Thamnophis_sirtalis:0.0258432752,DNMT3L__Natrix_helvetica:0.0168311139)94.5:0.0130848337,((DNMT3L__Pantherophis_guttatus:0.0051566402,DNMT3L__Pituophis_catenifer_annectens:0.0000010000)96.3:0.0152563433,DNMT3L__Ahaetulla_prasina:0.0218261368)78.1:0.0049945021)0:0.0000027162,DNMT3L__Erythrolamprus_reginae:0.1487165120)77.1:0.0040797573,(DNMT3L__Notechis_scutatus:0.0051379691,DNMT3L__Pseudonaja_textilis:0.0130017369)99:0.0234680354)86.4:0.0083436417,((DNMT3L__Protobothrops_mucrosquamatus:0.0053195105,DNMT3L__Crotalus_tigris:0.0128745447)80.9:0.0073973524,(DNMT3L__Vipera_berus:0.0025866805,DNMT3L__Vipera_ursinii:0.0052668591)97.9:0.0165944817)90.3:0.0076195962)97.4:0.0460409374,DNMT3L__Candoia_aspera:0.2943727025)100:0.1074273885,DNMT3L__Pogona_vitticeps:0.1764135965)0:0.0131204162,((DNMT3L__Sceloporus_undulatus:0.0093513216,DNMT3L__Sceloporus_occidentalis:0.0089650750)100:0.1537918074,(DNMT3L__Elgaria_multicarinata_webbii:0.1104599474,DNMT3L__Heloderma_suspectum:0.0345212975)98:0.0676874944)89:0.0423352265)97.9:0.0628706400,((((((((DNMT3L__Podarcis_muralis:0.0179097290,(DNMT3L__Podarcis_bocagei:0.0000010000,DNMT3L__Podarcis_vaucheri:0.0053800191)0:0.0000022641)41:0.0026805609,DNMT3L__Podarcis_liolepis:0.0026761950)90.5:0.0053727662,DNMT3L__Podarcis_cretensis:0.0026814328)0:0.0000010000,(DNMT3L__Podarcis_pityusensis:0.0053848535,((DNMT3L__Podarcis_melisellensis:0.0080496193,DNMT3L__Podarcis_gaigeae:0.0053511901)79.7:0.0045931266,DNMT3L__Podarcis_tiliguerta:0.0069758954)74.1:0.0019058514)0:0.0000010000)0:0.0000010000,DNMT3L__Podarcis_erhardii:0.0053800466)76.6:0.0026590276,(DNMT3L__Podarcis_raffonei:0.0476828003,DNMT3L__Podarcis_filfolensis:0.0110554328)85:0.0055482660)89.8:0.0096702939,(DNMT3L__Lacerta_agilis:0.0205593326,DNMT3L__Zootoca_vivipara:0.0217383654)0:0.0000010000)100:0.1312738469,DNMT3L__Rhineura_floridana:0.1034554162)90.3:0.0511843661)84.3:0.0367510237,DNMT3L__Hemicordylus_capensis:0.2260357757)16.9:0.0341553046,(((((DNMT3L__Gekko_japonicus:0.0861084707,DNMT3L__Heteronotia_binoei:0.1049116755)84.3:0.0245819853,DNMT3L__Paroedura_picta:0.0941456052)90.3:0.0180850638,DNMT3L__Euleptes_europaea:0.0988751310)14.8:0.0075370822,DNMT3L__Sphaerodactylus_townsendi:0.1332128752)89.3:0.0279091778,DNMT3L__Eublepharis_macularius:0.1311908805)100:0.1183571176)100:0.2043748892)99.1:0.1245089464,((DNMT3L__Geotrypetes_seraphini:0.4108760444,((DNMT3L__Lissotriton_helveticus:0.0258509163,DNMT3L__Lissotriton_vulgaris:0.0209160887)88.8:0.0256248412,DNMT3L__Triturus_cristatus:0.0000021455)100:0.4728702384)96.4:0.1638164280,(((((((DNMT3B__Homo_sapiens__XP_047295902_1:0.0124549447,DNMT3B__Bos_taurus__NP_861529_2:0.0275855016)26.3:0.0060232552,(DNMT3B__Loxodonta_africana__XP_023405914_1:0.0194595358,DNMT3B__Canis_lupus_familiaris__XP_038289403_1:0.0040448548)81.7:0.0069832429)79.7:0.0112430673,(DNMT3B__Mus_musculus__XP_006498745_1:0.0131816667,DNMT3B__Rattus_norvegicus__NP_001383278_1:0.0132878828)99.9:0.0578536344)90.4:0.0366698641,DNMT3B__Monodelphis_domestica__XP_056667925_1:0.0822424004)99.4:0.0649913256,(DNMT3B__Alligator_mississippiensis__XP_059569104_1:0.1265600846,DNMT3B__Gallus_gallus__NP_001019999_2:0.0656229778)85.3:0.0221891190)80.6:0.0394638306,DNMT3B__Anolis_carolinensis__NP_001280056_1:0.1098867969)97.7:0.1538200897,((((((((DNMT3A__Homo_sapiens__NP_072046_2:0.0080330033,DNMT3A__Canis_lupus_familiaris__XP_038308941_1:0.0000010000)86.3:0.0026185403,DNMT3A__Bos_taurus__XP_059747014_1:0.0026337659)0:0.0000010000,DNMT3A__Loxodonta_africana__XP_023406265_1:0.0000010000)0:0.0000010000,(DNMT3A__Rattus_norvegicus__NP_001003958_1:0.0000010000,DNMT3A__Mus_musculus__NP_001258682_1:0.0000010000)82.3:0.0026167946)98.2:0.0133171751,DNMT3A__Monodelphis_domestica__XP_016279286_1:0.0000010000)88.1:0.0054595062,DNMT3A__Anolis_carolinensis__XP_062825001_1:0.0107290998)72.6:0.0028268353,(DNMT3A__Alligator_mississippiensis__XP_059583600_1:0.0000010000,DNMT3A__Gallus_gallus__XP_040553157_1:0.0026491187)74.3:0.0025611651)82.2:0.0153320213,DNMT3A__Xenopus_tropicalis__XP_004919668_1:0.0256097097)99.8:0.2199247957)100:0.9847649202)49.1:0.0949321029)99.9:0.1901655009,(((DNMT3L__Monodelphis_domestica:0.0388921937,DNMT3L__Gracilinanus_agilis:0.0279268216)100:0.0618920791,(((((DNMT3L__Phascolarctos_cinereus:0.0279139693,DNMT3L__Vombatus_ursinus:0.0345499830)92:0.0132315815,DNMT3L__Petaurus_breviceps_papuanus:0.0528860343)35.2:0.0027177339,(DNMT3L__Trichosurus_vulpecula:0.0396906204,DNMT3L__Notamacropus_eugenii:0.0712399247)81.2:0.0052173886)96.4:0.0155198038,DNMT3L__Macrotis_lagotis:0.0738243838)0:0.0009719323,DNMT3L__Dromiciops_gliroides:0.0348505316)67.9:0.0085745804)51:0.0112313579,((DNMT3L__Sarcophilus_harrisii:0.0151646321,DNMT3L__Antechinus_flavipes:0.0126388715)0:0.0000022061,DNMT3L__Sminthopsis_crassicaudata:0.0226936878)99.7:0.0570410895)99.9:0.1941996456)100:0.2027030467,((((((DNMT3L__Loxodonta_africana:0.0000010000,DNMT3L__Elephas_maximus_indicus:0.0000010000)99.5:0.0439900633,DNMT3L__Trichechus_manatus_latirostris:0.0546886043)89.2:0.0160636962,DNMT3L__Elephantulus_edwardii:0.1238125658)46.7:0.0062286867,DNMT3L__Orycteropus_afer_afer:0.0615105825)68.1:0.0300777950,(DNMT3L__Echinops_telfairi:0.0388673191,DNMT3L__Tenrec_ecaudatus:0.0958943186)100:0.1189107223)97.9:0.0651128718,(DNMT3L__Dasypus_novemcinctus:0.1179428961,(DNMT3L__Choloepus_didactylus:0.0768353864,DNMT3L__Tamandua_tetradactyla:0.1606959827)88.9:0.0376394196)99.1:0.0584382444)83.4:0.0138861233)91.6:0.0257743509)91.1:0.0161702198,DNMT3L__Cynocephalus_volans:0.1188679553)67.3:0.0113670045,DNMT3L__Tupaia_belangeri_chinensis:0.1147845939)68.8:0.0051442745)99.2:0.0500886452,((((DNMT3L__Ictidomys_tridecemlineatus:0.0120968393,(DNMT3L__Marmota_flaviventris:0.0106999058,DNMT3L__Marmota_monax:0.0054370892)96.1:0.0120011167)45.4:0.0026943262,DNMT3L__Callospermophilus_lateralis:0.0146976268)85:0.0135743905,DNMT3L__Spermophilus_citellus:0.0314463060)100:0.1051232495,DNMT3L__Muscardinus_avellanarius:0.1270088787)92.2:0.0381570252)88.3:0.0209363313,(DNMT3L__Dipodomys_ordii:0.0097655911,(DNMT3L__Dipodomys_spectabilis:0.0091143362,DNMT3L__Dipodomys_merriami:0.0799923783)88.1:0.0465339322)100:0.2662644422)64.3:0.0223416311,((DNMT3L__Cavia_porcellus:0.0989055867,(DNMT3L__Octodon_degus:0.0920950353,((DNMT3L__Heterocephalus_glaber:0.0938455357,DNMT3L__Fukomys_damarensis:0.1362030618)99.9:0.1032091337,DNMT3L__Chinchilla_lanigera:0.0649460208)55.1:0.0325669522)88.6:0.0531829025)99.6:0.1063600266,((DNMT3L__Ochotona_princeps:0.0422971790,DNMT3L__Ochotona_curzoniae:0.0464302916)100:0.2456463646,(DNMT3L__Lepus_europaeus:0.0042784263,DNMT3L__Oryctolagus_cuniculus:0.0425235191)99.8:0.1277348607)99.3:0.0858931662)92.1:0.0338321723)95.3:0.0365016846,DNMT3L__Castor_canadensis:0.1067692872)40.7:0.0713051039,LUNGFISH_candidate_translated_segment:5.3090368157)0:0.0000020603,DNMT3L__Jaculus_jaculus:0.3076168175)76.7:0.0228427946,DNMT3L__Nannospalax_galili:0.1329303139)100:0.0852878641,((DNMT3L__Meriones_unguiculatus:0.0133322954,DNMT3L__Psammomys_obesus:0.0159958946)99.9:0.0770034351,(DNMT3L__Acomys_russatus:0.0106262460,DNMT3L__Acomys_minous:0.0168402542)100:0.0807256528)97:0.0400665444)76.9:0.0091933404,((DNMT3L__Mesocricetus_auratus:0.0430803265,(DNMT3L__Cricetulus_griseus:0.0305852315,DNMT3L__Phodopus_roborovskii:0.0388123304)0:0.0052883902)96.7:0.0365006082,((((((DNMT3L__Microtus_ochrogaster:0.0039186817,DNMT3L__Microtus_oregoni:0.0100522302)70.1:0.0018271229,DNMT3L__Microtus_pennsylvanicus:0.0026373357)95.8:0.0104929918,DNMT3L__Chionomys_nivalis:0.0053095213)94.5:0.0128896575,DNMT3L__Arvicola_amphibius:0.0144689358)2.3:0.0090893231,DNMT3L__Myodes_glareolus:0.0096371281)99.8:0.0693625936,(((DNMT3L__Peromyscus_maniculatus_bairdii:0.0026493909,DNMT3L__Peromyscus_leucopus:0.0000010000)92.3:0.0091994534,(DNMT3L__Peromyscus_californicus_insignis:0.0053301711,DNMT3L__Peromyscus_eremicus:0.0000010000)81.6:0.0041781945)87.9:0.0090328394,DNMT3L__Onychomys_torridus:0.0137153313)99.9:0.0565994049)7.6:0.0154552122)94.8:0.0344200192)99.9:0.0669301105,(DNMT3L__Rattus_norvegicus:0.0079381304,DNMT3L__Rattus_rattus:0.0026627150)99.5:0.0324054696)68:0.0097018171,DNMT3L__Micromys_minutus:0.0883500979)1.5:0.0048555091,DNMT3L__Arvicanthis_niloticus:0.0582390425)87.6:0.0112615484,(DNMT3L__Mastomys_coucha:0.0810413447,DNMT3L__Apodemus_sylvaticus:0.0575138175)87.7:0.0125945953)96.8:0.0274688205,DNMT3L__Mus_pahari:0.0456763050);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t Vertebrate_Gene_History_Redesign_20261102/analysis/locus_history_337/lungfish_expanded_family_full_masked_stop_LG_F_R4_fast.treefile -m "LG+F+R4{0.194235,0.121382,0.276303,0.499103,0.340451,1.1693,0.189011,2.33018}" --length 387
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s Vertebrate_Gene_History_Redesign_20261102/analysis/locus_history_337/lungfish_expanded_family_full_masked_stop_human_columns.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s Vertebrate_Gene_History_Redesign_20261102/analysis/locus_history_337/lungfish_expanded_family_full_masked_stop_human_columns.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Nov 16 17:48:03 2026
+Total CPU time used: 65.7004 seconds (0h:1m:5s)
+Total wall-clock time used: 21.2033 seconds (0h:0m:21s)
+

@@ -1,0 +1,7 @@
+scope	taxon	records_with_triplet	LFI	other_state	interpretation
+sampled_muroid_family	Muridae	12	12	0	LFI fixed among sampled family members
+sampled_muroid_family	Cricetidae	14	14	0	LFI fixed among sampled family members
+sampled_muroid_family	Spalacidae	1	1	0	LFI fixed among sampled family members
+sampled_muroids	Muroidea	27	27	0	all sampled muroids carry LFI
+sampled_nonmuroid_eutherians	Eutheria excluding sampled muroids	192	0	192	no sampled nonmuroid eutherian carries LFI
+nearest_sampled_nonmuroid	Jaculus jaculus	1	0	1	LLI

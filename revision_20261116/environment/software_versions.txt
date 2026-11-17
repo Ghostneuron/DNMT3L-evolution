@@ -1,4 +1,0 @@
-Update date: 2026-11-16
-IQ-TREE: 2.3.6 (MacOS ARM 64-bit build, 2024-07-30)
-Python: project scripts require Python 3
-Python packages: Biopython, pandas, NumPy, Matplotlib

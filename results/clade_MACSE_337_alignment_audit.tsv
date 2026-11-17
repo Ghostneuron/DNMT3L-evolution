@@ -1,0 +1,5 @@
+clade	biological_records	alignment_records	human_coordinate_anchor	alignment_codon_columns	human_mapped_residues	exact_source_content_records	frameshift_symbols	records_with_frameshift_symbols	status
+Euarchontoglires	84	84	Homo_sapiens	1280	387	84	3	1	PASS_RAW_REQUIRES_MASKING
+Laurasiatheria	126	127	Homo_sapiens_anchor	1966	387	127	12	4	PASS_RAW_REQUIRES_MASKING
+Sauropsida	53	54	Homo_sapiens_anchor	906	387	54	0	0	PASS
+Amphibia	4	5	Homo_sapiens_anchor	607	387	5	0	0	PASS

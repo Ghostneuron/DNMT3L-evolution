@@ -1,0 +1,16 @@
+metric	value
+modelarchive_accession	ma-dm-mmk9-101
+model_rank	1
+heavy_atom_cutoff_angstrom	5.0
+dnmt3l_residues	139-141
+g9a_contact_positions	699,700,701,702,703
+mouse_g9a_contact_state	KLRFH
+accepted_eutherian_dnmt3l_triplets	219
+eutherians_with_ehmt2_mapping	212
+eutherians_without_ehmt2_mapping	7
+eutherian_contact_state_counts	KLRFH:212
+muroids_with_ehmt2_mapping	26
+muroid_contact_state_counts	KLRFH:26
+other_eutherians_with_ehmt2_mapping	186
+other_eutherian_contact_state_counts	KLRFH:186
+missing_species	Acomys minous;Aethalodelphis obliquidens;Bos grunniens;Lipotes vexillifer;Papio anubis;Pipistrellus hanaki;Tupaia belangeri chinensis

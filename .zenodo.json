@@ -1,7 +1,7 @@
 {
-  "title": "Modular evolutionary constraint and lineage-structured switching-helix variation in DNMT3L",
+  "title": "A muroid-specific DNMT3L G9a-contact state among eutherians and conserved DNMT3A contacts across tetrapods: data and code",
   "upload_type": "dataset",
-  "description": "Reproducibility archive for a clade-aware analysis of vertebrate DNMT3L sequence evolution. The archive contains source and filtered alignments, selection-model inputs and outputs, inferred and taxonomy-constrained trees, saturation and structural-context analyses, ancestral-state reconstruction, representative genomic-neighborhood checks, an h358-ungated sensitivity, a GARD partition-aware sensitivity, machine-readable summaries, figures, supplementary tables, software records, scripts, provenance notes, manifests, and checksums. The manuscript itself is not distributed in this archive. Mixed licensing applies: original code in scripts directories is MIT licensed; other original content is CC BY 4.0; third-party material remains subject to source terms. See the included LICENSE file.",
+  "description": "Versioned data, code, figures, and reproducibility records for a comparative analysis of vertebrate DNMT3L evolution centered on a sampled muroid LFI state at NP105/NP106/NP107, matched partner-side conservation, locus evidence, ancestral reconstruction, and alignment sensitivity.",
   "creators": [
     {
       "name": "Lu, Jie",
@@ -12,13 +12,21 @@
   "keywords": [
     "DNMT3L",
     "molecular evolution",
-    "DNA methylation",
     "comparative genomics",
-    "codon models",
-    "switching helix"
+    "G9a",
+    "EHMT2",
+    "DNA methylation",
+    "ancestral reconstruction"
   ],
   "access_right": "open",
   "license": "other-open",
-  "publication_date": "2026-10-25",
-  "version": "1.1.1"
+  "publication_date": "2026-11-16",
+  "version": "1.0.0",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.20574054",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    }
+  ]
 }

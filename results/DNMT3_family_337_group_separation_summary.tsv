@@ -1,0 +1,5 @@
+group	n_tips	exact_root_independent_split	SH_aLRT_support
+DNMT3L	289	True	100.0
+DNMT3A	11	True	99.5
+DNMT3B	10	True	97.6
+DNMT3A_plus_DNMT3B	21	True	100.0

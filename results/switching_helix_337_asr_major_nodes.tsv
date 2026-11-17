@@ -1,0 +1,37 @@
+topology	lineage	mrca_node	requested_tips	mrca_descendant_tips	monophyletic_exact	site	called_state_pp80	maximum_posterior_state	maximum_posterior
+taxonomy	Amphibia	NCBI_8292	4	4	True	349	K	K	0.86243
+taxonomy	Amphibia	NCBI_8292	4	4	True	352	UNCERTAIN	S	0.23958
+taxonomy	Amniota	NCBI_32524	285	285	True	349	K	K	0.8779
+taxonomy	Amniota	NCBI_32524	285	285	True	352	UNCERTAIN	Q	0.25495
+taxonomy	Sauropsida	NCBI_32561	53	53	True	349	K	K	0.99671
+taxonomy	Sauropsida	NCBI_32561	53	53	True	352	UNCERTAIN	L	0.36667
+taxonomy	Theria	NCBI_32525	232	232	True	349	Q	Q	0.96694
+taxonomy	Theria	NCBI_32525	232	232	True	352	Q	Q	0.95906
+taxonomy	Marsupialia	NCBI_9263	12	12	True	349	Q	Q	1.0
+taxonomy	Marsupialia	NCBI_9263	12	12	True	352	Q	Q	1.0
+taxonomy	Placentalia	NCBI_9347	220	220	True	349	Q	Q	1.0
+taxonomy	Placentalia	NCBI_9347	220	220	True	352	Q	Q	0.99969
+gene_tree	Amphibia	Node146	4	4	True	349	K	K	0.85824
+gene_tree	Amphibia	Node146	4	4	True	352	UNCERTAIN	S	0.21052
+gene_tree	Amniota	Node93	285	285	True	349	K	K	0.86985
+gene_tree	Amniota	Node93	285	285	True	352	UNCERTAIN	Q	0.32024
+gene_tree	Sauropsida	Node94	53	53	True	349	K	K	0.99676
+gene_tree	Sauropsida	Node94	53	53	True	352	UNCERTAIN	L	0.51787
+gene_tree	Theria	Node92	232	232	True	349	Q	Q	0.96671
+gene_tree	Theria	Node92	232	232	True	352	Q	Q	0.94919
+gene_tree	Marsupialia	Node149	12	12	True	349	Q	Q	0.99998
+gene_tree	Marsupialia	Node149	12	12	True	352	Q	Q	0.97222
+gene_tree	Placentalia	Node91	220	220	True	349	Q	Q	0.99999
+gene_tree	Placentalia	Node91	220	220	True	352	Q	Q	0.9997
+taxonomy_named_node	Amphibia	NCBI_8292			True	349	K	K	0.86243
+taxonomy_named_node	Amphibia	NCBI_8292			True	352	UNCERTAIN	S	0.23958
+taxonomy_named_node	Amniota	NCBI_32524			True	349	K	K	0.8779
+taxonomy_named_node	Amniota	NCBI_32524			True	352	UNCERTAIN	Q	0.25495
+taxonomy_named_node	Sauria	NCBI_32561			True	349	K	K	0.99671
+taxonomy_named_node	Sauria	NCBI_32561			True	352	UNCERTAIN	L	0.36667
+taxonomy_named_node	Theria	NCBI_32525			True	349	Q	Q	0.96694
+taxonomy_named_node	Theria	NCBI_32525			True	352	Q	Q	0.95906
+taxonomy_named_node	Marsupialia	NCBI_9263			True	349	Q	Q	1.0
+taxonomy_named_node	Marsupialia	NCBI_9263			True	352	Q	Q	1.0
+taxonomy_named_node	Placentalia	NCBI_9347			True	349	Q	Q	1.0
+taxonomy_named_node	Placentalia	NCBI_9347			True	352	Q	Q	0.99969

@@ -1,0 +1,338 @@
+gene_id	membership	old_species	new_species	old_protein_accession	new_protein_accession	protein_accession_changed	old_selection_ready	new_selection_ready	readiness_change
+29947	SHARED_GENEID	Homo sapiens	Homo sapiens	NP_037501.2	NP_037501.2	False	True	True	READY_BOTH
+54427	SHARED_GENEID	Mus musculus	Mus musculus	NP_062321.1	NP_001075164.1	True	True	True	READY_BOTH
+309680	SHARED_GENEID	Rattus norvegicus	Rattus norvegicus	NP_001003964.2	NP_001003964.2	False	True	True	READY_BOTH
+470099	SHARED_GENEID	Pan troglodytes	Pan troglodytes	XP_054531055.1	XP_054531055.1	False	True	True	READY_BOTH
+608536	SHARED_GENEID	Canis lupus familiaris	Canis lupus familiaris	XP_038317659.1	XP_038437085.1	True	False	True	GAINED_READY
+613785	SHARED_GENEID	Bos taurus	Bos taurus	XP_024853337.1	XP_024853337.1	False	True	True	READY_BOTH
+722184	SHARED_GENEID	Macaca mulatta	Macaca mulatta	XP_077851694.1	XP_001118368.2	True	True	True	READY_BOTH
+100027435	SHARED_GENEID	Monodelphis domestica	Monodelphis domestica	XP_056682061.1	XP_085184358.1	True	True	True	READY_BOTH
+100050680	SHARED_GENEID	Equus caballus	Equus caballus	XP_023486040.2	XP_023486040.2	False	True	True	READY_BOTH
+100392528	SHARED_GENEID	Callithrix jacchus	Callithrix jacchus	XP_078214841.1	XP_078214841.1	False	True	True	READY_BOTH
+100438354	SHARED_GENEID	Pongo abelii	Pongo abelii	XP_024095106.1	XP_024095106.1	False	True	True	READY_BOTH
+100480370	SHARED_GENEID	Ailuropoda melanoleuca	Ailuropoda melanoleuca	XP_034507954.1	XP_034507954.1	False	True	True	READY_BOTH
+100581773	SHARED_GENEID	Nomascus leucogenys	Nomascus leucogenys	XP_030662113.1	XP_030662113.1	False	True	True	READY_BOTH
+100621554	SHARED_GENEID	Sus scrofa	Sus scrofa	XP_020926741.1	XP_013845664.3	True	True	True	READY_BOTH
+100673612	SHARED_GENEID	Loxodonta africana	Loxodonta africana	XP_003419086.1	XP_003419086.1	False	True	True	READY_BOTH
+100729608	SHARED_GENEID	Cavia porcellus	Cavia porcellus	XP_063081393.1	XP_063081393.1	False	True	True	READY_BOTH
+100768334	SHARED_GENEID	Cricetulus griseus	Cricetulus griseus	XP_027249972.1	XP_003500652.1	True	True	True	READY_BOTH
+100930167	SHARED_GENEID	Sarcophilus harrisii	Sarcophilus harrisii	XP_031817128.1	XP_031817128.1	False	True	True	READY_BOTH
+100941178	SHARED_GENEID	Otolemur garnettii	Otolemur garnettii	XP_003798177.1	XP_003798177.1	False	True	True	READY_BOTH
+100995105	SHARED_GENEID	Pan paniscus	Pan paniscus	XP_057156926.1	XP_057156926.1	False	True	True	READY_BOTH
+101026636	SHARED_GENEID	Papio anubis	Papio anubis	XP_003895453.1	XP_003895453.1	False	True	True	READY_BOTH
+101037578	SHARED_GENEID	Saimiri boliviensis	Saimiri boliviensis	XP_039336546.1	XP_039336546.1	False	True	True	READY_BOTH
+101091300	SHARED_GENEID	Felis catus	Felis catus	XP_044892455.1	XP_044892456.1	True	True	True	READY_BOTH
+101102451	SHARED_GENEID	Ovis aries	Ovis aries	XP_027819844.2	XP_027819844.2	False	True	True	READY_BOTH
+101285498	SHARED_GENEID	Orcinus orca	Orcinus orca	XP_033274459.1	XP_033274459.1	False	True	True	READY_BOTH
+101345821	SHARED_GENEID	Trichechus manatus latirostris	Trichechus manatus latirostris	XP_004384916.1	XP_004384916.1	False	True	True	READY_BOTH
+101364933	SHARED_GENEID	Odobenus rosmarus divergens	Odobenus rosmarus divergens	XP_012421411.1	XP_012421411.1	False	True	True	READY_BOTH
+101405076	SHARED_GENEID	Ceratotherium simum simum	Ceratotherium simum simum	XP_014642366.1	XP_014642366.2	True	True	True	READY_BOTH
+101421076	SHARED_GENEID	Dasypus novemcinctus	Dasypus novemcinctus	XP_058152477.1	XP_058152477.1	False	True	True	READY_BOTH
+101534575	SHARED_GENEID	Ochotona princeps	Ochotona princeps	XP_004594207.2	XP_004594207.2	False	True	True	READY_BOTH
+101538422	SHARED_GENEID	Sorex araneus	Sorex araneus	XP_004602542.3	XP_004602542.3	False	True	True	READY_BOTH
+101568548	SHARED_GENEID	Octodon degus	Octodon degus	XP_023571841.1	XP_023571841.1	False	True	True	READY_BOTH
+101597354	SHARED_GENEID	Jaculus jaculus	Jaculus jaculus	XP_045005155.1	XP_045005155.1	False	True	True	READY_BOTH
+101642091	SHARED_GENEID	Echinops telfairi	Echinops telfairi	XP_004697359.1	XP_004697359.1	False	True	True	READY_BOTH
+101674632	SHARED_GENEID	Mustela putorius furo	Mustela putorius furo	XP_044940483.1	XP_044940483.1	False	False	False	NOT_READY_BOTH
+101719207	SHARED_GENEID	Heterocephalus glaber	Heterocephalus glaber	XP_021112037.1	XP_087037882.1	True	True	True	READY_BOTH
+101831482	SHARED_GENEID	Mesocricetus auratus	Mesocricetus auratus	XP_040588363.1	XP_040588363.1	False	True	True	READY_BOTH
+101975491	SHARED_GENEID	Ictidomys tridecemlineatus	Ictidomys tridecemlineatus	XP_005323631.2	XP_005323631.2	False	True	True	READY_BOTH
+101979410	SHARED_GENEID	Microtus ochrogaster	Microtus ochrogaster	XP_005360334.1	XP_013206612.1	True	True	True	READY_BOTH
+102022360	SHARED_GENEID	Chinchilla lanigera	Chinchilla lanigera	XP_013361542.1	XP_013361542.1	False	True	True	READY_BOTH
+102131847	SHARED_GENEID	Macaca fascicularis	Macaca fascicularis	XP_073890031.1	XP_005548615.3	True	True	True	READY_BOTH
+102170557	SHARED_GENEID	Capra hircus	Capra hircus	XP_017906137.1	XP_017906137.1	False	True	True	READY_BOTH
+102260267	SHARED_GENEID	Myotis brandtii	Myotis brandtii	XP_005880491.1	XP_005880491.1	False	False	False	NOT_READY_BOTH
+102268104	SHARED_GENEID	Bos mutus	Bos mutus	XP_070220140.1	XP_070220140.1	False	True	True	READY_BOTH
+102380526	SHARED_GENEID	Alligator sinensis	Alligator sinensis	XP_014381785.1	XP_014381785.1	False	True	True	READY_BOTH
+102410507	SHARED_GENEID	Bubalus bubalis	Bubalus bubalis	XP_044796573.1	XP_044796573.1	False	True	True	READY_BOTH
+102421706	SHARED_GENEID	Myotis lucifugus	Myotis lucifugus	XP_006099972.1	XP_006099972.1	False	False	False	NOT_READY_BOTH
+102457175	SHARED_GENEID	Pelodiscus sinensis	Pelodiscus sinensis	XP_075763867.1	XP_089632372.1	True	False	True	GAINED_READY
+102499625	SHARED_GENEID	Tupaia chinensis	Tupaia belangeri chinensis	XP_027624464.1	XP_027624464.1	False	True	True	READY_BOTH
+102517577	SHARED_GENEID	Camelus ferus	Camelus ferus	XP_032350137.1	XP_032350137.1	False	True	True	READY_BOTH
+102529573	SHARED_GENEID	Vicugna pacos	Vicugna pacos	XP_072826181.1	XP_072826181.1	False	True	True	READY_BOTH
+102565096	SHARED_GENEID	Alligator mississippiensis	Alligator mississippiensis	XP_006278532.4	XP_006278532.4	False	False	False	NOT_READY_BOTH
+102746841	SHARED_GENEID	Leptonychotes weddellii	Leptonychotes weddellii	XP_081676642.1	XP_081676642.1	False	False	False	NOT_READY_BOTH
+102757689	SHARED_GENEID	Myotis davidii	Myotis davidii	XP_006759051.1	XP_006759051.1	False	False	False	NOT_READY_BOTH
+102834423	SHARED_GENEID	Chrysochloris asiatica	Chrysochloris asiatica	XP_006876869.1	XP_006876869.1	False	False	False	NOT_READY_BOTH
+102859914	SHARED_GENEID	Elephantulus edwardii	Elephantulus edwardii	XP_006898489.1	XP_006898489.1	False	True	True	READY_BOTH
+102879116	SHARED_GENEID	Pteropus alecto	Pteropus alecto	XP_015453100.1	XP_015453100.1	False	False	False	NOT_READY_BOTH
+102919124	SHARED_GENEID	Peromyscus maniculatus bairdii	Peromyscus maniculatus bairdii	XP_006989505.1	XP_006989505.1	False	True	True	READY_BOTH
+102944683	SHARED_GENEID	Chelonia mydas	Chelonia mydas	XP_043394051.1	XP_043394051.1	False	True	True	READY_BOTH
+102969684	SHARED_GENEID	Panthera tigris	Panthera tigris	XP_042812527.1	XP_042812527.1	False	True	True	READY_BOTH
+102975246	SHARED_GENEID	Physeter macrocephalus	Physeter macrocephalus	XP_007128499.1	XP_007128499.1	False	True	True	READY_BOTH
+103010439	SHARED_GENEID	Balaenoptera acutorostrata	Balaenoptera acutorostrata	XP_007172799.2	XP_007172799.2	False	True	True	READY_BOTH
+103087170	SHARED_GENEID	Lipotes vexillifer	Lipotes vexillifer	XP_007452573.1	XP_007452573.1	False	True	True	READY_BOTH
+103126026	SHARED_GENEID	Erinaceus europaeus	Erinaceus europaeus	XP_060052967.1	XP_060052967.1	False	True	True	READY_BOTH
+103202419	SHARED_GENEID	Orycteropus afer afer	Orycteropus afer afer	XP_007945496.1	XP_007945496.1	False	True	True	READY_BOTH
+103219723	SHARED_GENEID	Chlorocebus sabaeus	Chlorocebus sabaeus	XP_007967899.1	XP_007967899.1	False	True	True	READY_BOTH
+103272616	SHARED_GENEID	Carlito syrichta	Carlito syrichta	XP_008068287.2	XP_008068287.2	False	True	True	READY_BOTH
+103278356	SHARED_GENEID	Anolis carolinensis	Anolis carolinensis	XP_062831233.1	XP_008105656.2	True	False	False	NOT_READY_BOTH
+103289879	SHARED_GENEID	Eptesicus fuscus	Eptesicus fuscus	XP_054568834.1	XP_054568834.1	False	True	True	READY_BOTH
+103561238	SHARED_GENEID	Equus przewalskii	Equus przewalskii	XP_070453365.1	XP_070453365.1	False	True	True	READY_BOTH
+103680752	SHARED_GENEID	Ursus maritimus	Ursus maritimus	XP_040477587.1	XP_040477587.1	False	True	True	READY_BOTH
+103729377	SHARED_GENEID	Nannospalax galili	Nannospalax galili	XP_008825643.1	XP_008825643.1	False	True	True	READY_BOTH
+104659934	SHARED_GENEID	Rhinopithecus roxellana	Rhinopithecus roxellana	XP_010358408.1	XP_010358408.1	False	True	True	READY_BOTH
+104870722	SHARED_GENEID	Fukomys damarensis	Fukomys damarensis	XP_010634765.1	XP_010634765.1	False	True	True	READY_BOTH
+104985014	SHARED_GENEID	Bison bison bison	Bison bison bison	XP_010833304.1	XP_010833304.1	False	True	True	READY_BOTH
+105078060	SHARED_GENEID	Camelus bactrianus	Camelus bactrianus	XP_010964861.2	XP_010964861.2	False	True	True	READY_BOTH
+105104000	SHARED_GENEID	Camelus dromedarius	Camelus dromedarius	XP_031316586.2	XP_031316586.2	False	True	True	READY_BOTH
+105303036	SHARED_GENEID	Pteropus vampyrus	Pteropus vampyrus	XP_023376913.1	XP_023376913.1	False	False	False	NOT_READY_BOTH
+105472542	SHARED_GENEID	Macaca nemestrina	Macaca nemestrina	XP_011724201.2	XP_011724201.2	False	True	True	READY_BOTH
+105520411	SHARED_GENEID	Colobus angolensis palliatus	Colobus angolensis palliatus	XP_011809526.1	XP_011809526.1	False	True	True	READY_BOTH
+105555538	SHARED_GENEID	Mandrillus leucophaeus	Mandrillus leucophaeus	XP_011857907.1	XP_011857907.1	False	True	True	READY_BOTH
+105575514	SHARED_GENEID	Cercocebus atys	Cercocebus atys	XP_011892811.1	XP_011892812.1	True	True	True	READY_BOTH
+105713609	SHARED_GENEID	Aotus nancymaae	Aotus nancymaae	XP_012302789.2	XP_012302789.2	False	True	True	READY_BOTH
+105824153	SHARED_GENEID	Propithecus coquereli	Propithecus coquereli	XP_012516978.1	XP_012516978.1	False	True	True	READY_BOTH
+105879097	SHARED_GENEID	Microcebus murinus	Microcebus murinus	XP_075860770.1	XP_075860770.1	False	True	True	READY_BOTH
+105993970	SHARED_GENEID	Dipodomys ordii	Dipodomys ordii	XP_012882815.1	XP_012882815.1	False	True	True	READY_BOTH
+106545461	SHARED_GENEID	Thamnophis sirtalis	Thamnophis sirtalis	XP_013917502.1	XP_087577859.1	True	False	True	GAINED_READY
+106824455	SHARED_GENEID	Equus asinus	Equus asinus	XP_044606982.1	XP_044606982.1	False	True	True	READY_BOTH
+106985658	SHARED_GENEID	Acinonyx jubatus	Acinonyx jubatus	XP_053077801.1	XP_053077801.1	False	True	True	READY_BOTH
+107109205	SHARED_GENEID	Gekko japonicus	Gekko japonicus	XP_015265254.1	XP_015265254.1	False	True	True	READY_BOTH
+107136167	SHARED_GENEID	Marmota marmota marmota	Marmota marmota marmota	XP_048659907.1	XP_048659907.1	False	False	False	NOT_READY_BOTH
+107286496	SHARED_GENEID	Protobothrops mucrosquamatus	Protobothrops mucrosquamatus	XP_029139776.1	XP_029139776.1	False	True	True	READY_BOTH
+107510205	SHARED_GENEID	Rousettus aegyptiacus	Rousettus aegyptiacus	XP_036094034.1	XP_036094034.1	False	True	True	READY_BOTH
+107537457	SHARED_GENEID	Miniopterus natalensis	Miniopterus natalensis	XP_016068969.1	XP_016068969.2	True	True	True	READY_BOTH
+108311259	SHARED_GENEID	Cebus imitator	Cebus imitator	XP_017394142.1	XP_017394142.1	False	True	True	READY_BOTH
+108403211	SHARED_GENEID	Manis javanica	Manis javanica	XP_017525668.1	XP_017525668.1	False	False	False	NOT_READY_BOTH
+108539839	SHARED_GENEID	Rhinopithecus bieti	Rhinopithecus bieti	XP_017744263.1	XP_017744263.1	False	True	True	READY_BOTH
+109256904	SHARED_GENEID	Panthera pardus	Panthera pardus	XP_053760019.1	XP_053760019.1	False	True	True	READY_BOTH
+109302310	SHARED_GENEID	Gavialis gangeticus	Gavialis gangeticus	XP_019379417.1	XP_019379417.1	False	False	False	NOT_READY_BOTH
+109324981	SHARED_GENEID	Crocodylus porosus	Crocodylus porosus	XP_019412663.1	XP_019412663.1	False	True	True	READY_BOTH
+109372092	SHARED_GENEID	Hipposideros armiger	Hipposideros armiger	XP_019480538.1	XP_019480538.1	False	True	True	READY_BOTH
+109454760	SHARED_GENEID	Rhinolophus sinicus	Rhinolophus sinicus	XP_019601251.2	XP_019601251.2	False	True	True	READY_BOTH
+109563368	SHARED_GENEID	Bos indicus	Bos indicus	XP_070643939.1	XP_070643939.1	False	True	True	READY_BOTH
+109689136	SHARED_GENEID	Castor canadensis	Castor canadensis	XP_020023455.1	XP_020023455.1	False	True	True	READY_BOTH
+110074042	SHARED_GENEID	Pogona vitticeps	Pogona vitticeps	XP_078246631.1	XP_078246631.1	False	True	True	READY_BOTH
+110131141	SHARED_GENEID	Odocoileus virginianus	Odocoileus virginianus	XP_020739230.2	XP_020739230.2	False	True	True	READY_BOTH
+110214843	SHARED_GENEID	Phascolarctos cinereus	Phascolarctos cinereus	XP_020851593.1	XP_020851593.1	False	True	True	READY_BOTH
+110303936	SHARED_GENEID	Mus caroli	Mus caroli	XP_021030836.1		False	True	False	LOST_READY
+110327056	SHARED_GENEID	Mus pahari	Mus pahari	XP_021061408.1	XP_021061408.1	False	True	True	READY_BOTH
+110556106	SHARED_GENEID	Meriones unguiculatus	Meriones unguiculatus	XP_021505399.1	XP_021505399.1	False	True	True	READY_BOTH
+110571078	SHARED_GENEID	Neomonachus schauinslandi	Neomonachus schauinslandi	XP_021534865.1	XP_021534865.1	False	True	True	READY_BOTH
+111155816	SHARED_GENEID	Enhydra lutris kenyoni	Enhydra lutris kenyoni	XP_022371933.1	XP_022371936.1	True	True	True	READY_BOTH
+111526667	SHARED_GENEID	Piliocolobus tephrosceles	Piliocolobus tephrosceles	XP_023048272.1	XP_023048272.1	False	True	True	READY_BOTH
+112308906	SHARED_GENEID	Desmodus rotundus	Desmodus rotundus	XP_053775120.1	XP_053775120.1	False	True	True	READY_BOTH
+112408689	SHARED_GENEID	Neophocaena asiaeorientalis asiaeorientalis	Neophocaena asiaeorientalis asiaeorientalis	XP_024614209.1	XP_024614209.1	False	True	True	READY_BOTH
+112540431	SHARED_GENEID	Python bivittatus	Python bivittatus	XP_025021260.1		False	False	False	NOT_READY_BOTH
+112621234	SHARED_GENEID	Theropithecus gelada	Theropithecus gelada	XP_025236365.1	XP_025236365.1	False	True	True	READY_BOTH
+112669206	SHARED_GENEID	Canis lupus dingo	Canis lupus dingo	XP_048960539.1	XP_048960541.1	True	False	True	GAINED_READY
+112816743	SHARED_GENEID	Callorhinus ursinus	Callorhinus ursinus	XP_025719214.1	XP_025719214.1	False	True	True	READY_BOTH
+112849427	SHARED_GENEID	Puma concolor	Puma concolor	XP_025768829.1	XP_086532481.1	True	False	True	GAINED_READY
+112909566	SHARED_GENEID	Vulpes vulpes	Vulpes vulpes	XP_072596844.1	XP_072596844.1	False	True	True	READY_BOTH
+113256779	SHARED_GENEID	Ursus arctos	Ursus arctos	XP_044240711.2	XP_044240711.2	False	True	True	READY_BOTH
+113416223	SHARED_GENEID	Notechis scutatus	Notechis scutatus	XP_026529760.1	XP_026529760.2	True	True	True	READY_BOTH
+113444762	SHARED_GENEID	Pseudonaja textilis	Pseudonaja textilis	XP_026569422.1	XP_087794027.1	True	True	True	READY_BOTH
+113619743	SHARED_GENEID	Sagmatias obliquidens	Aethalodelphis obliquidens	XP_026961203.1	XP_026961203.1	False	True	True	READY_BOTH
+113898251	SHARED_GENEID	Bos indicus x Bos taurus	Bos indicus x Bos taurus	XP_027407017.1	XP_027407017.1	False	False	False	NOT_READY_BOTH
+113917212	SHARED_GENEID	Zalophus californianus	Zalophus californianus	XP_027440679.2	XP_027440679.2	False	True	True	READY_BOTH
+114052754	SHARED_GENEID	Vombatus ursinus	Vombatus ursinus	XP_027731263.1	XP_027731263.1	False	True	True	READY_BOTH
+114087733	SHARED_GENEID	Marmota flaviventris	Marmota flaviventris	XP_027785102.2	XP_027785102.2	False	True	True	READY_BOTH
+114226414	SHARED_GENEID	Eumetopias jubatus	Eumetopias jubatus	XP_027982295.1	XP_027982295.2	True	True	True	READY_BOTH
+114490719	SHARED_GENEID	Phyllostomus discolor	Phyllostomus discolor	XP_028360566.1	XP_028360566.1	False	True	True	READY_BOTH
+114596141	SHARED_GENEID	Podarcis muralis	Podarcis muralis	XP_077783920.1	XP_077783920.1	False	True	True	READY_BOTH
+114621553	SHARED_GENEID	Grammomys surdaster	Grammomys surdaster	XP_028623697.1	XP_028623696.1	True	False	False	NOT_READY_BOTH
+114685791	SHARED_GENEID	Peromyscus leucopus	Peromyscus leucopus	XP_028716249.1	XP_028716249.1	False	True	True	READY_BOTH
+114890754	SHARED_GENEID	Monodon monoceros	Monodon monoceros	XP_029070435.1	XP_029070435.1	False	True	True	READY_BOTH
+115076852	SHARED_GENEID	Rhinatrema bivittatum	Rhinatrema bivittatum	XP_029434678.1	XP_029434680.1	True	False	False	NOT_READY_BOTH
+115291413	SHARED_GENEID	Suricata suricatta	Suricata suricatta	XP_029794723.1	XP_029794723.1	False	True	True	READY_BOTH
+115471233	SHARED_GENEID	Microcaecilia unicolor	Microcaecilia unicolor	XP_030060797.1	XP_030060797.1	False	False	False	NOT_READY_BOTH
+115523112	SHARED_GENEID	Lynx canadensis	Lynx canadensis	XP_030184668.1	XP_030184668.1	False	True	True	READY_BOTH
+115644137	SHARED_GENEID	Gopherus evgoodei	Gopherus evgoodei	XP_030404141.1	XP_030404141.1	False	False	False	NOT_READY_BOTH
+115841592	SHARED_GENEID	Globicephala melas	Globicephala melas	XP_060153625.1	XP_060153625.1	False	True	True	READY_BOTH
+116074295	SHARED_GENEID	Mastomys coucha	Mastomys coucha	XP_031202509.1	XP_031202509.1	False	True	True	READY_BOTH
+116481962	SHARED_GENEID	Hylobates moloch	Hylobates moloch	XP_032030916.1	XP_032030916.1	False	True	True	READY_BOTH
+116510730	SHARED_GENEID	Thamnophis elegans	Thamnophis elegans	XP_032076273.1	XP_032076273.1	False	False	False	NOT_READY_BOTH
+116550556	SHARED_GENEID	Sapajus apella	Sapajus apella	XP_032132462.1	XP_032132462.1	False	True	True	READY_BOTH
+116592903	SHARED_GENEID	Mustela erminea	Mustela erminea	XP_032202424.1	XP_032202424.1	False	False	False	NOT_READY_BOTH
+116624537	SHARED_GENEID	Phoca vitulina	Phoca vitulina	XP_032248435.1	XP_032248435.1	False	True	True	READY_BOTH
+116752726	SHARED_GENEID	Phocoena sinus	Phocoena sinus	XP_032485353.1	XP_032485353.1	False	True	True	READY_BOTH
+116836966	SHARED_GENEID	Chelonoidis abingdonii	Chelonoidis abingdonii	XP_032656889.2	XP_032656889.2	False	False	False	NOT_READY_BOTH
+116872335	SHARED_GENEID	Lontra canadensis	Lontra canadensis	XP_032721405.1	XP_032721405.1	False	False	False	NOT_READY_BOTH
+116887549	SHARED_GENEID	Rattus rattus	Rattus rattus	XP_032745073.1	XP_032745073.1	False	True	True	READY_BOTH
+117033163	SHARED_GENEID	Rhinolophus ferrumequinum	Rhinolophus ferrumequinum	XP_032981053.1	XP_032981053.1	False	True	True	READY_BOTH
+117045377	SHARED_GENEID	Lacerta agilis	Lacerta agilis	XP_033002269.1	XP_033002269.1	False	True	True	READY_BOTH
+117093756	SHARED_GENEID	Trachypithecus francoisi	Trachypithecus francoisi	XP_033085183.1	XP_033085183.1	False	True	True	READY_BOTH
+117312194	SHARED_GENEID	Tursiops truncatus	Tursiops truncatus	XP_033712095.1	XP_033712095.1	False	True	True	READY_BOTH
+117359714	SHARED_GENEID	Geotrypetes seraphini	Geotrypetes seraphini	XP_033798820.1	XP_033798820.1	False	True	True	READY_BOTH
+117669437	NEW_GENEID		Pantherophis guttatus		XP_087751329.1	False	False	True	GAINED_READY
+117724832	SHARED_GENEID	Arvicanthis niloticus	Arvicanthis niloticus	XP_034380657.1	XP_034380657.1	False	True	True	READY_BOTH
+117877774	SHARED_GENEID	Trachemys scripta elegans	Trachemys scripta elegans	XP_034627179.1	XP_034627179.1	False	True	True	READY_BOTH
+118026920	SHARED_GENEID	Mirounga leonina	Mirounga leonina	XP_034885866.1	XP_034885866.1	False	True	True	READY_BOTH
+118085730	SHARED_GENEID	Zootoca vivipara	Zootoca vivipara	XP_034972580.1	XP_088524874.1	True	True	True	READY_BOTH
+118538933	SHARED_GENEID	Halichoerus grypus	Halichoerus grypus	XP_077923824.1	XP_077923911.1	True	True	True	READY_BOTH
+118569428	SHARED_GENEID	Onychomys torridus	Onychomys torridus	XP_036023067.1	XP_036023067.1	False	True	True	READY_BOTH
+118617621	SHARED_GENEID	Molossus molossus	Molossus molossus	XP_036099497.1	XP_036099497.1	False	False	False	NOT_READY_BOTH
+118677578	SHARED_GENEID	Myotis myotis	Myotis myotis	XP_036208661.1	XP_036208661.1	False	False	False	NOT_READY_BOTH
+118724897	SHARED_GENEID	Pipistrellus kuhlii	Pipistrellus kuhlii	XP_036304524.1	XP_036304524.1	False	False	False	NOT_READY_BOTH
+118837328	SHARED_GENEID	Trichosurus vulpecula	Trichosurus vulpecula	XP_036600097.1	XP_036600097.1	False	True	True	READY_BOTH
+118894087	SHARED_GENEID	Balaenoptera musculus	Balaenoptera musculus	XP_036705628.1	XP_036705628.1	False	True	True	READY_BOTH
+118925841	SHARED_GENEID	Manis pentadactyla	Manis pentadactyla	XP_036768043.2	XP_036768043.2	False	False	False	NOT_READY_BOTH
+119000320	SHARED_GENEID	Sturnira hondurensis	Sturnira hondurensis	XP_036921196.1	XP_036921196.1	False	True	True	READY_BOTH
+119058793	SHARED_GENEID	Artibeus jamaicensis	Artibeus jamaicensis	XP_037014142.2	XP_037014142.2	False	True	True	READY_BOTH
+119257070	SHARED_GENEID	Talpa occidentalis	Talpa occidentalis	XP_037380669.1	XP_037380669.1	False	True	True	READY_BOTH
+119541412	SHARED_GENEID	Choloepus didactylus	Choloepus didactylus	XP_037701310.1	XP_037701310.1	False	True	True	READY_BOTH
+119823787	SHARED_GENEID	Arvicola amphibius	Arvicola amphibius	XP_038199772.1	XP_038199772.1	False	True	True	READY_BOTH
+119852633	SHARED_GENEID	Dermochelys coriacea	Dermochelys coriacea	XP_038250055.2	XP_038250055.2	False	False	False	NOT_READY_BOTH
+120240668	SHARED_GENEID	Hyaena hyaena	Hyaena hyaena	XP_039101385.1	XP_039101385.1	False	True	True	READY_BOTH
+120319302	SHARED_GENEID	Crotalus tigris	Crotalus tigris	XP_039223955.1	XP_039223955.1	False	True	True	READY_BOTH
+120406673	SHARED_GENEID	Mauremys reevesii	Mauremys reevesii	XP_039397668.1	XP_039397668.1	False	False	False	NOT_READY_BOTH
+120598494	SHARED_GENEID	Pteropus medius	Pteropus medius	XP_039713201.1	XP_039713207.1	True	True	True	READY_BOTH
+120868393	SHARED_GENEID	Oryx dammah	Oryx dammah	XP_040103148.1	XP_040103148.1	False	True	True	READY_BOTH
+121036451	SHARED_GENEID	Herpailurus yagouaroundi	Herpailurus yagouaroundi	XP_040340900.1	XP_040340900.1	False	True	True	READY_BOTH
+121160646	SHARED_GENEID	Ochotona curzoniae	Ochotona curzoniae	XP_040842543.1	XP_040842543.1	False	True	True	READY_BOTH
+121435721	SHARED_GENEID	Microtus oregoni	Microtus oregoni	XP_041491122.1	XP_041491122.1	False	True	True	READY_BOTH
+121479225	SHARED_GENEID	Vulpes lagopus	Vulpes lagopus	XP_041590624.1	XP_041590624.1	False	True	True	READY_BOTH
+121925815	SHARED_GENEID	Sceloporus undulatus	Sceloporus undulatus	XP_042314325.1	XP_042314325.1	False	True	True	READY_BOTH
+122114213	SHARED_GENEID	Dipodomys spectabilis	Dipodomys spectabilis	XP_042543146.1	XP_042543146.1	False	True	True	READY_BOTH
+122198340	SHARED_GENEID	Panthera leo	Panthera leo	XP_042758877.1	XP_042758877.1	False	True	True	READY_BOTH
+122445169	SHARED_GENEID	Cervus canadensis	Cervus canadensis	XP_043330066.1	XP_043330066.1	False	True	True	READY_BOTH
+122492245	SHARED_GENEID	Prionailurus bengalensis	Prionailurus bengalensis	XP_043451896.1	XP_043451896.1	False	True	True	READY_BOTH
+122675736	SHARED_GENEID	Cervus elaphus	Cervus elaphus	XP_043730717.1	XP_043730717.1	False	True	True	READY_BOTH
+122747460	SHARED_GENEID	Dromiciops gliroides	Dromiciops gliroides	XP_043849402.1	XP_043849402.1	False	True	True	READY_BOTH
+122908698	SHARED_GENEID	Neogale vison	Neogale vison	XP_044107735.1	XP_044107735.1	False	False	False	NOT_READY_BOTH
+123029117	SHARED_GENEID	Varanus komodoensis	Varanus komodoensis	XP_044297653.1	XP_044297653.1	False	False	False	NOT_READY_BOTH
+123241630	SHARED_GENEID	Gracilinanus agilis	Gracilinanus agilis	XP_044525160.1	XP_044525160.1	False	True	True	READY_BOTH
+123355512	SHARED_GENEID	Mauremys mutica	Mauremys mutica	XP_044854049.1	XP_044854049.1	False	True	True	READY_BOTH
+123610491	SHARED_GENEID	Leopardus geoffroyi	Leopardus geoffroyi	XP_045357156.1	XP_045357156.1	False	True	True	READY_BOTH
+123621101	SHARED_GENEID	Lemur catta	Lemur catta	XP_045382908.1	XP_045382908.1	False	True	True	READY_BOTH
+123827934	SHARED_GENEID	Phyllostomus hastatus	Phyllostomus hastatus	XP_045708333.1	XP_045708333.1	False	True	True	READY_BOTH
+123834392	SHARED_GENEID	Mirounga angustirostris	Mirounga angustirostris	XP_064433337.1	XP_064433337.1	False	True	True	READY_BOTH
+123939853	SHARED_GENEID	Meles meles	Meles meles	XP_045857791.1	XP_045857792.1	True	True	True	READY_BOTH
+124089261	SHARED_GENEID	Marmota monax	Marmota monax	XP_046295213.1	XP_046295213.1	False	True	True	READY_BOTH
+124526248	SHARED_GENEID	Lynx rufus	Lynx rufus	XP_046955070.1	XP_046955070.1	False	True	True	READY_BOTH
+124992464	SHARED_GENEID	Sciurus carolinensis	Sciurus carolinensis	XP_047419202.1	XP_047419202.1	False	False	False	NOT_READY_BOTH
+125093499	SHARED_GENEID	Lutra lutra	Lutra lutra	XP_047574708.1	XP_047574708.1	False	False	False	NOT_READY_BOTH
+125136866	SHARED_GENEID	Phacochoerus africanus	Phacochoerus africanus	XP_047653702.1	XP_047653692.1	True	True	True	READY_BOTH
+125159148	SHARED_GENEID	Prionailurus viverrinus	Prionailurus viverrinus	XP_047703062.1	XP_047703062.1	False	True	True	READY_BOTH
+125411177	SHARED_GENEID	Myodes glareolus	Myodes glareolus	XP_048307034.1	XP_048307034.3	True	True	True	READY_BOTH
+125431314	SHARED_GENEID	Sphaerodactylus townsendi	Sphaerodactylus townsendi	XP_048350037.1	XP_048350037.1	False	True	True	READY_BOTH
+125631097	SHARED_GENEID	Caretta caretta	Caretta caretta	XP_074979953.1	XP_074979953.1	False	True	True	READY_BOTH
+125920820	SHARED_GENEID	Panthera uncia	Panthera uncia	XP_049483955.1	XP_049483955.1	False	True	True	READY_BOTH
+126025788	SHARED_GENEID	Suncus etruscus	Suncus etruscus	XP_049641513.1	XP_049641513.1	False	False	False	NOT_READY_BOTH
+126062135	SHARED_GENEID	Elephas maximus indicus	Elephas maximus indicus	XP_049715221.1	XP_049715221.1	False	True	True	READY_BOTH
+126500183	SHARED_GENEID	Alexandromys fortis	Alexandromys fortis	XP_049995834.1	XP_049995834.1	False	False	False	NOT_READY_BOTH
+126950632	SHARED_GENEID	Macaca thibetana thibetana	Macaca thibetana thibetana	XP_050640416.1	XP_050640416.1	False	True	True	READY_BOTH
+127043289	SHARED_GENEID	Gopherus flavomarginatus	Gopherus flavomarginatus	XP_050793239.1	XP_050793239.1	False	False	False	NOT_READY_BOTH
+127195209	SHARED_GENEID	Acomys russatus	Acomys russatus	XP_051008573.1	XP_051008573.1	False	True	True	READY_BOTH
+127223900	SHARED_GENEID	Phodopus roborovskii	Phodopus roborovskii	XP_051042542.1	XP_051042542.1	False	True	True	READY_BOTH
+127557157	SHARED_GENEID	Antechinus flavipes	Antechinus flavipes	XP_051846549.1	XP_051846549.1	False	True	True	READY_BOTH
+127669967	SHARED_GENEID	Apodemus sylvaticus	Apodemus sylvaticus	XP_052020211.1	XP_052020211.1	False	True	True	READY_BOTH
+128055710	SHARED_GENEID	Budorcas taxicolor	Budorcas taxicolor	XP_052504217.1	XP_052504217.1	False	True	True	READY_BOTH
+128114036	SHARED_GENEID	Peromyscus californicus insignis	Peromyscus californicus insignis	XP_052599835.1	XP_052599835.1	False	True	True	READY_BOTH
+128349133	SHARED_GENEID	Hemicordylus capensis	Hemicordylus capensis	XP_053161077.1	XP_053161077.1	False	True	True	READY_BOTH
+128412338	SHARED_GENEID	Podarcis raffonei	Podarcis raffonei	XP_053241222.1	XP_053241222.1	False	True	True	READY_BOTH
+128568114	SHARED_GENEID	Nycticebus coucang	Nycticebus coucang	XP_053421765.1	XP_053421765.1	False	True	True	READY_BOTH
+128835683	SHARED_GENEID	Malaclemys terrapin pileata	Malaclemys terrapin pileata	XP_053881279.1	XP_053881279.1	False	True	True	READY_BOTH
+129022605	SHARED_GENEID	Pongo pygmaeus	Pongo pygmaeus	XP_054324855.1	XP_054324855.1	False	True	True	READY_BOTH
+129073865	SHARED_GENEID	Pteronotus mesoamericanus	Pteronotus mesoamericanus	XP_054433516.1	XP_054433516.1	False	True	True	READY_BOTH
+129326236	SHARED_GENEID	Eublepharis macularius	Eublepharis macularius	XP_054830374.1	XP_054830374.1	False	True	True	READY_BOTH
+129483064	SHARED_GENEID	Symphalangus syndactylus	Symphalangus syndactylus	XP_055135841.1	XP_055135841.1	False	True	True	READY_BOTH
+129502069	SHARED_GENEID	Nyctereutes procyonoides	Nyctereutes procyonoides	XP_055169455.1	XP_055169455.1	False	True	True	READY_BOTH
+129529252	SHARED_GENEID	Gorilla gorilla gorilla	Gorilla gorilla gorilla	XP_055229673.1	XP_055229673.1	False	True	True	READY_BOTH
+129548486	SHARED_GENEID	Moschus berezovskii	Moschus berezovskii	XP_055270985.1	XP_055270985.2	True	True	True	READY_BOTH
+129645033	SHARED_GENEID	Bubalus kerabau	Bubalus kerabau	XP_055426367.1	XP_055426367.1	False	True	True	READY_BOTH
+129676599	SHARED_GENEID	Psammomys obesus	Psammomys obesus	XP_055462990.1	XP_055462990.1	False	True	True	READY_BOTH
+130028798	SHARED_GENEID	Sorex fumeus	Sorex fumeus	XP_055975620.1	XP_055975620.1	False	True	True	READY_BOTH
+130485133	SHARED_GENEID	Euleptes europaea	Euleptes europaea	XP_056714221.1	XP_056714221.1	False	True	True	READY_BOTH
+130830629	SHARED_GENEID	Hippopotamus amphibius kiboko	Hippopotamus amphibius kiboko	XP_057553973.1	XP_057553973.1	False	True	True	READY_BOTH
+130861894	SHARED_GENEID	Chionomys nivalis	Chionomys nivalis	XP_057607173.1	XP_057607174.1	True	True	True	READY_BOTH
+131200077	SHARED_GENEID	Ahaetulla prasina	Ahaetulla prasina	XP_058042425.1	XP_058042425.1	False	True	True	READY_BOTH
+131392927	SHARED_GENEID	Diceros bicornis minor	Diceros bicornis minor	XP_058379204.1	XP_058379204.1	False	True	True	READY_BOTH
+131513221	SHARED_GENEID	Neofelis nebulosa	Neofelis nebulosa	XP_058588537.1	XP_058588537.1	False	True	True	READY_BOTH
+131825706	SHARED_GENEID	Mustela lutreola	Mustela lutreola	XP_059021096.1	XP_059021096.1	False	True	True	READY_BOTH
+131893841	SHARED_GENEID	Peromyscus eremicus	Peromyscus eremicus	XP_059099926.1	XP_059099926.1	False	True	True	READY_BOTH
+132010659	SHARED_GENEID	Mustela nigripes	Mustela nigripes	XP_059244382.1	XP_059244382.1	False	False	False	NOT_READY_BOTH
+132229192	SHARED_GENEID	Myotis daubentonii	Myotis daubentonii	XP_059541932.1	XP_059541932.1	False	False	False	NOT_READY_BOTH
+132364465	SHARED_GENEID	Balaenoptera ricei	Balaenoptera ricei	XP_059776012.1	XP_059776012.1	False	True	True	READY_BOTH
+132423910	SHARED_GENEID	Delphinus delphis	Delphinus delphis	XP_059865725.1	XP_059865725.1	False	True	True	READY_BOTH
+132491072	SHARED_GENEID	Mesoplodon densirostris	Mesoplodon densirostris	XP_059955878.1	XP_059955878.1	False	True	True	READY_BOTH
+132520338	SHARED_GENEID	Lagenorhynchus albirostris	Lagenorhynchus albirostris	XP_060005076.1	XP_060005076.1	False	True	True	READY_BOTH
+132568944	SHARED_GENEID	Heteronotia binoei	Heteronotia binoei	XP_060091108.1	XP_060091108.1	False	True	True	READY_BOTH
+132684391	SHARED_GENEID	Panthera onca	Panthera onca	XP_060496996.2	XP_060496996.2	False	True	True	READY_BOTH
+132770003	SHARED_GENEID	Anolis sagrei	Anolis sagrei	XP_067322337.1		False	False	False	NOT_READY_BOTH
+133074103	SHARED_GENEID	Dama dama	Dama dama	XP_061024030.1	XP_061024030.1	False	True	True	READY_BOTH
+133093789	SHARED_GENEID	Eubalaena glacialis	Eubalaena glacialis	XP_061049728.1	XP_061049728.1	False	True	True	READY_BOTH
+133252978	SHARED_GENEID	Bos javanicus	Bos javanicus	XP_061282039.1	XP_061282039.1	False	True	True	READY_BOTH
+133386080	SHARED_GENEID	Rhineura floridana	Rhineura floridana	XP_061485687.1	XP_061485687.1	False	True	True	READY_BOTH
+133777392	SHARED_GENEID	Lepus europaeus	Lepus europaeus	XP_062072942.1	XP_062072942.1	False	True	True	READY_BOTH
+134367274	SHARED_GENEID	Cynocephalus volans	Cynocephalus volans	XP_062940085.1	XP_062940085.1	False	True	True	READY_BOTH
+134399608	SHARED_GENEID	Elgaria multicarinata webbii	Elgaria multicarinata webbii	XP_062983762.1	XP_062983762.1	False	True	True	READY_BOTH
+134498539	SHARED_GENEID	Candoia aspera	Candoia aspera	XP_063160763.1	XP_063160763.1	False	True	True	READY_BOTH
+136122135	SHARED_GENEID	Phocoena phocoena	Phocoena phocoena	XP_065732000.1	XP_065732000.1	False	True	True	READY_BOTH
+136172930	SHARED_GENEID	Muntiacus reevesi	Muntiacus reevesi	XP_065798170.1	XP_065798170.1	False	True	True	READY_BOTH
+136322429	SHARED_GENEID	Saccopteryx bilineata	Saccopteryx bilineata	XP_066110534.1	XP_066110534.1	False	True	True	READY_BOTH
+136391813	SHARED_GENEID	Saccopteryx leptura	Saccopteryx leptura	XP_066219753.1	XP_066219753.1	False	True	True	READY_BOTH
+136645051	SHARED_GENEID	Tiliqua scincoides	Tiliqua scincoides	XP_066477401.1	XP_066477401.1	False	False	False	NOT_READY_BOTH
+137150930	SHARED_GENEID	Emydura macquarii macquarii	Emydura macquarii macquarii	XP_067401089.1	XP_067401089.1	False	True	True	READY_BOTH
+137224346	SHARED_GENEID	Pseudorca crassidens	Pseudorca crassidens	XP_067593290.1	XP_067593290.1	False	False	False	NOT_READY_BOTH
+137765999	SHARED_GENEID	Eschrichtius robustus	Eschrichtius robustus	XP_068401809.1	XP_068401809.1	False	True	True	READY_BOTH
+138077097	SHARED_GENEID	Capricornis sumatraensis	Capricornis sumatraensis	XP_068825579.1	XP_068825579.1	False	True	True	READY_BOTH
+138151366	SHARED_GENEID	Petaurus breviceps papuanus	Petaurus breviceps papuanus	XP_068930907.1	XP_068930907.1	False	True	True	READY_BOTH
+138388462	SHARED_GENEID	Eulemur rufifrons	Eulemur rufifrons	XP_069332805.1	XP_069332805.1	False	True	True	READY_BOTH
+138436434	SHARED_GENEID	Ovis canadensis	Ovis canadensis	XP_069438111.1	XP_069438111.1	False	True	True	READY_BOTH
+138487313	SHARED_GENEID	Ambystoma mexicanum	Ambystoma mexicanum	XP_069470020.1	XP_069470020.1	False	False	False	NOT_READY_BOTH
+138831901	SHARED_GENEID	Dipodomys merriami	Dipodomys merriami	XP_069885010.1	XP_069885010.1	False	True	True	READY_BOTH
+138849459	SHARED_GENEID	Oryctolagus cuniculus	Oryctolagus cuniculus	XP_069929207.1	XP_089186501.1	True	True	True	READY_BOTH
+139002707	SHARED_GENEID	Myotis yumanensis	Myotis yumanensis	XP_070259887.1	XP_070259887.1	False	False	False	NOT_READY_BOTH
+139167140	SHARED_GENEID	Erythrolamprus reginae	Erythrolamprus reginae	XP_070607663.1	XP_070607663.1	False	True	True	READY_BOTH
+139316654	SHARED_GENEID	Pituophis catenifer annectens	Pituophis catenifer annectens	XP_070799589.1	XP_070799589.1	False	True	True	READY_BOTH
+140507132	SHARED_GENEID	Notamacropus eugenii	Notamacropus eugenii	XP_072471206.1	XP_072471205.1	True	True	True	READY_BOTH
+140621767	SHARED_GENEID	Canis lupus baileyi	Canis lupus baileyi	XP_072663255.1	XP_072663257.1	True	True	True	READY_BOTH
+140905317	SHARED_GENEID	Lepidochelys kempii	Lepidochelys kempii	XP_073184525.1	XP_073184525.1	False	True	True	READY_BOTH
+141506919	SHARED_GENEID	Macrotis lagotis	Macrotis lagotis	XP_074070229.1	XP_074070229.1	False	True	True	READY_BOTH
+141559639	SHARED_GENEID	Sminthopsis crassicaudata	Sminthopsis crassicaudata	XP_074153508.1	XP_074153508.1	False	True	True	READY_BOTH
+141982334	SHARED_GENEID	Natator depressus	Natator depressus	XP_074800457.1	XP_074800457.1	False	True	True	READY_BOTH
+142440479	SHARED_GENEID	Tenrec ecaudatus	Tenrec ecaudatus	XP_075399016.1	XP_075399016.1	False	True	True	READY_BOTH
+142485862	SHARED_GENEID	Ascaphus truei	Ascaphus truei	XP_075440689.1	XP_075440689.1	False	False	False	NOT_READY_BOTH
+142853638	SHARED_GENEID	Microtus pennsylvanicus	Microtus pennsylvanicus	XP_075834921.1	XP_075834922.1	True	True	True	READY_BOTH
+143408722	SHARED_GENEID	Callospermophilus lateralis	Callospermophilus lateralis	XP_076966550.1	XP_076966550.1	False	True	True	READY_BOTH
+143647763	SHARED_GENEID	Tamandua tetradactyla	Tamandua tetradactyla	XP_076973632.1	XP_076973632.1	False	True	True	READY_BOTH
+143839992	SHARED_GENEID	Paroedura picta	Paroedura picta	XP_077198962.1	XP_077198962.1	False	True	True	READY_BOTH
+144224413	SHARED_GENEID	Crocuta crocuta	Crocuta crocuta	XP_077611492.1	XP_077611492.1	False	False	False	NOT_READY_BOTH
+144259055	SHARED_GENEID	Eretmochelys imbricata	Eretmochelys imbricata	XP_077663359.1	XP_077663359.1	False	True	True	READY_BOTH
+144302050	SHARED_GENEID	Canis aureus	Canis aureus	XP_077735497.1	XP_077735504.1	True	False	True	GAINED_READY
+144822136	SHARED_GENEID	Lissotriton helveticus	Lissotriton helveticus	XP_078535407.1	XP_078535407.1	False	True	True	READY_BOTH
+145539572	SHARED_GENEID	Giraffa tippelskirchi	Giraffa tippelskirchi	XP_081429765.1	XP_081429765.1	False	True	True	READY_BOTH
+146349952	NEW_GENEID		Heloderma suspectum		XP_084700009.1	False	False	True	GAINED_READY
+146859262	NEW_GENEID		Triturus cristatus		XP_085503093.1	False	False	True	GAINED_READY
+147379002	NEW_GENEID		Bos grunniens		XP_086175169.1	False	False	True	GAINED_READY
+147729616	NEW_GENEID		Lissotriton vulgaris		XP_086814593.1	False	False	True	GAINED_READY
+148110311	NEW_GENEID		Ursus americanus		XP_087718003.1	False	False	True	GAINED_READY
+149319528	NEW_GENEID		Sceloporus occidentalis		XP_089364218.1	False	False	True	GAINED_READY
+306637986	SHARED_GENEID	Sciurus vulgaris	Sciurus vulgaris	XP_078957124.1	XP_078957124.1	False	False	False	NOT_READY_BOTH
+307053852	SHARED_GENEID	Hyperoodon ampullatus	Hyperoodon ampullatus	XP_079561434.1	XP_079561434.1	False	True	True	READY_BOTH
+307097136	SHARED_GENEID	Cnephaeus nilssonii	Cnephaeus nilssonii	XP_079623244.1	XP_079623244.1	False	True	True	READY_BOTH
+307186434	SHARED_GENEID	Stenella coeruleoalba	Stenella coeruleoalba	XP_079777600.1	XP_079777600.1	False	True	True	READY_BOTH
+307215373	SHARED_GENEID	Podarcis cretensis	Podarcis cretensis	XP_079830686.1	XP_079830685.1	True	True	True	READY_BOTH
+308241340	SHARED_GENEID	Plecotus auritus	Plecotus auritus	XP_080510849.1	XP_080510849.1	False	True	True	READY_BOTH
+308263166	SHARED_GENEID	Muscardinus avellanarius	Muscardinus avellanarius	XP_080552169.1	XP_080552169.1	False	True	True	READY_BOTH
+308353786	SHARED_GENEID	Martes martes	Martes martes	XP_080676940.1	XP_080676940.1	False	True	True	READY_BOTH
+308436955	SHARED_GENEID	Micromys minutus	Micromys minutus	XP_080794097.1	XP_080794097.1	False	True	True	READY_BOTH
+308476239	SHARED_GENEID	Podarcis pityusensis	Podarcis pityusensis	XP_080859900.1	XP_080859899.1	True	True	True	READY_BOTH
+308510355	SHARED_GENEID	Rhinolophus hipposideros	Rhinolophus hipposideros	XP_080935751.1	XP_080935751.1	False	True	True	READY_BOTH
+308514930	SHARED_GENEID	Myotis nattereri	Myotis nattereri	XP_080941399.1	XP_080941399.1	False	True	True	READY_BOTH
+308557925	SHARED_GENEID	Miniopterus schreibersii	Miniopterus schreibersii	XP_080994952.1	XP_080994952.1	False	True	True	READY_BOTH
+308588670	SHARED_GENEID	Podarcis bocagei	Podarcis bocagei	XP_081053343.1	XP_081053343.1	False	True	True	READY_BOTH
+308617536	SHARED_GENEID	Mesoplodon bidens	Mesoplodon bidens	XP_081090850.1	XP_081090850.1	False	True	True	READY_BOTH
+308653435	SHARED_GENEID	Spermophilus citellus	Spermophilus citellus	XP_081158120.1	XP_081158120.1	False	True	True	READY_BOTH
+308667222	SHARED_GENEID	Vipera berus	Vipera berus	XP_081182492.1	XP_081182492.1	False	True	True	READY_BOTH
+309340092	SHARED_GENEID	Podarcis erhardii	Podarcis erhardii	XP_081714744.1	XP_081714743.1	True	True	True	READY_BOTH
+309368524	SHARED_GENEID	Podarcis melisellensis	Podarcis melisellensis	XP_081764763.1	XP_081764763.1	False	True	True	READY_BOTH
+309391856	SHARED_GENEID	Natrix helvetica	Natrix helvetica	XP_081808782.1	XP_081808782.1	False	True	True	READY_BOTH
+309530774	SHARED_GENEID	Podarcis vaucheri	Podarcis vaucheri	XP_082076014.1	XP_082076014.1	False	True	True	READY_BOTH
+309629003	SHARED_GENEID	Balaenoptera borealis	Balaenoptera borealis	XP_082248702.1	XP_082248702.1	False	True	True	READY_BOTH
+309660413	SHARED_GENEID	Balaenoptera physalus	Balaenoptera physalus	XP_082317121.1	XP_082317121.1	False	True	True	READY_BOTH
+309806040	SHARED_GENEID	Mesoplodon mirus	Mesoplodon mirus	XP_082480514.1	XP_082480514.1	False	True	True	READY_BOTH
+309823228	SHARED_GENEID	Grampus griseus	Grampus griseus	XP_082511490.1	XP_082511490.1	False	True	True	READY_BOTH
+309844886	SHARED_GENEID	Mustela nivalis	Mustela nivalis	XP_082548364.1	XP_082548364.1	False	True	True	READY_BOTH
+309962550	SHARED_GENEID	Leucopleurus acutus	Leucopleurus acutus	XP_082696537.1	XP_082696537.1	False	True	True	READY_BOTH
+310639527	NEW_GENEID		Vipera ursinii		XP_083217403.1	False	False	True	GAINED_READY
+310676054	NEW_GENEID		Podarcis tiliguerta		XP_083293502.1	False	False	True	GAINED_READY
+310704682	NEW_GENEID		Podarcis liolepis		XP_083354585.1	False	False	True	GAINED_READY
+310761822	NEW_GENEID		Podarcis filfolensis		XP_083468145.1	False	False	True	GAINED_READY
+310842732	NEW_GENEID		Podarcis gaigeae		XP_083591003.1	False	False	True	GAINED_READY
+311170411	NEW_GENEID		Talpa europaea		XP_084088901.1	False	False	False	NOT_READY_BOTH
+311519424	NEW_GENEID		Lepidochelys olivacea		XP_084482007.1	False	False	True	GAINED_READY
+311580977	NEW_GENEID		Acomys minous		XP_084608936.1	False	False	True	GAINED_READY
+311617343	NEW_GENEID		Pipistrellus hanaki		XP_084729911.1	False	False	True	GAINED_READY

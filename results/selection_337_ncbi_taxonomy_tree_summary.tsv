@@ -1,0 +1,2 @@
+source	source_sha256	tip_count	tip_set_verified	root_taxid	root_name	collapsed_unary_nodes	polytomous_nodes	tree	tree_sha256	branch_length_rule
+analysis/selection_reanalysis_337/taxonomy/ncbi_taxonomy_efetch.xml	378f3e2a830052f54bb18a1fa5b609c086dd59b6169e63f2b2a0ee97d9eddada	215	True	9347	Eutheria	242	51	analysis/selection_reanalysis_337/trees/Placentalia_CONSENSUS_selection_ncbi_taxonomy_topology.nwk	1375cbbc877c12b692605a3d34a2955c90a8243fa465f87f7ce9db24ad7033dc	one unit per NCBI taxonomy edge; collapsed unary edges summed; HyPhy re-estimates lengths

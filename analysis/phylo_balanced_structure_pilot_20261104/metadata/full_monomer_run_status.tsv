@@ -1,0 +1,73 @@
+target	seed	status	source	started_at	finished_at	elapsed_seconds	log	output
+Geotrypetes_seraphini	4101	VALIDATED_REUSED	sentinel		2026-11-05T16:00:15.424515+00:00			outputs/sentinel/monomer/Geotrypetes_seraphini/seed4101
+Geotrypetes_seraphini	4102	VALIDATED_REUSED	sentinel		2026-11-05T16:00:15.447143+00:00			outputs/sentinel/monomer/Geotrypetes_seraphini/seed4102
+Geotrypetes_seraphini	4103	VALIDATED_REUSED	sentinel		2026-11-05T16:00:15.455067+00:00			outputs/sentinel/monomer/Geotrypetes_seraphini/seed4103
+Lissotriton_helveticus	4101	VALIDATED	full_monomer_expansion	2026-11-05T16:00:15.467330+00:00	2026-11-05T16:05:08.352497+00:00	292.8	logs/full_monomer/Lissotriton_helveticus_seed4101.log	outputs/full_monomer/Lissotriton_helveticus/seed4101
+Lissotriton_helveticus	4102	VALIDATED	full_monomer_expansion	2026-11-05T16:05:08.423959+00:00	2026-11-05T16:09:52.042482+00:00	283.5	logs/full_monomer/Lissotriton_helveticus_seed4102.log	outputs/full_monomer/Lissotriton_helveticus/seed4102
+Lissotriton_helveticus	4103	VALIDATED	full_monomer_expansion	2026-11-05T16:09:52.173569+00:00	2026-11-05T16:14:37.916998+00:00	285.6	logs/full_monomer/Lissotriton_helveticus_seed4103.log	outputs/full_monomer/Lissotriton_helveticus/seed4103
+Triturus_cristatus	4101	VALIDATED	full_monomer_expansion	2026-11-05T16:14:38.137577+00:00	2026-11-05T16:19:52.822392+00:00	314.5	logs/full_monomer/Triturus_cristatus_seed4101.log	outputs/full_monomer/Triturus_cristatus/seed4101
+Triturus_cristatus	4102	VALIDATED	full_monomer_expansion	2026-11-05T16:19:52.954514+00:00	2026-11-05T16:25:16.768617+00:00	323.8	logs/full_monomer/Triturus_cristatus_seed4102.log	outputs/full_monomer/Triturus_cristatus/seed4102
+Triturus_cristatus	4103	VALIDATED	full_monomer_expansion	2026-11-05T16:25:16.900214+00:00	2026-11-05T16:31:09.404609+00:00	352.3	logs/full_monomer/Triturus_cristatus_seed4103.log	outputs/full_monomer/Triturus_cristatus/seed4103
+Alligator_sinensis	4101	VALIDATED_REUSED	sentinel		2026-11-05T16:31:09.557223+00:00			outputs/sentinel/monomer/Alligator_sinensis/seed4101
+Alligator_sinensis	4102	VALIDATED_REUSED	sentinel		2026-11-05T16:31:09.673882+00:00			outputs/sentinel/monomer/Alligator_sinensis/seed4102
+Alligator_sinensis	4103	VALIDATED_REUSED	sentinel		2026-11-05T16:31:09.747629+00:00			outputs/sentinel/monomer/Alligator_sinensis/seed4103
+Chelonia_mydas	4101	VALIDATED	full_monomer_expansion	2026-11-05T16:31:09.752452+00:00	2026-11-05T16:38:02.909580+00:00	413.1	logs/full_monomer/Chelonia_mydas_seed4101.log	outputs/full_monomer/Chelonia_mydas/seed4101
+Chelonia_mydas	4102	VALIDATED	full_monomer_expansion	2026-11-05T16:38:03.025312+00:00	2026-11-05T16:44:32.655089+00:00	389.5	logs/full_monomer/Chelonia_mydas_seed4102.log	outputs/full_monomer/Chelonia_mydas/seed4102
+Chelonia_mydas	4103	VALIDATED	full_monomer_expansion	2026-11-05T16:44:32.762699+00:00	2026-11-05T16:50:19.239624+00:00	346.3	logs/full_monomer/Chelonia_mydas_seed4103.log	outputs/full_monomer/Chelonia_mydas/seed4103
+Pogona_vitticeps	4101	VALIDATED	full_monomer_expansion	2026-11-05T16:50:19.331370+00:00	2026-11-05T16:58:25.094451+00:00	485.7	logs/full_monomer/Pogona_vitticeps_seed4101.log	outputs/full_monomer/Pogona_vitticeps/seed4101
+Pogona_vitticeps	4102	VALIDATED	full_monomer_expansion	2026-11-05T16:58:25.245611+00:00	2026-11-05T17:06:20.037225+00:00	474.7	logs/full_monomer/Pogona_vitticeps_seed4102.log	outputs/full_monomer/Pogona_vitticeps/seed4102
+Pogona_vitticeps	4103	VALIDATED	full_monomer_expansion	2026-11-05T17:06:20.177652+00:00	2026-11-05T17:14:06.539355+00:00	466.2	logs/full_monomer/Pogona_vitticeps_seed4103.log	outputs/full_monomer/Pogona_vitticeps/seed4103
+Sceloporus_undulatus	4101	VALIDATED	full_monomer_expansion	2026-11-05T17:14:06.638441+00:00	2026-11-05T17:25:15.591302+00:00	668.9	logs/full_monomer/Sceloporus_undulatus_seed4101.log	outputs/full_monomer/Sceloporus_undulatus/seed4101
+Sceloporus_undulatus	4102	VALIDATED	full_monomer_expansion	2026-11-05T17:25:15.708111+00:00	2026-11-05T17:35:22.050976+00:00	606.1	logs/full_monomer/Sceloporus_undulatus_seed4102.log	outputs/full_monomer/Sceloporus_undulatus/seed4102
+Sceloporus_undulatus	4103	VALIDATED	full_monomer_expansion	2026-11-05T17:35:22.179250+00:00	2026-11-05T17:46:28.314215+00:00	666.0	logs/full_monomer/Sceloporus_undulatus_seed4103.log	outputs/full_monomer/Sceloporus_undulatus/seed4103
+Gekko_japonicus	4101	VALIDATED	full_monomer_expansion	2026-11-05T17:46:28.499794+00:00	2026-11-05T17:52:35.198887+00:00	366.5	logs/full_monomer/Gekko_japonicus_seed4101.log	outputs/full_monomer/Gekko_japonicus/seed4101
+Gekko_japonicus	4102	VALIDATED	full_monomer_expansion	2026-11-05T17:52:35.406825+00:00	2026-11-05T17:57:58.149617+00:00	322.6	logs/full_monomer/Gekko_japonicus_seed4102.log	outputs/full_monomer/Gekko_japonicus/seed4102
+Gekko_japonicus	4103	VALIDATED	full_monomer_expansion	2026-11-05T17:57:58.242125+00:00	2026-11-05T18:03:40.891709+00:00	342.6	logs/full_monomer/Gekko_japonicus_seed4103.log	outputs/full_monomer/Gekko_japonicus/seed4103
+Pantherophis_guttatus	4101	VALIDATED	full_monomer_expansion	2026-11-05T18:03:41.015830+00:00	2026-11-05T18:11:02.744607+00:00	441.6	logs/full_monomer/Pantherophis_guttatus_seed4101.log	outputs/full_monomer/Pantherophis_guttatus/seed4101
+Pantherophis_guttatus	4102	VALIDATED	full_monomer_expansion	2026-11-05T18:11:02.920592+00:00	2026-11-05T18:18:15.982585+00:00	432.8	logs/full_monomer/Pantherophis_guttatus_seed4102.log	outputs/full_monomer/Pantherophis_guttatus/seed4102
+Pantherophis_guttatus	4103	VALIDATED	full_monomer_expansion	2026-11-05T18:18:16.210010+00:00	2026-11-05T18:25:53.697171+00:00	457.3	logs/full_monomer/Pantherophis_guttatus_seed4103.log	outputs/full_monomer/Pantherophis_guttatus/seed4103
+Monodelphis_domestica	4101	VALIDATED_REUSED	sentinel		2026-11-05T18:25:53.928292+00:00			outputs/sentinel/monomer/Monodelphis_domestica/seed4101
+Monodelphis_domestica	4102	VALIDATED_REUSED	sentinel		2026-11-05T18:25:54.020049+00:00			outputs/sentinel/monomer/Monodelphis_domestica/seed4102
+Monodelphis_domestica	4103	VALIDATED_REUSED	sentinel		2026-11-05T18:25:54.165761+00:00			outputs/sentinel/monomer/Monodelphis_domestica/seed4103
+Sarcophilus_harrisii	4101	VALIDATED	full_monomer_expansion	2026-11-05T18:25:54.172637+00:00	2026-11-05T18:33:28.145811+00:00	453.8	logs/full_monomer/Sarcophilus_harrisii_seed4101.log	outputs/full_monomer/Sarcophilus_harrisii/seed4101
+Sarcophilus_harrisii	4102	VALIDATED	full_monomer_expansion	2026-11-05T18:33:28.292132+00:00	2026-11-05T18:40:25.990480+00:00	417.5	logs/full_monomer/Sarcophilus_harrisii_seed4102.log	outputs/full_monomer/Sarcophilus_harrisii/seed4102
+Sarcophilus_harrisii	4103	VALIDATED	full_monomer_expansion	2026-11-05T18:40:26.105840+00:00	2026-11-05T18:49:28.016549+00:00	541.5	logs/full_monomer/Sarcophilus_harrisii_seed4103.log	outputs/full_monomer/Sarcophilus_harrisii/seed4103
+Notamacropus_eugenii	4101	VALIDATED	full_monomer_expansion	2026-11-05T18:49:28.254852+00:00	2026-11-05T18:56:21.293132+00:00	412.9	logs/full_monomer/Notamacropus_eugenii_seed4101.log	outputs/full_monomer/Notamacropus_eugenii/seed4101
+Notamacropus_eugenii	4102	VALIDATED	full_monomer_expansion	2026-11-05T18:56:21.432558+00:00	2026-11-05T19:02:18.989087+00:00	357.4	logs/full_monomer/Notamacropus_eugenii_seed4102.log	outputs/full_monomer/Notamacropus_eugenii/seed4102
+Notamacropus_eugenii	4103	VALIDATED	full_monomer_expansion	2026-11-05T19:02:19.074290+00:00	2026-11-05T19:08:18.637816+00:00	359.5	logs/full_monomer/Notamacropus_eugenii_seed4103.log	outputs/full_monomer/Notamacropus_eugenii/seed4103
+Vombatus_ursinus	4101	VALIDATED	full_monomer_expansion	2026-11-05T19:08:18.750515+00:00	2026-11-05T19:15:18.121248+00:00	419.1	logs/full_monomer/Vombatus_ursinus_seed4101.log	outputs/full_monomer/Vombatus_ursinus/seed4101
+Vombatus_ursinus	4102	VALIDATED	full_monomer_expansion	2026-11-05T19:15:18.152933+00:00	2026-11-05T19:23:33.595378+00:00	495.4	logs/full_monomer/Vombatus_ursinus_seed4102.log	outputs/full_monomer/Vombatus_ursinus/seed4102
+Vombatus_ursinus	4103	VALIDATED	full_monomer_expansion	2026-11-05T19:23:33.708032+00:00	2026-11-05T19:31:39.484684+00:00	485.6	logs/full_monomer/Vombatus_ursinus_seed4103.log	outputs/full_monomer/Vombatus_ursinus/seed4103
+Homo_sapiens	4101	VALIDATED_REUSED	sentinel		2026-11-05T19:31:39.684073+00:00			outputs/sentinel/monomer/Homo_sapiens/seed4101
+Homo_sapiens	4102	VALIDATED_REUSED	sentinel		2026-11-05T19:31:39.791710+00:00			outputs/sentinel/monomer/Homo_sapiens/seed4102
+Homo_sapiens	4103	VALIDATED_REUSED	sentinel		2026-11-05T19:31:39.867576+00:00			outputs/sentinel/monomer/Homo_sapiens/seed4103
+Mus_musculus	4101	VALIDATED_REUSED	sentinel		2026-11-05T19:31:39.894946+00:00			outputs/sentinel/monomer/Mus_musculus/seed4101
+Mus_musculus	4102	VALIDATED_REUSED	sentinel		2026-11-05T19:31:40.017801+00:00			outputs/sentinel/monomer/Mus_musculus/seed4102
+Mus_musculus	4103	VALIDATED_REUSED	sentinel		2026-11-05T19:31:40.061860+00:00			outputs/sentinel/monomer/Mus_musculus/seed4103
+Oryctolagus_cuniculus	4101	VALIDATED	full_monomer_expansion	2026-11-05T19:31:40.066329+00:00	2026-11-05T19:38:46.372282+00:00	426.2	logs/full_monomer/Oryctolagus_cuniculus_seed4101.log	outputs/full_monomer/Oryctolagus_cuniculus/seed4101
+Oryctolagus_cuniculus	4102	VALIDATED	full_monomer_expansion	2026-11-05T19:38:46.504028+00:00	2026-11-05T19:45:54.162811+00:00	427.5	logs/full_monomer/Oryctolagus_cuniculus_seed4102.log	outputs/full_monomer/Oryctolagus_cuniculus/seed4102
+Oryctolagus_cuniculus	4103	VALIDATED	full_monomer_expansion	2026-11-05T19:45:54.342810+00:00	2026-11-05T19:53:01.122525+00:00	426.6	logs/full_monomer/Oryctolagus_cuniculus_seed4103.log	outputs/full_monomer/Oryctolagus_cuniculus/seed4103
+Canis_lupus_familiaris	4101	VALIDATED	full_monomer_expansion	2026-11-05T19:53:01.324665+00:00	2026-11-05T20:13:01.555951+00:00	1200.1	logs/full_monomer/Canis_lupus_familiaris_seed4101.log	outputs/full_monomer/Canis_lupus_familiaris/seed4101
+Canis_lupus_familiaris	4102	VALIDATED	full_monomer_expansion	2026-11-05T20:13:01.636785+00:00	2026-11-05T20:32:48.231343+00:00	1186.5	logs/full_monomer/Canis_lupus_familiaris_seed4102.log	outputs/full_monomer/Canis_lupus_familiaris/seed4102
+Canis_lupus_familiaris	4103	VALIDATED	full_monomer_expansion	2026-11-05T20:32:48.441434+00:00	2026-11-05T20:52:28.560311+00:00	1179.9	logs/full_monomer/Canis_lupus_familiaris_seed4103.log	outputs/full_monomer/Canis_lupus_familiaris/seed4103
+Bos_taurus	4101	VALIDATED	full_monomer_expansion	2026-11-05T20:52:28.668039+00:00	2026-11-05T20:59:40.026103+00:00	431.2	logs/full_monomer/Bos_taurus_seed4101.log	outputs/full_monomer/Bos_taurus/seed4101
+Bos_taurus	4102	VALIDATED	full_monomer_expansion	2026-11-05T20:59:40.129263+00:00	2026-11-05T21:06:57.140680+00:00	436.8	logs/full_monomer/Bos_taurus_seed4102.log	outputs/full_monomer/Bos_taurus/seed4102
+Bos_taurus	4103	VALIDATED	full_monomer_expansion	2026-11-05T21:06:57.248812+00:00	2026-11-05T21:14:15.174500+00:00	437.7	logs/full_monomer/Bos_taurus_seed4103.log	outputs/full_monomer/Bos_taurus/seed4103
+Pteropus_medius	4101	VALIDATED	full_monomer_expansion	2026-11-05T21:14:15.312046+00:00	2026-11-05T21:22:34.072562+00:00	498.6	logs/full_monomer/Pteropus_medius_seed4101.log	outputs/full_monomer/Pteropus_medius/seed4101
+Pteropus_medius	4102	VALIDATED	full_monomer_expansion	2026-11-05T21:22:34.294279+00:00	2026-11-05T21:30:55.121597+00:00	500.7	logs/full_monomer/Pteropus_medius_seed4102.log	outputs/full_monomer/Pteropus_medius/seed4102
+Pteropus_medius	4103	VALIDATED	full_monomer_expansion	2026-11-05T21:30:55.242446+00:00	2026-11-05T21:39:21.192316+00:00	505.7	logs/full_monomer/Pteropus_medius_seed4103.log	outputs/full_monomer/Pteropus_medius/seed4103
+Sorex_araneus	4101	VALIDATED	full_monomer_expansion	2026-11-05T21:39:21.313464+00:00	2026-11-05T21:45:41.875876+00:00	380.4	logs/full_monomer/Sorex_araneus_seed4101.log	outputs/full_monomer/Sorex_araneus/seed4101
+Sorex_araneus	4102	VALIDATED	full_monomer_expansion	2026-11-05T21:45:42.000884+00:00	2026-11-05T21:52:00.525193+00:00	378.3	logs/full_monomer/Sorex_araneus_seed4102.log	outputs/full_monomer/Sorex_araneus/seed4102
+Sorex_araneus	4103	VALIDATED	full_monomer_expansion	2026-11-05T21:52:00.605785+00:00	2026-11-05T21:58:17.720766+00:00	377.0	logs/full_monomer/Sorex_araneus_seed4103.log	outputs/full_monomer/Sorex_araneus/seed4103
+Loxodonta_africana	4101	VALIDATED	full_monomer_expansion	2026-11-05T21:58:17.826869+00:00	2026-11-05T22:04:16.883467+00:00	358.9	logs/full_monomer/Loxodonta_africana_seed4101.log	outputs/full_monomer/Loxodonta_africana/seed4101
+Loxodonta_africana	4102	VALIDATED	full_monomer_expansion	2026-11-05T22:04:16.957369+00:00	2026-11-05T22:10:13.832635+00:00	356.7	logs/full_monomer/Loxodonta_africana_seed4102.log	outputs/full_monomer/Loxodonta_africana/seed4102
+Loxodonta_africana	4103	VALIDATED	full_monomer_expansion	2026-11-05T22:10:13.956532+00:00	2026-11-05T22:15:37.070588+00:00	323.0	logs/full_monomer/Loxodonta_africana_seed4103.log	outputs/full_monomer/Loxodonta_africana/seed4103
+Dasypus_novemcinctus	4101	VALIDATED	full_monomer_expansion	2026-11-05T22:15:37.129753+00:00	2026-11-05T22:21:48.587075+00:00	371.3	logs/full_monomer/Dasypus_novemcinctus_seed4101.log	outputs/full_monomer/Dasypus_novemcinctus/seed4101
+Dasypus_novemcinctus	4102	VALIDATED	full_monomer_expansion	2026-11-05T22:21:48.718693+00:00	2026-11-05T22:27:53.795387+00:00	365.0	logs/full_monomer/Dasypus_novemcinctus_seed4102.log	outputs/full_monomer/Dasypus_novemcinctus/seed4102
+Dasypus_novemcinctus	4103	VALIDATED	full_monomer_expansion	2026-11-05T22:27:53.894595+00:00	2026-11-05T22:33:53.477355+00:00	359.5	logs/full_monomer/Dasypus_novemcinctus_seed4103.log	outputs/full_monomer/Dasypus_novemcinctus/seed4103
+ANCESTRAL_AMNIOTA	4101	VALIDATED_REUSED	sentinel		2026-11-05T22:33:53.587122+00:00			outputs/sentinel/monomer/ANCESTRAL_AMNIOTA/seed4101
+ANCESTRAL_AMNIOTA	4102	VALIDATED_REUSED	sentinel		2026-11-05T22:33:53.620551+00:00			outputs/sentinel/monomer/ANCESTRAL_AMNIOTA/seed4102
+ANCESTRAL_AMNIOTA	4103	VALIDATED_REUSED	sentinel		2026-11-05T22:33:53.691765+00:00			outputs/sentinel/monomer/ANCESTRAL_AMNIOTA/seed4103
+ANCESTRAL_THERIA	4101	VALIDATED_REUSED	sentinel		2026-11-05T22:33:53.706919+00:00			outputs/sentinel/monomer/ANCESTRAL_THERIA/seed4101
+ANCESTRAL_THERIA	4102	VALIDATED_REUSED	sentinel		2026-11-05T22:33:53.750984+00:00			outputs/sentinel/monomer/ANCESTRAL_THERIA/seed4102
+ANCESTRAL_THERIA	4103	VALIDATED_REUSED	sentinel		2026-11-05T22:33:53.790620+00:00			outputs/sentinel/monomer/ANCESTRAL_THERIA/seed4103

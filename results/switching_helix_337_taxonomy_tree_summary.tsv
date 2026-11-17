@@ -1,0 +1,2 @@
+source	source_sha256	tip_count	tip_set_verified	root_taxid	root_name	collapsed_unary_nodes	polytomous_nodes	tree	tree_sha256	branch_length_rule
+analysis/switching_helix_asr_337/taxonomy/ncbi_taxonomy_efetch.xml	c0ed1c244d7a06d84ea609e5f2c7388531e2bc4f6d4624906dedfdc39e3c185a	289	True	32523	Tetrapoda	357	62	analysis/switching_helix_asr_337/trees/DNMT3L_289_ncbi_taxonomy_topology.nwk	d440621f21ff2e32b52c474fcd1a2ab85cb11c2be6a66a0fb319eeee6999935c	one unit per NCBI taxonomy edge; IQ-TREE will re-estimate lengths

@@ -1,0 +1,716 @@
+IQ-TREE 2.3.6 built Jul 30 2024
+
+Input file name: ./analysis/switching_helix_asr_337/runs/NP349_LEAVE_ONE_AMPHIBIAN/gene_tree_minus_Lissotriton_vulgaris/alignment.fasta
+User tree file name: ./analysis/switching_helix_asr_337/runs/NP349_LEAVE_ONE_AMPHIBIAN/gene_tree_minus_Lissotriton_vulgaris/topology.nwk
+Type of analysis: tree reconstruction
+Random seed number: 20261102
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 288 sequences with 387 amino-acid sites
+Number of constant sites: 26 (= 6.71835% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 26 (= 6.71835% of all sites)
+Number of parsimony informative sites: 336
+Number of distinct site patterns: 377
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+R4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0499
+  pi(R) = 0.0667
+  pi(N) = 0.0268
+  pi(D) = 0.0599
+  pi(C) = 0.0492
+  pi(Q) = 0.0386
+  pi(E) = 0.0645
+  pi(G) = 0.0565
+  pi(H) = 0.0231
+  pi(I) = 0.0374
+  pi(L) = 0.1067
+  pi(K) = 0.0431
+  pi(M) = 0.0168
+  pi(F) = 0.0558
+  pi(P) = 0.0663
+  pi(S) = 0.0745
+  pi(T) = 0.0447
+  pi(W) = 0.0209
+  pi(Y) = 0.0324
+  pi(V) = 0.0664
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.1690,0.0838) (0.2731,0.4461) (0.3394,1.0969) (0.2186,2.2498)
+
+ Category  Relative_rate  Proportion
+  1         0.0838         0.1690
+  2         0.4461         0.2731
+  3         1.0969         0.3394
+  4         2.2498         0.2186
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -36965.1285 (s.e. 1233.8368)
+Unconstrained log-likelihood (without tree): -2289.0222
+Number of free parameters (#branches + #model parameters): 598
+Akaike information criterion (AIC) score: 75126.2570
+Corrected Akaike information criterion (AICc) score: 791530.2570
+Bayesian information criterion (BIC) score: 77493.3950
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 598
+Sample size (n, alignment length): 387
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 19.5808
+Sum of internal branch lengths: 9.1541 (46.7504% of tree length)
+
+WARNING: 35 near-zero internal branches (<0.0026) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Acinonyx_jubatus' is drawn at root
+
++---Acinonyx_jubatus
+| (Node1)
+|                                                  +--Acomys_minous
+|                                               +--| (Node18)
+|                                               |  +--Acomys_russatus
+|                                            +--| (Node17)
+|                                            |  |  +--Meriones_unguiculatus
+|                                            |  +--| (Node19)
+|                                            |     +--Psammomys_obesus
+|                                         +--| (Node16)
+|                                         |  |                 +--Apodemus_sylvaticus
+|                                         |  |              +--| (Node25)
+|                                         |  |              |  +--Mastomys_coucha
+|                                         |  |           +--| (Node24)
+|                                         |  |           |  |  +--Mus_musculus
+|                                         |  |           |  +--| (Node26)
+|                                         |  |           |     +--Mus_pahari
+|                                         |  |        +--| (Node23)
+|                                         |  |        |  +--Arvicanthis_niloticus
+|                                         |  |     +--| (Node22)
+|                                         |  |     |  +--Micromys_minutus
+|                                         |  |  +--| (Node21)
+|                                         |  |  |  |  +--Rattus_norvegicus
+|                                         |  |  |  +--| (Node27)
+|                                         |  |  |     +--Rattus_rattus
+|                                         |  +--| (Node20)
+|                                         |     |           +--Arvicola_amphibius
+|                                         |     |        +--| (Node31)
+|                                         |     |        |  |  +--Chionomys_nivalis
+|                                         |     |        |  +--| (Node32)
+|                                         |     |        |     |     +--Microtus_ochrogaster
+|                                         |     |        |     |  +**| (Node34)
+|                                         |     |        |     |  |  +--Microtus_oregoni
+|                                         |     |        |     +--| (Node33)
+|                                         |     |        |        +--Microtus_pennsylvanicus
+|                                         |     |     +--| (Node30)
+|                                         |     |     |  +--Myodes_glareolus
+|                                         |     |  +--| (Node29)
+|                                         |     |  |  |  +--Onychomys_torridus
+|                                         |     |  |  +--| (Node35)
+|                                         |     |  |     |     +--Peromyscus_californicus_insignis
+|                                         |     |  |     |  +--| (Node37)
+|                                         |     |  |     |  |  +**Peromyscus_eremicus
+|                                         |     |  |     +--| (Node36)
+|                                         |     |  |        |  +**Peromyscus_leucopus
+|                                         |     |  |        +--| (Node38)
+|                                         |     |  |           +--Peromyscus_maniculatus_bairdii
+|                                         |     +--| (Node28)
+|                                         |        |  +--Cricetulus_griseus
+|                                         |        +--| (Node39)
+|                                         |           |  +--Mesocricetus_auratus
+|                                         |           +--| (Node40)
+|                                         |              +--Phodopus_roborovskii
+|                                      +--| (Node15)
+|                                      |  +----Nannospalax_galili
+|                                   +--| (Node14)
+|                                   |  +-----------Jaculus_jaculus
+|                                +--| (Node13)
+|                                |  +---Castor_canadensis
+|                             +--| (Node12)
+|                             |  |            +--Dipodomys_merriami
+|                             |  |         +--| (Node42)
+|                             |  |         |  +--Dipodomys_spectabilis
+|                             |  +---------| (Node41)
+|                             |            +--Dipodomys_ordii
+|                          +--| (Node11)
+|                          |  |      +--Callospermophilus_lateralis
+|                          |  |  +---| (Node44)
+|                          |  |  |   |     +--Ictidomys_tridecemlineatus
+|                          |  |  |   |  +--| (Node46)
+|                          |  |  |   |  |  |  +--Marmota_flaviventris
+|                          |  |  |   |  |  +--| (Node47)
+|                          |  |  |   |  |     +--Marmota_monax
+|                          |  |  |   +--| (Node45)
+|                          |  |  |      +--Spermophilus_citellus
+|                          |  +--| (Node43)
+|                          |     |         +--Cavia_porcellus
+|                          |     |     +---| (Node50)
+|                          |     |     |   |     +--Chinchilla_lanigera
+|                          |     |     |   |  +--| (Node52)
+|                          |     |     |   |  |  |   +----Fukomys_damarensis
+|                          |     |     |   |  |  +---| (Node53)
+|                          |     |     |   |  |      +--Heterocephalus_glaber
+|                          |     |     |   +--| (Node51)
+|                          |     |     |      +--Octodon_degus
+|                          |     |  +--| (Node49)
+|                          |     |  |  +----Muscardinus_avellanarius
+|                          |     +--| (Node48)
+|                          |        |      +--Lepus_europaeus
+|                          |        |  +---| (Node55)
+|                          |        |  |   +--Oryctolagus_cuniculus
+|                          |        +--| (Node54)
+|                          |           |         +--Ochotona_curzoniae
+|                          |           +---------| (Node56)
+|                          |                     +--Ochotona_princeps
+|                       +--| (Node10)
+|                       |  |              +--Aotus_nancymaae
+|                       |  |           +**| (Node61)
+|                       |  |           |  |  +**Cebus_imitator
+|                       |  |           |  +--| (Node62)
+|                       |  |           |     +--Sapajus_apella
+|                       |  |        +--| (Node60)
+|                       |  |        |  +--Callithrix_jacchus
+|                       |  |     +--| (Node59)
+|                       |  |     |  +--Saimiri_boliviensis
+|                       |  |  +--| (Node58)
+|                       |  |  |  |        +--Cercocebus_atys
+|                       |  |  |  |     +**| (Node65)
+|                       |  |  |  |     |  |        +--Chlorocebus_sabaeus
+|                       |  |  |  |     |  |     +**| (Node68)
+|                       |  |  |  |     |  |     |  |        +--Macaca_fascicularis
+|                       |  |  |  |     |  |     |  |     +--| (Node71)
+|                       |  |  |  |     |  |     |  |     |  +**Macaca_nemestrina
+|                       |  |  |  |     |  |     |  |  +--| (Node70)
+|                       |  |  |  |     |  |     |  |  |  +--Macaca_mulatta
+|                       |  |  |  |     |  |     |  +--| (Node69)
+|                       |  |  |  |     |  |     |     +--Macaca_thibetana_thibetana
+|                       |  |  |  |     |  |  +**| (Node67)
+|                       |  |  |  |     |  |  |  +**Mandrillus_leucophaeus
+|                       |  |  |  |     |  +--| (Node66)
+|                       |  |  |  |     |     |     +--Colobus_angolensis_palliatus
+|                       |  |  |  |     |     |  +--| (Node73)
+|                       |  |  |  |     |     |  |  +--Piliocolobus_tephrosceles
+|                       |  |  |  |     |     +--| (Node72)
+|                       |  |  |  |     |        |     +--Rhinopithecus_bieti
+|                       |  |  |  |     |        |  +**| (Node75)
+|                       |  |  |  |     |        |  |  +--Trachypithecus_francoisi
+|                       |  |  |  |     |        +--| (Node74)
+|                       |  |  |  |     |           +**Rhinopithecus_roxellana
+|                       |  |  |  |  +--| (Node64)
+|                       |  |  |  |  |  |  +--Papio_anubis
+|                       |  |  |  |  |  +--| (Node76)
+|                       |  |  |  |  |     +**Theropithecus_gelada
+|                       |  |  |  +--| (Node63)
+|                       |  |  |     |        +**Gorilla_gorilla_gorilla
+|                       |  |  |     |     +--| (Node79)
+|                       |  |  |     |     |  |  +**Homo_sapiens
+|                       |  |  |     |     |  +**| (Node80)
+|                       |  |  |     |     |     |  +--Pan_paniscus
+|                       |  |  |     |     |     +--| (Node81)
+|                       |  |  |     |     |        +**Pan_troglodytes
+|                       |  |  |     |  +--| (Node78)
+|                       |  |  |     |  |  |  +**Pongo_abelii
+|                       |  |  |     |  |  +--| (Node82)
+|                       |  |  |     |  |     +**Pongo_pygmaeus
+|                       |  |  |     +--| (Node77)
+|                       |  |  |        |     +**Hylobates_moloch
+|                       |  |  |        |  +**| (Node84)
+|                       |  |  |        |  |  +**Symphalangus_syndactylus
+|                       |  |  |        +--| (Node83)
+|                       |  |  |           +--Nomascus_leucogenys
+|                       |  +--| (Node57)
+|                       |     |        +--Eulemur_rufifrons
+|                       |     |     +--| (Node87)
+|                       |     |     |  +--Lemur_catta
+|                       |     |  +--| (Node86)
+|                       |     |  |  |  +--Microcebus_murinus
+|                       |     |  |  +--| (Node88)
+|                       |     |  |     +--Propithecus_coquereli
+|                       |     +--| (Node85)
+|                       |        |   +--Nycticebus_coucang
+|                       |        +---| (Node89)
+|                       |            +--Otolemur_garnettii
+|                    +--| (Node9)
+|                    |  +---Tupaia_belangeri_chinensis
+|                 +--| (Node8)
+|                 |  |  +--Carlito_syrichta
+|                 |  +--| (Node90)
+|                 |     +---Cynocephalus_volans
+|              +--| (Node7)
+|              |  |                                                            +--Ahaetulla_prasina
+|              |  |                                                         +--| (Node105)
+|              |  |                                                         |  |  +--Pantherophis_guttatus
+|              |  |                                                         |  +--| (Node106)
+|              |  |                                                         |     +**Pituophis_catenifer_annectens
+|              |  |                                                      +**| (Node104)
+|              |  |                                                      |  |  +--Natrix_helvetica
+|              |  |                                                      |  +--| (Node107)
+|              |  |                                                      |     +--Thamnophis_sirtalis
+|              |  |                                                   +--| (Node103)
+|              |  |                                                   |  +----Erythrolamprus_reginae
+|              |  |                                                +--| (Node102)
+|              |  |                                                |  |  +--Notechis_scutatus
+|              |  |                                                |  +--| (Node108)
+|              |  |                                                |     +--Pseudonaja_textilis
+|              |  |                                             +--| (Node101)
+|              |  |                                             |  |     +--Crotalus_tigris
+|              |  |                                             |  |  +--| (Node110)
+|              |  |                                             |  |  |  +--Protobothrops_mucrosquamatus
+|              |  |                                             |  +--| (Node109)
+|              |  |                                             |     |  +--Vipera_berus
+|              |  |                                             |     +--| (Node111)
+|              |  |                                             |        +--Vipera_ursinii
+|              |  |                                         +---| (Node100)
+|              |  |                                         |   +----------Candoia_aspera
+|              |  |                                      +--| (Node99)
+|              |  |                                      |  +------Pogona_vitticeps
+|              |  |                                   +--| (Node98)
+|              |  |                                   |  |     +---Elgaria_multicarinata_webbii
+|              |  |                                   |  |  +--| (Node113)
+|              |  |                                   |  |  |  +--Heloderma_suspectum
+|              |  |                                   |  +--| (Node112)
+|              |  |                                   |     |     +--Sceloporus_occidentalis
+|              |  |                                   |     +-----| (Node114)
+|              |  |                                   |           +--Sceloporus_undulatus
+|              |  |                                +--| (Node97)
+|              |  |                                |  |          +--Lacerta_agilis
+|              |  |                                |  |       +**| (Node117)
+|              |  |                                |  |       |  +--Zootoca_vivipara
+|              |  |                                |  |  +----| (Node116)
+|              |  |                                |  |  |    |              +**Podarcis_bocagei
+|              |  |                                |  |  |    |           +**| (Node122)
+|              |  |                                |  |  |    |           |  +--Podarcis_vaucheri
+|              |  |                                |  |  |    |        +--| (Node121)
+|              |  |                                |  |  |    |        |  +--Podarcis_muralis
+|              |  |                                |  |  |    |     +--| (Node120)
+|              |  |                                |  |  |    |     |  +--Podarcis_liolepis
+|              |  |                                |  |  |    |  +--| (Node119)
+|              |  |                                |  |  |    |  |  |     +--Podarcis_cretensis
+|              |  |                                |  |  |    |  |  |  +**| (Node124)
+|              |  |                                |  |  |    |  |  |  |  +--Podarcis_pityusensis
+|              |  |                                |  |  |    |  |  +**| (Node123)
+|              |  |                                |  |  |    |  |     |  +--Podarcis_erhardii
+|              |  |                                |  |  |    |  |     +**| (Node125)
+|              |  |                                |  |  |    |  |        |     +--Podarcis_gaigeae
+|              |  |                                |  |  |    |  |        |  +--| (Node127)
+|              |  |                                |  |  |    |  |        |  |  +--Podarcis_melisellensis
+|              |  |                                |  |  |    |  |        +**| (Node126)
+|              |  |                                |  |  |    |  |           +--Podarcis_tiliguerta
+|              |  |                                |  |  |    +--| (Node118)
+|              |  |                                |  |  |       |  +--Podarcis_filfolensis
+|              |  |                                |  |  |       +--| (Node128)
+|              |  |                                |  |  |          +--Podarcis_raffonei
+|              |  |                                |  +--| (Node115)
+|              |  |                                |     +---Rhineura_floridana
+|              |  |                             +--| (Node96)
+|              |  |                             |  +--------Hemicordylus_capensis
+|              |  |                      +------| (Node95)
+|              |  |                      |      |   +----Eublepharis_macularius
+|              |  |                      |      +---| (Node129)
+|              |  |                      |          |     +--Euleptes_europaea
+|              |  |                      |          |  +--| (Node131)
+|              |  |                      |          |  |  |     +--Gekko_japonicus
+|              |  |                      |          |  |  |  +--| (Node133)
+|              |  |                      |          |  |  |  |  +---Heteronotia_binoei
+|              |  |                      |          |  |  +--| (Node132)
+|              |  |                      |          |  |     +--Paroedura_picta
+|              |  |                      |          +--| (Node130)
+|              |  |                      |             +----Sphaerodactylus_townsendi
+|              |  |                  +---| (Node94)
+|              |  |                  |   |       +---Alligator_sinensis
+|              |  |                  |   |  +----| (Node135)
+|              |  |                  |   |  |    +--Crocodylus_porosus
+|              |  |                  |   +--| (Node134)
+|              |  |                  |      |                    +--Caretta_caretta
+|              |  |                  |      |                 +--| (Node142)
+|              |  |                  |      |                 |  +--Eretmochelys_imbricata
+|              |  |                  |      |              +--| (Node141)
+|              |  |                  |      |              |  |  +**Lepidochelys_kempii
+|              |  |                  |      |              |  +--| (Node143)
+|              |  |                  |      |              |     +**Lepidochelys_olivacea
+|              |  |                  |      |           +--| (Node140)
+|              |  |                  |      |           |  |  +--Chelonia_mydas
+|              |  |                  |      |           |  +--| (Node144)
+|              |  |                  |      |           |     +--Natator_depressus
+|              |  |                  |      |        +--| (Node139)
+|              |  |                  |      |        |  +--Mauremys_mutica
+|              |  |                  |      |     +--| (Node138)
+|              |  |                  |      |     |  |  +--Malaclemys_terrapin_pileata
+|              |  |                  |      |     |  +--| (Node145)
+|              |  |                  |      |     |     +--Trachemys_scripta_elegans
+|              |  |                  |      |  +--| (Node137)
+|              |  |                  |      |  |  +--Pelodiscus_sinensis
+|              |  |                  |      +--| (Node136)
+|              |  |                  |         +--Emydura_macquarii_macquarii
+|              |  |          +-------| (Node93)
+|              |  |          |       |        +----------------Geotrypetes_seraphini
+|              |  |          |       +--------| (Node146)
+|              |  |          |                |                 +--Lissotriton_helveticus
+|              |  |          |                +-----------------| (Node147)
+|              |  |          |                                  +**Triturus_cristatus
+|              |  |  +-------| (Node92)
+|              |  |  |       |            +--Antechinus_flavipes
+|              |  |  |       |         +**| (Node150)
+|              |  |  |       |         |  +--Sarcophilus_harrisii
+|              |  |  |       |      +--| (Node149)
+|              |  |  |       |      |  +--Sminthopsis_crassicaudata
+|              |  |  |       +------| (Node148)
+|              |  |  |              |     +--Dromiciops_gliroides
+|              |  |  |              |  +--| (Node152)
+|              |  |  |              |  |  |  +--Macrotis_lagotis
+|              |  |  |              |  |  +**| (Node153)
+|              |  |  |              |  |     |     +--Notamacropus_eugenii
+|              |  |  |              |  |     |  +--| (Node155)
+|              |  |  |              |  |     |  |  +--Trichosurus_vulpecula
+|              |  |  |              |  |     +--| (Node154)
+|              |  |  |              |  |        |  +--Petaurus_breviceps_papuanus
+|              |  |  |              |  |        +--| (Node156)
+|              |  |  |              |  |           |  +--Phascolarctos_cinereus
+|              |  |  |              |  |           +--| (Node157)
+|              |  |  |              |  |              +--Vombatus_ursinus
+|              |  |  |              +--| (Node151)
+|              |  |  |                 |  +--Gracilinanus_agilis
+|              |  |  |                 +--| (Node158)
+|              |  |  |                    +--Monodelphis_domestica
+|              |  +--| (Node91)
+|              |     |        +--Choloepus_didactylus
+|              |     |     +--| (Node161)
+|              |     |     |  +-----Tamandua_tetradactyla
+|              |     |  +--| (Node160)
+|              |     |  |  +---Dasypus_novemcinctus
+|              |     +--| (Node159)
+|              |        |      +--Echinops_telfairi
+|              |        |  +---| (Node163)
+|              |        |  |   +--Tenrec_ecaudatus
+|              |        +--| (Node162)
+|              |           |     +---Elephantulus_edwardii
+|              |           |  +--| (Node165)
+|              |           |  |  |     +**Elephas_maximus_indicus
+|              |           |  |  |  +--| (Node167)
+|              |           |  |  |  |  +**Loxodonta_africana
+|              |           |  |  +--| (Node166)
+|              |           |  |     +--Trichechus_manatus_latirostris
+|              |           +--| (Node164)
+|              |              +--Orycteropus_afer_afer
+|           +--| (Node6)
+|           |  |     +--Ceratotherium_simum_simum
+|           |  |  +--| (Node169)
+|           |  |  |  +--Diceros_bicornis_minor
+|           |  +--| (Node168)
+|           |     |  +--Equus_asinus
+|           |     +--| (Node170)
+|           |        |  +**Equus_caballus
+|           |        +--| (Node171)
+|           |           +**Equus_przewalskii
+|        +--| (Node5)
+|        |  |                                            +--Aethalodelphis_obliquidens
+|        |  |                                         +**| (Node186)
+|        |  |                                         |  |  +--Delphinus_delphis
+|        |  |                                         |  +--| (Node187)
+|        |  |                                         |     +**Tursiops_truncatus
+|        |  |                                      +--| (Node185)
+|        |  |                                      |  +--Stenella_coeruleoalba
+|        |  |                                   +**| (Node184)
+|        |  |                                   |  +**Globicephala_melas
+|        |  |                                +--| (Node183)
+|        |  |                                |  +--Orcinus_orca
+|        |  |                             +--| (Node182)
+|        |  |                             |  +**Grampus_griseus
+|        |  |                          +--| (Node181)
+|        |  |                          |  +--Leucopleurus_acutus
+|        |  |                       +--| (Node180)
+|        |  |                       |  +--Lagenorhynchus_albirostris
+|        |  |                    +--| (Node179)
+|        |  |                    |  |  +--Monodon_monoceros
+|        |  |                    |  +--| (Node188)
+|        |  |                    |     |  +--Neophocaena_asiaeorientalis_asiaeorientalis
+|        |  |                    |     +--| (Node189)
+|        |  |                    |        |  +--Phocoena_phocoena
+|        |  |                    |        +--| (Node190)
+|        |  |                    |           +--Phocoena_sinus
+|        |  |                 +--| (Node178)
+|        |  |                 |  +--Lipotes_vexillifer
+|        |  |              +--| (Node177)
+|        |  |              |  |     +--Hyperoodon_ampullatus
+|        |  |              |  |  +--| (Node192)
+|        |  |              |  |  |  +--Mesoplodon_bidens
+|        |  |              |  +--| (Node191)
+|        |  |              |     |  +--Mesoplodon_densirostris
+|        |  |              |     +--| (Node193)
+|        |  |              |        +**Mesoplodon_mirus
+|        |  |           +**| (Node176)
+|        |  |           |  |              +**Balaenoptera_acutorostrata
+|        |  |           |  |           +--| (Node198)
+|        |  |           |  |           |  +--Balaenoptera_musculus
+|        |  |           |  |        +--| (Node197)
+|        |  |           |  |        |  +--Balaenoptera_physalus
+|        |  |           |  |     +**| (Node196)
+|        |  |           |  |     |  |  +**Balaenoptera_borealis
+|        |  |           |  |     |  +--| (Node199)
+|        |  |           |  |     |     +--Balaenoptera_ricei
+|        |  |           |  |  +--| (Node195)
+|        |  |           |  |  |  +--Eschrichtius_robustus
+|        |  |           |  +--| (Node194)
+|        |  |           |     +--Eubalaena_glacialis
+|        |  |        +--| (Node175)
+|        |  |        |  +--Physeter_macrocephalus
+|        |  |     +--| (Node174)
+|        |  |     |  +--Hippopotamus_amphibius_kiboko
+|        |  |  +--| (Node173)
+|        |  |  |  |                 +--Bison_bison_bison
+|        |  |  |  |              +--| (Node205)
+|        |  |  |  |              |  |  +**Bos_javanicus
+|        |  |  |  |              |  +**| (Node206)
+|        |  |  |  |              |     +**Bos_taurus
+|        |  |  |  |           +--| (Node204)
+|        |  |  |  |           |  |     +**Bos_grunniens
+|        |  |  |  |           |  |  +--| (Node208)
+|        |  |  |  |           |  |  |  +**Bos_mutus
+|        |  |  |  |           |  +**| (Node207)
+|        |  |  |  |           |     +--Bos_indicus
+|        |  |  |  |        +--| (Node203)
+|        |  |  |  |        |  |  +--Bubalus_bubalis
+|        |  |  |  |        |  +--| (Node209)
+|        |  |  |  |        |     +--Bubalus_kerabau
+|        |  |  |  |     +--| (Node202)
+|        |  |  |  |     |  |     +--Budorcas_taxicolor
+|        |  |  |  |     |  |  +--| (Node211)
+|        |  |  |  |     |  |  |  |        +--Capra_hircus
+|        |  |  |  |     |  |  |  |     +**| (Node214)
+|        |  |  |  |     |  |  |  |     |  +--Ovis_canadensis
+|        |  |  |  |     |  |  |  |  +**| (Node213)
+|        |  |  |  |     |  |  |  |  |  +**Ovis_aries
+|        |  |  |  |     |  |  |  +--| (Node212)
+|        |  |  |  |     |  |  |     +--Capricornis_sumatraensis
+|        |  |  |  |     |  +--| (Node210)
+|        |  |  |  |     |     +--Oryx_dammah
+|        |  |  |  |  +--| (Node201)
+|        |  |  |  |  |  |        +**Cervus_canadensis
+|        |  |  |  |  |  |     +**| (Node217)
+|        |  |  |  |  |  |     |  +--Dama_dama
+|        |  |  |  |  |  |  +--| (Node216)
+|        |  |  |  |  |  |  |  +**Cervus_elaphus
+|        |  |  |  |  |  +--| (Node215)
+|        |  |  |  |  |     |  +**Muntiacus_reevesi
+|        |  |  |  |  |     +**| (Node218)
+|        |  |  |  |  |        +--Odocoileus_virginianus
+|        |  |  |  +--| (Node200)
+|        |  |  |     |  +--Giraffa_tippelskirchi
+|        |  |  |     +--| (Node219)
+|        |  |  |        +--Moschus_berezovskii
+|        |  +--| (Node172)
+|        |     |           +**Camelus_bactrianus
+|        |     |        +--| (Node223)
+|        |     |        |  +**Camelus_ferus
+|        |     |     +--| (Node222)
+|        |     |     |  +--Camelus_dromedarius
+|        |     |  +--| (Node221)
+|        |     |  |  +--Vicugna_pacos
+|        |     +--| (Node220)
+|        |        |  +----Phacochoerus_africanus
+|        |        +--| (Node224)
+|        |           +--Sus_scrofa
+|     +--| (Node4)
+|     |  |                        +--Artibeus_jamaicensis
+|     |  |                     +--| (Node232)
+|     |  |                     |  +--Sturnira_hondurensis
+|     |  |                  +--| (Node231)
+|     |  |                  |  |  +--Phyllostomus_discolor
+|     |  |                  |  +--| (Node233)
+|     |  |                  |     +--Phyllostomus_hastatus
+|     |  |               +--| (Node230)
+|     |  |               |  +--Desmodus_rotundus
+|     |  |           +---| (Node229)
+|     |  |           |   +--Pteronotus_mesoamericanus
+|     |  |        +--| (Node228)
+|     |  |        |  |  +--Saccopteryx_bilineata
+|     |  |        |  +--| (Node234)
+|     |  |        |     +**Saccopteryx_leptura
+|     |  |     +--| (Node227)
+|     |  |     |  |           +--Cnephaeus_nilssonii
+|     |  |     |  |        +--| (Node238)
+|     |  |     |  |        |  +--Eptesicus_fuscus
+|     |  |     |  |     +--| (Node237)
+|     |  |     |  |     |  |  +--------Pipistrellus_hanaki
+|     |  |     |  |     |  +--| (Node239)
+|     |  |     |  |     |     +--Plecotus_auritus
+|     |  |     |  |  +--| (Node236)
+|     |  |     |  |  |  +--Myotis_nattereri
+|     |  |     |  +--| (Node235)
+|     |  |     |     |  +--Miniopterus_natalensis
+|     |  |     |     +--| (Node240)
+|     |  |     |        +**Miniopterus_schreibersii
+|     |  |  +--| (Node226)
+|     |  |  |  |  +--Hipposideros_armiger
+|     |  |  |  +--| (Node241)
+|     |  |  |     |     +--Rhinolophus_ferrumequinum
+|     |  |  |     |  +--| (Node243)
+|     |  |  |     |  |  +--Rhinolophus_sinicus
+|     |  |  |     +--| (Node242)
+|     |  |  |        +--Rhinolophus_hipposideros
+|     |  +--| (Node225)
+|     |     |        +-----------Erinaceus_europaeus
+|     |     |     +--| (Node246)
+|     |     |     |  |        +--Sorex_araneus
+|     |     |     |  +--------| (Node247)
+|     |     |     |           +--Sorex_fumeus
+|     |     |  +--| (Node245)
+|     |     |  |  +----------Talpa_occidentalis
+|     |     +--| (Node244)
+|     |        |  +--Pteropus_medius
+|     |        +--| (Node248)
+|     |           +--Rousettus_aegyptiacus
+|  +--| (Node3)
+|  |  |     +--Ailuropoda_melanoleuca
+|  |  |  +--| (Node250)
+|  |  |  |  |  +--Ursus_americanus
+|  |  |  |  +--| (Node251)
+|  |  |  |     |  +--Ursus_arctos
+|  |  |  |     +--| (Node252)
+|  |  |  |        +-------Ursus_maritimus
+|  |  +--| (Node249)
+|  |     |           +**Callorhinus_ursinus
+|  |     |        +--| (Node256)
+|  |     |        |  |  +**Eumetopias_jubatus
+|  |     |        |  +--| (Node257)
+|  |     |        |     +**Zalophus_californianus
+|  |     |     +--| (Node255)
+|  |     |     |  +--Odobenus_rosmarus_divergens
+|  |     |  +--| (Node254)
+|  |     |  |  |  +-----Halichoerus_grypus
+|  |     |  |  +--| (Node258)
+|  |     |  |     |        +**Mirounga_angustirostris
+|  |     |  |     |     +--| (Node261)
+|  |     |  |     |     |  +--Mirounga_leonina
+|  |     |  |     |  +--| (Node260)
+|  |     |  |     |  |  +--Neomonachus_schauinslandi
+|  |     |  |     +--| (Node259)
+|  |     |  |        +**Phoca_vitulina
+|  |     +--| (Node253)
+|  |        |                +--Canis_aureus
+|  |        |             +**| (Node266)
+|  |        |             |  |  +--Canis_lupus_dingo
+|  |        |             |  +--| (Node267)
+|  |        |             |     +**Canis_lupus_familiaris
+|  |        |          +--| (Node265)
+|  |        |          |  +--Canis_lupus_baileyi
+|  |        |       +--| (Node264)
+|  |        |       |  |  +--Vulpes_lagopus
+|  |        |       |  +--| (Node268)
+|  |        |       |     +**Vulpes_vulpes
+|  |        |  +----| (Node263)
+|  |        |  |    +--Nyctereutes_procyonoides
+|  |        +--| (Node262)
+|  |           |        +--Enhydra_lutris_kenyoni
+|  |           |     +--| (Node271)
+|  |           |     |  +-----------Meles_meles
+|  |           |  +--| (Node270)
+|  |           |  |  +--Martes_martes
+|  |           +--| (Node269)
+|  |              |  +--Mustela_lutreola
+|  |              +--| (Node272)
+|  |                 +--Mustela_nivalis
++--| (Node2)
+|  |  +--Hyaena_hyaena
+|  +--| (Node273)
+|     +--Suricata_suricatta
+|
+|              +**Felis_catus
+|           +**| (Node278)
+|           |  +--Prionailurus_viverrinus
+|        +--| (Node277)
+|        |  +--Prionailurus_bengalensis
+|     +--| (Node276)
+|     |  |  +--Neofelis_nebulosa
+|     |  +**| (Node279)
+|     |     |        +**Panthera_leo
+|     |     |     +**| (Node282)
+|     |     |     |  |  +--Panthera_onca
+|     |     |     |  +**| (Node283)
+|     |     |     |     +--Panthera_tigris
+|     |     |  +**| (Node281)
+|     |     |  |  +--Panthera_uncia
+|     |     +--| (Node280)
+|     |        +**Panthera_pardus
+|  +--| (Node275)
+|  |  |  +--Herpailurus_yagouaroundi
+|  |  +**| (Node284)
+|  |     +--Puma_concolor
++**| (Node274)
+   |  +--Leopardus_geoffroyi
+   +--| (Node285)
+      |  +--Lynx_canadensis
+      +--| (Node286)
+         +--Lynx_rufus
+
+Tree in newick format:
+
+(Acinonyx_jubatus:0.1030594336,(((((((((((((((((Acomys_minous:0.0169966150,Acomys_russatus:0.0107449336)Node18:0.0825186546,(Meriones_unguiculatus:0.0136646475,Psammomys_obesus:0.0160259043)Node19:0.0765151916)Node17:0.0374000997,((((((Apodemus_sylvaticus:0.0582782455,Mastomys_coucha:0.0820931355)Node25:0.0126876045,(Mus_musculus:0.0531840209,Mus_pahari:0.0461701902)Node26:0.0278343513)Node24:0.0113964417,Arvicanthis_niloticus:0.0588706509)Node23:0.0049681290,Micromys_minutus:0.0897197676)Node22:0.0098163722,(Rattus_norvegicus:0.0080297039,Rattus_rattus:0.0026903306)Node27:0.0327587949)Node21:0.0680177081,((((Arvicola_amphibius:0.0145498013,(Chionomys_nivalis:0.0053762659,((Microtus_ochrogaster:0.0039597483,Microtus_oregoni:0.0101657396)Node34:0.0018473579,Microtus_pennsylvanicus:0.0026664856)Node33:0.0106094775)Node32:0.0131374038)Node31:0.0093930115,Myodes_glareolus:0.0094821517)Node30:0.0682851326,(Onychomys_torridus:0.0141015428,((Peromyscus_californicus_insignis:0.0053926873,Peromyscus_eremicus:0.0000016344)Node37:0.0042109684,(Peromyscus_leucopus:0.0000016344,Peromyscus_maniculatus_bairdii:0.0026806911)Node38:0.0093251179)Node36:0.0089346762)Node35:0.0584657526)Node29:0.0185400682,(Cricetulus_griseus:0.0291334716,(Mesocricetus_auratus:0.0454810395,Phodopus_roborovskii:0.0364765254)Node40:0.0053659394)Node39:0.0348679801)Node28:0.0379703884)Node20:0.0115708782)Node16:0.0839799766,Nannospalax_galili:0.1369395489)Node15:0.0204610113,Jaculus_jaculus:0.3128458728)Node14:0.0735379271,Castor_canadensis:0.1086252327)Node13:0.0300196068,((Dipodomys_merriami:0.0813858437,Dipodomys_spectabilis:0.0090491965)Node42:0.0473557745,Dipodomys_ordii:0.0090789569)Node41:0.2726451638)Node12:0.0313642454,((Callospermophilus_lateralis:0.0125026459,((Ictidomys_tridecemlineatus:0.0130695498,(Marmota_flaviventris:0.0109116886,Marmota_monax:0.0054585516)Node47:0.0113228564)Node46:0.0026835559,Spermophilus_citellus:0.0446670961)Node45:0.0035475885)Node44:0.1135741497,(((Cavia_porcellus:0.0944320474,((Chinchilla_lanigera:0.0671513744,(Fukomys_damarensis:0.1372165740,Heterocephalus_glaber:0.0947148903)Node53:0.1029056943)Node52:0.0409153786,Octodon_degus:0.0820095845)Node51:0.0537185445)Node50:0.1109073422,Muscardinus_avellanarius:0.1330794017)Node49:0.0203582221,((Lepus_europaeus:0.0043827702,Oryctolagus_cuniculus:0.0431195074)Node55:0.1239669992,(Ochotona_curzoniae:0.0487977565,Ochotona_princeps:0.0410208267)Node56:0.2586169409)Node54:0.0999220473)Node48:0.0173073523)Node43:0.0228483175)Node11:0.0639225887,(((((Aotus_nancymaae:0.0349749396,(Cebus_imitator:0.0025570327,Sapajus_apella:0.0051214076)Node62:0.0077624177)Node61:0.0009576112,Callithrix_jacchus:0.0399182052)Node60:0.0049861859,Saimiri_boliviensis:0.0151782832)Node59:0.0949432600,(((Cercocebus_atys:0.0026102254,(((Chlorocebus_sabaeus:0.0159301245,(((Macaca_fascicularis:0.0026157671,Macaca_nemestrina:0.0000016344)Node71:0.0026199105,Macaca_mulatta:0.0026199079)Node70:0.0026269218,Macaca_thibetana_thibetana:0.0052612386)Node69:0.0079116887)Node68:0.0000016344,Mandrillus_leucophaeus:0.0000016344)Node67:0.0000016344,((Colobus_angolensis_palliatus:0.0132143777,Piliocolobus_tephrosceles:0.0131645389)Node73:0.0026200614,((Rhinopithecus_bieti:0.0026025373,Trachypithecus_francoisi:0.0131865301)Node75:0.0000016344,Rhinopithecus_roxellana:0.0000016344)Node74:0.0026232198)Node72:0.0026327387)Node66:0.0026220978)Node65:0.0000016344,(Papio_anubis:0.0078468961,Theropithecus_gelada:0.0000016344)Node76:0.0052364497)Node64:0.0138388131,(((Gorilla_gorilla_gorilla:0.0025627374,(Homo_sapiens:0.0000016344,(Pan_paniscus:0.0025888769,Pan_troglodytes:0.0025331832)Node81:0.0051652679)Node80:0.0000016344)Node79:0.0078117911,(Pongo_abelii:0.0000016344,Pongo_pygmaeus:0.0000016344)Node82:0.0206520391)Node78:0.0078993911,((Hylobates_moloch:0.0000016344,Symphalangus_syndactylus:0.0000016344)Node84:0.0000016344,Nomascus_leucogenys:0.0051217301)Node83:0.0241752929)Node77:0.0240480196)Node63:0.0336356744)Node58:0.0959684879,(((Eulemur_rufifrons:0.0363565562,Lemur_catta:0.0347332522)Node87:0.0222330761,(Microcebus_murinus:0.0505463627,Propithecus_coquereli:0.0302978032)Node88:0.0213792338)Node86:0.0395158291,(Nycticebus_coucang:0.0324416330,Otolemur_garnettii:0.0179673622)Node89:0.1020710049)Node85:0.0298903897)Node57:0.0266159692)Node10:0.0045730890,Tupaia_belangeri_chinensis:0.1156937542)Node9:0.0037913414,(Carlito_syrichta:0.0938992002,Cynocephalus_volans:0.1039150501)Node90:0.0222832874)Node8:0.0253421310,(((((((((((((((Ahaetulla_prasina:0.0219424759,(Pantherophis_guttatus:0.0051890993,Pituophis_catenifer_annectens:0.0000016344)Node106:0.0154100421)Node105:0.0050235628,(Natrix_helvetica:0.0169407209,Thamnophis_sirtalis:0.0260360291)Node107:0.0131793602)Node104:0.0000016344,Erythrolamprus_reginae:0.1505335543)Node103:0.0041281274,(Notechis_scutatus:0.0051832884,Pseudonaja_textilis:0.0131032321)Node108:0.0236455991)Node102:0.0084251647,((Crotalus_tigris:0.0129867940,Protobothrops_mucrosquamatus:0.0053578061)Node110:0.0075088595,(Vipera_berus:0.0026120227,Vipera_ursinii:0.0053118329)Node111:0.0166754940)Node109:0.0077151868)Node101:0.0471579514,Candoia_aspera:0.2842228365)Node100:0.1075948701,Pogona_vitticeps:0.1776355697)Node99:0.0136725688,((Elgaria_multicarinata_webbii:0.1131198391,Heloderma_suspectum:0.0360359529)Node113:0.0672129597,(Sceloporus_occidentalis:0.0089803615,Sceloporus_undulatus:0.0094799268)Node114:0.1549375557)Node112:0.0424683579)Node98:0.0635871017,(((Lacerta_agilis:0.0207282728,Zootoca_vivipara:0.0219013179)Node117:0.0000016344,(((((Podarcis_bocagei:0.0000016344,Podarcis_vaucheri:0.0054249064)Node122:0.0000016344,Podarcis_muralis:0.0180798789)Node121:0.0027036616,Podarcis_liolepis:0.0026992987)Node120:0.0054187462,((Podarcis_cretensis:0.0027041717,Podarcis_pityusensis:0.0054326322)Node124:0.0000016344,(Podarcis_erhardii:0.0054254237,((Podarcis_gaigeae:0.0053961809,Podarcis_melisellensis:0.0081173404)Node127:0.0046292519,Podarcis_tiliguerta:0.0070348546)Node126:0.0019205648)Node125:0.0000016344)Node123:0.0000016344)Node119:0.0026835447,(Podarcis_filfolensis:0.0111492413,Podarcis_raffonei:0.0481061982)Node128:0.0055999824)Node118:0.0096755925)Node116:0.1323931527,Rhineura_floridana:0.1043358903)Node115:0.0516039979)Node97:0.0360927030,Hemicordylus_capensis:0.2286208996)Node96:0.0347287609,(Eublepharis_macularius:0.1329681362,((Euleptes_europaea:0.1002753846,((Gekko_japonicus:0.0868010124,Heteronotia_binoei:0.1060225733)Node133:0.0248690982,Paroedura_picta:0.0948532813)Node132:0.0180265068)Node131:0.0074662500,Sphaerodactylus_townsendi:0.1346601424)Node130:0.0281210679)Node129:0.1193063624)Node95:0.2020186566,((Alligator_sinensis:0.1172516151,Crocodylus_porosus:0.0074433600)Node135:0.1373008729,(((((((Caretta_caretta:0.0052997093,Eretmochelys_imbricata:0.0052671919)Node142:0.0026428489,(Lepidochelys_kempii:0.0000016344,Lepidochelys_olivacea:0.0000016344)Node143:0.0026163707)Node141:0.0081084206,(Chelonia_mydas:0.0026271606,Natator_depressus:0.0026338134)Node144:0.0051866673)Node140:0.0215008694,Mauremys_mutica:0.0460123300)Node139:0.0145428244,(Malaclemys_terrapin_pileata:0.0167656890,Trachemys_scripta_elegans:0.0036668114)Node145:0.0437366631)Node138:0.0137906618,Pelodiscus_sinensis:0.0960334050)Node137:0.0114496468,Emydura_macquarii_macquarii:0.0449320256)Node136:0.0452507782)Node134:0.0688470335)Node94:0.1131503355,(Geotrypetes_seraphini:0.4303373061,(Lissotriton_helveticus:0.0489535142,Triturus_cristatus:0.0021682628)Node147:0.4627008141)Node146:0.2485900529)Node93:0.2096690411,(((Antechinus_flavipes:0.0127791952,Sarcophilus_harrisii:0.0153714797)Node150:0.0000016344,Sminthopsis_crassicaudata:0.0229995843)Node149:0.0570607633,((Dromiciops_gliroides:0.0358838145,(Macrotis_lagotis:0.0746063927,((Notamacropus_eugenii:0.0720335752,Trichosurus_vulpecula:0.0401402475)Node155:0.0052733349,(Petaurus_breviceps_papuanus:0.0535777829,(Phascolarctos_cinereus:0.0282114603,Vombatus_ursinus:0.0349355480)Node157:0.0133827840)Node156:0.0027268536)Node154:0.0157338637)Node153:0.0004141296)Node152:0.0089905190,(Gracilinanus_agilis:0.0277176015,Monodelphis_domestica:0.0399466402)Node158:0.0630553346)Node151:0.0112640675)Node148:0.1826776420)Node92:0.2185471030,(((Choloepus_didactylus:0.0778305288,Tamandua_tetradactyla:0.1627977999)Node161:0.0382883450,Dasypus_novemcinctus:0.1196805315)Node160:0.0585301983,((Echinops_telfairi:0.0388940880,Tenrec_ecaudatus:0.0973289700)Node163:0.1207042496,((Elephantulus_edwardii:0.1256633445,((Elephas_maximus_indicus:0.0000016344,Loxodonta_africana:0.0000016344)Node167:0.0444688433,Trichechus_manatus_latirostris:0.0554585812)Node166:0.0161257428)Node165:0.0063730342,Orycteropus_afer_afer:0.0622143555)Node164:0.0301937961)Node162:0.0664709540)Node159:0.0137107089)Node91:0.0269396636)Node7:0.0272156035,((Ceratotherium_simum_simum:0.0032519032,Diceros_bicornis_minor:0.0095781256)Node169:0.0324131577,(Equus_asinus:0.0054116385,(Equus_caballus:0.0000016344,Equus_przewalskii:0.0000016344)Node171:0.0053661117)Node170:0.0283703741)Node168:0.0219266605)Node6:0.0144064219,(((((((((((((((Aethalodelphis_obliquidens:0.0266081730,(Delphinus_delphis:0.0026794565,Tursiops_truncatus:0.0000016344)Node187:0.0026954530)Node186:0.0000016344,Stenella_coeruleoalba:0.0107209600)Node185:0.0026854218,Globicephala_melas:0.0000016344)Node184:0.0000016344,Orcinus_orca:0.0112789649)Node183:0.0026792237,Grampus_griseus:0.0000016344)Node182:0.0026719386,Leucopleurus_acutus:0.0162914643)Node181:0.0050276313,Lagenorhynchus_albirostris:0.0115364089)Node180:0.0183449639,(Monodon_monoceros:0.0134331578,(Neophocaena_asiaeorientalis_asiaeorientalis:0.0053496230,(Phocoena_phocoena:0.0026527761,Phocoena_sinus:0.0053078021)Node190:0.0026397099)Node189:0.0133471964)Node188:0.0054921141)Node179:0.0184036970,Lipotes_vexillifer:0.0248362525)Node178:0.0100449951,((Hyperoodon_ampullatus:0.0054063872,Mesoplodon_bidens:0.0026554883)Node192:0.0026987207,(Mesoplodon_densirostris:0.0079787852,Mesoplodon_mirus:0.0000016344)Node193:0.0026537341)Node191:0.0354642809)Node177:0.0143149726,(((((Balaenoptera_acutorostrata:0.0000016344,Balaenoptera_musculus:0.0134891962)Node198:0.0026355809,Balaenoptera_physalus:0.0105833883)Node197:0.0026328750,(Balaenoptera_borealis:0.0000016344,Balaenoptera_ricei:0.0026612771)Node199:0.0026071755)Node196:0.0000016344,Eschrichtius_robustus:0.0080130793)Node195:0.0028469962,Eubalaena_glacialis:0.0080418237)Node194:0.0258644438)Node176:0.0014256902,Physeter_macrocephalus:0.0392408887)Node175:0.0489895855,Hippopotamus_amphibius_kiboko:0.0461353828)Node174:0.0131347234,((((((Bison_bison_bison:0.0026770960,(Bos_javanicus:0.0000016344,Bos_taurus:0.0000016344)Node206:0.0000016344)Node205:0.0081165128,((Bos_grunniens:0.0000016344,Bos_mutus:0.0000016344)Node208:0.0053353445,Bos_indicus:0.0026607678)Node207:0.0000016344)Node204:0.0107593495,(Bubalus_bubalis:0.0080247743,Bubalus_kerabau:0.0026919014)Node209:0.0081525006)Node203:0.0052944987,((Budorcas_taxicolor:0.0174499733,(((Capra_hircus:0.0309803867,Ovis_canadensis:0.0034442190)Node214:0.0000016344,Ovis_aries:0.0000016344)Node213:0.0000016344,Capricornis_sumatraensis:0.0053430423)Node212:0.0026672386)Node211:0.0053525172,Oryx_dammah:0.0107957367)Node210:0.0026903152)Node202:0.0052612648,(((Cervus_canadensis:0.0000016344,Dama_dama:0.0071583151)Node217:0.0000016344,Cervus_elaphus:0.0000016344)Node216:0.0071812440,(Muntiacus_reevesi:0.0000016344,Odocoileus_virginianus:0.0217750006)Node218:0.0000016344)Node215:0.0220576745)Node201:0.0057818824,(Giraffa_tippelskirchi:0.0297410874,Moschus_berezovskii:0.0198726471)Node219:0.0082641500)Node200:0.0527886363)Node173:0.0039570996,((((Camelus_bactrianus:0.0000016344,Camelus_ferus:0.0000016344)Node223:0.0053030316,Camelus_dromedarius:0.0026685130)Node222:0.0080136353,Vicugna_pacos:0.0026373107)Node221:0.0398499884,(Phacochoerus_africanus:0.1437451606,Sus_scrofa:0.0070739548)Node224:0.0924684379)Node220:0.0123452193)Node172:0.0192199826)Node5:0.0039766683,((((((((Artibeus_jamaicensis:0.0311244263,Sturnira_hondurensis:0.0199302505)Node232:0.0167126086,(Phyllostomus_discolor:0.0094478682,Phyllostomus_hastatus:0.0197463428)Node233:0.0682683211)Node231:0.0079370628,Desmodus_rotundus:0.0432838009)Node230:0.0171781195,Pteronotus_mesoamericanus:0.0350155591)Node229:0.1131309789,(Saccopteryx_bilineata:0.0080532970,Saccopteryx_leptura:0.0000016344)Node234:0.0478463978)Node228:0.0156331656,((((Cnephaeus_nilssonii:0.0255719533,Eptesicus_fuscus:0.0330233051)Node238:0.0706206715,(Pipistrellus_hanaki:0.2331040082,Plecotus_auritus:0.0027009121)Node239:0.0060498864)Node237:0.0153511041,Myotis_nattereri:0.0471785155)Node236:0.0800514302,(Miniopterus_natalensis:0.0195964368,Miniopterus_schreibersii:0.0000016344)Node240:0.0814244316)Node235:0.0235987089)Node227:0.0178262484,(Hipposideros_armiger:0.0659357976,((Rhinolophus_ferrumequinum:0.0058779662,Rhinolophus_sinicus:0.0116718381)Node243:0.0114297166,Rhinolophus_hipposideros:0.0120264031)Node242:0.0382498860)Node241:0.0738749624)Node226:0.0160339140,(((Erinaceus_europaeus:0.3227237394,(Sorex_araneus:0.0539515892,Sorex_fumeus:0.0644527686)Node247:0.2457304278)Node246:0.0478951044,Talpa_occidentalis:0.2805838319)Node245:0.1010093096,(Pteropus_medius:0.0205455886,Rousettus_aegyptiacus:0.0722198995)Node248:0.0795613994)Node244:0.0320998972)Node225:0.0273104152)Node4:0.0458819704,((Ailuropoda_melanoleuca:0.0896663243,(Ursus_americanus:0.0027208923,(Ursus_arctos:0.0049694713,Ursus_maritimus:0.2112500481)Node252:0.0031483322)Node251:0.0101166153)Node250:0.0319017874,((((Callorhinus_ursinus:0.0000016344,(Eumetopias_jubatus:0.0000016344,Zalophus_californianus:0.0000016344)Node257:0.0053337071)Node256:0.0053516428,Odobenus_rosmarus_divergens:0.0138056701)Node255:0.0053208966,(Halichoerus_grypus:0.1535567330,(((Mirounga_angustirostris:0.0000016344,Mirounga_leonina:0.0494873478)Node261:0.0027526029,Neomonachus_schauinslandi:0.0082609158)Node260:0.0027724602,Phoca_vitulina:0.0000016344)Node259:0.0036645788)Node258:0.0047231599)Node254:0.0157930681,(((((Canis_aureus:0.0033319388,(Canis_lupus_dingo:0.0100011873,Canis_lupus_familiaris:0.0000016344)Node267:0.0034556328)Node266:0.0000016344,Canis_lupus_baileyi:0.0066611952)Node265:0.0108719569,(Vulpes_lagopus:0.0054478770,Vulpes_vulpes:0.0000016344)Node268:0.0078656074)Node264:0.0102904528,Nyctereutes_procyonoides:0.0255174709)Node263:0.1348696801,(((Enhydra_lutris_kenyoni:0.0759210855,Meles_meles:0.3136748991)Node271:0.0427027167,Martes_martes:0.0283348112)Node270:0.0092655682,(Mustela_lutreola:0.0266687338,Mustela_nivalis:0.0285587710)Node272:0.0207060857)Node269:0.0603006125)Node262:0.0127894545)Node253:0.0099047932)Node249:0.0309859849)Node3:0.0433127652,(Hyaena_hyaena:0.0689116629,Suricata_suricatta:0.0888161439)Node273:0.0208052542)Node2:0.0709092330,(((((Felis_catus:0.0000016344,Prionailurus_viverrinus:0.0053927940)Node278:0.0000016344,Prionailurus_bengalensis:0.0053139798)Node277:0.0026470250,(Neofelis_nebulosa:0.0136540205,(((Panthera_leo:0.0000016344,(Panthera_onca:0.0080672967,Panthera_tigris:0.0026872861)Node283:0.0000016344)Node282:0.0000016344,Panthera_uncia:0.0026917122)Node281:0.0000016344,Panthera_pardus:0.0000016344)Node280:0.0053540930)Node279:0.0000016344)Node276:0.0026391656,(Herpailurus_yagouaroundi:0.0026341668,Puma_concolor:0.0053011816)Node284:0.0000016344)Node275:0.0026550440,(Leopardus_geoffroyi:0.0053529383,(Lynx_canadensis:0.0026786598,Lynx_rufus:0.0108025334)Node286:0.0163546156)Node285:0.0026740343)Node274:0.0000016344)Node1;
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t ./analysis/switching_helix_asr_337/runs/NP349_LEAVE_ONE_AMPHIBIAN/gene_tree_minus_Lissotriton_vulgaris/asr.treefile -m "LG+F+R4{0.168994,0.0837953,0.273069,0.446126,0.339356,1.09693,0.218581,2.24981}" --length 387
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s ./analysis/switching_helix_asr_337/runs/NP349_LEAVE_ONE_AMPHIBIAN/gene_tree_minus_Lissotriton_vulgaris/alignment.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s ./analysis/switching_helix_asr_337/runs/NP349_LEAVE_ONE_AMPHIBIAN/gene_tree_minus_Lissotriton_vulgaris/alignment.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Nov 16 14:21:37 2026
+Total CPU time used: 368.353 seconds (0h:6m:8s)
+Total wall-clock time used: 118.91 seconds (0h:1m:58s)
+

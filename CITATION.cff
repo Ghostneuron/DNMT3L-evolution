@@ -1,26 +1,27 @@
 cff-version: 1.2.0
 message: "If you use these data or scripts, please cite this release and the associated manuscript."
-title: "Modular evolutionary constraint and lineage-structured switching-helix variation in DNMT3L"
+title: "A muroid-specific DNMT3L G9a-contact state among eutherians and conserved DNMT3A contacts across tetrapods: data and code"
 type: dataset
-version: 1.1.1
-date-released: 2026-10-25
+version: "1.0.0"
+date-released: "2026-11-16"
+doi: "10.5281/zenodo.20574054"
 repository-code: "https://github.com/Ghostneuron/DNMT3L-evolution"
-license-url: "https://github.com/Ghostneuron/DNMT3L-evolution/blob/main/LICENSE"
+license: CC-BY-4.0
 authors:
   - family-names: Lu
     given-names: Jie
     orcid: "https://orcid.org/0000-0001-6843-9720"
     affiliation: "Independent researcher"
 abstract: >-
-  Reproducibility package for a clade-aware analysis of vertebrate DNMT3L
-  sequence evolution using orthology checks, independently filtered codon
-  alignments, phylogenetic and recombination-partition sensitivities,
-  codon-selection models, ancestral-state reconstruction, representative
-  genomic-neighborhood checks, and structure-informed residue mapping.
+  Versioned data, code, figures, and reproducibility records for a comparative
+  analysis of vertebrate DNMT3L evolution centered on a sampled muroid LFI
+  state at NP105/NP106/NP107, matched partner-side conservation, locus
+  evidence, ancestral reconstruction, and alignment sensitivity.
 keywords:
   - DNMT3L
   - molecular evolution
-  - DNA methylation
   - comparative genomics
-  - codon models
-  - switching helix
+  - G9a
+  - EHMT2
+  - DNA methylation
+  - ancestral reconstruction

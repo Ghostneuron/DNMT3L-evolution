@@ -1,0 +1,11 @@
+species	bgee_accession	filename	reported_size	url	status	sha256
+Homo sapiens	ERP132584	Homo_sapiens_ERP132584_droplet_based.h5ad	187M	https://www.bgee.org/ftp/current/download/h5ad/droplet_based/Homo_sapiens/Homo_sapiens_ERP132584_droplet_based.h5ad	admitted_pending_download	
+Pan troglodytes	ERP139683	Pan_troglodytes_ERP139683_droplet_based.h5ad	106M	https://www.bgee.org/ftp/current/download/h5ad/droplet_based/Pan_troglodytes/Pan_troglodytes_ERP139683_droplet_based.h5ad	admitted_pending_download	
+Gorilla gorilla	ERP132581	Gorilla_gorilla_ERP132581_droplet_based.h5ad	60M	https://www.bgee.org/ftp/current/download/h5ad/droplet_based/Gorilla_gorilla/Gorilla_gorilla_ERP132581_droplet_based.h5ad	admitted_pending_download	
+Macaca mulatta	ERP132582	Macaca_mulatta_ERP132582_droplet_based.h5ad	52M	https://www.bgee.org/ftp/current/download/h5ad/droplet_based/Macaca_mulatta/Macaca_mulatta_ERP132582_droplet_based.h5ad	admitted_pending_download	
+Callithrix jacchus	ERP132588	Callithrix_jacchus_ERP132588_droplet_based.h5ad	41M	https://www.bgee.org/ftp/current/download/h5ad/droplet_based/Callithrix_jacchus/Callithrix_jacchus_ERP132588_droplet_based.h5ad	admitted_pending_download	
+Mus musculus	ERP132577	Mus_musculus_ERP132577_droplet_based.h5ad	42M	https://www.bgee.org/ftp/current/download/h5ad/droplet_based/Mus_musculus/Mus_musculus_ERP132577_droplet_based.h5ad	smoke_test_first	
+Monodelphis domestica	ERP132579	Monodelphis_domestica_ERP132579_droplet_based.h5ad	40M	https://www.bgee.org/ftp/current/download/h5ad/droplet_based/Monodelphis_domestica/Monodelphis_domestica_ERP132579_droplet_based.h5ad	admitted_pending_download	
+Ornithorhynchus anatinus	ERP132578	Ornithorhynchus_anatinus_ERP132578_droplet_based.h5ad	66M	https://www.bgee.org/ftp/current/download/h5ad/droplet_based/Ornithorhynchus_anatinus/Ornithorhynchus_anatinus_ERP132578_droplet_based.h5ad	admitted_pending_download	
+Gallus gallus	ERP132576	Gallus_gallus_ERP132576_droplet_based.h5ad	90M	https://www.bgee.org/ftp/current/download/h5ad/droplet_based/Gallus_gallus/Gallus_gallus_ERP132576_droplet_based.h5ad	admitted_pending_download	
+

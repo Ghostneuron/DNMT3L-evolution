@@ -1,0 +1,14 @@
+parameter	value	rationale
+predictor	Boltz Community 2.13.0; Boltz-2 checkpoint	pinned Apple-MPS implementation; one engine for monomer and complex
+templates	none	avoid lineage-dependent template selection
+msa_mode	frozen local project alignments	DNMT3L 289-orthologue alignment and DNMT3A MACSE alignment; no sequence upload or server drift
+msa_pairing	matched-species integer keys; unmatched rows -1	fixed complex-pairing policy across targets
+max_msa_sequences	289 DNMT3L; 475 DNMT3A before duplicate removal	fixed validated inputs, below predictor maximum
+seeds	4101;4102;4103	three deterministic prediction seeds
+recycling_steps	3	fixed across all runs
+sampling_steps	200	production setting
+diffusion_samples	1	seed is the replication unit
+output_format	mmcif	preserve chain and confidence metadata
+write_full_pae	true	required for domain/interface confidence gates
+write_full_pde	true	required for geometry diagnostics
+

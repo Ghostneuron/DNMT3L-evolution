@@ -1,0 +1,19 @@
+species	taxid	gene_label	h5ad_gene_id	feature_status	identifier_basis	notes
+Homo sapiens	9606	DNMT3L	ENSG00000142182	validated	NCBI Datasets cross-reference and exact H5AD feature	
+Homo sapiens	9606	DNMT3A	ENSG00000119772	validated	NCBI Datasets cross-reference and exact H5AD feature	
+Pan troglodytes	9598	DNMT3L	ENSPTRG00000013973	validated	Bgee release-matched ortholog and exact H5AD feature	Current NCBI-linked Ensembl ID is from a newer annotation
+Pan troglodytes	9598	DNMT3A	ENSPTRG00000011723	validated	Bgee release-matched ortholog and exact H5AD feature	Current NCBI-linked Ensembl ID is from a newer annotation
+Gorilla gorilla	9595	DNMT3L	ENSGGOG00000012431	validated	Bgee release-matched ortholog and exact H5AD feature	Current NCBI-linked Ensembl ID is from a newer annotation
+Gorilla gorilla	9595	DNMT3A	ENSGGOG00000012524	validated	Bgee release-matched ortholog and exact H5AD feature	Current NCBI-linked Ensembl ID is from a newer annotation
+Macaca mulatta	9544	DNMT3L	ENSMMUG00000010648	validated	NCBI Datasets cross-reference and exact H5AD feature	
+Macaca mulatta	9544	DNMT3A	ENSMMUG00000013565	validated	NCBI Datasets cross-reference and exact H5AD feature	
+Callithrix jacchus	9483	DNMT3L		unresolved_feature	Current NCBI-linked ENSCJAG00000003567 is absent from H5AD	Do not interpret zero expression; newer independent 2026 germline data provide stage-resolved evidence
+Callithrix jacchus	9483	DNMT3A	ENSCJAG00000008172	validated	NCBI Datasets cross-reference and exact H5AD feature	
+Mus musculus	10090	DNMT3L	ENSMUSG00000000730	validated	NCBI Datasets cross-reference and exact H5AD feature	
+Mus musculus	10090	DNMT3A	ENSMUSG00000020661	validated	NCBI Datasets cross-reference and exact H5AD feature	
+Monodelphis domestica	13616	DNMT3L	ENSMODG00000021084	validated	Bgee release-matched ortholog and exact H5AD feature	NCBI record lacks an Ensembl cross-reference
+Monodelphis domestica	13616	DNMT3A	ENSMODG00000015850	validated	Bgee release-matched ortholog and exact H5AD feature	NCBI record lacks an Ensembl cross-reference
+Ornithorhynchus anatinus	9258	DNMT3L		not_testable	No current NCBI DNMT3L symbol record and no validated H5AD feature	Do not interpret as locus or expression absence
+Ornithorhynchus anatinus	9258	DNMT3A	ENSOANG00000015836	validated	NCBI Datasets cross-reference and exact H5AD feature	
+Gallus gallus	9031	DNMT3L		not_testable	No current NCBI DNMT3L symbol record and no validated H5AD feature	Do not interpret as locus or expression absence
+Gallus gallus	9031	DNMT3A	ENSGALG00000041454	validated	Bgee release-matched ortholog and exact H5AD feature	Current NCBI-linked Ensembl ID is from a newer annotation

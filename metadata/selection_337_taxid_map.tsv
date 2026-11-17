@@ -1,0 +1,216 @@
+safe_id	gene_id	taxid	taxname
+Acinonyx_jubatus	106985658	32536	Acinonyx jubatus
+Acomys_minous	311580977	83528	Acomys minous
+Acomys_russatus	127195209	60746	Acomys russatus
+Aethalodelphis_obliquidens	113619743	3371155	Aethalodelphis obliquidens
+Ailuropoda_melanoleuca	100480370	9646	Ailuropoda melanoleuca
+Aotus_nancymaae	105713609	37293	Aotus nancymaae
+Apodemus_sylvaticus	127669967	10129	Apodemus sylvaticus
+Artibeus_jamaicensis	119058793	9417	Artibeus jamaicensis
+Arvicanthis_niloticus	117724832	61156	Arvicanthis niloticus
+Arvicola_amphibius	119823787	1047088	Arvicola amphibius
+Balaenoptera_acutorostrata	103010439	9767	Balaenoptera acutorostrata
+Balaenoptera_borealis	309629003	9768	Balaenoptera borealis
+Balaenoptera_musculus	118894087	9771	Balaenoptera musculus
+Balaenoptera_physalus	309660413	9770	Balaenoptera physalus
+Balaenoptera_ricei	132364465	2746895	Balaenoptera ricei
+Bison_bison_bison	104985014	43346	Bison bison bison
+Bos_grunniens	147379002	30521	Bos grunniens
+Bos_indicus	109563368	9915	Bos indicus
+Bos_javanicus	133252978	9906	Bos javanicus
+Bos_taurus	613785	9913	Bos taurus
+Bubalus_bubalis	102410507	89462	Bubalus bubalis
+Bubalus_kerabau	129645033	3119969	Bubalus kerabau
+Budorcas_taxicolor	128055710	37181	Budorcas taxicolor
+Callithrix_jacchus	100392528	9483	Callithrix jacchus
+Callorhinus_ursinus	112816743	34884	Callorhinus ursinus
+Callospermophilus_lateralis	143408722	76772	Callospermophilus lateralis
+Camelus_bactrianus	105078060	9837	Camelus bactrianus
+Camelus_dromedarius	105104000	9838	Camelus dromedarius
+Camelus_ferus	102517577	419612	Camelus ferus
+Canis_aureus	144302050	68724	Canis aureus
+Canis_lupus_baileyi	140621767	143281	Canis lupus baileyi
+Canis_lupus_dingo	112669206	286419	Canis lupus dingo
+Canis_lupus_familiaris	608536	9615	Canis lupus familiaris
+Capra_hircus	102170557	9925	Capra hircus
+Capricornis_sumatraensis	138077097	34865	Capricornis sumatraensis
+Carlito_syrichta	103272616	1868482	Carlito syrichta
+Castor_canadensis	109689136	51338	Castor canadensis
+Cavia_porcellus	100729608	10141	Cavia porcellus
+Cebus_imitator	108311259	2715852	Cebus imitator
+Ceratotherium_simum_simum	101405076	73337	Ceratotherium simum simum
+Cercocebus_atys	105575514	9531	Cercocebus atys
+Cervus_canadensis	122445169	1574408	Cervus canadensis
+Chinchilla_lanigera	102022360	34839	Chinchilla lanigera
+Chionomys_nivalis	130861894	269649	Chionomys nivalis
+Chlorocebus_sabaeus	103219723	60711	Chlorocebus sabaeus
+Choloepus_didactylus	119541412	27675	Choloepus didactylus
+Cnephaeus_nilssonii	307097136	3371016	Cnephaeus nilssonii
+Colobus_angolensis_palliatus	105520411	336983	Colobus angolensis palliatus
+Cricetulus_griseus	100768334	10029	Cricetulus griseus
+Cynocephalus_volans	134367274	110931	Cynocephalus volans
+Dama_dama	133074103	30532	Dama dama
+Dasypus_novemcinctus	101421076	9361	Dasypus novemcinctus
+Delphinus_delphis	132423910	9728	Delphinus delphis
+Desmodus_rotundus	112308906	9430	Desmodus rotundus
+Diceros_bicornis_minor	131392927	77932	Diceros bicornis minor
+Dipodomys_merriami	138831901	94247	Dipodomys merriami
+Dipodomys_ordii	105993970	10020	Dipodomys ordii
+Dipodomys_spectabilis	122114213	105255	Dipodomys spectabilis
+Echinops_telfairi	101642091	9371	Echinops telfairi
+Elephantulus_edwardii	102859914	28737	Elephantulus edwardii
+Elephas_maximus_indicus	126062135	99487	Elephas maximus indicus
+Enhydra_lutris_kenyoni	111155816	391180	Enhydra lutris kenyoni
+Eptesicus_fuscus	103289879	29078	Eptesicus fuscus
+Equus_asinus	106824455	9793	Equus asinus
+Equus_caballus	100050680	9796	Equus caballus
+Erinaceus_europaeus	103126026	9365	Erinaceus europaeus
+Eschrichtius_robustus	137765999	9764	Eschrichtius robustus
+Eubalaena_glacialis	133093789	27606	Eubalaena glacialis
+Eulemur_rufifrons	138388462	859984	Eulemur rufifrons
+Eumetopias_jubatus	114226414	34886	Eumetopias jubatus
+Felis_catus	101091300	9685	Felis catus
+Fukomys_damarensis	104870722	885580	Fukomys damarensis
+Giraffa_tippelskirchi	145539572	439328	Giraffa tippelskirchi
+Globicephala_melas	115841592	9731	Globicephala melas
+Gorilla_gorilla_gorilla	129529252	9595	Gorilla gorilla gorilla
+Grampus_griseus	309823228	83653	Grampus griseus
+Halichoerus_grypus	118538933	9711	Halichoerus grypus
+Herpailurus_yagouaroundi	121036451	1608482	Herpailurus yagouaroundi
+Heterocephalus_glaber	101719207	10181	Heterocephalus glaber
+Hippopotamus_amphibius_kiboko	130830629	575201	Hippopotamus amphibius kiboko
+Hipposideros_armiger	109372092	186990	Hipposideros armiger
+Homo_sapiens	29947	9606	Homo sapiens
+Hyaena_hyaena	120240668	95912	Hyaena hyaena
+Hylobates_moloch	116481962	81572	Hylobates moloch
+Hyperoodon_ampullatus	307053852	48744	Hyperoodon ampullatus
+Ictidomys_tridecemlineatus	101975491	43179	Ictidomys tridecemlineatus
+Jaculus_jaculus	101597354	51337	Jaculus jaculus
+Lagenorhynchus_albirostris	132520338	27610	Lagenorhynchus albirostris
+Lemur_catta	123621101	9447	Lemur catta
+Leopardus_geoffroyi	123610491	46844	Leopardus geoffroyi
+Lepus_europaeus	133777392	9983	Lepus europaeus
+Leucopleurus_acutus	309962550	3371109	Leucopleurus acutus
+Lipotes_vexillifer	103087170	118797	Lipotes vexillifer
+Loxodonta_africana	100673612	9785	Loxodonta africana
+Lynx_canadensis	115523112	61383	Lynx canadensis
+Lynx_rufus	124526248	61384	Lynx rufus
+Macaca_fascicularis	102131847	9541	Macaca fascicularis
+Macaca_mulatta	722184	9544	Macaca mulatta
+Macaca_nemestrina	105472542	9545	Macaca nemestrina
+Macaca_thibetana_thibetana	126950632	257877	Macaca thibetana thibetana
+Mandrillus_leucophaeus	105555538	9568	Mandrillus leucophaeus
+Marmota_flaviventris	114087733	93162	Marmota flaviventris
+Marmota_monax	124089261	9995	Marmota monax
+Martes_martes	308353786	29065	Martes martes
+Mastomys_coucha	116074295	35658	Mastomys coucha
+Meles_meles	123939853	9662	Meles meles
+Meriones_unguiculatus	110556106	10047	Meriones unguiculatus
+Mesocricetus_auratus	101831482	10036	Mesocricetus auratus
+Mesoplodon_bidens	308617536	48745	Mesoplodon bidens
+Mesoplodon_densirostris	132491072	48708	Mesoplodon densirostris
+Mesoplodon_mirus	309806040	52113	Mesoplodon mirus
+Microcebus_murinus	105879097	30608	Microcebus murinus
+Micromys_minutus	308436955	13151	Micromys minutus
+Microtus_ochrogaster	101979410	79684	Microtus ochrogaster
+Microtus_oregoni	121435721	111838	Microtus oregoni
+Microtus_pennsylvanicus	142853638	10058	Microtus pennsylvanicus
+Miniopterus_natalensis	107537457	291302	Miniopterus natalensis
+Miniopterus_schreibersii	308557925	9433	Miniopterus schreibersii
+Mirounga_angustirostris	123834392	9716	Mirounga angustirostris
+Mirounga_leonina	118026920	9715	Mirounga leonina
+Monodon_monoceros	114890754	40151	Monodon monoceros
+Moschus_berezovskii	129548486	68408	Moschus berezovskii
+Muntiacus_reevesi	136172930	9886	Muntiacus reevesi
+Mus_musculus	54427	10090	Mus musculus
+Mus_pahari	110327056	10093	Mus pahari
+Muscardinus_avellanarius	308263166	39082	Muscardinus avellanarius
+Mustela_lutreola	131825706	9666	Mustela lutreola
+Mustela_nivalis	309844886	36239	Mustela nivalis
+Myodes_glareolus	125411177	447135	Myodes glareolus
+Myotis_nattereri	308514930	109481	Myotis nattereri
+Nannospalax_galili	103729377	1026970	Nannospalax galili
+Neofelis_nebulosa	131513221	61452	Neofelis nebulosa
+Neomonachus_schauinslandi	110571078	29088	Neomonachus schauinslandi
+Neophocaena_asiaeorientalis_asiaeorientalis	112408689	1706337	Neophocaena asiaeorientalis asiaeorientalis
+Nomascus_leucogenys	100581773	61853	Nomascus leucogenys
+Nyctereutes_procyonoides	129502069	34880	Nyctereutes procyonoides
+Nycticebus_coucang	128568114	9470	Nycticebus coucang
+Ochotona_curzoniae	121160646	130825	Ochotona curzoniae
+Ochotona_princeps	101534575	9978	Ochotona princeps
+Octodon_degus	101568548	10160	Octodon degus
+Odobenus_rosmarus_divergens	101364933	9708	Odobenus rosmarus divergens
+Odocoileus_virginianus	110131141	9874	Odocoileus virginianus
+Onychomys_torridus	118569428	38674	Onychomys torridus
+Orcinus_orca	101285498	9733	Orcinus orca
+Orycteropus_afer_afer	103202419	1230840	Orycteropus afer afer
+Oryctolagus_cuniculus	138849459	9986	Oryctolagus cuniculus
+Oryx_dammah	120868393	59534	Oryx dammah
+Otolemur_garnettii	100941178	30611	Otolemur garnettii
+Ovis_aries	101102451	9940	Ovis aries
+Ovis_canadensis	138436434	37174	Ovis canadensis
+Pan_paniscus	100995105	9597	Pan paniscus
+Pan_troglodytes	470099	9598	Pan troglodytes
+Panthera_leo	122198340	9689	Panthera leo
+Panthera_onca	132684391	9690	Panthera onca
+Panthera_tigris	102969684	9694	Panthera tigris
+Panthera_uncia	125920820	29064	Panthera uncia
+Papio_anubis	101026636	9555	Papio anubis
+Peromyscus_californicus_insignis	128114036	564181	Peromyscus californicus insignis
+Peromyscus_eremicus	131893841	42410	Peromyscus eremicus
+Peromyscus_leucopus	114685791	10041	Peromyscus leucopus
+Peromyscus_maniculatus_bairdii	102919124	230844	Peromyscus maniculatus bairdii
+Phacochoerus_africanus	125136866	41426	Phacochoerus africanus
+Phoca_vitulina	116624537	9720	Phoca vitulina
+Phocoena_phocoena	136122135	9742	Phocoena phocoena
+Phocoena_sinus	116752726	42100	Phocoena sinus
+Phodopus_roborovskii	127223900	109678	Phodopus roborovskii
+Phyllostomus_discolor	114490719	89673	Phyllostomus discolor
+Phyllostomus_hastatus	123827934	9423	Phyllostomus hastatus
+Physeter_macrocephalus	102975246	9755	Physeter macrocephalus
+Piliocolobus_tephrosceles	111526667	591936	Piliocolobus tephrosceles
+Pipistrellus_hanaki	311617343	412090	Pipistrellus hanaki
+Plecotus_auritus	308241340	61862	Plecotus auritus
+Pongo_abelii	100438354	9601	Pongo abelii
+Prionailurus_bengalensis	122492245	37029	Prionailurus bengalensis
+Prionailurus_viverrinus	125159148	61388	Prionailurus viverrinus
+Propithecus_coquereli	105824153	379532	Propithecus coquereli
+Psammomys_obesus	129676599	48139	Psammomys obesus
+Pteronotus_mesoamericanus	129073865	1884717	Pteronotus mesoamericanus
+Pteropus_medius	120598494	143291	Pteropus medius
+Puma_concolor	112849427	9696	Puma concolor
+Rattus_norvegicus	309680	10116	Rattus norvegicus
+Rattus_rattus	116887549	10117	Rattus rattus
+Rhinolophus_ferrumequinum	117033163	59479	Rhinolophus ferrumequinum
+Rhinolophus_hipposideros	308510355	77218	Rhinolophus hipposideros
+Rhinolophus_sinicus	109454760	89399	Rhinolophus sinicus
+Rhinopithecus_bieti	108539839	61621	Rhinopithecus bieti
+Rhinopithecus_roxellana	104659934	61622	Rhinopithecus roxellana
+Rousettus_aegyptiacus	107510205	9407	Rousettus aegyptiacus
+Saccopteryx_bilineata	136322429	59482	Saccopteryx bilineata
+Saccopteryx_leptura	136391813	249018	Saccopteryx leptura
+Saimiri_boliviensis	101037578	27679	Saimiri boliviensis
+Sapajus_apella	116550556	9515	Sapajus apella
+Sorex_araneus	101538422	42254	Sorex araneus
+Sorex_fumeus	130028798	62283	Sorex fumeus
+Spermophilus_citellus	308653435	9997	Spermophilus citellus
+Stenella_coeruleoalba	307186434	9737	Stenella coeruleoalba
+Sturnira_hondurensis	119000320	192404	Sturnira hondurensis
+Suricata_suricatta	115291413	37032	Suricata suricatta
+Sus_scrofa	100621554	9823	Sus scrofa
+Symphalangus_syndactylus	129483064	9590	Symphalangus syndactylus
+Talpa_occidentalis	119257070	50954	Talpa occidentalis
+Tamandua_tetradactyla	143647763	48850	Tamandua tetradactyla
+Tenrec_ecaudatus	142440479	94439	Tenrec ecaudatus
+Theropithecus_gelada	112621234	9565	Theropithecus gelada
+Trachypithecus_francoisi	117093756	54180	Trachypithecus francoisi
+Trichechus_manatus_latirostris	101345821	127582	Trichechus manatus latirostris
+Tupaia_belangeri_chinensis	102499625	246437	Tupaia belangeri chinensis
+Tursiops_truncatus	117312194	9739	Tursiops truncatus
+Ursus_americanus	148110311	9643	Ursus americanus
+Ursus_arctos	113256779	9644	Ursus arctos
+Ursus_maritimus	103680752	29073	Ursus maritimus
+Vicugna_pacos	102529573	30538	Vicugna pacos
+Vulpes_lagopus	121479225	494514	Vulpes lagopus
+Vulpes_vulpes	112909566	9627	Vulpes vulpes
+Zalophus_californianus	113917212	9704	Zalophus californianus

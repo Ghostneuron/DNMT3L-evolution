@@ -1,0 +1,7 @@
+subset	included_clades	n
+Mammalia	Afrotheria;Euarchontoglires;Laurasiatheria;Marsupialia;Xenarthra	232
+Placentalia	Afrotheria;Euarchontoglires;Laurasiatheria;Xenarthra	220
+Euarchontoglires	Euarchontoglires	84
+Laurasiatheria	Laurasiatheria	126
+Sauropsida	Sauropsida	53
+Amphibia	Amphibia	4

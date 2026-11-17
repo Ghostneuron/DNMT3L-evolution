@@ -1,0 +1,16 @@
+{
+  "seed": 2101,
+  "equilibration_steps": 25000,
+  "production_steps": 1250000,
+  "report_interval": 2500,
+  "time_step_fs": 4.0,
+  "production_time_ns": 5.0,
+  "runtime_seconds_this_invocation": 314038.170773983,
+  "resumed_from_checkpoint": true,
+  "final_step": 1275000,
+  "final_potential_energy_kj_mol": -2368219.300559515,
+  "platform": "CPU",
+  "platform_properties": {
+    "Threads": "2"
+  }
+}

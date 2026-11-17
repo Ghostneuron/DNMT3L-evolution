@@ -1,0 +1,106 @@
+target	clade	seed	human_position	residue	ancestral_posterior_probability	plddt	minimum_DNMT3A_heavy_atom_distance_A	DNMT3A_contact_residue_n_at_5A	contact_DNMT3A_positions
+Homo_sapiens	Placentalia	4101	261	F		0.979493	3.2823	4	724;729;732;772
+Homo_sapiens	Placentalia	4101	291	N		0.908758	5.1950	0	
+Homo_sapiens	Placentalia	4101	293	E		0.902172	3.5334	1	729
+Homo_sapiens	Placentalia	4101	313	H		0.826844	30.9728	0	
+Homo_sapiens	Placentalia	4101	349	Q		0.868410	16.9389	0	
+Homo_sapiens	Placentalia	4102	261	F		0.979248	3.2579	4	724;729;732;772
+Homo_sapiens	Placentalia	4102	291	N		0.900298	4.3470	2	725;729
+Homo_sapiens	Placentalia	4102	293	E		0.885854	3.1924	2	729;840
+Homo_sapiens	Placentalia	4102	313	H		0.781214	29.9578	0	
+Homo_sapiens	Placentalia	4102	349	Q		0.830084	16.6428	0	
+Homo_sapiens	Placentalia	4103	261	F		0.976105	3.2786	4	724;729;732;772
+Homo_sapiens	Placentalia	4103	291	N		0.900510	4.3722	1	725
+Homo_sapiens	Placentalia	4103	293	E		0.887177	3.4119	2	688;729
+Homo_sapiens	Placentalia	4103	313	H		0.815137	30.0046	0	
+Homo_sapiens	Placentalia	4103	349	Q		0.868518	15.8254	0	
+ANCESTRAL_AMNIOTA	Ancestral	4101	261	Y	0.96394	0.974462	3.2008	4	724;729;732;772
+ANCESTRAL_AMNIOTA	Ancestral	4101	291	E	0.97905	0.904587	6.2854	0	
+ANCESTRAL_AMNIOTA	Ancestral	4101	293	E	0.93582	0.897736	3.1143	3	688;725;729
+ANCESTRAL_AMNIOTA	Ancestral	4101	313	H	0.94076	0.795901	30.5876	0	
+ANCESTRAL_AMNIOTA	Ancestral	4101	349	K	0.87790	0.874501	15.4236	0	
+ANCESTRAL_AMNIOTA	Ancestral	4102	261	Y	0.96394	0.968697	3.3495	4	724;729;732;772
+ANCESTRAL_AMNIOTA	Ancestral	4102	291	E	0.97905	0.891441	4.3824	1	725
+ANCESTRAL_AMNIOTA	Ancestral	4102	293	E	0.93582	0.880239	2.7198	2	688;729
+ANCESTRAL_AMNIOTA	Ancestral	4102	313	H	0.94076	0.790625	30.1045	0	
+ANCESTRAL_AMNIOTA	Ancestral	4102	349	K	0.87790	0.865082	11.8464	0	
+ANCESTRAL_AMNIOTA	Ancestral	4103	261	Y	0.96394	0.972357	3.1883	4	724;729;732;772
+ANCESTRAL_AMNIOTA	Ancestral	4103	291	E	0.97905	0.889456	5.8055	0	
+ANCESTRAL_AMNIOTA	Ancestral	4103	293	E	0.93582	0.888216	3.2199	2	688;729
+ANCESTRAL_AMNIOTA	Ancestral	4103	313	H	0.94076	0.797380	28.6713	0	
+ANCESTRAL_AMNIOTA	Ancestral	4103	349	K	0.87790	0.874935	16.8096	0	
+Geotrypetes_seraphini	Amphibia	4101	261	Y		0.961825	3.5601	4	724;729;732;772
+Geotrypetes_seraphini	Amphibia	4101	291	E		0.865683	3.7062	1	725
+Geotrypetes_seraphini	Amphibia	4101	293	E		0.857767	4.1977	1	729
+Geotrypetes_seraphini	Amphibia	4101	313	H		0.766550	29.6531	0	
+Geotrypetes_seraphini	Amphibia	4101	349	K		0.564869	16.5537	0	
+Geotrypetes_seraphini	Amphibia	4102	261	Y		0.959554	3.4834	4	724;729;732;772
+Geotrypetes_seraphini	Amphibia	4102	291	E		0.862234	3.4917	1	725
+Geotrypetes_seraphini	Amphibia	4102	293	E		0.851303	2.6991	2	726;729
+Geotrypetes_seraphini	Amphibia	4102	313	H		0.795152	31.3675	0	
+Geotrypetes_seraphini	Amphibia	4102	349	K		0.622002	17.7298	0	
+Geotrypetes_seraphini	Amphibia	4103	261	Y		0.968229	3.3986	4	724;729;732;772
+Geotrypetes_seraphini	Amphibia	4103	291	E		0.877651	3.1423	2	725;729
+Geotrypetes_seraphini	Amphibia	4103	293	E		0.871206	2.2925	2	725;729
+Geotrypetes_seraphini	Amphibia	4103	313	H		0.807151	30.0327	0	
+Geotrypetes_seraphini	Amphibia	4103	349	K		0.677194	22.0641	0	
+Alligator_sinensis	Sauropsida	4101	261	Y		0.959087	3.4249	4	724;729;732;772
+Alligator_sinensis	Sauropsida	4101	291	T		0.838944	5.3903	0	
+Alligator_sinensis	Sauropsida	4101	293	E		0.837931	3.1676	2	688;729
+Alligator_sinensis	Sauropsida	4101	313	H		0.668323	30.8980	0	
+Alligator_sinensis	Sauropsida	4101	349	S		0.493400	15.0281	0	
+Alligator_sinensis	Sauropsida	4102	261	Y		0.971366	3.3329	4	724;729;732;772
+Alligator_sinensis	Sauropsida	4102	291	T		0.866605	4.4195	1	729
+Alligator_sinensis	Sauropsida	4102	293	E		0.878312	2.6969	2	688;729
+Alligator_sinensis	Sauropsida	4102	313	H		0.666254	31.4143	0	
+Alligator_sinensis	Sauropsida	4102	349	S		0.488119	16.5461	0	
+Alligator_sinensis	Sauropsida	4103	261	Y		0.970161	3.2788	4	724;729;732;772
+Alligator_sinensis	Sauropsida	4103	291	T		0.867179	5.3725	0	
+Alligator_sinensis	Sauropsida	4103	293	E		0.870781	3.3399	2	688;729
+Alligator_sinensis	Sauropsida	4103	313	H		0.660446	31.9228	0	
+Alligator_sinensis	Sauropsida	4103	349	S		0.504214	19.5802	0	
+Monodelphis_domestica	Marsupialia	4101	261	L		0.962122	3.2614	3	724;732;772
+Monodelphis_domestica	Marsupialia	4101	291	T		0.871528	5.7825	0	
+Monodelphis_domestica	Marsupialia	4101	293	D		0.882179	3.8622	1	729
+Monodelphis_domestica	Marsupialia	4101	313	C		0.668184	31.4046	0	
+Monodelphis_domestica	Marsupialia	4101	349	Q		0.530764	17.5762	0	
+Monodelphis_domestica	Marsupialia	4102	261	L		0.956196	3.4086	3	724;732;772
+Monodelphis_domestica	Marsupialia	4102	291	T		0.862343	4.7056	1	729
+Monodelphis_domestica	Marsupialia	4102	293	D		0.868146	3.8613	1	729
+Monodelphis_domestica	Marsupialia	4102	313	C		0.674014	30.9718	0	
+Monodelphis_domestica	Marsupialia	4102	349	Q		0.527668	16.2526	0	
+Monodelphis_domestica	Marsupialia	4103	261	L		0.950691	3.2951	3	724;732;772
+Monodelphis_domestica	Marsupialia	4103	291	T		0.858365	5.7850	0	
+Monodelphis_domestica	Marsupialia	4103	293	D		0.857702	3.9380	1	729
+Monodelphis_domestica	Marsupialia	4103	313	C		0.660559	31.9549	0	
+Monodelphis_domestica	Marsupialia	4103	349	Q		0.521870	17.7460	0	
+Mus_musculus	Placentalia	4101	261	F		0.960134	3.1298	5	724;729;732;735;772
+Mus_musculus	Placentalia	4101	291	T		0.889685	5.6304	0	
+Mus_musculus	Placentalia	4101	293	D		0.885762	3.7412	1	729
+Mus_musculus	Placentalia	4101	313	R		0.835129	31.3471	0	
+Mus_musculus	Placentalia	4101	349	Q		0.774579	19.0785	0	
+Mus_musculus	Placentalia	4102	261	F		0.967143	3.3470	3	724;732;772
+Mus_musculus	Placentalia	4102	291	T		0.907847	4.9815	1	729
+Mus_musculus	Placentalia	4102	293	D		0.900587	4.0756	1	729
+Mus_musculus	Placentalia	4102	313	R		0.817315	32.0040	0	
+Mus_musculus	Placentalia	4102	349	Q		0.780537	22.0312	0	
+Mus_musculus	Placentalia	4103	261	F		0.967794	3.2667	4	724;729;732;772
+Mus_musculus	Placentalia	4103	291	T		0.906081	5.6851	0	
+Mus_musculus	Placentalia	4103	293	D		0.895071	4.4235	1	729
+Mus_musculus	Placentalia	4103	313	R		0.829503	31.4330	0	
+Mus_musculus	Placentalia	4103	349	Q		0.803517	22.5554	0	
+ANCESTRAL_THERIA	Ancestral	4101	261	F	0.81484	0.976016	3.2269	4	724;729;732;772
+ANCESTRAL_THERIA	Ancestral	4101	291	T	0.97880	0.899066	5.0589	0	
+ANCESTRAL_THERIA	Ancestral	4101	293	D	0.93784	0.891638	3.4838	1	729
+ANCESTRAL_THERIA	Ancestral	4101	313	C	0.95847	0.774054	30.2645	0	
+ANCESTRAL_THERIA	Ancestral	4101	349	Q	0.96694	0.807740	15.1778	0	
+ANCESTRAL_THERIA	Ancestral	4102	261	F	0.81484	0.963115	3.3094	4	724;729;732;772
+ANCESTRAL_THERIA	Ancestral	4102	291	T	0.97880	0.865511	4.7781	1	725
+ANCESTRAL_THERIA	Ancestral	4102	293	D	0.93784	0.839377	3.2774	2	729;845
+ANCESTRAL_THERIA	Ancestral	4102	313	C	0.95847	0.750748	29.3682	0	
+ANCESTRAL_THERIA	Ancestral	4102	349	Q	0.96694	0.786700	14.1914	0	
+ANCESTRAL_THERIA	Ancestral	4103	261	F	0.81484	0.971402	3.2760	4	724;729;732;772
+ANCESTRAL_THERIA	Ancestral	4103	291	T	0.97880	0.887825	4.8677	1	729
+ANCESTRAL_THERIA	Ancestral	4103	293	D	0.93784	0.880307	3.5274	1	729
+ANCESTRAL_THERIA	Ancestral	4103	313	C	0.95847	0.779183	29.8329	0	
+ANCESTRAL_THERIA	Ancestral	4103	349	Q	0.96694	0.789359	16.1383	0	

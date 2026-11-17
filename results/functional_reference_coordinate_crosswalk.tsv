@@ -1,0 +1,14 @@
+feature_id	source_accession	source_position	declared_source_residue	observed_source_residue	declared_human_position	mapped_human_position	declared_human_residue	mapped_human_residue	mapping_method	human_mouse_alignment_score	status	notes
+H3K4ME0_D88	NP_037501.2	88	D	D	88	88	D	D	identity		PASS	
+H3K4ME0_D90_D124	NP_037501.2	90	D	D	90	90	D	D	identity		PASS	
+H3K4ME0_I107	NP_037501.2	107	I	I	107	107	I	I	identity		PASS	
+G9A_INTERFACE_L139	NP_062321.1	139	L	L	105	105	L	L	global_BLOSUM62	1309.0	PASS	
+G9A_INTERFACE_F140	NP_062321.1	140	F	F	106	106	L	L	global_BLOSUM62	1309.0	PASS	
+G9A_INTERFACE_I141	NP_062321.1	141	I	I	107	107	I	I	global_BLOSUM62	1309.0	PASS	
+PTM_STABILITY_K238	NP_062321.1	238	K	K	204	204	T	T	global_BLOSUM62	1309.0	PASS	
+PTM_STABILITY_K412	NP_062321.1	412	K	K	377	377	K	K	global_BLOSUM62	1309.0	PASS	
+SWITCH_Q349	NP_037501.2	349	Q	Q	349	349	Q	Q	identity		PASS	
+SWITCH_K351	NP_037501.2	351	K	K	351	351	K	K	identity		PASS	
+SWITCH_Q352	NP_037501.2	352	Q	Q	352	352	Q	Q	identity		PASS	
+SWITCH_K355	NP_037501.2	355	K	K	355	355	K	K	identity		PASS	
+H358_CANDIDATE	NP_037501.2	358	A	A	358	358	A	A	identity		PASS	
