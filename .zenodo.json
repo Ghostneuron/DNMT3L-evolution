@@ -1,5 +1,5 @@
 {
-  "title": "A muroid-specific DNMT3L G9a-contact state among eutherians and conserved DNMT3A contacts across tetrapods: data and code",
+  "title": "A muroid-specific DNMT3L G9a-association triplet among eutherians and conserved DNMT3A contacts across tetrapods: data and code",
   "upload_type": "dataset",
   "description": "Versioned data, code, figures, and reproducibility records for a comparative analysis of vertebrate DNMT3L evolution centered on a sampled muroid LFI state at NP105/NP106/NP107, matched partner-side conservation, locus evidence, ancestral reconstruction, and alignment sensitivity.",
   "creators": [
@@ -19,12 +19,12 @@
     "ancestral reconstruction"
   ],
   "access_right": "open",
-  "license": "other-open",
+  "license": "CC-BY-4.0",
   "publication_date": "2026-11-16",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "related_identifiers": [
     {
-      "identifier": "10.5281/zenodo.20574054",
+      "identifier": "10.5281/zenodo.24298873",
       "relation": "isSupplementTo",
       "scheme": "doi"
     }

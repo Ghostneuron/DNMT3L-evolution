@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "If you use these data or scripts, please cite this release and the associated manuscript."
-title: "A muroid-specific DNMT3L G9a-contact state among eutherians and conserved DNMT3A contacts across tetrapods: data and code"
+title: "A muroid-specific DNMT3L G9a-association triplet among eutherians and conserved DNMT3A contacts across tetrapods: data and code"
 type: dataset
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-11-16"
-doi: "10.5281/zenodo.20574054"
+doi: "10.5281/zenodo.24298873"
 repository-code: "https://github.com/Ghostneuron/DNMT3L-evolution"
 license: CC-BY-4.0
 authors:

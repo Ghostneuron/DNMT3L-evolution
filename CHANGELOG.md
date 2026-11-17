@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.1 - 2026-11-16
+
+- Replaced the version 15 manuscript with the reader-facing version 18 manuscript and the unchanged version 16 supplement.
+- Updated the title and release metadata from “G9a-contact state” to “G9a-association triplet.”
+- Linked the repository to Zenodo dataset version 1.0.1 (`10.5281/zenodo.24298873`) and retained the stable concept DOI (`10.5281/zenodo.20574053`).
+- Excluded the empty preliminary aBSREL output while retaining the validated deduplicated aBSREL analysis and its provenance record.
+
 ## 1.0.0 - 2026-11-16
 
 - Added the 219-eutherian DNMT3L triplet codon table and muroid codon summary.

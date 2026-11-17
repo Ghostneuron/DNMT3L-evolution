@@ -1,8 +1,10 @@
 # DNMT3L evolution data and code
 
-This repository contains the current, browsable data-and-code release supporting the manuscript **A muroid-specific DNMT3L G9a-contact state among eutherians and conserved DNMT3A contacts across tetrapods**.
+This repository contains the current, browsable data-and-code release supporting the manuscript **A muroid-specific DNMT3L G9a-association triplet among eutherians and conserved DNMT3A contacts across tetrapods**.
 
-Published Zenodo record: https://doi.org/10.5281/zenodo.20574054 (version 1.0.0)
+Published Zenodo dataset: https://doi.org/10.5281/zenodo.24298873 (version 1.0.1)
+
+Stable dataset concept DOI: https://doi.org/10.5281/zenodo.20574053
 
 ## Main result and scope
 
@@ -39,4 +41,4 @@ Analyses use project-relative paths. Software versions are recorded in `metadata
 
 ## Citation
 
-Lu J. (2026). A muroid-specific DNMT3L G9a-contact state among eutherians and conserved DNMT3A contacts across tetrapods: data and code. Version 1.0.0. Zenodo. https://doi.org/10.5281/zenodo.20574054
+Lu J. (2026). A muroid-specific DNMT3L G9a-association triplet among eutherians and conserved DNMT3A contacts across tetrapods: data and code. Version 1.0.1. Zenodo. https://doi.org/10.5281/zenodo.24298873
