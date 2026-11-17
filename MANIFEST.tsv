@@ -2,13 +2,13 @@ path	bytes	sha256	category	provenance	license	description
 .gitattributes	74	d3567bbd192f5bb8d5e6e9bb678a7aaeda05062cee9895477598987f526d8388	.gitattributes	GitHub sync from Zenodo v1.0.1	CC-BY-4.0 or source terms	Public release file
 .gitignore	77	bb0d781174d93db772117fa8624d64f58644767c9e56dc4f482654716dd31afb	.gitignore	GitHub sync from Zenodo v1.0.1	CC-BY-4.0 or source terms	Public release file
 .zenodo.json	1044	c6908d049d20e159fce6959d0124ed1ce89c0111b209e450408af7e80b41ac5e	.zenodo.json	GitHub sync from Zenodo v1.0.1	CC-BY-4.0 or source terms	Public release file
-CHANGELOG.md	1324	01d491abc201516cdaf5ba69f27313b7c09e6b5d0d35c1aed157dd0deb101253	CHANGELOG.md	GitHub sync from Zenodo v1.0.1	CC-BY-4.0 or source terms	Public release file
-CITATION.cff	1017	98d279f8bcf393416d901dc41360e6a4a9e0a4c110d994db48f411fd1e61d0c4	CITATION.cff	GitHub sync from Zenodo v1.0.1	CC-BY-4.0 or source terms	Public release file
+CHANGELOG.md	1546	9a3497ecab77684c0816fbeb0ce0153ea6e30762bdb94acf9143d857ebb44418	CHANGELOG.md	GitHub sync from Zenodo v1.0.1	CC-BY-4.0 or source terms	Public release file
+CITATION.cff	1392	245f0eac4a543da1639b45b65b8c943f748d82db5062190a9e10445d39823da5	CITATION.cff	GitHub sync from Zenodo v1.0.1	CC-BY-4.0 or source terms	Public release file
 LICENSE	821	9bdb3ffc9721a8d5bf3ce1ff589b2d0b087e4e8c5aeb0b66a288dacf467fdd25	LICENSE	GitHub sync from Zenodo v1.0.1	CC-BY-4.0 or source terms	Public release file
 LICENSE-CODE	1064	f8d47b11795840cec001add96cf8267d90675ba79a0c30bde4772d6a2a117799	LICENSE-CODE	GitHub sync from Zenodo v1.0.1	CC-BY-4.0 or source terms	Public release file
 LICENSE-DATA	18657	9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411	LICENSE-DATA	GitHub sync from Zenodo v1.0.1	CC-BY-4.0 or source terms	Public release file
-README.md	4280	81f5dff18ab74506a322d5cd32fd9306f66206e65ae3eeea414d042c910b88cb	README.md	GitHub sync from Zenodo v1.0.1	CC-BY-4.0 or source terms	Public release file
-SHA256SUMS.txt	90011	de578b7f4fdeacf7e4dedf59655888ec55d2afc44c7cc3bd5cc531963cef4a34	SHA256SUMS.txt	GitHub sync from Zenodo v1.0.1	CC-BY-4.0 or source terms	Public release file
+README.md	4653	fad933aa6353f029ec562e86656155878d59ed3cf3de114d37716aa819b9f56a	README.md	GitHub sync from Zenodo v1.0.1	CC-BY-4.0 or source terms	Public release file
+SHA256SUMS.txt	89892	f8c283acd3dd091b3e4b7ff493e662911468d9e39e35ca03260c186bb42d7504	SHA256SUMS.txt	GitHub sync from Zenodo v1.0.1	CC-BY-4.0 or source terms	Public release file
 analysis/codon_alignments_337/ALIGNMENT_DECISION.md	2560	c17c10c579ef92f21623c9c282bab0cd09257499b58caee2de2c2c2b314420e3	analysis	GitHub sync from Zenodo v1.0.1	CC-BY-4.0 or source terms	Public release file
 analysis/codon_alignments_337/Amphibia/MACSE/Amphibia_MACSE_AA.fasta	3193	3883623a08b717e151a98021901e14e5cc885a3101bf97a46b5e353d540d4944	analysis	GitHub sync from Zenodo v1.0.1	CC-BY-4.0 or source terms	Public release file
 analysis/codon_alignments_337/Amphibia/MACSE/Amphibia_MACSE_NT.fasta	9263	221ba10a81aa08485597cbf83fadc12cd0dc425fb88cd0fe5570f668bbc9e13e	analysis	GitHub sync from Zenodo v1.0.1	CC-BY-4.0 or source terms	Public release file
@@ -206,7 +206,6 @@ analysis/regulatory_coevolution_ptm_20261104/scripts/inspect_h5ad.py	2459	c4114d
 analysis/regulatory_coevolution_ptm_20261104/scripts/resolve_ncbi_ensembl_ids.py	2794	306c4dc926edf5f960f9c9626c626e54e88ac9ef4b6fc61f1474ae44c4e5f7f1	analysis	GitHub sync from Zenodo v1.0.1	MIT	Public release file
 analysis/regulatory_coevolution_ptm_20261104/scripts/summarize_h5ad_genes.py	3560	10fc972a33c57ff2ca5edcdd9222499b4f7905c66aa4b7765cb85581d0294a9f	analysis	GitHub sync from Zenodo v1.0.1	MIT	Public release file
 analysis/regulatory_coevolution_ptm_20261104/scripts/summarize_h5ad_panel.py	5796	b24440ee1fc562d57908290f27b139dd27a33a09be6eec14b34c6268a866fe99	analysis	GitHub sync from Zenodo v1.0.1	MIT	Public release file
-analysis/selection_reanalysis_337/.run_manifest.lock	0	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	analysis	GitHub sync from Zenodo v1.0.1	CC-BY-4.0 or source terms	Public release file
 analysis/selection_reanalysis_337/RUN_MANIFEST.tsv	16641	d0cf3d2033aa5cf0cd102e2b42c76f037ca8ca83748f674f2aa24b27973aa02d	analysis	GitHub sync from Zenodo v1.0.1	CC-BY-4.0 or source terms	Public release file
 analysis/selection_reanalysis_337/SELECTION_DECISION_RULES.md	4218	c0c06c2fa48da5dfee7b7db4fee322e2959105093d1f3ea4b036cb2f31ca0b7a	analysis	GitHub sync from Zenodo v1.0.1	CC-BY-4.0 or source terms	Public release file
 analysis/selection_reanalysis_337/inputs/Placentalia_COBALT_human_coordinate_occupancy80.fasta	255899	650634fec468e6c702d5254b1fe4545ec0c1e4010fa26f893d266984c9d2d206	analysis	GitHub sync from Zenodo v1.0.1	CC-BY-4.0 or source terms	Public release file

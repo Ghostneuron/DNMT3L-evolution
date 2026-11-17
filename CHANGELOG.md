@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1 citation follow-up - 2026-11-16
+
+- Added the published preprint DOI as the preferred paper citation in `README.md` and `CITATION.cff`.
+- Removed the empty analysis lock file from the public repository inventory.
+
 ## 1.0.1 - 2026-11-16
 
 - Replaced the version 15 manuscript with the reader-facing version 18 manuscript and the unchanged version 16 supplement.

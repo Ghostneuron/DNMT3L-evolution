@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use these data or scripts, please cite this release and the associated manuscript."
+message: "Please cite the preferred preprint and, when appropriate, this data-and-code release."
 title: "A muroid-specific DNMT3L G9a-association triplet among eutherians and conserved DNMT3A contacts across tetrapods: data and code"
 type: dataset
 version: "1.0.1"
@@ -25,3 +25,14 @@ keywords:
   - EHMT2
   - DNA methylation
   - ancestral reconstruction
+preferred-citation:
+  type: article
+  title: "A muroid-specific DNMT3L G9a-association triplet among eutherians and conserved DNMT3A contacts across tetrapods"
+  version: "1.0.1"
+  year: 2026
+  doi: "10.5281/zenodo.24299393"
+  authors:
+    - family-names: Lu
+      given-names: Jie
+      orcid: "https://orcid.org/0000-0001-6843-9720"
+      affiliation: "Independent researcher"
